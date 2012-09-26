@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+.right {
+	float:right;
+}
+
+#FileUpload {
+	position:relative;
+	left:24px;
+}
+
+
+#BrowserVisible {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+	background:url(images/browse-btn.png) 100% 0px no-repeat;
+	height:35px;
+	width:562px;
+	
+}
+#FileField {
+    background-color: #F9FCE0;
+    border: 1px solid #C8C8C8;
+    font-size: 16px;
+    height: 33px;
+	*height: auto;
+ 	*padding:8px 0px 7px;
+    margin-right: 85px;
+	*margin-top:-1px;
+    width: 450px;
+	padding-left:2px;
+}
+#BrowserHidden {
+	position:relative;
+	width:562px;
+	height:35px;
+	font-size:23px;
+	text-align: right;
+	-moz-opacity:0;
+	filter:alpha(opacity: 0);
+	opacity: 0;
+	z-index: 2;
+	cursor:pointer;
+}
+
+
+a.upload-btn {
+	padding: 9px 25px 8px 25px !important;
+	margin-right:-25px;
+	opacity: 0.3;
+	-moz-opacity: 0.3;
+	filter: alpha(opacity=30);
+}
+a.upload-btn.visible, a.cancel-btn.visible {
+	opacity: 100;
+	-moz-opacity:10;
+	filter: alpha(opacity=100);
+}
+a.upload-btn {
+	background: url("images/bg-btn.png") repeat-x scroll 0 0 transparent;
+	border: 1px solid #C8C8C8;
+	color: #666666 !important;
+	font-weight: bold !important;
+	padding: 8px 10px 8px 10px !important;
+	text-decoration: none !important;
+	line-height:normal !important;
+}
+.loader-container {
+	position:relative;
+	width:675px;
+}
+.clear {
+	clear:both;
+}
+div.clear {
+	height:.01em;
+	overflow:hidden;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, th, td, html, label, table, tr, td, thead {
+	margin:0;
+	padding:0;
+}
+.loader-container p, .loader-container ul {
+	padding:15px 10px 10px 23px!important;
+}
+.loader-container a.upload-btn {
+	padding: 9px 25px 8px 25px !important;
+	margin-right:-25px;
+	opacity: 0.3;
+	-moz-opacity: 0.3;
+	filter: alpha(opacity=30);
+}
+body {
+	text-align:left;
+	font:14px/18px Arial;
+	color:#666666;
+}
+
+</style>
+</head>
+
+<body>
+<div class="loader-container"> <span class="divider"></span>
+  <p class="title">Upload file</p>
+  <a href="#" class="upload-btn right"><span>Upload</span></a>
+ <div id="FileUpload">
+  <input type="file" size="40" id="BrowserHidden" onchange="getElementById('FileField').value = getElementById('BrowserHidden').value;" />
+  <div id="BrowserVisible"><input type="text" id="FileField" /></div>
+</div>
+</div>
+<!-- end .loader-container -->
+</body>
+</html>

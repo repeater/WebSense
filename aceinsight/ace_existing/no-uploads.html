@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>AceInsight.com</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="css/layout.css" rel="stylesheet" type="text/css" media="screen, projection" />
+</head>
+<body>
+<div id="wrap">
+  <div id="masthead">
+    <div id="logo-aceinsight" class="left"><a href="/"><span>Websense&reg; TRITON&trade; ACEInsight.com</span></a></div>
+    <p><a class="help right" href="#"><span>Help</span></a></p>
+    <div id="account" class="right"> 
+      <!--<p id="register"><a href="#">Register</a> for an account, or <span class="login-btn"><a href="#">Login</a></span></p>-->
+      <p id="welcome" class="inline">Welcome,</p>
+      <p id="login-name" class="inline">Joey Doe</p>
+      <p id="logout-text" class="inline"><a href="#">Logout</a></p>
+    </div>
+  </div>
+  <!-- end #masthead -->
+  
+  <div id="header-graphic"></div>
+  <div class="container">
+    <div class="shadow"></div>
+    <div id="breadcrumbs">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li>ThreatScope File Analysis</li>
+    </ul>
+    </div>
+    
+    <div id="csi-logo"></div>
+    <div class="loader-container"> <span class="divider"></span>
+      <p class="pad-top">Select a file to upload for analysis. The file will be added to your upload history. A detailed report will be generated within 30 minutes and sent to your email address. </p>
+      <p class="title">Upload file</p>
+      <a href="#" class="upload-btn right"><span>Upload</span></a>
+       <div id="FileUpload">
+        <input type="file" size="40" id="BrowserHidden" onchange="getElementById('FileField').value = getElementById('BrowserHidden').value;" />
+        <div id="BrowserVisible"><input type="text" id="FileField" /></div>
+        </div>
+      <div class="clear"></div>
+      <p class="inline negative-ten">Maximum file size: 32 MB</p>
+      <p class="inline small negative-ten exe">Executable files only</p>
+      <div class="clear"></div>
+    </div>
+    <!-- end .loader-container -->
+    
+    <div class="shadow top-border"></div>
+   
+    <p class="title">Upload history</p>
+    <div class="no-reports">
+      <p>There are no reports to view.</p>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <!-- end .container -->
+  
+ 
+  <div id="footer">
+    <div id="social-links">
+      <p class="inline">Follow Websense on Facebook, Twitter and Security Labs</p>
+      <a href="http://www.facebook.com/websense/" class="social-icon facebook" target="_blank"><span>Facebook</span></a> <a href="http://twitter.com/websense" class="social-icon twitter" target="_blank"><span>Twitter</span></a> <a href="http://community.websense.com/blogs/securitylabs/" class="social-icon security-labs" target="_blank"><span>Security Labs</span></a> </div>
+  </div>
+  <!-- end #footer -->
+  
+  <p class="copyright">Copyright &copy; 2012  Websense, Inc. All rights reserved</p>
+</div>
+<!-- end #wrap -->
+
+</body>
+</html>

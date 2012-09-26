@@ -1,0 +1,283 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>AceInsight.com</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="css/layout.css" rel="stylesheet" type="text/css" media="screen, projection" />
+<script src="js/jquery.tools.min.js" type="text/javascript" language="javascript"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+      $(".slide").tooltip({ effect: 'slide'});
+    });
+	
+
+</script>
+</head>
+<body>
+<div id="wrap">
+  <div id="masthead">
+    <div id="logo-aceinsight" class="left"><a href="/"><span>Websense&reg; TRITON&trade; ACEInsight.com</span></a></div>
+    <p><a class="help right" href="#"><span>Help</span></a></p>
+    <div id="account" class="right"> 
+      <!--<p id="register"><a href="#">Register</a> for an account, or <span class="login-btn"><a href="#">Login</a></span></p>-->
+      <p id="welcome" class="inline">Welcome,</p>
+      <p id="login-name" class="inline">Joey Doe</p>
+      <p id="logout-text" class="inline"><a href="#">Logout</a></p>
+    </div>
+  </div>
+  <!-- end #masthead -->
+  
+  <div id="header-graphic"></div>
+  <div class="container">
+    <div class="shadow"></div>
+    <div id="breadcrumbs">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li>ThreatScope File Analysis</li>
+    </ul>
+    </div>
+    
+    <div id="csi-logo"></div>
+    <div class="loader-container"> <span class="divider"></span>
+      <p class="pad-top">Select a file to upload for analysis. The file will be added to your upload history. A detailed report will be generated within 30 minutes and sent to your email address. </p>
+      <p class="title">Upload file</p>
+      <div class="clear"></div>
+      <a href="#" class="upload-btn right"><span>Upload</span></a>
+      <a href="#" class="cancel-btn right visible"><span>Cancel</span></a>
+      <div id="loader">
+      <img src="imgs/loader.gif" alt="" />
+   	  </div>
+      <p class="inline negative-ten">File name: JK_file.exe</p>
+      <div class="clear"></div>
+    </div>
+    <!-- end .loader-container -->
+    
+   <div class="shadow top-border"></div>
+   <div class="page-control">
+   
+   <select>
+   <option value="25 per page">25 per page</option>
+   <option value="50 per page">50 per page</option>
+   <option value="100 per page">100 per page</option>
+   </select>
+
+    <div class="inline page-count"><b>1-25</b> of 548</div>
+   
+   <div class="arrow a-left inline"></div>
+   <div class="arrow a-right inline"></div>
+   
+   </div>
+   
+    <p class="title">Upload history</p>
+    <p>View reports for the files you have uploaded in the past 6 months. </p>
+    
+   
+   
+    <table class="plain" cellpadding="0" cellspacing="0">
+      <thead>
+        <tr class="topcap">
+          <th colspan="2"><b>Report</b></th>
+          <th width="125"><p><a class="slide right" href="#"><img src="imgs/icons/icon-information.png" class="icon" alt="" /></a></p>
+            <div class="tooltip">
+              <p class="label"><img src="imgs/icons/icon-na.png" alt="" class="icon left" />Threat</p>
+              <p>Text</p>
+              <div class="tooltip-arrow"></div>
+            </div>
+            <p><strong>Threat</strong></p></th>
+          <th width="400"><b>File name</b></th>
+          <th width="85"><b>Size</b></th>
+          <th width="182"><b>Date uploaded</b></th>
+        </tr>
+      </thead>
+      
+      <tbody>
+              <tr class="highlight">
+                <td colspan="2"><p><a href="#">View</a></p></td>
+                <td><p><img src="imgs/icons/icon-malicious.png" alt="" class="icon left" />Malicious</p></td>
+                <td><p>tim_scan.exe</p></td>
+                <td><p>5 MB</p></td>
+                <td><p class="inline"><span class="date">2012-4-24</span> <span class="time">13:54:21</span></p></td>
+              </tr>
+             
+                <tr>
+                  <td colspan="2" ><p><a href="#">View</a></p></td>
+                  <td><p><img src="imgs/icons/icon-suspicious.png" alt="" class="icon left" />Suspicious</p></td>
+                  <td><p>gilbert_trojan.exe</p></td>
+                  <td><p>4.5 MB</p></td>
+                  <td><p>2012-4-24  13:54:21</p></td>
+                </tr>
+              <tr class="highlight">
+                  <td colspan="2" ><p><a href="#">View</a></p></td>
+                  <td><p><img src="imgs/icons/icon-no-threat.png" alt="" class="icon left" />No threat detected</p></td>
+                  <td><p>324234234-9expsdfewm-784546sdfedxfsadfsadf...</p></td>
+                  <td><p>3.2 MB</p></td>
+                  <td><p><span class="date">2012-4-24</span> <span class="time">13:54:21</span></p></td>
+                </tr>
+                <tr>
+                  <td colspan="2" ><p><a href="#">View</a></p></td>
+                  <td><p><img src="imgs/icons/icon-malicious.png" alt="" class="icon left" />Malicious</p></td>
+                  <td><p>9402349.exe</p></td>
+                  <td><p>31 MB</p></td>
+                  <td><p><span class="date">2012-4-24 </span> <span class="time">13:54:21</span></p></td>
+                </tr>
+               <tr class="highlight">
+                  <td colspan="2" ><p><a href="#">View</a></p></td>
+                  <td><p><img src="imgs/icons/icon-na.png" class="icon left" alt="" />N/A</p></td>
+                  <td><p>demo.exe</p></td>
+                  <td><p>12 MB</p></td>
+                  <td><p><span class="date">2012-4-24</span> <span class="time">13:54:21</span></p></td>
+                </tr>
+               <tr>
+                 <td colspan="2" ><p><a href="#">View</a></p></td>
+                 <td><p><img src="imgs/icons/icon-malicious.png" alt="" class="icon left" />Malicious</p></td>
+                 <td><p>fileSharing.exe</p></td>
+                 <td><p>1 MB</p></td>
+                 <td><p><span class="date">2012-4-24</span> <span class="time">13:54:21</span></p></td>
+               </tr>
+               <tr class="highlight">
+                 <td colspan="2" ><p><a href="#">View</a></p></td>
+                 <td><p><img src="imgs/icons/icon-suspicious.png" alt="" class="icon left" />Suspicious</p></td>
+                 <td><p>tim_scan.exe</p></td>
+                 <td><p>22 MB</p></td>
+                 <td><p><span class="date">2012-4-24</span>  <span class="time">13:54:21</span></p></td>
+               </tr>
+               <tr>
+                 <td colspan="2" ><p><a href="#">View</a></p></td>
+                 <td><p><img src="imgs/icons/icon-no-threat.png" alt="" class="icon left" />No threat detected</p></td>
+                 <td><p>gilbert_trojan.exe</p></td>
+                 <td><p>6.5 MB</p></td>
+                 <td><p><span class="date">2012-4-24</span>  <span class="time">13:54:21</span></p></td>
+               </tr>
+               <tr class="highlight">
+                 <td colspan="2" ><p><a href="#">View</a></p></td>
+                 <td><p><img src="imgs/icons/icon-na.png" class="icon left" alt="" />N/A</p></td>
+                 <td><p>324234234-9expsdfewm-784546sdfedxfsadfsadf...</p></td>
+                 <td><p>8.7 MB</p></td>
+                 <td><p><span class="date">2012-4-24</span>  <span class="time">13:54:21</span></p></td>
+               </tr>
+               <tr>
+                 <td colspan="2" ><p><a href="#">View</a></p></td>
+                 <td><p><img src="imgs/icons/icon-malicious.png" alt="" class="icon left" />Malicious</p></td>
+                 <td><p>9402349.exe</p></td>
+                 <td><p>15 MB</p></td>
+                 <td><p><span class="date">2012-4-24</span>  <span class="time">13:54:21</span></p></td>
+               </tr>
+               <tr class="highlight">
+                 <td colspan="2" ><p><a href="#">View</a></p></td>
+                 <td><p><img src="imgs/icons/icon-suspicious.png" alt="" class="icon left" />Suspicious</p></td>
+                 <td><p>demo.exe</p></td>
+                 <td><p>30.2 MB</p></td>
+                 <td><p><span class="date">2012-4-24</span>  <span class="time">13:54:21</span></p></td>
+               </tr>
+                <tr>
+                <td colspan="2"><p><a href="#">View</a></p></td>
+                <td><p><img src="imgs/icons/icon-malicious.png" alt="" class="icon left" />Malicious</p></td>
+                <td><p>tim_scan.exe</p></td>
+                <td><p>5 MB</p></td>
+                <td><p class="inline"><span class="date">2012-4-24</span> <span class="time">13:54:21</span></p></td>
+              </tr>
+       
+                <tr class="highlight">
+                  <td colspan="2" ><p><a href="#">View</a></p></td>
+                  <td><p><img src="imgs/icons/icon-suspicious.png" alt="" class="icon left" />Suspicious</p></td>
+                  <td><p>gilbert_trojan.exe</p></td>
+                  <td><p>4.5 MB</p></td>
+                  <td><p>2012-4-24  13:54:21</p></td>
+                </tr>
+              <tr>
+                  <td colspan="2" ><p><a href="#">View</a></p></td>
+                  <td><p><img src="imgs/icons/icon-no-threat.png" alt="" class="icon left" />No threat detected</p></td>
+                  <td><p>324234234-9expsdfewm-784546sdfedxfsadfsadf...</p></td>
+                  <td><p>3.2 MB</p></td>
+                  <td><p><span class="date">2012-4-24</span> <span class="time">13:54:21</span></p></td>
+                </tr>
+                <tr class="highlight">
+                  <td colspan="2" ><p><a href="#">View</a></p></td>
+                  <td><p><img src="imgs/icons/icon-malicious.png" alt="" class="icon left" />Malicious</p></td>
+                  <td><p>9402349.exe</p></td>
+                  <td><p>31 MB</p></td>
+                  <td><p><span class="date">2012-4-24 </span> <span class="time">13:54:21</span></p></td>
+                </tr>
+               <tr>
+                  <td colspan="2" ><p><a href="#">View</a></p></td>
+                  <td><p><img src="imgs/icons/icon-na.png" class="icon left" alt="" />N/A</p></td>
+                  <td><p>demo.exe</p></td>
+                  <td><p>12 MB</p></td>
+                  <td><p><span class="date">2012-4-24</span> <span class="time">13:54:21</span></p></td>
+                </tr>
+               <tr class="highlight">
+                 <td colspan="2" ><p><a href="#">View</a></p></td>
+                 <td><p><img src="imgs/icons/icon-malicious.png" alt="" class="icon left" />Malicious</p></td>
+                 <td><p>fileSharing.exe</p></td>
+                 <td><p>1 MB</p></td>
+                 <td><p><span class="date">2012-4-24</span> <span class="time">13:54:21</span></p></td>
+               </tr>
+               <tr>
+                 <td colspan="2" ><p><a href="#">View</a></p></td>
+                 <td><p><img src="imgs/icons/icon-suspicious.png" alt="" class="icon left" />Suspicious</p></td>
+                 <td><p>tim_scan.exe</p></td>
+                 <td><p>22 MB</p></td>
+                 <td><p><span class="date">2012-4-24</span>  <span class="time">13:54:21</span></p></td>
+               </tr>
+               <tr class="highlight">
+                 <td colspan="2" ><p><a href="#">View</a></p></td>
+                 <td><p><img src="imgs/icons/icon-no-threat.png" alt="" class="icon left" />No threat detected</p></td>
+                 <td><p>gilbert_trojan.exe</p></td>
+                 <td><p>6.5 MB</p></td>
+                 <td><p><span class="date">2012-4-24</span>  <span class="time">13:54:21</span></p></td>
+               </tr>
+               <tr>
+                 <td colspan="2" ><p><a href="#">View</a></p></td>
+                 <td><p><img src="imgs/icons/icon-na.png" class="icon left" alt="" />N/A</p></td>
+                 <td><p>324234234-9expsdfewm-784546sdfedxfsadfsadf...</p></td>
+                 <td><p>8.7 MB</p></td>
+                 <td><p><span class="date">2012-4-24</span>  <span class="time">13:54:21</span></p></td>
+               </tr>
+               <tr class="highlight">
+                 <td colspan="2" ><p><a href="#">View</a></p></td>
+                 <td><p><img src="imgs/icons/icon-malicious.png" alt="" class="icon left" />Malicious</p></td>
+                 <td><p>9402349.exe</p></td>
+                 <td><p>15 MB</p></td>
+                 <td><p><span class="date">2012-4-24</span>  <span class="time">13:54:21</span></p></td>
+               </tr>
+               <tr>
+                 <td colspan="2" ><p><a href="#">View</a></p></td>
+                 <td><p><img src="imgs/icons/icon-suspicious.png" alt="" class="icon left" />Suspicious</p></td>
+                 <td><p>demo.exe</p></td>
+                 <td><p>30.2 MB</p></td>
+                 <td><p><span class="date">2012-4-24</span>  <span class="time">13:54:21</span></p></td>
+               </tr>
+              </tbody>
+            </table>
+   
+   <div class="page-control negative-ten">
+   <select>
+   <option value="25 per page">25 per page</option>
+   <option value="50 per page">50 per page</option>
+   <option value="100 per page">100 per page</option>
+   </select>
+   <div class="inline page-count"><b>1-25</b> of 548</div>
+   <div class="arrow a-left inline"></div>
+   <div class="arrow a-right inline"></div>
+   </div>
+   
+    <div class="clear"></div>
+  </div>
+  <!-- end .container -->
+  
+
+  <div id="footer">
+    <div id="social-links">
+      <p class="inline">Follow Websense on Facebook, Twitter and Security Labs</p>
+      <a href="http://www.facebook.com/websense/" class="social-icon facebook" target="_blank"><span>Facebook</span></a> <a href="http://twitter.com/websense" class="social-icon twitter" target="_blank"><span>Twitter</span></a> <a href="http://community.websense.com/blogs/securitylabs/" class="social-icon security-labs" target="_blank"><span>Security Labs</span></a> </div>
+  </div>
+  <!-- end #footer -->
+  
+  <p class="copyright">Copyright &copy; 2012  Websense, Inc. All rights reserved</p>
+</div>
+<!-- end #wrap -->
+
+</body>
+</html>

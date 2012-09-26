@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>AceInsight.com</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="css/layout.css" rel="stylesheet" type="text/css" media="screen, projection" />
+<script src="js/jquery.tools.min.js" type="text/javascript" language="javascript"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+      $(".slide").tooltip({ effect: 'slide'});
+    });
+	
+
+</script>
+</head>
+
+<body>
+<div id="wrap">
+     <div id="csi-logo"></div>
+    <div class="loader-container"> <span class="divider"></span>
+      <p class="pad-top">Select a file to upload for analysis. The file will be added to your upload history. A detailed report will be generated within 30 minutes and sent to your email address. </p>
+      <p class="title">Processing... <span class="title-sm">This may take a few minutes.</span></p>
+      
+    <a href="#" class="upload-btn right"><span>Upload</span></a>
+       <div id="FileUpload">
+        <input type="file" size="29" id="BrowserHidden" onchange="getElementById('FileField').value = getElementById('BrowserHidden').value;" />
+        <div id="BrowserVisible"><input type="text" id="FileField" value="Browse to a file" /></div>
+        </div>
+      <div class="clear"></div>
+      <p class="inline negative-ten">Maximum file size: 32 MB</p>
+      <p class="inline small negative-ten exe">Executable files only</p>
+      <div class="clear"></div>
+    </div>
+    <!-- end .loader-container -->
+
+</div>
+</body>
+</html>
