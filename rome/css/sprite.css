@@ -1,0 +1,12 @@
+.sprite{
+	background: transparent url(../imgs/ws2013-global-sprite.png) no-repeat top left;
+}
+
+.sprite.logo{
+	width: 375px;
+	height: 75px;
+}
+
+.sprite.logo.email{
+	background-position: 0px 0px;
+}
