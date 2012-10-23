@@ -17,7 +17,6 @@ CONSTANTS
 @gothamHeader: "Trebuchet MS";
 @siteWidth:		990px;
 
-
 /**************************
 THEMING
 **************************/
@@ -34,6 +33,10 @@ THEMING
 @pageHeaderFont:	@gothamHeader;
 @pageHeaderSubFont:	@mainFont;
 @breadcrumbActive:	#666666;
+
+@darkGrey:			#666666;
+@lightGrey:			#878686;
+@lightBg:			#eff0f1;
 
 /**************************
 HELPER MIXINS
@@ -829,6 +832,153 @@ aside#product-portfolio{
 	}
 }
 
+/**************************
+ACEINSIGHT CONTENT
+**************************/
+section#main-content-ace {
+	width: @siteWidth;
+	position:relative;
+	margin:0 auto;
+	text-align:left;
+		
+		ul.wsMarked {
+			li {
+				list-style-type:square;
+				color:@linkColor;
+					span {color:@mainFontColor;}
+				&.pdf {
+					list-style-type:none;
+					list-style-image: url(../imgs/pdf.gif) no-repeat 0 0 !important;
+				}
+			}
+		
+		}
+	
+		h1{
+			.FontSetting(bold, 22px, @pageHeaderFont, @darkGrey);
+			margin: 30px 0 23px 0;
+		}	
+		h2{
+			.FontSetting(normal,20px, @pageHeaderSubFont, @darkGrey);
+			margin: 30px 0 23px 0;
+		}
+		h3{
+			.FontSetting(normal,20px, @pageHeaderSubFont, @darkGrey);
+			margin: 30px 0 23px 0;
+		}
+	
+
+	.contentRow {
+		width: @siteWidth;
+		margin-bottom:20px;
+		
+		.oneCol,
+		.twoCol {
+			min-height:248px;
+			border-bottom: 4px solid @mainNaviActive;
+			position:relative;
+				.wsProductPod {
+					margin-left:26px;
+					img {margin-top:20px;}
+					}
+				ul.wsMarked {
+					margin-left:35px;
+					font-size:16px;
+					width:220px;
+					line-height:24px;
+				}
+		}
+			.oneCol {
+				width:322px;
+				float:right;				
+					h3 {margin:0;}				
+					ul.wsAccess {
+						margin:0;					
+							li {
+								display:block;
+								height:74px;
+								list-style-type:none;
+								border-top:1px solid @borderColor;
+									&.wsUnlocked {background: url(../imgs/wsUnlocked.gif) no-repeat 3px center;}
+									&.wsLocked {background: url(../imgs/wsLocked.gif) no-repeat 3px center;}
+									span {
+										margin-left:39px;
+										display:block;
+									}
+							}
+					}
+			}
+			.twoCol {
+				width:655px;
+				float:left;
+					#tabs {
+						border-right:1px solid @borderColor !important;
+						border-left:1px solid @borderColor !important;
+						border-top:1px solid @borderColor !important;
+						min-height:248px;
+					}
+				
+				h3 {margin:0;}
+				
+				.wsVideo,
+				.wsProductPod {
+					position:relative;
+					float:left;
+				}
+					.wsVideo {
+						
+					}
+					
+			}
+	}
+		
+}
+
+/**************************
+NEWS PODS
+**************************/
+section#newsPods {
+	width:@siteWidth;
+	position:relative;
+	margin:0 auto 20px auto;
+		.wsColumn {
+			border:1px solid @borderColor;
+			width:32%;
+			float:left;
+			text-align:left;
+				h3 {
+					margin-top:-1px;
+					width:100%;
+					background:@lightBg;
+					border-bottom:1px solid @borderColor;
+					border-top:1px solid @borderColor;
+					text-align:left;
+					padding:13px 0;
+						span {
+							display:block;
+							margin-left:13px;
+							color:@darkGrey;
+							text-transform:uppercase;
+						}
+				}
+				h4 {
+					margin:13px 13px 0 13px;
+				}
+				p {
+					margin:0 13px;
+						span {font-weight:bold;}
+				}
+			& .colOne {
+				position:relative;
+				left:0;
+			}
+			&.colTwo,
+			&.colThree {
+				margin-left:16px;
+			}
+			> .wsArticle {padding-bottom:13px;}
+		}
+}
 
 /**************************
 FOOTER
@@ -862,7 +1012,6 @@ footer{
 					
 					h4{
 						.FontSetting(normal, 14px, @mainFont, @trueWhite);
-					
 					}
 					
 					ul{
@@ -911,3 +1060,45 @@ footer{
 		}
 	}
 }
+
+/**************************
+jQUERY TAB OVERRIDES IN colTwo
+**************************/
+.ui-corner-all {
+	border:none !important;
+	border-radius:0;}
+
+.ui-widget-header {background: -moz-linear-gradient(center top , #FCFCFC, #EDEDED) repeat scroll 0 0 transparent;}
+
+.ui-tabs .ui-tabs-nav,
+.ui-tabs{padding:0 !important;}
+
+.ui-tabs .ui-tabs-nav li {margin:0;}
+
+.ui-widget-header .ui-state-default {
+	width:50%;
+	background:none;
+	border:none;
+	border-radius:0;
+		.ui-tabs-anchor {
+			position:relative;
+			margin:5px auto;
+			color:@darkGrey;
+			font-size:18px;
+			width:90%;
+			text-align:center;
+		}
+		
+			
+}
+	
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active {
+	background:#fff;
+	border:none;
+	border-radius:0;
+}
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
+			color:@linkColor !important;
+		}

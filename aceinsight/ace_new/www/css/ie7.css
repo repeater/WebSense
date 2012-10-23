@@ -1,0 +1,11 @@
+#top-nav-inner ul{
+ float: left !important;
+}
+
+#section-head h3{
+	font-size: 20px !important;
+}
+
+nav#product-tabs ul li.active{
+	height: 52px !important;
+}
