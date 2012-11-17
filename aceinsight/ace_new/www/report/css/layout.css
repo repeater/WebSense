@@ -68,12 +68,18 @@ a:hover,a:active	{ color:#005c97; text-decoration:underline; outline:none; }
 		}	
 		
 #header-graphic {
-	height:38px;
+	height:33px;
 	width:100%;
-	background:url("../imgs/bg-header.png") repeat-x transparent;
 	border-bottom: 1px solid #FFFFFF;
 	}
-		#wsAir #header-graphic {background:#003a63;}
+		#wsAir #header-graphic {
+			background:#003a63;
+		}
+			#wsAir #header-graphic p {
+				padding: 5px 0 0 23px !important;
+				font: bold 17px Arial;
+				color:#fff;
+			}
 
 /* ------------------------ site-analysis framework ------------------------ */
 #site-analysis {
@@ -581,15 +587,16 @@ span.gse {
 	}
 
 	
-#tech-details {
-	background-color:#003a63;
-	height:33px;
+#tech-details
+{
+	background-color:#959595;
+	height:28px;
 	border-top:1px solid #c8c8c8;
 	border-bottom:1px solid #c8c8c8;
 	margin:25px 0 25px 0;
 	}
 	
-	#tech-details p { color:#ffffff; font: bold 17px Arial; padding:6px 0 0 23px!important;}
+	#tech-details p { color:#ffffff; font: bold 17px Arial; padding:3px 0 0 23px!important;}
 
 
 #loader { width:451px; height:33px; border-top:1px solid #11763A; border-left:1px solid #11763A; border-bottom:1px solid #11763A; margin-left:23px;}
@@ -771,32 +778,17 @@ p.exe { position:relative; left:270px;}
 	
 	.virus-total-logo p a { font-size:12px;}
   
-.seventy-five {
-    width: 75%;
-}
-
-.sixty-five {
-    width: 65%;
-}
-
-.sixty {
-    width: 60%;
-}
-.half {
-    width: 50%;
-}
-.fifty-five {
-    width: 55%;
-}
-.forty-five {
-    width: 45%;
-}
-.forty {
-    width: 40%;
-}
-.third {
-    width: 34%;
-}
+.seventy-five {width: 75%;}
+.sixty-five {width: 65%;}
+.sixty {width: 60%;}
+.half {width: 50%;}
+.fifty-five {width: 55%;}
+.forty-five {width: 45%;}
+.forty {width: 40%;}
+.third {width: 34%;}
+.twenty-five {width:25%;}
+.fifteen {width:15%;}
+.thirty-five {width:35%;}
 
 .pad-right{
 	padding-right: 50px!important;
@@ -840,6 +832,14 @@ table.plain {
     margin-top: 10px;
     width: 933px;
 }
+	.full {
+		margin-left:10px;
+	}
+	.fifty {
+		width:46% !important;
+		margin:0 10px;
+		float:left;
+	}
 
 
 table.plain td, table.plain th {
@@ -855,7 +855,7 @@ table.plain tr.topcap {
 }
 
 table.plain .highlight {
-	background-color:#f8f7f7;
+	background-color:#F8F7F7;
 	}
 
 table.plain tr.analyzing {
