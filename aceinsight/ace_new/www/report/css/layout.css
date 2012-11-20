@@ -593,7 +593,6 @@ span.gse {
 	height:28px;
 	border-top:1px solid #c8c8c8;
 	border-bottom:1px solid #c8c8c8;
-	margin:25px 0 25px 0;
 	}
 	
 	#tech-details p { color:#ffffff; font: bold 17px Arial; padding:3px 0 0 23px!important;}
@@ -1055,4 +1054,4 @@ div.mp { float:right; position:relative; top:-61px;}
 			-moz-animation: none;
 			background-image: none;
 			
-		}	
+		}

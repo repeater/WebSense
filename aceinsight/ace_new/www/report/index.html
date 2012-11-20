@@ -3,34 +3,195 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>ACE Insight Report</title>
-
 <link type="text/css" href="css/layout.css" rel="stylesheet" media="screen, projection" />
 <link type="text/css" href="css/styles.css" rel="stylesheet" media="screen, projection" />
 <link type="text/css" href="http://code.jquery.com/ui/1.9.0/themes/base/jquery-ui.css" rel="stylesheet" />
+<link rel="stylesheet" href="source/jquery.fancybox.css" type="text/css" media="screen" />
 <link type="text/css" href="css/wsjQueryOR.css" rel="stylesheet" media="screen, projection" />
-<style>
-	body { 
-		text-align:left; 
-		font:14px/18px Arial; 
-		color:#666;
-	}
-</style>
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
-<script type="text/javascript" src="js/jquery.tools.min.js" language="javascript"></script>
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.js"></script>
 <script type="text/javascript" src="http://code.jquery.com/ui/1.9.0/jquery-ui.js"></script>
-<script type="text/javascript">
-  $(document).ready(function() {
-      $(".slide").tooltip({ effect: 'slide'});
-    });
-	$(function() {
-        $( "#accordion" ).accordion({
-            heightStyle: "content"
-        });
-    });
-</script>
+<script type="text/javascript" src="source/jquery.fancybox.js?v=2.1.3"></script>
+<script type="text/javascript" src="js/toolTip.js"></script>
 
+<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			 *  Simple image gallery. Uses default settings
+			 */
+
+			$('.fancybox').fancybox();
+
+			/*
+			 *  Different effects
+			 */
+
+			// Change title type, overlay closing speed
+			$(".fancybox-effects-a").fancybox({
+				helpers: {
+					title : {
+						type : 'outside'
+					},
+					overlay : {
+						speedOut : 0
+					}
+				}
+			});
+
+			// Disable opening and closing animations, change title type
+			$(".fancybox-effects-b").fancybox({
+				openEffect  : 'none',
+				closeEffect	: 'none',
+
+				helpers : {
+					title : {
+						type : 'over'
+					}
+				}
+			});
+
+			// Set custom style, close if clicked, change title type and overlay color
+			$(".fancybox-effects-c").fancybox({
+				wrapCSS    : 'fancybox-custom',
+				closeClick : true,
+
+				openEffect : 'none',
+
+				helpers : {
+					title : {
+						type : 'inside'
+					},
+					overlay : {
+						css : {
+							'background' : 'rgba(238,238,238,0.85)'
+						}
+					}
+				}
+			});
+
+			// Remove padding, set opening and closing animations, close if clicked and disable overlay
+			$(".fancybox-effects-d").fancybox({
+				padding: 0,
+
+				openEffect : 'elastic',
+				openSpeed  : 150,
+
+				closeEffect : 'elastic',
+				closeSpeed  : 150,
+
+				closeClick : true,
+
+				helpers : {
+					overlay : null
+				}
+			});
+
+			/*
+			 *  Button helper. Disable animations, hide close button, change title type and content
+			 */
+
+			$('.fancybox-buttons').fancybox({
+				openEffect  : 'none',
+				closeEffect : 'none',
+
+				prevEffect : 'none',
+				nextEffect : 'none',
+
+				closeBtn  : false,
+
+				helpers : {
+					title : {
+						type : 'inside'
+					},
+					buttons	: {}
+				},
+
+				afterLoad : function() {
+					this.title = 'Image ' + (this.index + 1) + ' of ' + this.group.length + (this.title ? ' - ' + this.title : '');
+				}
+			});
+
+
+			/*
+			 *  Thumbnail helper. Disable animations, hide close button, arrows and slide to next gallery item if clicked
+			 */
+
+			$('.fancybox-thumbs').fancybox({
+				prevEffect : 'none',
+				nextEffect : 'none',
+
+				closeBtn  : false,
+				arrows    : false,
+				nextClick : true,
+
+				helpers : {
+					thumbs : {
+						width  : 50,
+						height : 50
+					}
+				}
+			});
+
+			/*
+			 *  Media helper. Group items, disable animations, hide arrows, enable media and button helpers.
+			*/
+			$('.fancybox-media')
+				.attr('rel', 'media-gallery')
+				.fancybox({
+					openEffect : 'none',
+					closeEffect : 'none',
+					prevEffect : 'none',
+					nextEffect : 'none',
+
+					arrows : false,
+					helpers : {
+						media : {},
+						buttons : {}
+					}
+				});
+
+			/*
+			 *  Open manually
+			 */
+
+			$("#fancybox-manual-a").click(function() {
+				$.fancybox.open('1_b.jpg');
+			});
+
+			$("#fancybox-manual-b").click(function() {
+				$.fancybox.open({
+					href : 'iframe.html',
+					type : 'iframe',
+					padding : 5
+				});
+			});
+
+			$("#fancybox-manual-c").click(function() {
+				$.fancybox.open([
+					{
+						href : '1_b.jpg',
+						title : 'My title'
+					}, {
+						href : '2_b.jpg',
+						title : '2nd title'
+					}, {
+						href : '3_b.jpg'
+					}
+				], {
+					helpers : {
+						thumbs : {
+							width: 75,
+							height: 50
+						}
+					}
+				});
+			});
+
+
+		});
+	</script>
+	
 </head>
 <body id="wsAir">
 <div id="top-menu">
@@ -63,65 +224,98 @@
 	</div>
 </div><!--/Top Menu-->
 <div id="wrap">
-  <div id="masthead">
-<!--    <div id="csi-logo-main" class="left"><a href="/"></a></div>-->
-    <p><a class="pdf right" href="#" target="_blank"><span>PDF</span></a></p>
-    <p><a class="print right" href="#" target="_blank"><span>Print</span></a></p>
-  </div>
+	<div class="reportHeader clearfix">
+		<div id="masthead">
+			<div class="left"><a id="inline" href="#suggesturl" class="fancybox suggestLink">&lt;&nbsp;Submit a new URL or IP address</a>
+			<div class="fBox wideBox" style="display:none;" id="suggesturl">
+				<p class="title blueline">Exit Report</p>
+				<p>Please save the URL or print the report so that you can review it later. If you close the report without doing this you will have to submit the URL or IP address again.</p>
+				<p>Are you sure you want to close this report?</p>
+				<div class="buttonAlign">
+					<a class="standard-button blue" href="websense-triton-security-products.aspx">
+					<span>Learn more</span></a>
+					<a class="standard-button grey" href="javascript:;" title="close">
+					<span>Cancel</span></a>
+				</div>
+			</div>
+		</div>
+			<p><a class="pdf right" href="#" target="_blank"><span>PDF</span></a></p>
+			<p><a class="print right" href="#" target="_blank"><span>Print</span></a></p>
+		</div>
   <!-- end #masthead -->
-  
-  
-  
-  
-  <!--    <div class="shadow"></div>-->
-    <p class="header-title">ThreatScope Analysis Report</p>
-    <p class="center no-padding">For file <strong>JK_files.exe</strong> uploaded <strong>2012-03-30</strong> at <strong>13:00:15</strong></p>
-<!--    <div class="virus-total-logo right">
-      <p><a href="#">View results &gt;</a></p>
-    </div>-->
-    <p class="title">Threat level: <span class="icon-malicious">Malicious</span></p>
-    <p>Recommendation: Do not allow this file to be run in your network. Perform remediation on machines on which the file may have run.</p>
-  
+		<p class="center header-title">ThreatScope Analysis Report</p>
+		<p class="center no-padding">For file <strong>JK_files.exe</strong> uploaded <strong>2012-03-30</strong> at <strong>13:00:15</strong></p>
+		<div class="InputAnalysis">
+			<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td>Input:</td>
+					<td>http://bob.alternativejournal.net/file.html</td>
+				</tr>
+				<tr>
+					<td><a href="#" title="The input URL or IP address redirects to this location." id="open-event">Analysis for:</a></td>
+					<td>http://bob.alternativejournal.net/file.exe</td>
+				</tr>
+			</table>
+		</div>
+	</div>
   
   
   <div class="container wsMainWrapper">
     <div id="header-graphic"><p>Executive Summary</p></div>
-    <table class="plain" cellpadding="0" cellspacing="0">
-      <thead>
-        <tr class="topcap">
-          <th colspan="2"><b>Threat</b></th>
-          <th width="849"><b>Assessment</b></th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr class="highlight">
-          <td colspan="2"><p class="center"><img src="imgs/icons/icon-malicious.png" alt="" class="icon" /></p></td>
-          <td><p>HTTP traffic to server hosting malicious content</p></td>
-        </tr>
-        <tr>
-          <td colspan="2" ><p class="center"><img src="imgs/icons/icon-malicious.png" alt="" class="icon" /></p></td>
-          <td><p>Downloads one or more malicious executable files</p></td>
-        </tr>
-        <tr class="highlight">
-          <td colspan="2"><p class="center"><img src="imgs/icons/icon-malicious.png" alt="" class="icon" /></p></td>
-          <td><p>Drops and runs one or more executable files in a Windows system directory</p></td>
-        </tr>
-        <tr>
-          <td colspan="2" ><p class="center"><img src="imgs/icons/icon-suspicious.png" alt="" class="icon" /></p></td>
-          <td><p>Drops one or more executable file</p></td>
-        </tr>
-        <tr class="highlight">
-          <td colspan="2" ><p class="center"><img src="imgs/icons/icon-suspicious.png" alt="" class="icon" /></p></td>
-          <td><p>Writes to a Windows system directory</p></td>
-        </tr>
-      </tbody>
-    </table>
-    
+    	<div class="wsThreatContent wsHightlight clearfix">
+	    	<div class="InputAnalysis fifty">
+				<table cellpadding="0" cellspacing="0" width="100%">
+					<tr>
+						<td colspan="2" class="blueline"><p class="title">Threat level:<img src="imgs/wsIconCritical.png" class="wsMainThreat" />Critical</p></td>
+					<tr>
+						<td><a href="#" title="Determined by scanning the full content of the web page, extracting features, and identifying security threats based on machine learning algorithims from millions of known examples." id="open-event">Real-time security classification:</a></td>
+						<td class="classAction">http://bob.alternativejournal.net/file.html</td>
+					</tr>
+					<tr>
+						<td><a href="#" title="Identifies code that attempts to download malicious or unwanted software on machines." id="open-event">Anti-malware detection:</a></td>
+						<td class="classAction">http://bob.alternativejournal.net/file.exe</td>
+					</tr>
+				</table>
+			</div>
+			<div class="InputAnalysis fifty">
+				<table cellpadding="0" cellspacing="0" width="100%">
+					<tr>
+						<td colspan="2" class="blueline"><p class="title">Classification</p></td>
+					<tr>
+						<td><a href="#" title="Determined by scanning the full content of the web page, extracting features, and identifying security threats based on machine learning algorithims from millions of known examples." id="open-event">Real-time content classification:</a></td>
+						<td class="classAction">Alternative Journals</td>
+					</tr>
+					<tr>
+						<td><a href="#" title="Defined in the Websense Master Database based on the URL of the page." id="open-event">Static classification:</a></td>
+						<td class="classAction">Alternative Journals</td>
+					</tr>
+					<tr>
+						<td colspan="2"><p class="right"><a id="inline" href="#suggestclass" class="fancybox suggestLink">Suggest a different classification &gt;</a></p>
+							<div class="fBox wideBox" style="display:none;" id="suggestclass">
+								<p class="title">Suggest a different classification<br />
+								<span class="blueline"><strong>URL</strong> http://bob.alternativejournal.net/file.exe</span>
+								<p>Please save the URL or print the report so that you can review it later. If you close the report without doing this you will have to submit the URL or IP address again.</p>
+								<p>Are you sure you want to close this report?</p>
+								<div class="buttonAlign">
+									<a class="standard-button blue" href="websense-triton-security-products.aspx">
+									<span>Learn more</span></a>
+									<a class="standard-button grey" href="javascript:;" title="close">
+									<span>Cancel</span></a>
+								</div>
+							</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+		
+		<p><strong>Assessment Overview</strong><br />
+		Do not allow this file to be run in your network. Perform remediation on machines on which the file may have run.</p>
+    </div>
     <div class="clear"></div>
     <div id="tech-details">
       <p>Site Details</p>
     </div>
-    <div class="clearfix">
+    <div class="wsThreatContent clearfix">
 		<table class="plain fifty" cellpadding="0" cellspacing="0">
 		  <tbody>
 			<tr class="highlight">
@@ -158,13 +352,16 @@
     <div id="tech-details">
       <p>Security Overview</p>
     </div>
-    
+    <ul class="accordionControls">
+		<li id="collapseAll">Collapse all<img src="imgs/accordionOpenSmall.png" /></li>
+		<li id="showAll"><img src="imgs/accordionClosedSmall.png" />Show all</li>
+	</ul>
     
     
     
     <div id="accordion">
-		<h3>Real-time security identification<br />
-		<span>Review the specific threat identified within the URL or IP address.</span></h3>
+		<h3><span class="accOpen"></span>Real-time security identification<br />
+		<span class="wsSpanContent">Review the specific threat identified within the URL or IP address.</span></h3>
 		<div class="accContent">
 			<h4>Associated threat type</h4>
 			<p>Shows the actual name and type of the security threat.</p>
@@ -198,8 +395,8 @@
 			
 			
 		</div>
-		<h3>URl link detection<br />
-		<span>Review analysis of all links within the target URL or IP address, including detailed link properties.</span></h3>
+		<h3><span class="accOpen"></span>URL link detection<br />
+		<span class="wsSpanContent">Review analysis of all links within the target URL or IP address, including detailed link properties.</span></h3>
 		<div class="accContent clearfix">
 			<h4>Basic link detection</h4>
 			<p>Shows the actual name and type of the security threat.</p>
@@ -229,32 +426,32 @@
 			  </thead>
 			  <tbody>
 				<tr class="highlight">
-				  <td><p><img src="imgs/icons/icon-malicious.png" alt="" class="icon" />Critical</p></td>
+				  <td><p><img src="imgs/wsIconCritical.png" align="left" alt="" class="icon" />Critical</p></td>
 				  <td><p>Advanced Malware Payloads</p></td>
 				  <td><p>http://www.state.sd.us</p></td>
 				</tr>
 				<tr>
-				  <td><p><img src="imgs/icons/icon-malicious.png" alt="" class="icon" />Critical</p></td>
+				  <td><p><img src="imgs/wsIconCritical.png" align="left" alt="" class="icon" />Critical</p></td>
 				  <td><p>Advanced Malware Payloads</p></td>
 				  <td><p>http://www.sdbore.edu</p></td>
 				</tr>
 				<tr class="highlight">
-				  <td><p><img src="imgs/icons/icon-malicious.png" alt="" class="icon" />Critical</p></td>
+				  <td><p><img src="imgs/wsIconCritical.png" align="left" alt="" class="icon" />Critical</p></td>
 				  <td><p>Advanced Malware Payloads</p></td>
 				  <td><p>http://www.state.sd.us</p></td>
 				</tr>
 				<tr>
-				  <td><p><img src="imgs/icons/icon-malicious.png" alt="" class="icon" />Critical</p></td>
+				  <td><p><img src="imgs/wsIconCritical.png" align="left" alt="" class="icon" />Critical</p></td>
 				  <td><p>Bot Networks</p></td>
 				  <td><p>http://www.sdbore.edu</p></td>
 				</tr>
 				<tr class="highlight">
-				  <td><p><img src="imgs/icons/icon-malicious.png" alt="" class="icon" />Critical</p></td>
+				  <td><p><img src="imgs/wsIconCritical.png" align="left" alt="" class="icon" />Critical</p></td>
 				  <td><p>Keyloggers</p></td>
 				  <td><p>http://www.state.sd.us</p></td>
 				</tr>
 				<tr>
-				  <td><p><img src="imgs/icons/icon-malicious.png" alt="" class="icon" />Critical</p></td>
+				  <td><p><img src="imgs/wsIconCritical.png" align="left" alt="" class="icon" />Critical</p></td>
 				  <td><p>Phishing and Other Frauds</p></td>
 				  <td><p>http://www.sdbore.edu</p></td>
 				</tr>
@@ -271,7 +468,7 @@
 			  </thead>
 			  <tbody>
 				<tr>
-				  <td><p>advanced Malware Command</p></td>
+				  <td><p>Advanced Malware Command</p></td>
 				  <td><p><span>xxx.com</span></p></td>
 				</tr>
 			  </tbody>
@@ -291,43 +488,43 @@
 				<tr class="highlight">
 				  <td><p>Input</p></td>
 				  <td><p>http://bob.alternativejournal.net/file.exe</p></td>
-				  <td><p><img src="imgs/icons/icon-malicious.png" alt="" class="icon" />Critical</p></td>
+				  <td><p><img src="imgs/wsIconCritical.png" alt="" class="icon" />Critical</p></td>
 				  <td><p>Malicious Web Sites</p></td>
 				</tr>
 				<tr>
-				  <td><p>icon</p></td>  <td><p>http://bob.alternativejournla.net/break1/alotofwordshere/1jibberish/2jibberish/3jibberish/4jibberish/5jibberish/6jibberish/7jibberish/8jibber...</p></td>
-				  <td><p><img src="imgs/icons/icon-malicious.png" alt="" class="icon" />Critical</p></td>
+				  <td><p><img src="imgs/wsIconRedirect.png" alt="" class="icon" /></p></td>  <td><p><a href="#" title="http://bob.alternativejournla.net/break1/alotofwordshere/1jibberish/2jibberish/3jibberish/4jibberish/5jibberish/6jibberish/7jibberish/8jibber/break1/alotofwordshere/1jibberish/2jibberish/3jibberish/4jibberish/5jibberish/6jibberish/7jibberish/8jibber/break1/alotofwordshere/1jibberish/2jibberish/3jibberish/4jibberish/5jibberish/6jibberish/7jibberish/8jibber/1jibberish/2jibberish/3jibberish/4jibberish/5jibberish/6jibberish/7jibberish/8jibber/break1/alotofwordshere/1jibberish/2jibberish/3jibberish/4jibberish/5jibberish/6jibberish/7jibberish/8jibber/break1/alotofwordshere/1jibberish/2jibberish/3jibberish/4jibberish/5jibberish/6jibberish/7jibberish/8jibber/1jibberish/2jibberish/3jibberish/4jibberish/5jibberish/6jibberish/7jibberish/8jibber/break1/alotofwordshere/1jibberish/2jibberish/3jibberish/4jibberish/5jibberish/6jibberish/7jibberish.exe" id="open-event">http://bob.alternativejournla.net/break1/alotofwordshere/1jibberish/2jibberish/3jibberish/4jibberish/5jibberish/6jibberish/7jibberish/8jibber...</a></p></td>
+				  <td><p><img src="imgs/wsIconCritical.png" align="left" alt="" class="icon" />Critical</p></td>
 				  <td><p>Malicious Web Sites</p></td>
 				</tr>
 				<tr class="highlight">
-				  <td><p>icon</p></td>
+				  <td><p><img src="imgs/wsIconRedirect.png" alt="" class="icon" /></p></td>
 				  <td><p>Advanced Malware Payloads</p></td>
-				  <td><p><img src="imgs/icons/icon-malicious.png" alt="" class="icon" />Critical</p></td>
+				  <td><p><img src="imgs/wsIconCritical.png" align="left" alt="" class="icon" />Critical</p></td>
 				  <td><p>Malicious Web Sites</p></td>
 				</tr>
 				<tr>
-				  <td><p>icon</p></td>
+				  <td><p><img src="imgs/wsIconRedirect.png" alt="" class="icon" /></p></td>
 				  <td><p>http://bob.alternativejournal.net/12345/file.exe</p></td>
-				  <td><p><img src="imgs/icons/icon-malicious.png" alt="" class="icon" />Critical</p></td>
+				  <td><p><img src="imgs/wsIconCritical.png" align="left" alt="" class="icon" />Critical</p></td>
 				  <td><p>Malicious Web Sites</p></td>
 				</tr>
 				<tr class="highlight">
-				  <td><p>icon</p></td>
+				  <td><p><img src="imgs/wsIconRedirect.png" alt="" class="icon" /></p></td>
 				  <td><p>http://bob.alternativejouirnal.net/123456789/file.exe</p></td>
-				  <td><p><img src="imgs/icons/icon-malicious.png" alt="" class="icon" />Critical</p></td>
+				  <td><p><img src="imgs/wsIconCritical.png" align="left" alt="" class="icon" />Critical</p></td>
 				  <td><p>Malicious Web Sites</p></td>
 				</tr>
 				<tr>
 				  <td><p>Destination</p></td>
 				  <td><p>http://bob.alternativejournal.net</p></td>
-				  <td><p><img src="imgs/icons/icon-malicious.png" alt="" class="icon" />Critical</p></td>
+				  <td><p><img src="imgs/wsIconCritical.png" align="left" alt="" class="icon" />Critical</p></td>
 				  <td><p>Malicious Web Sites</p></td>
 				</tr>
 			  </tbody>
 			</table>
 		</div>
-		<h3>Security analysis history<br />
-		<span>Displays the last five ACE Insight reports generated for this URL or IP address (if available).</span></h3>
+		<h3><span class="accOpen"></span>Security analysis history<br />
+		<span class="wsSpanContent">Displays the last five ACE Insight reports generated for this URL or IP address (if available).</span></h3>
 		<div class="accContent clearfix">
 			<h4>ACE Insight past reports</h4>
 			<p>Shows time and severity of previous reports with links to details.</p>
@@ -342,37 +539,46 @@
 			  <tbody>
 				<tr class="highlight">
 				  <td><p>2012-03-09 05:35:46 PM (UTC)</p></td>
-				  <td><p>High</p></td>
+				  <td><p><img src="imgs/wsIconHigh.png" align="left" alt="" class="icon" />High</p></td>
 				  <td><p><a href="">View</a></p></td>
 				</tr>
 				<tr>
 				  <td><p>2012-03-09 05:35:46 PM (UTC)</p></td>
-				  <td><p>Medium</p></td>
+				  <td><p><img src="imgs/wsIconMedium.png" align="left" alt="" class="icon" />Medium</p></td>
 				  <td><p><a href="">View</a></p></td>
 				</tr>
 				<tr class="highlight">
 				  <td><p>2012-03-09 05:35:46 PM (UTC)</p></td>
-				  <td><p>Medium</p></td>
+				  <td><p><img src="imgs/wsIconMedium.png" align="left" alt="" class="icon" />Medium</p></td>
 				  <td><p><a href="">View</a></p></td>
 				</tr>
 				<tr>
 				  <td><p>2012-03-09 05:35:46 PM (UTC)</p></td>
-				  <td><p>Low</p></td>
+				  <td><p><img src="imgs/wsIconLow.png" align="left" alt="" class="icon" />Low</p></td>
 				  <td><p><a href="">View</a></p></td>
 				</tr>
 				<tr class="highlight">
 				  <td><p>2012-03-09 05:35:46 PM (UTC)</p></td>
-				  <td><p>Low</p></td>
+				  <td><p><img src="imgs/wsIconLow.png" align="left" alt="" class="icon" />Low</p></td>
 				  <td><p><a href="">View</a></p></td>
 				</tr>
 			  </tbody>
 			</table>
 		</div>
-		<h3>ThreatScope analysis<br />
-		<span>The URL pointed to or attempted to download a file, which was sent to ThreatScope for analysis. Learn More about <a href="" title="ThreatScope web site"">ThreatScope</a>.</span></h3>
+		<h3><span class="accOpen"></span>ThreatScope analysis<br />
+		<span class="wsSpanContent">The URL pointed to or attempted to download a file, which was sent to ThreatScope for analysis. Learn More about <a href="" title="ThreatScope web site"">ThreatScope</a>.</span></h3>
 		<div class="accContent">
 			<h4>ThreatSCope file analysis</h4>
 			<p>ThreatScope analysis in progress.</p>
+			
+			
+			<div class="tsLock">
+				<p>ThreatScope, a CSI service, is a malware security sandbox that identifies security threats and produces a forensic report detailing actions that a file will take if run in your environment. Become a CSI subscriber to unlock this feature. View the sample ThreatScope file analysis report to see the forensic and security detials provided by the CSI sandboxing feature.</p>
+			</div>
+			
+			
+			
+			
 			<table class="plain full" cellpadding="0" cellspacing="0">
 			  <thead>
 				<tr class="topcap">
@@ -385,7 +591,7 @@
 			  </thead>
 			  <tbody>
 				<tr class="highlight">
-				  <td><p><img src="imgs/icons/icon-malicious.png" alt="" class="icon" />Critical</p></td>
+				  <td><p><img src="imgs/wsIconCritical.png" align="left" alt="" class="icon" />Critical</p></td>
 				  <td><p>file.exe</p></td>
 				  <td><p>10MB</p></td>
 				  <td><p>2012-03-09 05:35:46 PM (UTC)</p></td>
@@ -431,5 +637,29 @@
   </div>
   <!-- end .container -->
 <!-- end #wrap -->
+<script type="text/javascript">
+	$("body").addClass("js");
+	var accordionHeaders = $("#accordion > h3 ")
+	accordionHeaders.click(function() {
+		$(this).next().toggle(200);
+		var arrow = $(".accOpen, .accClosed", $(this));
+		if (arrow.hasClass("accOpen")) { 
+			arrow.removeClass("accOpen");
+			arrow.addClass("accClosed");
+		} else {
+			arrow.removeClass("accClosed");
+			arrow.addClass("accOpen");
+		}
+		return false;
+	});
+	$("#collapseAll").click(function() {
+		accordionHeaders.click();
+		return false;
+	});
+	$("#showAll").click(function() {
+		accordionHeaders.click();
+		return false;
+	});
+</script>
 </body>
 </html>

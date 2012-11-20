@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>example</title>
+        <meta charset="utf-8">
+
+        <style type="text/css">
+
+			h3 { border: 1px solid red; padding: 5px; }
+			ul { list-style: none; }
+
+			#accordionControls { display: none; }
+			.js #accordionControls { display: block; }
+
+        </style>
+
+    </head>
+    <body>
+
+		<ul class="accordionControls">
+			<li id="collapseAll">Collapse all</li>
+			<li id="showAll">Show all</li>
+		</ul>
+
+		<div id="accordion">
+
+			<h3>Header 1</h3>
+			<div>
+				<p>Bacon ipsum dolor sit amet beef ribs beef brisket chuck pig. Ham hock fatback short loin prosciutto jerky, beef frankfurter. Spare ribs short ribs pork belly ham hock corned beef. Turkey capicola brisket, ham hock kielbasa sirloin shank filet mignon.</p>
+			</div>
+
+			<h3>Header 2</h3>
+			<div>
+				<p>Flank corned beef jerky, filet mignon rump bresaola shankle hamburger tongue tail beef ribs andouille chuck pork loin shank. Pig boudin brisket, andouille pancetta chuck pastrami doner ribeye shoulder capicola sausage cow bresaola. Filet mignon bresaola ribeye swine ham ham hock andouille short loin fatback flank tongue bacon beef meatloaf pancetta. Salami turducken meatloaf spare ribs.
+			</div>
+
+			<h3>Header 3</h3>
+			<div>
+				<p>Prosciutto jowl ham hock, salami shank brisket pork t-bone turducken leberkas ribeye. Meatloaf brisket ham hock, doner short ribs corned beef sausage strip steak t-bone tongue chicken sirloin boudin short loin ribeye. Ribeye t-bone turkey pork chop, spare ribs biltong bacon andouille. Tenderloin drumstick rump sirloin leberkas beef pastrami shoulder jerky shankle frankfurter shank capicola short ribs biltong. Venison turducken cow pancetta.
+			</div>
+
+			<h3>Header 4</h3>
+			<div>
+				<p>Beef spare ribs chuck, tail turkey ham leberkas. Cow pork loin chicken ribeye. Shank boudin pancetta, venison fatback chicken ham hock kielbasa chuck meatloaf ribeye ground round ham spare ribs. T-bone tongue salami strip steak doner beef ribs pork jerky drumstick short ribs frankfurter. Pancetta hamburger tongue, ham hock shoulder sirloin drumstick jerky ribeye frankfurter salami sausage prosciutto ball tip ground round. Beef chuck andouille, meatloaf ribeye pastrami filet mignon pig fatback. Pork loin capicola venison, tri-tip pork chicken andouille pork chop doner tail pig biltong rump.
+			</div>
+
+			<h3>Header 5</h3>
+			<div>
+				<p>Pastrami hamburger ball tip beef ribs. Short loin chuck ribeye, tongue pork chop salami biltong cow meatball filet mignon flank fatback brisket pancetta ground round. Turkey corned beef sirloin drumstick rump, filet mignon swine. Ball tip tri-tip flank pancetta pork loin.
+			</div>
+
+		</div>
+
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script type="text/javascript">
+
+			$("body").addClass("js");
+
+			var accordionHeaders = $("#accordion > h3")
+
+			accordionHeaders.click(function() {
+				$(this).next().toggle(200);
+				return false;
+			});
+
+			$("#collapseAll").click(function() {
+				alert("collapse");
+				accordionHeaders.next().hide(200);
+			});
+
+			$("#showAll").click(function() {
+				alert("show");
+				accordionHeaders.next().show(200);
+			});
+
+		</script>
+
+
+    </body>
+</html>
+
+This item will be deleted in 7 days
+‣ About this site
