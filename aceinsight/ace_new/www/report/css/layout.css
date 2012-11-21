@@ -471,7 +471,7 @@ a.cancel-btn {
 #footer a.facebook span,
 #footer a.twitter span,
 #footer a.security-labs span,
-a.help span, a.print span, a.pdf span { display:none;}
+a.help span, a.print span, a.pdf span, a.pdfGrey span { display:none;}
 
 
 
@@ -674,6 +674,13 @@ a.pdf {
     margin: 18px 6px 0;
     width: 35px;
 }
+
+	a.pdfGrey {
+	    background: url("../imgs/sprite.png") no-repeat scroll -44px -645px transparent;
+	    height: 35px;
+	    margin: 18px 6px 0;
+    	width: 35px;
+	}
 		
 p.copyright { font-size:12px; margin-top:10px; margin-bottom:20px;}
 p.disclaimer { font-size:11px; margin-top:10px; }
@@ -788,6 +795,7 @@ p.exe { position:relative; left:270px;}
 .twenty-five {width:25%;}
 .fifteen {width:15%;}
 .thirty-five {width:35%;}
+.thirty {width:30%;}
 
 .pad-right{
 	padding-right: 50px!important;

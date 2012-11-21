@@ -11,7 +11,7 @@ $(function() {
                 delay: 250
             }
         });
-        $( "#open-event" ).tooltip({
+        $( ".open-event" ).tooltip({
             show: null,
             position: {
                 my: "left top",
