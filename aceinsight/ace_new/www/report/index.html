@@ -17,178 +17,8 @@
 
 <script type="text/javascript">
 		$(document).ready(function() {
-			/*
-			 *  Simple image gallery. Uses default settings
-			 */
-
+			//  Simple image gallery. Uses default settings
 			$('.fancybox').fancybox();
-
-			/*
-			 *  Different effects
-			 */
-
-			// Change title type, overlay closing speed
-			$(".fancybox-effects-a").fancybox({
-				helpers: {
-					title : {
-						type : 'outside'
-					},
-					overlay : {
-						speedOut : 0
-					}
-				}
-			});
-
-			// Disable opening and closing animations, change title type
-			$(".fancybox-effects-b").fancybox({
-				openEffect  : 'none',
-				closeEffect	: 'none',
-
-				helpers : {
-					title : {
-						type : 'over'
-					}
-				}
-			});
-
-			// Set custom style, close if clicked, change title type and overlay color
-			$(".fancybox-effects-c").fancybox({
-				wrapCSS    : 'fancybox-custom',
-				closeClick : true,
-
-				openEffect : 'none',
-
-				helpers : {
-					title : {
-						type : 'inside'
-					},
-					overlay : {
-						css : {
-							'background' : 'rgba(238,238,238,0.85)'
-						}
-					}
-				}
-			});
-
-			// Remove padding, set opening and closing animations, close if clicked and disable overlay
-			$(".fancybox-effects-d").fancybox({
-				padding: 0,
-
-				openEffect : 'elastic',
-				openSpeed  : 150,
-
-				closeEffect : 'elastic',
-				closeSpeed  : 150,
-
-				closeClick : true,
-
-				helpers : {
-					overlay : null
-				}
-			});
-
-			/*
-			 *  Button helper. Disable animations, hide close button, change title type and content
-			 */
-
-			$('.fancybox-buttons').fancybox({
-				openEffect  : 'none',
-				closeEffect : 'none',
-
-				prevEffect : 'none',
-				nextEffect : 'none',
-
-				closeBtn  : false,
-
-				helpers : {
-					title : {
-						type : 'inside'
-					},
-					buttons	: {}
-				},
-
-				afterLoad : function() {
-					this.title = 'Image ' + (this.index + 1) + ' of ' + this.group.length + (this.title ? ' - ' + this.title : '');
-				}
-			});
-
-
-			/*
-			 *  Thumbnail helper. Disable animations, hide close button, arrows and slide to next gallery item if clicked
-			 */
-
-			$('.fancybox-thumbs').fancybox({
-				prevEffect : 'none',
-				nextEffect : 'none',
-
-				closeBtn  : false,
-				arrows    : false,
-				nextClick : true,
-
-				helpers : {
-					thumbs : {
-						width  : 50,
-						height : 50
-					}
-				}
-			});
-
-			/*
-			 *  Media helper. Group items, disable animations, hide arrows, enable media and button helpers.
-			*/
-			$('.fancybox-media')
-				.attr('rel', 'media-gallery')
-				.fancybox({
-					openEffect : 'none',
-					closeEffect : 'none',
-					prevEffect : 'none',
-					nextEffect : 'none',
-
-					arrows : false,
-					helpers : {
-						media : {},
-						buttons : {}
-					}
-				});
-
-			/*
-			 *  Open manually
-			 */
-
-			$("#fancybox-manual-a").click(function() {
-				$.fancybox.open('1_b.jpg');
-			});
-
-			$("#fancybox-manual-b").click(function() {
-				$.fancybox.open({
-					href : 'iframe.html',
-					type : 'iframe',
-					padding : 5
-				});
-			});
-
-			$("#fancybox-manual-c").click(function() {
-				$.fancybox.open([
-					{
-						href : '1_b.jpg',
-						title : 'My title'
-					}, {
-						href : '2_b.jpg',
-						title : '2nd title'
-					}, {
-						href : '3_b.jpg'
-					}
-				], {
-					helpers : {
-						thumbs : {
-							width: 75,
-							height: 50
-						}
-					}
-				});
-			});
-
-
 		});
 	</script>
 	
@@ -269,7 +99,7 @@
 					<tr>
 						<td colspan="2" class="blueline"><p class="title">Threat Severity:<img src="imgs/wsIconCritical.png" class="wsMainThreat" />Critical</p></td>
 					<tr>
-						<td class="fifty-five"><a href="#" title="Determined by scanning the full content of the web page and analyzing the content for malicious code. this includes, but is not limited to, looking for malicious injections, JavaScripts and iFrames." class="open-event">Real-time security classification:</a></td>
+						<td class="fifty-five"><a href="#" title="Determined by scanning the full content of the web page and analyzing the content for malicious code. This includes, but is not limited to, looking for malicious injections, JavaScripts and iFrames." class="open-event">Real-time security classification:</a></td>
 						<td class="classAction">Malicious Web Sites</td>
 					</tr>
 					<tr>
@@ -300,7 +130,7 @@
 								<div class="InputAnalysis fifty">
 									<table cellpadding="0" cellspacing="0" width="100%">
 										<tr>
-											<td colspan="2"><h3 class="smallHeading">Current Categories</h3></td>
+											<td colspan="2"><h3 class="smallHeading">Current Classification</h3></td>
 										</tr>
 										<tr>
 											<td class="sixty"><a href="#" title="Defined in the Websense Master Database based on the URL of web page." class="open-event">Static classification:</a></td>
@@ -311,11 +141,12 @@
 											<td class="classAction">Alternative Journals</td>
 										</tr>
 										<tr>
-											<td><a href="#" title="Determined by scanning the full content of the web page and analyzing the content for malicious code. this includes, but is not limited to, looking for malicious injections, JavaScripts and iFrames." class="open-event">Real-time security classification:</a></td>
+											<td><a href="#" title="Determined by scanning the full content of the web page and analyzing the content for malicious code. This includes, but is not limited to, looking for malicious injections, JavaScripts and iFrames." class="open-event">Real-time security classification:</a></td>
 											<td class="classAction">Malicious Web Sites</td>
 										</tr>
 									</table>
 								</div>
+								<form method="post">
 								<div class="InputAnalysis fifty" style="margin-left:50px;">
 									<h3 class="smallHeading left">Suggest:</h3>
 									<select class="selectSpacer">
@@ -328,13 +159,13 @@
 										<option value="6">Classification option six</option>
 									</select><br />
 									<p><span class="wsAlert">Select a classification from the drop down menu.</span></p>
-									<textarea class="classSpacer" name="message" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">Please provide an explanation for your suggestion.</textarea>
+									<textarea class="classSpacer" name="message" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;" align="right">Please provide an explanation for your suggestion.</textarea>
 								</div>
 								
 								<div class="buttonAlign">
 									<div class="wsEmailForm">
 										<p><input type="checkbox" checked class="wsEmailConf">Email me the site review results (jiwong@websense.com)</p>
-										<input type="text" class="wsEmailCC" name="messageTwo" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;" value="Optional: include a CC email address"/><span class="wsNote"><strong>Note:</strong> CC Email must exist on your same domain.</span>
+										<input type="text" class="wsEmailCC" name="messageTwo" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;" value="Optional: include a CC email address"/><span class="wsNote"><strong>Note:</strong> CC email must exist on your same domain.</span>
 									</div>
 								
 								
@@ -343,6 +174,7 @@
 									<span>Submit</span></a>
 									<a class="standard-button grey" href="javascript:;" title="close">
 									<span>Cancel</span></a>
+									</form>
 								</div>
 							</div>
 						</td>
@@ -608,7 +440,7 @@
 			<h4>ThreatScope file analysis</h4>
 			<p>ThreatScope analysis in progress.</p>
 			<div class="tsLock">
-				<p>ThreatScope, a <a href="">CSI service</a>, is a malware security sandbox that identifies security threats and produces a forensic report detailing actions that a file will take if run in your environment. <a href="">Become a CSI subscriber</a> to unlock this feature. <a href="">View the sample ThreatScope file analysis report</a> to see the forensic and security detials provided by the CSI sandboxing feature.</p>
+				<p>ThreatScope, a <a href="">CSI service</a>, is a malware security sandbox that identifies security threats and produces a forensic report detailing actions that a file will take if run in your environment. <a href="">Become a CSI subscriber</a> to unlock this feature. <a href="">View the sample ThreatScope file analysis report</a> to see the forensic and security details provided by the CSI sandboxing feature.</p>
 			</div>
 			<table class="plain full" cellpadding="0" cellspacing="0">
 			  <thead>
@@ -712,11 +544,13 @@
 		return false;
 	});
 	$("#collapseAll").click(function() {
-		accordionHeaders.click();
+		if ( $(".accOpen",accordionHeaders).length == accordionHeaders.length)
+			accordionHeaders.click();
 		return false;
 	});
 	$("#showAll").click(function() {
-		accordionHeaders.click();
+		if ( $(".accClosed",accordionHeaders).length == accordionHeaders.length)
+			accordionHeaders.click();
 		return false;
 	});
 </script>
