@@ -239,9 +239,10 @@
 				</div>
 			</div>
 		</div>
-			<p><a class="pdfGrey right" href="#" target="_blank"><span>PDF</span></a></p>
-			<p><a class="print right" href="#" target="_blank"><span>Print</span></a></p>
-		</div>
+		<p><a class="pdfGrey right" href="#" target="_blank"><span>PDF</span></a></p>
+		<p><a class="printGrey right" href="#" target="_blank"><span>Print</span></a></p>
+		<p><span class="wsLoading">Loading...</span></p>
+	</div>
   <!-- end #masthead -->
 		<p class="center header-title">ACE Insight Report</p>
 		<p class="center no-padding header-subtitle">Generated <strong>2012-03-30</strong> at <strong>1:00:15 PM UTC</strong></p>
@@ -268,7 +269,7 @@
 					<tr>
 						<td colspan="2" class="blueline"><p class="title">Threat Severity:<img src="imgs/wsIconCritical.png" class="wsMainThreat" />Critical</p></td>
 					<tr>
-						<td class="fifty-five"><a href="#" title="Determined by scanning the full content of the web page, extracting features, and identifying security threats based on machine learning algorithims from millions of known examples." class="open-event">Real-time security classification:</a></td>
+						<td class="fifty-five"><a href="#" title="Determined by scanning the full content of the web page and analyzing the content for malicious code. this includes, but is not limited to, looking for malicious injections, JavaScripts and iFrames." class="open-event">Real-time security classification:</a></td>
 						<td class="classAction">Malicious Web Sites</td>
 					</tr>
 					<tr>
@@ -310,7 +311,7 @@
 											<td class="classAction">Alternative Journals</td>
 										</tr>
 										<tr>
-											<td><a href="#" title="Determined by scanning the full content of the web page, extracting features, and identifying security threats based on machine learning algorithms from millions of known examples." class="open-event">Real-time security classification:</a></td>
+											<td><a href="#" title="Determined by scanning the full content of the web page and analyzing the content for malicious code. this includes, but is not limited to, looking for malicious injections, JavaScripts and iFrames." class="open-event">Real-time security classification:</a></td>
 											<td class="classAction">Malicious Web Sites</td>
 										</tr>
 									</table>
@@ -326,10 +327,17 @@
 										<option value="5">Classification option five</option>
 										<option value="6">Classification option six</option>
 									</select><br />
-									<textarea class="classSpacer"></textarea>
+									<p><span class="wsAlert">Select a classification from the drop down menu.</span></p>
+									<textarea class="classSpacer" name="message" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">Please provide an explanation for your suggestion.</textarea>
 								</div>
 								
 								<div class="buttonAlign">
+									<div class="wsEmailForm">
+										<p><input type="checkbox" checked class="wsEmailConf">Email me the site review results (jiwong@websense.com)</p>
+										<input type="text" class="wsEmailCC" name="messageTwo" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;" value="Optional: include a CC email address"/><span class="wsNote"><strong>Note:</strong> CC Email must exist on your same domain.</span>
+									</div>
+								
+								
 									<p>To receive an email response to this submission, please <a href="">login</a> or <a href="">register</a> for a free MyWebsense account.</p>
 									<a class="standard-button blue" href="websense-triton-security-products.aspx">
 									<span>Submit</span></a>
@@ -606,6 +614,28 @@
 			  <thead>
 				<tr class="topcap">
 				  <th><p><strong>Threat</strong></p></th>
+				  <th><p><strong>Assessment</strong></p></th>
+				  <th><p><strong>Size</strong></p></th>
+				  <th><p><strong>Date Uploaded</strong></p></th>
+				  <th><p><strong>Report</strong></p></th>
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr class="highlight">
+					<td><p><img src="imgs/wsIconCritical.png" align="left" alt="" class="icon" />Critical</p></td>
+				  <td><p>file.exe</p></td>
+				  <td><p>10MB</p></td>
+				  <td><p>2012-03-09 05:35:46 PM (UTC)</p></td>
+				  <td><p><a href="">View</a></p></td>
+				</tr>
+			  </tbody>
+			</table>
+			
+			<p><span class="wsSuccess">The file is uploaded successfully. Analysis will be complete within 30 minutes.</span></p>
+			<table class="plain full" cellpadding="0" cellspacing="0">
+			  <thead>
+				<tr class="topcap">
+				  <th><p><strong>Threat</strong></p></th>
 				  <th><p><strong>File Name</strong></p></th>
 				  <th><p><strong>Size</strong></p></th>
 				  <th><p><strong>Date Uploaded</strong></p></th>
@@ -614,14 +644,17 @@
 			  </thead>
 			  <tbody>
 				<tr class="highlight">
-				  <td><p><img src="imgs/wsIconCritical.png" align="left" alt="" class="icon" />Critical</p></td>
+				  <td><p><i>Analyzing...</i></p></td>
 				  <td><p>file.exe</p></td>
 				  <td><p>10MB</p></td>
 				  <td><p>2012-03-09 05:35:46 PM (UTC)</p></td>
-				  <td><p><a href="">View</a></p></td>
+				  <td><p><a href="">Check analysis status</a></p></td>
 				</tr>
 			  </tbody>
 			</table>
+			<p><span class="wsNote"><strong>Note:</strong> Analysis my take up to 30 minutes to complete.</span></p>
+			
+			
 			<h4>Overview</h4>
 			<p>These are the high-level assessments for the file. View the report for forensic details.</p>
 			<table class="plain" cellpadding="0" cellspacing="0">
@@ -654,10 +687,13 @@
 					</tr>
 				  </tbody>
 				</table>
-			<table class="plain full" cellpadding="0" cellspacing="0">
 		</div>
-	</div>    
+	</div>
   </div>
+	<div class=" wsFooter clearfix">
+		<p class="left">Websense has made an effort to determine if your submission is malicious. However, Websense cannot guarantee the accuracy of the result.</p>
+		<p class="right">&copy; Copyright 2013 Websense, Inc. All rights reserved
+	</div>
   <!-- end .container -->
 <!-- end #wrap -->
 <script type="text/javascript">

@@ -43,6 +43,10 @@ p.title {padding-left:0 !important;}
 	}
 	
 .wsAlert {color:#f00;}
+	.wsSuccess {
+		font-weight:bold;
+		color:#408000;
+	}
 
 .wsCenter {text-align:center;}
 
@@ -57,13 +61,19 @@ p.title {padding-left:0 !important;}
 .wsMainWrapper {
 	border-bottom:1px solid #d3d3d3;
 	padding-bottom:0 !important;
-	margin-bottom:30px;
+	margin-bottom:13px;
 }
 .reportHeader {
 	position:relative;
 	margin:10px auto;
 	width:989px;
 }
+
+	.wsLoading {
+		position:absolute;
+		right:13px;
+		top:59px;
+	}
 .InputAnalysis {
 	float:left;
 	margin:6px 0;
@@ -76,6 +86,22 @@ p.title {padding-left:0 !important;}
 	.InputAnalysis table tr td {
 		padding:4px 0;
 		font-weight:bold;
+	}
+.wsEmailForm {
+	position: relative;
+	margin:0 auto;
+	width:65%;
+	text-align:left;
+	color:#666;
+	font-size:12px;
+}
+	.wsEmailForm input.wsEmailConf {margin-right:7px;}
+	.wsEmailForm input.wsEmailCC {
+		border:1px solid #D3D3D3;
+		padding:6px;
+		color:#666;
+		margin-right:7px;
+		width:200px;
 	}
 .tsLock {
 	background: url('../imgs/lockPurple.png') no-repeat 23px; center;
@@ -289,6 +315,11 @@ a.open-event:hover {
 	width:366px;
 	height:70px;
 	margin-top:4px;
+	color:#666;
+	font:12px Arial;
+	border:1px solid #D3D3D3;
 }
-	
-	
+.wsFooter {
+	font:10px Arial;
+	margin-bottom:13px !important;
+}

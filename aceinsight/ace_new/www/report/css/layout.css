@@ -471,7 +471,7 @@ a.cancel-btn {
 #footer a.facebook span,
 #footer a.twitter span,
 #footer a.security-labs span,
-a.help span, a.print span, a.pdf span, a.pdfGrey span { display:none;}
+a.help span, a.print span, a.pdf span, a.printGrey span, a.pdfGrey span { display:none;}
 
 
 
@@ -667,6 +667,12 @@ a.print {
     margin: 18px 0 0;
     width: 35px;
 }
+	a.printGrey {
+	    background: url("../imgs/sprite.png") no-repeat scroll -3px -645px transparent;
+	    height: 35px;
+	    margin: 18px 0 0;
+    	width: 35px;
+	}
 
 a.pdf {
     background: url("../imgs/sprite.png") no-repeat scroll -44px -604px transparent;
