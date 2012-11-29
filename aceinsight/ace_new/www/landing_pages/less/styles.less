@@ -208,8 +208,10 @@ form elements
 	border: 1px solid #e4e2e2;
 	padding: 5px;
 }
-
-a.standard-button{
+	.wsSpacer {
+		> .standard-button {margin:13px 0;}
+	}
+a.standard-button {
 	.InlineBlock;
 	color: @trueWhite;
 	text-align: center;
@@ -252,7 +254,7 @@ ul.standard{
 		background: transparent url(../imgs/ws2013-list-square-img.png) no-repeat left 5px;
 		padding: 0 0 0 16px;
 		margin-top: 12px;
-		
+
 		&:first-child{
 			margin-top: 0;	
 		}
@@ -835,7 +837,17 @@ aside#product-portfolio{
 /**************************
 ACEINSIGHT CONTENT
 **************************/
-section#main-content-ace {
+.wsSampleReport {
+	display:block;
+	position:relative;
+	width:219px;
+	height:47px;
+	margin:13px auto 0 auto;
+	background: url(../imgs/sampleReport.png) no-repeat 0 0 transparent;
+}
+
+section#main-content-ace,
+section#newsPods {
 	width: @siteWidth;
 	position:relative;
 	margin:0 auto;
@@ -845,13 +857,15 @@ section#main-content-ace {
 			li {
 				list-style-type:square;
 				color:@linkColor;
+				line-height:23px;
 					span {color:@mainFontColor;}
 				&.pdf {
 					list-style-type:none;
-					list-style-image: url(../imgs/pdf.gif) no-repeat 0 0 !important;
+					background: url(../imgs/pdf.gif) no-repeat 0 8px !important;
+					margin-left:-15px;
+					padding-left:16px;
 				}
 			}
-		
 		}
 	
 		h1{
@@ -859,7 +873,7 @@ section#main-content-ace {
 			margin: 30px 0 23px 0;
 		}	
 		h2{
-			.FontSetting(normal,20px, @pageHeaderSubFont, @darkGrey);
+			.FontSetting(bold,20px, @pageHeaderSubFont, @darkGrey);
 			margin: 30px 0 23px 0;
 		}
 		h3{
@@ -874,7 +888,7 @@ section#main-content-ace {
 		
 		.oneCol,
 		.twoCol {
-			min-height:248px;
+			min-height:282px;
 			border-bottom: 4px solid @mainNaviActive;
 			position:relative;
 				.wsProductPod {
@@ -883,7 +897,7 @@ section#main-content-ace {
 					}
 				ul.wsMarked {
 					margin-left:35px;
-					font-size:16px;
+					
 					width:220px;
 					line-height:24px;
 				}
@@ -915,7 +929,7 @@ section#main-content-ace {
 						border-right:1px solid @borderColor !important;
 						border-left:1px solid @borderColor !important;
 						border-top:1px solid @borderColor !important;
-						min-height:248px;
+						min-height:282px;
 					}
 				
 				h3 {margin:0;}
@@ -946,6 +960,18 @@ section#newsPods {
 			width:32%;
 			float:left;
 			text-align:left;
+				> .bottomPods {min-height:120px;}
+				.wsArticleWrapper {
+					min-height:680px;
+						& .wsVideo {
+						padding:7px;
+						border:1px solid @borderColor;
+						width:271px;
+						position:relative;
+						margin:13px auto;
+					}
+					> .wsArticle .wsMarked {margin-left:44px;}
+				}
 				h3 {
 					margin-top:-1px;
 					width:100%;
@@ -959,6 +985,8 @@ section#newsPods {
 							margin-left:13px;
 							color:@darkGrey;
 							text-transform:uppercase;
+							font-size:14px;
+							font-weight:bold;
 						}
 				}
 				h4 {
@@ -976,10 +1004,20 @@ section#newsPods {
 			&.colThree {
 				margin-left:16px;
 			}
-			> .wsArticle {padding-bottom:13px;}
 		}
-}
+		
+	}
+.wsArticle {padding-bottom:13px;}
 
+a.wsTritonImage {
+	border:none;
+	display:block;
+	width:288px;
+	height:69px;
+	position:relative;
+	margin:0 auto;
+	background: url(../imgs/wsTritonPod.png) no-repeat 0 0;
+}
 /**************************
 FOOTER
 **************************/
