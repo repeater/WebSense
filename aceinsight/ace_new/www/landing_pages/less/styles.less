@@ -885,20 +885,19 @@ section#newsPods {
 	.contentRow {
 		width: @siteWidth;
 		margin-bottom:20px;
-		
+			> .rowOne {min-height:252px !important;}
+			> .rowTwo {min-height:312px;}
 		.oneCol,
 		.twoCol {
-			min-height:282px;
 			border-bottom: 4px solid @mainNaviActive;
 			position:relative;
 				.wsProductPod {
-					margin-left:26px;
+					margin-left:13px;
 					img {margin-top:20px;}
 					}
 				ul.wsMarked {
 					margin-left:35px;
-					
-					width:220px;
+					width:230px;
 					line-height:24px;
 				}
 		}
@@ -907,17 +906,21 @@ section#newsPods {
 				float:right;				
 					h3 {margin:0;}				
 					ul.wsAccess {
-						margin:0;					
+						margin:0;
+						list-style-type:none;
 							li {
-								display:block;
 								height:74px;
-								list-style-type:none;
+								position:relative;
 								border-top:1px solid @borderColor;
 									&.wsUnlocked {background: url(../imgs/wsUnlocked.gif) no-repeat 3px center;}
 									&.wsLocked {background: url(../imgs/wsLocked.gif) no-repeat 3px center;}
-									span {
-										margin-left:39px;
+									
+									> span {
 										display:block;
+										margin-left:39px;
+										position:relative;
+										top:22%;
+										height:10em;
 									}
 							}
 					}
@@ -929,7 +932,7 @@ section#newsPods {
 						border-right:1px solid @borderColor !important;
 						border-left:1px solid @borderColor !important;
 						border-top:1px solid @borderColor !important;
-						min-height:282px;
+						min-height:251px;
 					}
 				
 				h3 {margin:0;}
