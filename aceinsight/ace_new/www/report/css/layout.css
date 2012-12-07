@@ -12,6 +12,10 @@ body {
 	color:#666666;
 	}
 
+pre {
+	font-family: Arial;
+	color:#999 !important;
+}
 
 a:link,a:visited	{ color:#005c97; text-decoration:none; outline:none; }
 a:hover,a:active	{ color:#005c97; text-decoration:underline; outline:none; }

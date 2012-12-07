@@ -206,7 +206,8 @@ a, a:visited {color:#3ea0cb !important;}
 		padding:0;
 		font-size:13px;
 	}
-	#accordion div.accContent p {
+	#accordion div.accContent p,
+	pre p a {
 		color:#666;
 		font-size:12px;
 	}
@@ -226,7 +227,7 @@ a.open-event:hover {
         color:#666 !important;
         border-radius: 0px;
         font-size:12px;
-        max-width:250px;
+        max-width:350px;
         background:#f6f6c3 !important;
         border:1px solid #C8C8C8 !important;
     }
