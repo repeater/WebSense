@@ -136,8 +136,12 @@ ul.accordionControls {
 
 .ui-accordion .ui-accordion-content {padding:0;}
 
-a, a:visited {color:#3ea0cb !important;}
-	a.suggestLink {
+#top-menu #top-menu-inner ul li {list-style:none;}
+
+#top-menu #top-menu-inner nav#main-nav ul li a {color:#fff !important;}
+
+a:link, a:visited {color:#3ea0cb !important;}
+	#wrap a.suggestLink {
 		font-size:12px;
 		font-weight:normal;
 	}
@@ -221,7 +225,6 @@ pre a {
 	white-space: -o-pre-wrap;   /* Opera 7 */
 	white-space: -moz-pre-wrap; /* Mozilla */
 	white-space: -hp-pre-wrap;  /* HP Printers */
-/*	word-wrap: break-word;      /* IE 5+ */	
 }
 .inputURL a,
 .redirectURL a {
