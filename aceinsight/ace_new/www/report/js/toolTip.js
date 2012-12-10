@@ -1,11 +1,11 @@
 $(function() {
-        $( "#show-option" ).tooltip({
+        $( ".show-option" ).tooltip({
             show: {
                 effect: "slideDown",
                 delay: 250
             }
         });
-        $( "#hide-option" ).tooltip({
+        $( ".hide-option" ).tooltip({
             hide: {
                 effect: "explode",
                 delay: 250
