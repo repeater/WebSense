@@ -1,0 +1,347 @@
+body { 
+	text-align:left; 
+	font:14px/18px Arial; 
+	color:#666;
+}
+.clearfix:after {
+	content: ".";
+	display:block;
+	clear:both;
+	visibility:hidden;
+	line-height: 0;
+	height: 0;
+}
+p.title {padding-left:0 !important;}
+
+#tech-details {margin:0;}
+
+.wsThreatContent {
+	width:100%;
+	padding-bottom:13px;
+}
+	.wsThreatcontent .titleFifty {
+		margin-left:1px;
+		float:left;
+		width:49% !important;
+	}
+	.wsThreatContent .InputAnalysis {margin-left:23px;}
+	
+		.blueline {border-bottom:4px solid #003a63;}
+		
+	img.wsMainThreat {
+		position:relative;
+		margin:0 4px;
+		top:2px;
+	}
+	
+	.wsHightlight {background:#fdfdf4;}
+
+.header-title {
+	padding:0;
+	position:relative;
+	margin:-25px auto;
+	width:60%;
+}
+	.header-subtitle {margin-top:25px;}
+	
+.wsAlert {color:#f00;}
+
+	.wsSuccess {
+		font-weight:bold;
+		color:#408000;
+	}
+
+.wsCenter {text-align:center;}
+
+.wsMaliciousFrame {
+	margin:10px 0 0 23px;
+	border:1px solid #d3d3d3;
+	width:933px;
+	height:300px;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+.wsMainWrapper {
+	border-bottom:1px solid #d3d3d3;
+	padding-bottom:0 !important;
+	margin-bottom:13px;
+}
+.reportHeader {
+	position:relative;
+	margin:10px auto;
+	width:989px;
+}
+	.wsLoading {
+		position:absolute;
+		right:13px;
+		top:59px;
+	}
+.InputAnalysis {
+	float:left;
+	margin:6px 0;
+	font-size:90%;
+}
+	.reportHeader .InputAnalysis {
+		margin-bottom:0;
+		width:50%;
+	}
+	.InputAnalysis table tr td {
+		padding:4px 0;
+		font-weight:bold;
+	}
+.wsEmailForm {
+	position: relative;
+	margin:0 auto;
+	width:70%;
+	text-align:left;
+	color:#666;
+	font-size:12px;
+}
+	.wsEmailForm input.wsEmailConf {margin-right:7px;}
+	.wsEmailForm input.wsEmailCC {
+		border:1px solid #D3D3D3;
+		padding:6px;
+		color:#666;
+		margin-right:7px;
+		width:250px;
+	}
+.tsLock {
+	background: url('../imgs/lockPurple.png') no-repeat 23px; center;
+}
+	.tsLock p {margin:13px 23px 13px 43px;}	
+
+/* Accordion */
+#accordionControls {display:none;}
+
+.js #accordionControls {display: block;}
+
+ul.accordionControls {
+	margin:6px 0 6px 30px;
+	padding:0;
+	color:#3ea0cb;
+	cursor:pointer;
+}
+	ul.accordionControls li {
+		list-style-type:none;
+		display:inline-block;
+		font-size:11px;
+	}
+		ul.accordionControls li img {
+			position:relative;
+			top:-1px;
+			margin:0 3px;
+		}
+		
+.ui-accordion .ui-accordion-header {margin:0;}
+
+.ui-accordion .ui-accordion-content {padding:0;}
+
+#top-menu #top-menu-inner ul li {list-style:none;}
+
+#top-menu #top-menu-inner nav#main-nav ul li a {color:#fff !important;}
+
+a:link, a:visited {color:#3ea0cb !important;}
+	#wrap a.suggestLink {
+		font-size:12px;
+		font-weight:normal;
+	}
+	a.standard-button.blue {border:1px solid #3EA0CB;}
+	
+	a.standard-button.grey {border:1px solid #999;}
+	
+	a.standard-button {
+		color:#FFFFFF;
+		display:inline-block;
+		padding:1px;
+		text-align:center;
+	}
+		a.standard-button span {
+			color:#fff;
+			text-transform:uppercase;
+			font-size:12px;
+		}
+
+.ui-state-default {
+	border-bottom:1px solid #d3d3d3;
+	border-top:1px solid #d3d3d3;
+}
+	#accordion div.accContent {padding:0 0 18px 0;}
+	
+#accordion h3 {
+	background:#e8e7e7;
+    border-top: 1px solid #D3D3D3 !important;
+	border-bottom: 1px solid #D3D3D3 !important;
+    border-left:none;
+    border-right:none;
+    color: #3ea0cb;
+    font-weight: normal;
+    border-radius:0;
+    -moz-border-radius:0;
+    -webkit-border-radius:0;
+    font-size:14px;
+    margin-top:-1px;
+    cursor:pointer;
+    padding:5px 0;
+    width:100%;
+}
+	#accordion h3 span.accOpen {
+		background: url("../imgs/accordionOpen.png") no-repeat 7px center;
+		display:block;
+		width:30px;
+		height:30px;
+		float:left;
+	}
+	#accordion h3 span.accClosed {
+		background: url("../imgs/accordionClosed.png") no-repeat 7px center;
+		display:block;
+		width:30px;
+		height:30px;
+		float:left;
+	}
+	#accordion h3 span.wsSpanContent {
+		font-size:12px;
+		color:#666;
+	}
+	#accordion div h4 {
+		color:#666;
+		margin:18px 0 0 23px !important;
+		padding:0;
+		font-size:13px;
+	}
+	#accordion div.accContent p,
+	pre p a {
+		color:#666;
+		font-size:12px;
+	}
+
+/* Tool Tips */
+
+/*Tooltip hack towrap it up */
+pre a {
+	white-space: pre;           /* CSS 2.0 */
+	white-space: pre-wrap;      /* CSS 2.1 */
+	white-space: pre-line;      /* CSS 3.0 */
+	white-space: -pre-wrap;     /* Opera 4-6 */
+	white-space: -o-pre-wrap;   /* Opera 7 */
+	white-space: -moz-pre-wrap; /* Mozilla */
+	white-space: -hp-pre-wrap;  /* HP Printers */
+}
+.inputURL a,
+.redirectURL a {
+	display:block;
+	width:420px;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	border:none;
+}
+
+a.open-event,
+a.open-event:visited,
+a.open-event:hover {
+	color:#999 !important;
+	border-bottom:1px dotted #999;
+	text-decoration:none;
+	margin-right:23px;
+	font-weight:normal;
+}
+    .ui-tooltip {
+    	cursor:pointer;
+        padding: 5px 10px;
+        color:#666 !important;
+        border-radius: 0px;
+        font-size:12px;
+        max-width:350px;
+        background:#f6f6c3 !important;
+        border:1px solid #C8C8C8 !important;
+        white-space: pre;           /* CSS 2.0 */
+		white-space: pre-wrap;      /* CSS 2.1 */
+		white-space: pre-line;      /* CSS 3.0 */
+		white-space: -pre-wrap;     /* Opera 4-6 */
+		white-space: -o-pre-wrap;   /* Opera 7 */
+		white-space: -moz-pre-wrap; /* Mozilla */
+		white-space: -hp-pre-wrap;  /* HP Printers */
+		word-wrap: break-word;      /* IE 5+ */	
+    }
+    .arrow {
+        width: 70px;
+        overflow: hidden;
+        position: absolute;
+        left: 50%;
+        margin-left: -35px;
+        bottom: -16px;
+    }
+    .arrow.top {
+        top: -16px;
+        bottom: auto;
+    }
+    .arrow.left {left: 20%;}
+    
+    .arrow:after {
+        content: "";
+        position: absolute;
+        left: 20px;
+        top: -20px;
+        width: 25px;
+    }
+    .arrow.top:after {
+        bottom: -20px;
+        top: auto;
+    }
+    
+/* Fancybox Overrides */
+.wideBox {width:600px;}
+
+.wideBoxTwo {width:800px;}
+
+.fBox p {
+	margin:6px 0;
+	color:#666;
+	font-style:normal;
+	font-size:12px;
+	width:98%;
+}
+.fBox p.title {
+	padding-top:0;
+	font-size:20px;
+}
+	.fBox p.title span {
+		font-size:12px;
+		display:block;
+		width:100%;
+		padding:3px 0 13px 0;
+	}
+	h3.smallHeading {
+		color:#666;
+		font-size:16px;
+		margin:0;
+		padding:0;
+	}
+.fBox .buttonAlign {
+	text-align:center;
+	float:left;
+	width:99%;
+}
+	.fBox .buttonAlign a {margin:14px 7px;}
+	
+.selectSpacer {
+	margin-left:4px;
+	width:285px;
+}
+
+.InputAnalysis .classSpacer {
+	width:366px;
+	height:70px;
+	margin-top:4px;
+	color:#666;
+	font-size:12px;
+	font-family:Arial;
+	border:1px solid #D3D3D3;
+	text-align:left;
+	padding-left:0;
+	margin-left:0;
+}
+.wsFooter {
+	font:10px Arial;
+	margin-bottom:13px !important;
+}

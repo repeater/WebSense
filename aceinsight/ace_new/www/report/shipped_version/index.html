@@ -1,0 +1,596 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ACE Insight Report</title>
+<link type="text/css" href="css/layout.css" rel="stylesheet" media="screen"/>
+<link type="text/css" href="css/styles.css" rel="stylesheet" media="screen"/>
+<link type="text/css" href="http://code.jquery.com/ui/1.9.0/themes/base/jquery-ui.css" rel="stylesheet" media="screen"/>
+<link type="text/css" href="css/jquery.fancybox.css" rel="stylesheet" rel="stylesheet" media="screen"/>
+<link type="text/css" href="css/websenseReport.css" rel="stylesheet" media="screen" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+ <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox.js?v=2.1.3"></script>
+<script type="text/javascript" src="js/toolTip.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('.fancybox').fancybox();
+	});
+</script>
+</head>
+<body id="wsAir">
+<div id="top-menu">
+	<div id="top-menu-inner">
+		<div class="container">
+			<div id="wbsn-logo" class="clearfix">
+				<a href="http://www.websense.com" alt="Websense"><img src="imgs/ws2013-global-nav-wbsn-logo.png" alt="Websense" /></a>
+			</div>
+			<div id="main-nav-group" class="clearfix">				
+				<nav id="top-nav">
+					<div id="top-nav-inner">
+						<ul>
+							<li><a id="myws-register" href="#">Register</a> for an account, or [ <a id="myws-login" href="#">log in</a> ]</li>
+							<li><a id="myws-websense" href="#">MyWebsense</a></li>
+							<li><a id="myws-faq" href="#">FAQ</a></li>
+						</ul>
+						<br class="clear" />
+					</div>
+				</nav>
+				<br class="clear" />
+				<nav id="main-nav">
+					<ul class="clearfix">
+						<li><a href="#">On-Demand Analysis</a></li>
+						<li><a href="#">ThreatScope&trade; Portal</a></li>
+					</ul>	
+				</nav>
+			</div>	
+		</div>
+	</div>
+</div>
+<!--/Top Menu-->
+<div id="wrap">
+	<div class="reportHeader clearfix">
+		<div id="masthead">
+			<div class="left"><a id="inline" href="#suggesturl" class="fancybox suggestLink">&lt;&nbsp;Submit a new URL or IP address</a>
+			<div class="fBox wideBox" style="display:none;" id="suggesturl">
+				<p class="title blueline">Exit Report</p>
+				<p>Please save the URL or print the report so that you can review it later. If you close the report without doing this you will have to submit the URL or IP address again.</p>
+				<p>Are you sure you want to close this report?</p>
+				<div class="buttonAlign">
+					<a class="standard-button blue" href="websense-triton-security-products.aspx">
+					<span>Exit Report</span></a>
+					<a class="standard-button grey" href="#" onclick="$.fancybox.close();" title="close">
+					<span>Cancel</span></a>
+				</div>
+			</div>
+		</div>
+		<p><a class="pdfGrey right" href="#" target="_blank"><span>PDF</span></a></p>
+		<p><a class="printGrey right" href="#" target="_blank"><span>Print</span></a></p>
+		<p><span class="wsLoading"><i>Loading...</i></span></p>
+	</div>
+  <!-- end #masthead -->
+		<p class="center header-title">ACE Insight Report</p>
+		<p class="center no-padding header-subtitle">Generated <strong>2012-03-30</strong> at <strong>1:00:15 PM UTC</strong></p>
+		<div class="InputAnalysis">
+			<table cellpadding="0" cellspacing="0" width="800">
+				<tr>
+					<td>Input:</td>
+					<td class="inputURL">http://bob.alternativejournal.net/file.html</td>
+				</tr>
+				<tr>
+					<td width="110"><a href="#" title="The input URL or IP address redirects to this location." class="open-event">Analysis for:</a></td>
+					<td class="inputURL"><pre><a href="#" class="open-event" title="http://bob.alternativejournla.net/break1/alotofwordshere/1jibberish/2jibberish/3jibberish/4jibberish/5jibberish/6jibberish/7jibberish/8jibber/break1/alotofwordshere/1jibberish/2jibberish/3jibberish/4jibberish/5jibberish/6jibberish/7jibberish/8jibber/break1/alotofwordshere/1jibberish/2jibberish/3jibberish/4jibberish/5jibberish/6jibberish/7jibberish/8jibber/1jibberish/2jibberish/3jibberish/4jibberish/5jibberish/6jibberish/7jibberish/8jibber/break1/alotofwordshere/1jibberish/2jibberish/3jibberish/4jibberish/5jibberish/6jibberish/7jibberish/8jibber/break1/alotofwordshere/1jibberish/2jibberish/3jibberish/4jibberish/5jibberish/6jibberish/7jibberish/8jibber/1jibberish/2jibberish/3jibberish/4jibberish/5jibberish/6jibberish/7jibberish/8jibber/break1/alotofwordshere/1jibberish/2jibberish/3jibberish/4jibberish/5jibberish/6jibberish/7jibberish.exe">http://bob.alternativejournal.net/break1/alotofwordshere/1jibberish/2jibberish/3jibberish/4jibberish/5jibberish/6jibberish/7jibberish/8jibber/break1/alotofwordshere/1jibberish/2jibberish/3jibberish/4jibberish/5jibberish/6jibberish/7jibberish/8jibber/break1/alotofwordshere/1jibberish/2jibberish/3jibberish/4jibberish/5jibberish/6jibberish/7jibberish/8jibber/1jibberish/2jibberish/3jibberish/4jibberish/5jibberish/6jibberish/7jibberish/8jibber/break1/alotofwordshere/1jibberish/2jibberish/3jibberish/4jibberish/5jibberish/6jibberish/7jibberish/8jibber/break1/alotofwordshere/1jibberish/2jibberish/3jibberish/4jibberish/5jibberish/6jibberish/7jibberish/8jibber/1jibberish/2jibberish/3jibberish/4jibberish/5jibberish/6jibberish/7jibberish/8jibber/break1/alotofwordshere/1jibberish/2jibberish/3jibberish/4jibberish/5jibberish/6jibberish/7jibberish.exe</a></pre></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+  <div class="container wsMainWrapper">
+    <div id="header-graphic"><p>Executive Summary</p></div>
+    	<div class="wsThreatContent wsHightlight clearfix">
+	    	<div class="InputAnalysis fifty">
+				<table cellpadding="0" cellspacing="0" width="100%">
+					<tr>
+						<td colspan="2" class="blueline"><p class="title">Threat Severity:<img src="imgs/wsIconCritical.png" class="wsMainThreat" />Critical</p></td>
+					<tr>
+						<td class="fifty-five"><a href="#" title="Determined by scanning the full content of the web page and analyzing the content for malicious code. This includes, but is not limited to, looking for malicious injections, JavaScripts and iFrames." class="open-event">Real-time security analysis:</a></td>
+						<td class="classAction">Malicious Web Sites</td>
+					</tr>
+					<tr>
+						<td><a href="#" title="Identifies code that attempts to download malicious or unwanted software on machines." class="open-event">Anti-malware detection:</a></td>
+						<td class="classAction">W32/Zeus.ABC</td>
+					</tr>
+				</table>
+			</div>
+			<div class="InputAnalysis fifty">
+				<table cellpadding="0" cellspacing="0" width="100%" style="margin-left:10px;">
+					<tr>
+						<td colspan="2" class="blueline"><p class="title">Classification</p></td>
+					</tr>
+					<tr>
+						<td class="fifty-five"><a href="#" title="Determined by scanning the full content of the web page, extracting features, and identifying security threats based on machine learning algorithims from millions of known examples." class="open-event">Real-time content analysis:</a></td>
+						<td class="classAction">Personal Network Storage and Backup</td>
+					</tr>
+					<tr>
+						<td><a href="#" title="Defined in the Websense Master Database based on the URL of the page." class="open-event">Default database:</a></td>
+						<td class="classAction">Alternative Journals</td>
+					</tr>
+					<tr>
+						<td colspan="2" class="clearfix">
+							<p class="right"><a id="inline" href="#suggestclass" class="fancybox suggestLink">Suggest a different classification &gt;</a></p>
+							<div class="fBox wideBoxTwo" style="display:none;" id="suggestclass">
+								<p class="title">What is your suggestion?<br />
+								<span class="blueline"><strong>URL:</strong> http://bob.alternativejournal.net/file.exe</span></p>
+								<div class="InputAnalysis fifty">
+									<table cellpadding="0" cellspacing="0" width="100%">
+										<tr>
+											<td colspan="2"><h3 class="smallHeading">Current Classification</h3></td>
+										</tr>
+										<tr>
+											<td class="fifty-five"><a href="#" title="Defined in the Websense Master Database based on the URL of web page." class="open-event">Default database:</a></td>
+											<td class="classAction">Personal Network Storage and Backup</td>
+										</tr>
+										<tr>
+											<td><a href="#" title="Determined by scanning the full content of the web page, extracting features, and identifying security threats based on machine learning algorithms from millions of known examples." class="open-event">Real-time security analysis:</a></td>
+											<td class="classAction">Alternative Journals</td>
+										</tr>
+										<tr>
+											<td><a href="#" title="Determined by scanning the full content of the web page and analyzing the content for malicious code. This includes, but is not limited to, looking for malicious injections, JavaScripts and iFrames." class="open-event">Real-time content  analysis:</a></td>
+											<td class="classAction">Malicious Web Sites</td>
+										</tr>
+									</table>
+								</div>
+								<form method="post">
+								<div class="InputAnalysis fifty" style="margin-left:50px;">
+									<h3 class="smallHeading left">Suggest:</h3>
+									<select class="selectSpacer">
+										<option value="" selected>Please select from this list</option>
+										<option value="1">Classification option one</option>
+										<option value="2">Classification option two</option>
+										<option value="3">Classification option three</option>
+										<option value="4">Classification option four</option>
+										<option value="5">Classification option five</option>
+										<option value="6">Classification option six</option>
+									</select><br />
+									<p><span class="wsAlert">Select from the drop down menu.</span></p>
+									<textarea class="classSpacer" name="message" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;" align="right">Please provide an explanation for your suggestion.</textarea>
+								</div>
+								<div class="buttonAlign">
+									<div class="wsEmailForm">
+										<p><input type="checkbox" checked class="wsEmailConf">Email me the site review results (jiwong@websense.com)</p>
+										<input type="text" class="wsEmailCC" name="messageTwo" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;" value="Optional: include a CC email address"/><span class="wsNote"><strong>Note:</strong> CC email must exist on your same domain.</span>
+									</div>
+									<p>To receive an email response to this submission, please <a href="">login</a> or <a href="">register</a> for a free MyWebsense account.</p>
+									<a class="standard-button blue" href="websense-triton-security-products.aspx">
+									<span>Submit</span></a>
+									<a class="standard-button grey" href="#" onclick="$.fancybox.close();" title="close">
+									<span>Cancel</span></a>
+									</form>
+								</div>
+							</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+		<p style="float:left;"><strong>Assessment Overview</strong><br />
+		Do not allow this file to be run in your network. Perform remediation on machines on which the file may have run.</p>
+    </div>
+    <div class="clear"></div>
+    <div id="tech-details">
+      <p>Site Details</p>
+    </div>
+    <div class="wsThreatContent clearfix">
+		<table class="plain fifty" cellpadding="0" cellspacing="0">
+		  <tbody>
+			<tr class="highlight">
+			  <td class="twenty-five"><p><strong>IP Address</strong></p></td>
+			  <td width="490"><p>16.57.807.441</p></td>
+			</tr>
+			<tr>
+			  <td><p><strong>Hosted Country</strong></p></td>
+			  <td><p><img src="imgs/flags/ru.png" class="icon left" alt="" />Russia</p></td>
+			</tr>
+			<tr class="highlight">
+			  <td><p><strong>Bytes Received</strong></p></td>
+			  <td><p>93.91kb</p></td>
+			</tr>
+		  </tbody>
+		</table>
+		<table class="plain fifty" cellpadding="0" cellspacing="0">
+		  <tbody>
+			<tr class="highlight">
+			  <td class="thirty-five"><p><strong>HTTP Status Code</strong></p></td>
+			  <td width="490"><p>203 Non-Authoritative Information (since HTTP/1.1)</p></td>
+			</tr>
+			<tr>
+			  <td><p><strong>Trusted SSL Certificate</strong></p></td>
+			  <td><p>Yes</p></td>
+			</tr>
+			<tr class="highlight">
+			  <td><p><strong>Valid SSL Certificate</strong></p></td>
+			  <td><p>No</p></td>
+			</tr>
+		  </tbody>
+		</table>
+	</div>
+    <div id="tech-details">
+      <p>Security Overview</p>
+    </div>
+    <ul class="accordionControls">
+		<li id="collapseAll">Collapse all<img src="imgs/accordionClosedSmall.png" /></li>
+		<li id="showAll"><img src="imgs/accordionOpenSmall.png" />Show all</li>
+	</ul>
+    <div id="accordion">
+		<h3><span class="accOpen"></span>Real-time security identification<br />
+		<span class="wsSpanContent">Review the specific threat identified within the URL or IP address.</span></h3>
+		<div class="accContent">
+			<h4>Associated threat type</h4>
+			<p>Shows the actual name and type of the security threat.</p>
+			<table class="plain full" cellpadding="0" cellspacing="0">
+			  <thead>
+				<tr class="topcap highlight">
+				  <th><p><strong>Threat Name</strong></p></th>
+				  <th width="100"><p><strong>Threat Type</strong></p></th>
+				  <th><p><strong>Description</strong></p></th>
+				  <th width="130"><p><strong>Additional Details</strong></p></th>
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr>
+				  <td><p><a href="#">C2 Backchannel Win32 DistTrack</a></p></td>
+				  <td><p>Obfuscation</p></td>
+				  <td><p>Provide a short description to explain the threat type.</p></td>
+				  <td><p><a href="">related threats</a></p></td>
+				</tr>
+			  </tbody>
+			</table>
+			<div class="wsThreatcontent">
+				<div class="titleFifty">
+					<h4>Real-time Assessment</h4>
+					<p>Name and type of threat found in this real-time analysis.</p>
+				</div>
+				<div class="titleFifty">
+					<h4>Previous Assessment Results</h4>
+					<p>Name and type of threat found in a previous analysis.</p>
+				</div>
+			</div>
+			<table class="plain fifty" cellpadding="0" cellspacing="0">
+			  <tbody>
+				<tr class="highlight">
+				  <td class="twenty-five"><p><strong>Date</strong></p></td>
+				  <td width="490"><p>2012-11-28</p></td>
+				</tr>
+				<tr>
+				  <td><p><strong>Threat Name</strong></p></td>
+				  <td><p>c2 Backchannel Win 32 Distr Track</p></td>
+				</tr>
+				<tr class="highlight">
+				  <td><p><strong>Threat Type</strong></p></td>
+				  <td><p>Obfuscation</p></td>
+				</tr>
+				<tr>
+				  <td><p><strong>Description</strong></p></td>
+				  <td><p>Provide a short description to explain the threat type</p></td>
+				</tr>
+				<tr class="highlight">
+				  <td><p><strong>Win 32</strong></p></td>
+				  <td><p><a href="" title="">related threats</a></p></td>
+				</tr>
+			  </tbody>
+			</table>
+			<table class="plain fifty" cellpadding="0" cellspacing="0">
+			  <tbody>
+				<tr class="highlight">
+				  <td class="twenty-five"><p><strong>Date</strong></p></td>
+				  <td width="490"><p>2012-09-20</p></td>
+				</tr>
+				<tr>
+				  <td><p><strong>Threat Name</strong></p></td>
+				  <td><p>Obfuscation.Redirection.Web.iFramer</p></td>
+				</tr>
+				<tr class="highlight">
+				  <td><p><strong>Threat Type</strong></p></td>
+				  <td><p>Obfuscation</p></td>
+				</tr>
+				<tr>
+				  <td><p><strong>Description</strong></p></td>
+				  <td><p>Provide a short description to explain the threat type</p></td>
+				</tr>
+				<tr class="highlight">
+				  <td><p><strong>Web</strong></p></td>
+				  <td><p><a href="" title="">related threats</a></p></td>
+				</tr>
+			  </tbody>
+			</table>
+			<h4>Malicious code detection</h4>
+			<p>Highlights the code associated with the threats found at the URL or IP address.</p>
+			<div class="tsLock">
+				<p>This <a href="">CSI service</a> displays website code, highlighting lines in which ACE Insight found malicious content. <a href="">Become a CSI subscriber</a> to unlock this feature. <a href="">View the sample Full ACE Insight report</a> to see the feature in action.</p>
+			</div>
+<!--			<iframe src="http://ssdstrih2.websense.com/codehighlighter/cgi-bin/codehlr.pl?url=http://runald.com/test/sample.html" class="wsMaliciousFrame"></iframe>-->
+		</div>
+		<h3><span class="accOpen"></span>URL link detection<br />
+		<span class="wsSpanContent">Review analysis of all links within the target URL or IP address, including detailed link properties.</span></h3>
+		<div class="accContent clearfix">
+			<h4>Link detection summary</h4>
+			<p>Shows the total number of links and the number of links that point to malicious destinations.</p>
+			<table class="plain full" cellpadding="0" cellspacing="0">
+			  <thead>
+				<tr class="topcap">
+				  <th width="50%"><p class="wsCenter"><strong>Total Number of Links</strong></p></th>
+				  <th width="50%"><p class="wsCenter"><strong>Malicious Links</strong></p></th>
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr>
+				  <td><p class="wsCenter">56</p></td>
+				  <td><p class="wsCenter"><span class="wsAlert">42</span></p></td>
+				</tr>
+			  </tbody>
+			</table>
+			<h4>Advanced link detection details</h4>
+			<p>Shows properties of detected malicious destinations.</p>
+			<table class="plain full" cellpadding="0" cellspacing="0">
+			  <thead>
+				<tr class="topcap">
+				  <th><p><strong>Threat Severity</strong></p></th>
+				  <th><p><strong>Real-time Security Analysis</strong></p></th>
+				  <th><p><strong>URL</strong></p></th>
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr class="highlight">
+				  <td><p><img src="imgs/wsIconCritical.png" align="left" alt="" class="icon" />Critical</p></td>
+				  <td><p>Advanced Malware Payloads</p></td>
+				  <td><p>http://www.state.sd.us</p></td>
+				</tr>
+				<tr>
+				  <td><p><img src="imgs/wsIconCritical.png" align="left" alt="" class="icon" />Critical</p></td>
+				  <td><p>Advanced Malware Payloads</p></td>
+				  <td><p>http://www.sdbore.edu</p></td>
+				</tr>
+				<tr class="highlight">
+				  <td><p><img src="imgs/wsIconCritical.png" align="left" alt="" class="icon" />Critical</p></td>
+				  <td><p>Advanced Malware Payloads</p></td>
+				  <td><p>http://www.state.sd.us</p></td>
+				</tr>
+				<tr>
+				  <td><p><img src="imgs/wsIconCritical.png" align="left" alt="" class="icon" />Critical</p></td>
+				  <td><p>Bot Networks</p></td>
+				  <td><p>http://www.sdbore.edu</p></td>
+				</tr>
+				<tr class="highlight">
+				  <td><p><img src="imgs/wsIconCritical.png" align="left" alt="" class="icon" />Critical</p></td>
+				  <td><p>Keyloggers</p></td>
+				  <td><p>http://www.state.sd.us</p></td>
+				</tr>
+				<tr>
+				  <td><p><img src="imgs/wsIconCritical.png" align="left" alt="" class="icon" />Critical</p></td>
+				  <td><p>Phishing and Other Frauds</p></td>
+				  <td><p>http://www.sdbore.edu</p></td>
+				</tr>
+			  </tbody>
+			</table>
+			<h4>Domain information</h4>
+			<p>Shows the domain hosting the target destination.</p>
+			<table class="plain full" cellpadding="0" cellspacing="0">
+			  <thead>
+				<tr class="topcap">
+				  <th width="50%"><p><strong>Real-time Security Analysis</strong></p></th>
+				  <th width="50%"><p><strong>Domain Name</strong></p></th>
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr>
+				  <td><p>Advanced Malware Command</p></td>
+				  <td><p><span>xxx.com</span></p></td>
+				</tr>
+			  </tbody>
+			</table>
+			<h4>Redirection trace</h4>
+			<p>Analyzes redirect links from the target URL or IP address to the final destination.</p>
+			<table class="plain full" cellpadding="0" cellspacing="0">
+			  <thead>
+				<tr class="topcap">
+				  <th><p><strong>Path</strong></p></th>
+				  <th><p><strong>URL</strong></p></th>
+				  <th class="fifteen"><p><strong>Threat Severity</strong></p></th>
+				  <th class="twenty-five"><p><strong>Real-time Security Analysis</strong></p></th>
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr class="highlight">
+				  <td><p>Input</p></td>
+				  <td><p>http://bob.alternativejournal.net/file.exe</p></td>
+				  <td><p><img src="imgs/wsIconCritical.png" alt="" class="icon" />Critical</p></td>
+				  <td><p>Malicious Web Sites</p></td>
+				</tr>
+				<tr>
+				  <td><p class="center"><img src="imgs/wsIconRedirect.png" alt="" class="icon" /></p></td>
+				  <td class="redirectURL"><pre><a href="#" title="http://bob.alternativejournla.net/break1/alotofwordshere/1jibberish/2jibberish/3jibberish/4jibberish/5jibberish/6jibberish/7jibberish/8jibber/break1/alotofwordshere/1jibberish/2jibberish/3jibberish/4jibberish/5jibberish/6jibberish/7jibberish/8jibber/break1/alotofwordshere/1jibberish/2jibberish/3jibberish/4jibberish/5jibberish/6jibberish/7jibberish/8jibber/1jibberish/2jibberish/3jibberish/4jibberish/5jibberish/6jibberish/7jibberish/8jibber/break1/alotofwordshere/1jibberish/2jibberish/3jibberish/4jibberish/5jibberish/6jibberish/7jibberish/8jibber/break1/alotofwordshere/1jibberish/2jibberish/3jibberish/4jibberish/5jibberish/6jibberish/7jibberish/8jibber/1jibberish/2jibberish/3jibberish/4jibberish/5jibberish/6jibberish/7jibberish/8jibber/break1/alotofwordshere/1jibberish/2jibberish/3jibberish/4jibberish/5jibberish/6jibberish/7jibberish.exe" class="open-event">http://bob.alternativejournla.net/break1/alotofwordshere/1jibberish/2jibberish/3jibberish/4jibberish/5jibberish/6jibberish/7jibberish/8jibber/break1/alotofwordshere/1jibberish/2jibberish/3jibberish/4jibberish/5jibberish/6jibberish/7jibberish/8jibber/break1/alotofwordshere/1jibberish/2jibberish/3jibberish/4jibberish/5jibberish/6jibberish/7jibberish/8jibber/1jibberish/2jibberish/3jibberish/4jibberish/5jibberish/6jibberish/7jibberish/8jibber/break1/alotofwordshere/1jibberish/2jibberish/3jibberish/4jibberish/5jibberish/6jibberish/7jibberish/8jibber/break1/alotofwordshere/1jibberish/2jibberish/3jibberish/4jibberish/5jibberish/6jibberish/7jibberish/8jibber/1jibberish/2jibberish/3jibberish/4jibberish/5jibberish/6jibberish/7jibberish/8jibber/break1/alotofwordshere/1jibberish/2jibberish/3jibberish/4jibberish/5jibberish/6jibberish/7jibberish.exe</a></pre></td>
+				  <td><p><img src="imgs/wsIconCritical.png" align="left" alt="" class="icon" />Critical</p></td>
+				  <td><p>Malicious Web Sites</p></td>
+				</tr>
+				<tr class="highlight">
+				  <td><p class="center"><img src="imgs/wsIconRedirect.png" alt="" class="icon" /></p></td>
+				  <td><p>Advanced Malware Payloads</p></td>
+				  <td><p><img src="imgs/wsIconCritical.png" align="left" alt="" class="icon" />Critical</p></td>
+				  <td><p>Malicious Web Sites</p></td>
+				</tr>
+				<tr>
+				  <td><p class="center"><img src="imgs/wsIconRedirect.png" alt="" class="icon" /></p></td>
+				  <td><p>http://bob.alternativejournal.net/12345/file.exe</p></td>
+				  <td><p><img src="imgs/wsIconCritical.png" align="left" alt="" class="icon" />Critical</p></td>
+				  <td><p>Malicious Web Sites</p></td>
+				</tr>
+				<tr class="highlight">
+				  <td><p class="center"><img src="imgs/wsIconRedirect.png" alt="" class="icon" /></p></td>
+				  <td><p>http://bob.alternativejouirnal.net/123456789/file.exe</p></td>
+				  <td><p><img src="imgs/wsIconCritical.png" align="left" alt="" class="icon" />Critical</p></td>
+				  <td><p>Malicious Web Sites</p></td>
+				</tr>
+				<tr>
+				  <td><p>Destination</p></td>
+				  <td><p>http://bob.alternativejournal.net</p></td>
+				  <td><p><img src="imgs/wsIconCritical.png" align="left" alt="" class="icon" />Critical</p></td>
+				  <td><p>Malicious Web Sites</p></td>
+				</tr>
+			  </tbody>
+			</table>
+		</div>
+		<h3><span class="accOpen"></span>Security analysis history<br />
+		<span class="wsSpanContent">Displays the last five ACE Insight reports generated for this URL or IP address (if available).</span></h3>
+		<div class="accContent clearfix">
+			<h4>ACE Insight past reports</h4>
+			<p>Shows time and severity of previous reports with links to details.</p>
+			<table class="plain full" cellpadding="0" cellspacing="0">
+			  <thead>
+				<tr class="topcap">
+				  <th><p><strong>Date and Time</strong></p></th>
+				  <th><p><strong>Threat Severity</strong></p></th>
+				  <th><p><strong>Report</strong></p></th>
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr class="highlight">
+				  <td><p>2012-03-09 05:35:46 PM (UTC)</p></td>
+				  <td><p><img src="imgs/wsIconHigh.png" align="left" alt="" class="icon" />High</p></td>
+				  <td><p><a href="">View</a></p></td>
+				</tr>
+				<tr>
+				  <td><p>2012-03-09 05:35:46 PM (UTC)</p></td>
+				  <td><p><img src="imgs/wsIconMedium.png" align="left" alt="" class="icon" />Medium</p></td>
+				  <td><p><a href="">View</a></p></td>
+				</tr>
+				<tr class="highlight">
+				  <td><p>2012-03-09 05:35:46 PM (UTC)</p></td>
+				  <td><p><img src="imgs/wsIconMedium.png" align="left" alt="" class="icon" />Medium</p></td>
+				  <td><p><a href="">View</a></p></td>
+				</tr>
+				<tr>
+				  <td><p>2012-03-09 05:35:46 PM (UTC)</p></td>
+				  <td><p><img src="imgs/wsIconLow.png" align="left" alt="" class="icon" />Low</p></td>
+				  <td><p><a href="">View</a></p></td>
+				</tr>
+				<tr class="highlight">
+				  <td><p>2012-03-09 05:35:46 PM (UTC)</p></td>
+				  <td><p><img src="imgs/wsIconLow.png" align="left" alt="" class="icon" />Low</p></td>
+				  <td><p><a href="">View</a></p></td>
+				</tr>
+			  </tbody>
+			</table>
+		</div>
+		<h3><span class="accOpen"></span>ThreatScope analysis<br />
+		<span class="wsSpanContent">The URL pointed to or attempted to download a file, which was sent to ThreatScope for analysis. Learn More about <a href="" title="ThreatScope web site"">ThreatScope</a>.</span></h3>
+		<div class="accContent">
+			<h4>ThreatScope file analysis</h4>
+			<p>ThreatScope analysis in progress.</p>
+			<div class="tsLock">
+				<p>ThreatScope, a <a href="">CSI service</a>, is a malware security sandbox that identifies security threats and produces a forensic report detailing actions that a file will take if run in your environment. <a href="">Become a CSI subscriber</a> to unlock this feature. <a href="">View the sample ThreatScope file analysis report</a> to see the forensic and security details provided by the CSI sandboxing feature.</p>
+			</div>
+			<table class="plain full" cellpadding="0" cellspacing="0">
+			  <thead>
+				<tr class="topcap">
+				  <th><p><strong>Threat</strong></p></th>
+				  <th><p><strong>Assessment</strong></p></th>
+				  <th><p><strong>Size</strong></p></th>
+				  <th><p><strong>Date Uploaded</strong></p></th>
+				  <th><p><strong>Report</strong></p></th>
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr class="highlight">
+					<td><p><img src="imgs/wsIconCritical.png" align="left" alt="" class="icon" />Critical</p></td>
+				  <td><p>file.exe</p></td>
+				  <td><p>10MB</p></td>
+				  <td><p>2012-03-09 05:35:46 PM (UTC)</p></td>
+				  <td><p><a href="">View</a></p></td>
+				</tr>
+			  </tbody>
+			</table>
+			<p><span class="wsSuccess">The file is uploaded successfully. Analysis will be complete within 30 minutes.</span></p>
+			<table class="plain full" cellpadding="0" cellspacing="0">
+			  <thead>
+				<tr class="topcap">
+				  <th><p><strong>Threat</strong></p></th>
+				  <th><p><strong>File Name</strong></p></th>
+				  <th><p><strong>Size</strong></p></th>
+				  <th><p><strong>Date Uploaded</strong></p></th>
+				  <th><p><strong>Report</strong></p></th>
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr class="highlight">
+				  <td><p><i>Analyzing...</i></p></td>
+				  <td><p>file.exe</p></td>
+				  <td><p>10MB</p></td>
+				  <td><p>2012-03-09 05:35:46 PM (UTC)</p></td>
+				  <td><p><a href="">Check analysis status</a></p></td>
+				</tr>
+			  </tbody>
+			</table>
+			<p><span class="wsNote"><strong>Note:</strong> Analysis my take up to 30 minutes to complete.</span></p>
+			<h4>Overview</h4>
+			<p>These are the high-level assessments for the file. View the report for forensic details.</p>
+			<table class="plain" cellpadding="0" cellspacing="0">
+      			<thead>
+					<tr class="topcap">
+					  <th colspan="2"><b>Threat</b></th>
+					  <th width="849"><b>Assessment</b></th>
+					</tr>
+				  </thead>
+				  <tbody>
+					<tr class="highlight">
+					  <td colspan="2"><p class="center"><img src="imgs/icons/icon-malicious.png" alt="" class="icon" /></p></td>
+					  <td><p>HTTP traffic to server hosting malicious content</p></td>
+					</tr>
+					<tr>
+					  <td colspan="2" ><p class="center"><img src="imgs/icons/icon-malicious.png" alt="" class="icon" /></p></td>
+					  <td><p>Downloads one or more malicious executable files</p></td>
+					</tr>
+					<tr class="highlight">
+					  <td colspan="2"><p class="center"><img src="imgs/icons/icon-malicious.png" alt="" class="icon" /></p></td>
+					  <td><p>Drops and runs one or more executable files in a Windows system directory</p></td>
+					</tr>
+					<tr>
+					  <td colspan="2" ><p class="center"><img src="imgs/icons/icon-suspicious.png" alt="" class="icon" /></p></td>
+					  <td><p>Drops one or more executable file</p></td>
+					</tr>
+					<tr class="highlight">
+					  <td colspan="2" ><p class="center"><img src="imgs/icons/icon-suspicious.png" alt="" class="icon" /></p></td>
+					  <td><p>Writes to a Windows system directory</p></td>
+					</tr>
+				  </tbody>
+				</table>
+		</div>
+	</div>
+</div>
+<div class=" wsFooter clearfix">
+	<p class="left">Websense has made an effort to determine if your submission is malicious. However, Websense cannot guarantee the accuracy of the result.</p>
+	<p class="right">&copy; Copyright 2013 Websense, Inc. All rights reserved
+</div>
+<script type="text/javascript">
+	$("body").addClass("js");
+	var accordionHeaders = $("#accordion > h3 ")
+	accordionHeaders.click(function() {
+		$(this).next().toggle(200);
+		var arrow = $(".accOpen, .accClosed", $(this));
+		if (arrow.hasClass("accOpen")) { 
+			arrow.removeClass("accOpen");
+			arrow.addClass("accClosed");
+		} else {
+			arrow.removeClass("accClosed");
+			arrow.addClass("accOpen");
+		}
+		return false;
+	});
+	$("#collapseAll").click(function() {
+		$(".accOpen",accordionHeaders).click();
+		return false;
+	});
+	$("#showAll").click(function() {
+		$(".accClosed",accordionHeaders).click();
+		return false;
+	});
+</script>
+</body>
+</html>
