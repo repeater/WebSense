@@ -185,12 +185,13 @@ pre {
 /**************************
 GLOBAL HTML STYLES
 **************************/
-a{
+a, .ui-widget-content a {
 	text-decoration: none;
 	color: @linkColor;
 }
+	.ui-widget-content {font-size:12px;}
 
-a:hover{
+a:hover, .ui-widget-content a {
 	text-decoration: underline;
 }
 
@@ -204,8 +205,6 @@ body{
 	width: @siteWidth;
 	text-align: left;
 }
-
-
 
 /**************************
 GLOBAL ELEMENTS
@@ -223,13 +222,24 @@ input[type="text"], input[type="password"], select {
     width: 92%;
     background:#efeeee;
 }
-input[type="submit"] {
+input[type="submit"],
+a.wsFormButton {
     background-color: #3EA0CB;
     border: 1px solid #DCDCDC;
     color: #FFFFFF;
     margin-bottom: 10px;
     padding: 3px 5px;
 }
+	a.wsFormButton {
+		display:block;
+		text-align:center;
+		padding-top:7px;
+		float:left;
+		font-size:13px;
+		font-family:Verdana;
+		height:21px;
+		width:118px;
+	}
 	
 input[type="submit"]:hover {
     cursor: pointer;
@@ -237,7 +247,6 @@ input[type="submit"]:hover {
 select {
     width: 325px;
 }
-
 
 .thumbnail{
 	border: 1px solid #e4e2e2;
@@ -515,18 +524,6 @@ GLOBAL HEADER
 	}
 }
 
-/**************************
-HOMEPAGE STYLES
-**************************/
-section#homepage{
-	
-	
-
-
-
-
-
-}
 /**************************
 PAGE HEADER AREA
 **************************/
@@ -900,6 +897,12 @@ section#newsPods {
 					margin-left:-15px;
 					padding-left:16px;
 				}
+				&.locked {
+					list-style-type:none;
+					background: url(../imgs/wsLockSm.png) no-repeat 0 8px !important;
+					margin-left:-15px;
+					padding-left:16px;
+				}
 			}
 		}
 	
@@ -923,9 +926,11 @@ section#newsPods {
 			> .rowOne {min-height:252px !important;}
 			> .rowTwo {min-height:312px;}
 		.oneCol,
-		.twoCol {
+		.twoCol,
+		.threeCol {
 			border-bottom: 4px solid @mainNaviActive;
 			position:relative;
+			padding:26px 0;
 				.wsProductPod {
 					margin-left:13px;
 					img {margin-top:20px;}
@@ -949,7 +954,6 @@ section#newsPods {
 								border-top:1px solid @borderColor;
 									&.wsUnlocked {background: url(../imgs/wsUnlocked.gif) no-repeat 3px center;}
 									&.wsLocked {background: url(../imgs/wsLocked.gif) no-repeat 3px center;}
-									
 									> span {
 										display:block;
 										margin-left:39px;
@@ -977,21 +981,37 @@ section#newsPods {
 					position:relative;
 					float:left;
 				}
-					.wsVideo {
-						
-					}
-					
+					.wsVideo {}
 			}
 	}
+}
+.wsAceInsightURL #tabs-1 {
+	min-height:170px;
+	background: url(../imgs/logoAceInsightSm.gif) no-repeat 495px 155px transparent;
+}
+	.wsAceInsightURL #tabs-2.formLogo {
+		min-height:170px;
+		background: url(../imgs/logoThreatScopeSm.gif) no-repeat 495px 155px transparent;
+	}
 		
-}
-.wsAceInsightURL {
-	background: url(../imgs/logoAceInsightSm.gif) no-repeat 495px 205px transparent;
-}
+		.wsAceInsightURL #tabs-2.formLogoTop {
+			min-height:170px;
+			background: url(../imgs/logoThreatScope.gif) no-repeat 15px 15px transparent;
+		}
 .tabFormWrapper {
 	.FontSetting;
 	width:100%;
 }
+	.formLogoTop .tabSplitter .wsMarked {margin-top:75px;}
+	
+	.tabSplitter,
+	.tabSplitterRight {
+		width:49%;
+		float:left;
+	}
+		.formLogo .tabSplitter,
+		.formLogo .tabSplitterRight {width:30%;}
+		
 	.tabFormWrapper label {
 		font-weight:bold;
 		font-size:14px;
@@ -1005,6 +1025,10 @@ section#newsPods {
 	float:left;
 	width:449px !important;
 	margin-right:13px;
+}
+.wsUploadHistory {
+	display:block;
+	margin-top:26px;
 }
 .wsAlert {
 	color:#ff0000 !important;
@@ -1226,6 +1250,11 @@ jQUERY TAB OVERRIDES IN colTwo
 			color:@linkColor !important;
 		}
 
+
+/*.ui-state-active #ui-id-1 {border-right:1px solid @lightGrey;}
+.ui-state-active #ui-id-2 {border-left:1px solid @lightGrey;}*/
+
+
 /***************************************
 jQUERY TOOL TIP OVERRIDES IN TABBED FORM
 ***************************************/
@@ -1330,3 +1359,94 @@ a.open-event:hover {
         bottom: -20px;
         top: auto;
     }
+    
+    
+/***************************************
+REPORT CLASSES
+***************************************/
+table.plain {
+    border: 1px none #C1C1C1;
+    border-collapse: collapse;
+    border-spacing: 1px;
+    margin-bottom: 6px !important;
+    margin-left: 23px;
+    margin-top: 10px;
+    width: 933px;
+}
+	.full {
+		margin-left:10px;
+	}
+	.fifty {
+		width:46% !important;
+		margin:0 10px;
+		float:left;
+	}
+
+
+table.plain td, table.plain th {
+    border: 1px solid #C1C1C1;
+    padding: 1px;
+    text-align: left;
+	font-size:12px;
+}
+
+table.plain tr.topcap {
+    background-color: #e8e7e7;
+}
+
+table.plain .highlight {
+	background-color:#F8F7F7;
+	}
+
+table.plain tr.analyzing {
+	background-color:#fdeee6;
+	}
+
+/*table.plain .topcap td, table.plain .topcap th {
+    width: auto;
+}*/
+
+table.plain tbody td, table.plain th {
+    padding:5px 5px 5px 13px;
+}
+
+table.plain tbody td p, table.plain th p {
+    padding:0!important;
+}
+
+
+table.plain .col1 {
+    vertical-align: top;
+    width: 27%;
+	word-spacing:normal;
+}	
+
+table.plain .col2 {
+    vertical-align: top;
+    width: 14%;
+}
+
+table.plain .col3 {
+    vertical-align: top;
+    width: 16%;
+}
+
+table.plain .col4 {
+    vertical-align: top;
+    width: 10%;
+}
+
+table.plain .col5 {
+    vertical-align: top;
+    width: 10%;
+}
+
+table.plain .col6 {
+    vertical-align: top;
+    width:10%;
+}
+
+table.plain .col7 {
+    vertical-align: top;
+    width: 10%;
+}	
