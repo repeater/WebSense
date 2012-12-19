@@ -13,7 +13,7 @@ CONSTANTS
 @mainFontSize:	14px;
 @mainFontColor:	#878686;
 @blueBG:		#3ea0cb;
-@borderColor:	#dcdcdc;
+@borderColor:	#C1C1C1;
 @gothamHeader: "Trebuchet MS";
 @siteWidth:		990px;
 
@@ -215,25 +215,32 @@ form elements
 
 **************************/
 input[type="text"], input[type="password"], select {
-    border: 1px solid #DCDCDC;
+    border: 1px solid @borderColor;
     color: #999999;
-    margin-bottom: 10px;
-    padding: 5px 7px;
+    margin:5px 0px;
+    padding: 6px 7px;
     width: 92%;
     background:#efeeee;
 }
 input[type="submit"],
 a.wsFormButton {
     background-color: #3EA0CB;
-    border: 1px solid #DCDCDC;
+    border: 1px solid @borderColor;
     color: #FFFFFF;
-    margin-bottom: 10px;
+    margin:5px 0px 5px 13px;
     padding: 3px 5px;
+    
+    &.grey {
+		background:#a09f9f;
+		
+		span {
+			background: #a09f9f;
+		}
+	}
 }
 	a.wsFormButton {
 		display:block;
 		text-align:center;
-		padding-top:7px;
 		float:left;
 		font-size:13px;
 		font-family:Verdana;
@@ -263,15 +270,14 @@ a.standard-button {
 	
 	span{
 		.InlineBlock;
-		padding: 5px 0;
-		min-width: 175px;
+		padding: 5px 15px;
+		min-width: 95px;
 		
 		&:hover{
 			cursor: pointer;
 			text-decoration: underline;
 		}
 	}
-	
 	&.blue{
 		border: 1px solid #3ea0cb;
 		
@@ -279,7 +285,6 @@ a.standard-button {
 			background-color: #3ea0cb;
 		}
 	}
-	
 	&.grey{
 		border: 1px solid #a09f9f;
 		
@@ -316,7 +321,6 @@ ul.bordered{
 			padding-top: 0;
 			background-position: left 6px;
 		}
-		
 		&.hasChildren{
 			> a{
 				background: transparent url(../imgs/ws2013-left-nav-down-arrow-bg.png) no-repeat right center;
@@ -325,7 +329,6 @@ ul.bordered{
 				width: 132px;
 			}
 		}
-		
 		> ul{
 			margin: 7px 0 0 12px;
 			list-style-type: none;
@@ -344,11 +347,9 @@ ul.bordered{
 }
 
 ul.tight{
-	> li{
-		margin-top: 3px;
-	}
+	> li{margin-top: 3px;}
 	
-	&.bordered{
+	&.bordered {
 		> li{
 			padding-top: 3px;
 			background-position: left 8px;
@@ -364,7 +365,6 @@ table.lined{
 	tr{
 		border-top: 1px solid #dcdcdc;
 	}
-	
 	td{
 		padding: 7px;
 		border-left: 1px solid #dcdcdc;
@@ -372,7 +372,6 @@ table.lined{
 		&.span2{
 			width: 50%;
 		}
-		
 		&.span3{
 			width: 75%;
 		}
@@ -399,14 +398,12 @@ table.lined{
 					border-right: 1px solid #cccbcb;
 				}
 			}	
-			
 			dt{
 				.FontSetting(normal, 18px, @mainFont, #000000);	
 				background: #eff0f1 url(../imgs/ws2013-list-square-img.png) no-repeat 7px center;
 				padding: 7px 7px 7px 22px;
 				border-bottom: 1px solid #cccbcb;
 			}
-			
 			dd{
 				padding: 24px 20px;
 				border-bottom: 1px solid #cccbcb;
@@ -418,15 +415,12 @@ table.lined{
 					margin: 0;
 					position: absolute;
 					bottom: 0;
-					right: 20px;
-					
+					right: 20px;	
 				}
 			}
 		}
 	}	
 }
-
-
 
 /**************************
 GLOBAL HEADER
@@ -447,14 +441,12 @@ GLOBAL HEADER
 			float: left;
 			margin-top: 20px;
 		}
-		
 		#main-nav-group{
 			float: right;
 			margin-top: -2px;
 			text-align: right;
 			height: 76px
 		}
-	
 		nav#top-nav{
 			background: transparent url(../imgs/ws2013-global-nav-topnav-bg-right.png) no-repeat right top;
 			.InlineBlock;
@@ -474,8 +466,6 @@ GLOBAL HEADER
 						
 						a{
 							color: @topNaviColor;
-							
-							
 							&#myws-logout,
 							&#myws-login,
 							&#myws-register,
@@ -919,7 +909,92 @@ section#newsPods {
 			margin: 30px 0 23px 0;
 		}
 	
-
+	.colContainer {
+		width:100%;
+		margin-bottom:26px;
+		
+		>h3 {margin:0 !important;}
+		
+		>.reportSort {
+			position:relative;
+			
+			>.reportTextWrap {
+				float:left;
+			
+				>h3 {
+					margin:0 !important;
+					width:600px;
+				}
+			}
+			
+			>p {float:left;}
+		
+			>.reportPager {
+				float:right;
+				width:128px;
+				position:relative;
+				
+				>ul {
+					list-style-type:none;
+					
+					&.reportSelecter {
+						position:relative;
+						top:23px;
+					}
+					
+					>li {
+						float:left;
+						display:inline-block;
+							&.count {
+								width:50px;
+								position:relative;
+								top:4px;
+								>span {font-weight:bold;}
+							}
+							>a {
+								display:block;
+								width:22px;
+								height:24px;
+								float:left;
+									&.pagerPrev {
+										background:red;
+										background: url(../imgs/pagerLeftOn.png) no-repeat 0 0;
+										
+										&:hover {background: url(../imgs/pagerLeft.png) no-repeat 0 0;}
+									}
+									&.pagerNext {
+										background: url(../imgs/pagerRightOn.png) no-repeat 0 0;
+										
+										&:hover {background: url(../imgs/pagerRight.png) no-repeat 0 0;}
+									}
+							}
+						}
+					}
+				}
+				
+			>.reportQty {
+				float:right;
+				width:225px;
+				
+				> select {
+					border: 1px solid @borderColor;
+					color: @mainFontColor;
+					position:relative;
+					top:-5px;
+					padding: 3px;
+					background:#ffffff;
+					width:auto;
+					
+					&.reportCount {
+						position:relative;
+						top:16px;
+					}
+				}
+			}
+			
+		}
+	}
+	
 	.contentRow {
 		width: @siteWidth;
 		margin-bottom:20px;
@@ -930,7 +1005,7 @@ section#newsPods {
 		.threeCol {
 			border-bottom: 4px solid @mainNaviActive;
 			position:relative;
-			padding:26px 0;
+			padding:26px 0 0 0;
 				.wsProductPod {
 					margin-left:13px;
 					img {margin-top:20px;}
@@ -1016,15 +1091,18 @@ section#newsPods {
 		font-weight:bold;
 		font-size:14px;
 	}
+
 .tabFormButton {
 	font-size:13px !important;
-	padding:6px 0 !important;
+	padding:3px 0 !important;
 	width:130px;
+	height:29px;
 }
 .ipFormBox {
 	float:left;
 	width:449px !important;
 	margin-right:13px;
+	height:15px;
 }
 .wsUploadHistory {
 	display:block;
@@ -1041,6 +1119,8 @@ section#newsPods {
 		width:465px !important;
 		display:block;
 		float:left;
+		font-size:11px;
+		color:@mainFontColor;
 		> span {
 			display:block;
 			position:relative;
@@ -1056,6 +1136,15 @@ section#newsPods {
 		position:relative;
 		text-align:center;
 	}
+	
+span.wsACtionItem {
+	display:inline-block;
+	height:16px;
+	width:16px;
+	margin-right:13px;
+	position:relative;
+	top:3px;
+}
 /**************************
 NEWS PODS
 **************************/
@@ -1211,14 +1300,13 @@ footer{
 /**************************
 jQUERY TAB OVERRIDES IN colTwo
 **************************/
-.ui-corner-all {
-	border:none !important;
-	border-radius:0;}
-
 .ui-widget-header {background: -moz-linear-gradient(center top , #FCFCFC, #EDEDED) repeat scroll 0 0 transparent;}
 
 .ui-tabs .ui-tabs-nav,
-.ui-tabs{padding:0 !important;}
+.ui-tabs{
+	padding:0 !important;
+	border:0;
+}
 
 .ui-tabs .ui-tabs-nav li {margin:0;}
 
@@ -1254,6 +1342,55 @@ jQUERY TAB OVERRIDES IN colTwo
 /*.ui-state-active #ui-id-1 {border-right:1px solid @lightGrey;}
 .ui-state-active #ui-id-2 {border-left:1px solid @lightGrey;}*/
 
+/***************************************
+jQUERY FANCYBOX OVERRIDES
+***************************************/
+
+.fBox {
+
+	>h3 {
+		text-align:left;
+		color:@darkGrey;
+		font-size:18px;
+		margin-bottom:4px;
+		padding-bottom:4px;
+		font-weight:normal;
+		border-bottom:4px solid @linkColor;
+	}
+	
+	>p {
+		text-align:left;
+		color:@mainFontColor;
+	}
+	
+	>.progressCounter {
+		display:block;
+		position:absolute;
+		top:28px;
+		right:11px;
+		font: bold 14px calibri;
+		color:@mainFontColor;
+	}
+	
+	>span.wsExampleText {
+		width:100% !important;
+		text-align:left;
+	}
+}
+
+/***************************************
+PROGRESS BAR ANIMATION
+***************************************/
+
+.ui-progressbar .ui-progressbar-value { background-image: url(../imgs/pbar-ani.gif); }
+
+.fBox {
+	
+	>.ui-progressbar {
+		margin:7px 0;
+		height:22px;
+	}
+}
 
 /***************************************
 jQUERY TOOL TIP OVERRIDES IN TABBED FORM
@@ -1313,8 +1450,13 @@ a.open-event:hover {
 	color:#999 !important;
 	border-bottom:1px dotted #999;
 	text-decoration:none;
-	/*margin-right:23px;*/
 	font-weight:normal;
+		&.infoHover {
+			border-bottom:0px solid #fff !important;
+			position:relative;
+			top:0px;
+			float:right;
+		}
 }
     .ui-tooltip {
     	cursor:pointer;
@@ -1386,7 +1528,7 @@ table.plain {
 table.plain td, table.plain th {
     border: 1px solid #C1C1C1;
     padding: 1px;
-    text-align: left;
+    /*text-align: left;*/
 	font-size:12px;
 }
 
@@ -1449,4 +1591,4 @@ table.plain .col6 {
 table.plain .col7 {
     vertical-align: top;
     width: 10%;
-}	
+}

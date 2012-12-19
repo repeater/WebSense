@@ -1,0 +1,328 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="Keywords" content="web security,internet filtering,internet security software" />
+		<meta http-equiv="Description" content="Web Security - Websense is a global leader in internet filtering and web security solutions to help companies productively use the internet." />
+		<meta http-equiv="X-UA-Compatible" content="IE=8" /> 
+		<title>Web Security, Email Security, Data Security - Websense.com</title>
+		<link type="text/css" rel="stylesheet" href="http://code.jquery.com/ui/1.9.0/themes/base/jquery-ui.css" />
+		<link type="text/css" href="css/jquery.fancybox.css" rel="stylesheet" rel="stylesheet" media="screen"/>
+		<link type="text/css" rel="stylesheet" href="css/styles.css" />
+		<!--[if IE 7]>
+			<link rel="stylesheet" type="text/css" href="css/ie7.css" />
+		<![endif]-->
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="js/combined.js"></script>	
+		<script type="text/javascript" src="js/new.js"></script>
+		<script type="text/javascript" src="js/toolTip.js"></script>
+		<script type="text/javascript" src="js/jquery.fancybox.js?v=2.1.3"></script>
+		<script type="text/javascript" src="https://www.google.com/jsapi?key=ABQIAAAA-prXblusOxz7BohBz--BYxSs6DR30XCIMMi5_MfVLa9eEpCrQRRXLzjol_dc10L0piv3EVH6Fc_7yA"></script>
+		<script type="text/javascript" src="js/modernizr.js"></script>
+		<script>
+        	$(function() {
+			$( "#tabs" ).tabs();
+			$('.fancybox').fancybox();
+			$("#choose").click(function(){
+				$("#myfile").click();
+				return false;
+			});                    
+			$("#myfile").change(function(){
+				$("#choosebox").val($(this).val())
+			});
+			$(function() {
+        	$( "#progressbar" ).progressbar({
+            	value: 59
+        		});
+    		});
+        });
+	</script>
+	</head>
+	<body>
+		<div id="top-menu">
+			<div id="top-menu-inner">
+				<div class="container">
+					<div id="wbsn-logo" class="clearfix">
+						<a href="http://www.websense.com" alt="Websense"><img src="imgs/cybersecurityLogo.png" alt="Cybersecurity Intellignece" /></a>
+					</div>
+					<div id="main-nav-group" class="clearfix">				
+						<nav id="top-nav">
+							<div id="top-nav-inner">
+								<ul>
+									<li><a id="myws-register" href="#">Register</a> for an account, or [ <a id="myws-login" href="#">log in</a> ]</li>
+									<!--<li>Welcome Timothy [ <a id="myws-logout" href="#">log out</a> ]</li>-->
+									<li><a id="myws-websense" href="#">MyWebsense</a></li>
+									<li><a id="myws-faq" href="#">FAQ</a></li>
+								</ul>
+								<br class="clear" />
+							</div>
+						</nav>
+						<br class="clear" />
+						<nav id="main-nav">
+							<ul class="clearfix">
+								<li><a href="#">On-Demand Analysis</a></li>
+								<li class="active"><a href="#">ThreatScope&trade; Portal</a></li>
+							</ul>	
+						</nav>
+					</div>	
+				</div>
+			</div>
+		</div>
+<!--/Top Menu-->
+		<section id="main-content-ace">
+			<div class="contentRow">
+				<div class="threeCol">
+					<div class="colContainer clearfix">
+						<img src="imgs/logoThreatScope.gif" alt="ThreatScope Logo" /><br />
+						<p>Select a file to upload for analysis. The file will be added to your upload history. A detail report will be generated within 30 minutes and sent to your email address.</p>
+					</div>
+					<div class="colContainer clearfix">
+						<h3>Upload File</h3>
+						<form method="post">
+							<input name="addressEntry" type="file" name="myfile" id="myfile" style="display:none;" />
+							<input type="text" id="choosebox" class="ipFormBox" />
+<!-- input error -->
+							<!--<input type="text" id="choosebox" class="ipFormBox wsBoxAlert" />-->
+<!-- /input error -->
+							<a href="#" id="choose" class="wsFormButton">Browse</a><a href="#uploadStatus" class="fancybox wsFormButton grey">Upload</a>
+							
+							
+<!-- this is the upload progress bar -->							
+							<div class="fBox wideBox" style="display:none;" id="uploadStatus">
+								<h3>Uploading file: c:\Desktop\Quarantined\JK_file.exe</h3>
+								<div id="progressbar"></div>
+								<span class="progressCounter">59%</span>
+								<span class="wsNote wsExampleText">When uploaded, analysis will be complete within 30 minutes. A link will be sent to your email address.</span>
+								<div class="center wsSpacer">
+									<a class="standard-button blue" href="" title=""><span>Cancel</span></a>
+								</div>
+							</div>
+<!-- /upload progress bar -->
+
+<!-- this is the lightbox to 
+display after the upload is complete -->							
+							<!--<div class="fBox wideBox" style="display:none;" id="uploadStatus">
+								<h3>Upload Success</h3>
+								<p>Analysis will be completed withing 30 minutes. A link to the results will be sent to: cgodfrey@websense.com</p>
+								<div class="center wsSpacer">
+									<a class="standard-button blue" href="" title=""><span>Close Window</span></a>
+								</div>
+							</div>-->
+<!-- /confirmation lightbox -->
+							
+<!-- form error-->
+							<!--<span class="wsNote wsExampleText wsAlert">Files over 32 MB not supported.</span>-->
+<!-- /end form error-->
+							<span class="wsNote wsExampleText"><strong>Max file size 32 MB</strong></span>
+							<span class="wsNote wsButtonText"><a href="#" class="open-event" title="Executable files, dll, pdf and doc">Supported Types</a></span>
+					</div>
+					<div class="colContainer clearfix">
+							<!--<span class="wsNote wsButtonText"><a href="#" class="open-event" title="You have used 4 of 5 reports">1 report remaining</a></span>-->
+							<h3>File URL</h3>
+							<input name="urlEntry" id="urlEntry" type="text" class="ipFormBox" /><input name="analyze" type="hidden" value="1" />
+<!--input error-->
+							<!--<input name="urlEntry" id="urlEntry" type="text" class="ipFormBox wsBoxAlert" /><input name="analyze" type="hidden" value="1" />-->
+<!-- end input error -->
+							<input type="submit" value="Analyze" class="tabFormButton" />
+<!-- form error-->
+							<!--<span class="wsNote wsExampleText wsAlert">IPv6 enties not yet supported</span>-->
+<!-- /end form error-->
+							<span class="wsNote wsExampleText"><strong>E.g.:</strong> <span>10.1.16.32, http://www.domain.com, http://www.domain.com/sub/sub/sub.html, http://www.pathtofile.com/file.exe</span></span>
+							<span class="wsNote wsButtonText"><a href="#" class="open-event" title="You have used 4 of 5 reports">1 report remaining</a></span>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="colContainer">
+				<div class="reportSort clearfix">
+					<div class="reportTextWrap clearfix">
+						<h3>Upload History</h3>
+						<p>View reports for the files you have uploaded in the past 6 months.</p>
+					</div>
+					<div class="reportPager clearfix">
+						<ul class="reportSelecter">
+							<li class="count"><span>1-3</span> of 3</li>
+							<li><a href="#" title="Previous" class="pagerPrev"></a><a href="#" title="Previous" class="pagerNext"></a></li>
+						</ul>
+					</div>
+					<div class="reportQty">
+						<select name="reportQty" id="reportQty" class="reportCount">
+							<option value="5" selected>5 per page</option>
+							<option value="10">10 per page</option>
+							<option value="25">25 per page</option>
+							<option value="50">50 per page</option>
+						</select>
+					</div>
+				</div>
+				<table class="plain full" cellpadding="0" cellspacing="0">
+				  <thead>
+					<tr class="topcap">
+					  <th class="center"><p><strong><a href="" title="Sort by Report">Report</a></strong></p></th>
+					  <th class="center"><p><strong><a href="" title="Sort by Threat">Threat</a><a href="#" class="open-event infoHover" title="You will receive an email after the report is complete"><img src="imgs/actionInfo.png" /></a></strong></p></th>
+					  <th class="center"><p><strong><a href="" title="Sort by File Name">File Name</a></strong></p></th>
+					  <th class="center"><p><strong><a href="" title="Sort by Size">Size</a></strong></p></th>
+					  <th class="center"><p><strong><a href="" title="Sort by Date Uploaded">Date Uploaded</a></strong></p></th>
+					  <th class="center"><p><strong>Delete</strong></p></th>
+					</tr>
+				  </thead>
+				  <tbody>
+					<tr class="highlight">
+					  <td><p>None</p></td>
+					  <td><p><span class="wsACtionItem"></span>N / A</p></td>
+					  <td><p>ACEInsight v.20 Mockups - Current.pdf</p></td>
+					  <td><p>17 MB</p></td>
+					  <td class="center"><p>2012-09-19 14:03:50</p></td>
+					  <td class="center"><a href="" title="Delete Report"><img src="imgs/actionX.png" alt="Delete Report Button" /></a></td>
+					</tr>
+					<tr>
+					  <td><p><i>Analyzing...</i><a href="#" class="open-event infoHover" title="You will receive an email after the report is complete"><img src="imgs/actionInfo.png" /></a></p></td>
+					  <td><p><span class="wsACtionItem"><img src="imgs/actionCheck.png" /></span>No threat detected</p></td>
+					  <td><p>areallyreallyreallylongfilename.exe</p></td>
+					  <td><p>97.3 KB</p></td>
+					  <td class="center"><p>2012-09-19 14:03:50</p></td>
+					  <td class="center"><a href="" title="Delete Report"><img src="imgs/actionX.png" alt="Delete Report Button" /></a></td>
+					</tr>
+					<tr class="highlight">
+					  <td><p><a href="" title="View Report">View Report </a></p></td>
+					  <td><p><span class="wsACtionItem"><img src="imgs/actionCheck.png" /></span>No threat detected</p></td>
+					  <td><p>anotherfile.exe</p></td>
+					  <td><p>15 KB</p></td>
+					  <td class="center"><p>2012-09-19 14:03:50</p></td>
+					  <td class="center"><a href="" title="Delete Report"><img src="imgs/actionX.png" alt="Delete Report Button" /></a></td>
+					</tr>
+					<tr>
+					  <td><p>Error<a href="#" class="open-event infoHover" title="An error occurred. Please upload the file again."><img src="imgs/actionInfo.png" /></a></p></td>
+					  <td><p><span class="wsACtionItem"><img src="imgs/actionAlert.png" /></span>N / A</p></td>
+					  <td><p>file.exe</p></td>
+					  <td><p>10 MB</p></td>
+					  <td class="center"><p>2012-09-19 14:03:50</p></td>
+					  <td class="center"><a href="" title="Delete Report"><img src="imgs/actionX.png" alt="Delete Report Button" /></a></td>
+					</tr>
+				  </tbody>
+				</table>
+				<div class="reportSort clearfix">
+					<div class="reportPager">
+						<ul>
+							<li class="count"><span>1-3</span> of 3</li>
+							<li><a href="#" title="Previous" class="pagerPrev"></a><a href="#" title="Previous" class="pagerNext"></a></li>
+						</ul>
+					</div>
+					<div class="reportQty">
+						<select name="reportQty" id="reportQty" class="reportQty">
+							<option value="5" selected>5 per page</option>
+							<option value="10">10 per page</option>
+							<option value="25">25 per page</option>
+							<option value="50">50 per page</option>
+						</select>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div id="gradient">
+				<div id="dots">
+					<nav id="footer-nav" class="cleartype">
+						<div class="footer-column">
+							<h4>Products</h4>
+							<ul>
+								<li><a href="#">TRITON Enterprise</a></li>
+								<li><a href="#">TRITON Gateway Anywhere</a></li>
+								<li><a href="#">Web Security Gateway Anywhere</a></li>
+								<li><a href="#">Web Security Gateway</a></li>
+								<li><a href="#">Cloud Web Security Gateway</a></li>
+								<li><a href="#">Web Security</a></li>
+								<li><a href="#">Cloud Web Security</a></li>
+								<li><a href="#">Web Filter</a></li>
+								<li><a href="#">Email Security Gateway Anywhere</a></li>
+								<li><a href="#">Email Security Gateway</a></li>
+								<li><a href="#">Cloud Email Security and Content Control</a></li>
+							</ul>	
+						</div>
+						<div class="footer-column">
+							<ul>
+								<li><a href="#">Data Security Suite</a></li>
+								<li><a href="#">Data Discovery</a></li>
+								<li><a href="#">Data Endpoint</a></li>
+								<li><a href="#">TRITON Mobile Security</a></li>
+								<li><a href="#">CyberSecurity Intelligence (CSI)</a></li>
+								<li><a href="#">Products A-Z</a></li>
+							</ul>	
+							<h4>Solutions</h4>
+							<ul>
+								<li><a href="#">Enterprise</a></li>
+								<li><a href="#">Small & Medium</a></li>
+								<li><a href="#">Cloud </a></li>
+								<li><a href="#">Appliance</a></li>
+								<li><a href="#">Software as a Service (SaaS)</a></li>
+							</ul>	
+						</div>
+						<div class="footer-column">
+							<h4>Support & Communities</h4>
+							<ul>
+								<li><a href="#">Support by product</a></li>
+								<li><a href="#">Solution center</a></li>
+								<li><a href="#">Technical library</a></li>
+								<li><a href="#">Forums</a></li>
+								<li><a href="#">Tools & policies</a></li>
+								<li><a href="#">Contact support</a></li>
+								<li><a href="#">Social Media Resource Center</a></li>
+								<li><a href="#">Security Labs Blog</a></li>
+								<li><a href="#">Insights Blog</a></li>
+								<li><a href="#">Websense @ Facebook</a></li>
+								<li><a href="#">Websense @ Twitter</a></li>
+							</ul>	
+						</div>
+						<div class="footer-column">
+							<h4>Security Labs</h4>
+							<ul>
+								<li><a href="#">Home</a></li>
+								<li><a href="#">Blog</a></li>
+								<li><a href="#">Report malicious activity</a></li>
+								<li><a href="#">Threat Search</a></li>
+								<li><a href="#">2012 Threat Report</a></li>
+								<li><a href="#">Video</a></li>
+							</ul>	
+							<h4>Partners</h4>
+							<ul>
+								<li><a href="#">Find a Partner</a></li>
+								<li><a href="#">Find a Distributer</a></li>
+								<li><a href="#">Become a Partner</a></li>
+								<li><a href="#">Buy from a Partner</a></li>
+							</ul>	
+						</div>
+						<div class="footer-column">
+							<h4>Download</h4>
+							<ul>
+								<li><a href="#">Free Trials</a></li>
+								<li><a href="#">Data Sheets</a></li>
+								<li><a href="#">White Papers</a></li>
+								<li><a href="#">Videos</a></li>
+								<li><a href="#">Demos</a></li>
+								<li><a href="#">Webinars</a></li>
+							</ul>	
+							<h4>Company</h4>
+							<ul>
+								<li><a href="#">Investors</a></li>
+								<li><a href="#">Industry analyst reports</a></li>
+								<li><a href="#">Careers</a></li>
+								<li><a href="#">Contact us </a></li>
+							</ul>	
+						</div>
+					</nav>
+				</div>	
+			</div>
+			<nav id="bottom-links">
+				<ul class="clearfix">
+					<li><a href="#">Careers</a></li>
+					<li><a href="#">Contact Us</a></li>
+					<li><a href="#">Communications Center</a></li>
+					<li><a href="#">News & Views</a></li>
+					<li><a href="#">Site Map</a></li>
+					<li><a href="#">Legal Information</a></li>
+					<li id="privacy">Privacy Policy	©2012 Websense, Inc. All Rights Reserved.</li>
+				</ul>	
+			</nav>
+		</footer>	
+	</body>
+</html>
