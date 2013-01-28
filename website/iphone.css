@@ -1,0 +1,12 @@
+* {
+	-webkit-text-size-adjust: none;
+}
+
+#banners {
+	position:relative;
+	left-100px;
+}
+
+.banner-content {overflow:hidden;}
+
+section#homepage #marquee-banners ul#banners li > div {width:1000px;}
