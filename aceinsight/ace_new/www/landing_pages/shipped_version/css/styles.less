@@ -186,7 +186,7 @@ pre {
 GLOBAL HTML STYLES
 **************************/
 a, .ui-widget-content a {
-	text-decoration: underline;
+	text-decoration: none;
 	color: @linkColor;
 }
 	.ui-widget-content {font-size:12px;}
@@ -237,6 +237,15 @@ a.wsFormButton {
 			background: #a09f9f;
 		}
 	}
+}
+span.inputWrapper {
+	display:block;
+	float:left;
+	padding:1px;
+	border:1px solid @linkColor;
+	position:relative;
+	top:5px;
+	margin-left:11px;
 }
 	a.wsFormButton {
 		display:block;
@@ -1101,7 +1110,9 @@ section#newsPods {
 	font-size:13px !important;
 	padding:3px 0 !important;
 	width:130px;
-	height:29px;
+	height:25px;
+	margin:0 !important;
+	border:0 !important;
 }
 .ipFormBox {
 	float:left;

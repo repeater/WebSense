@@ -1,0 +1,27 @@
+HTML
+// The modified button code
+<span class="inputWrapper"><input type="submit" value="Analyze" class="tabFormButton" /></span>
+
+
+
+CSS
+// The added span css and modified button CSS
+
+span.inputWrapper {
+	display:block;
+	float:left;
+	padding:1px;
+	border:1px solid @linkColor;
+	position:relative;
+	top:5px;
+	margin-left:11px;
+}
+
+.tabFormButton {
+	font-size:13px !important;
+	padding:3px 0 !important;
+	width:130px;
+	height:25px;
+	margin:0 !important;
+	border:0 !important;
+}
