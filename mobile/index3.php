@@ -16,39 +16,26 @@
 	<script src="http://jquerymobile.com/test/js/jquery.js"></script>
 	<script src="http://jquerymobile.com/test/docs/_assets/js/jqm-docs.js"></script>
 	<script src="http://jquerymobile.com/test/js/jquery.mobile.js"></script>
+	<style>
+		.ui-btn-inner {
+		    font-size: 13px;
+		    white-space: nowrap;
+		}
+		.ui-link-inherit {
+			margin:2px 0;
+		}
+	</style>
 </head>
 <body>
 <div data-role="page" class="ui-responsive-panel">
-	<div data-role="header">
-		<!--<a href="#leftpanel3" data-role="button" data-inline="true" data-mini="true" data-icon="grid">MENU</a>-->
-		<h1>websense</h1>
-		<!--<a href="index.html" data-icon="gear" class="ui-btn-right">Options</a>-->
-		<div data-role="navbar">
-			<ul>
-				<li><a href="#">Products</a></li>
-				<li><a href="#">Solutions</a></li>
-				<li><a href="#">Company</a></li>
-			</ul>
-		</div><!-- /navbar -->
-	</div>
+	<?php include 'header.php'; ?>
 	<div data-role="content">
 		<p>Some content</p>
 	</div>
 	<div data-role="footer"></div>
-	<div data-role="panel" id="leftpanel3" data-position="left" data-display="push" data-dismissible="true" data-theme="c">
-            <h3>Left Panel: Overlay</h3>
-            <p>This panel is positioned on the left with the overlay display mode. The panel markup is <em>after</em> the header, content and footer in the source order.</p>
-            <p>To close, click off the panel, swipe left or right, hit the Esc key, or use the button below:</p>
-            <a href="#demo-links" data-rel="close" data-role="button" data-theme="a" data-icon="delete" data-inline="true">Close panel</a>		
-	</div>
+	 <?php include 'panel.php'; ?>
+	
 </div>
-<!--<div data-role="navbar">
-	<ul>
-		<li><a href="a.html" class="ui-btn-active ui-state-persist">Products</a></li>
-		<li><a href="b.html">Solutions</a></li>
-		<li><a href="b.html">Company</a></li>
-	</ul>
-</div>-->
 <!--<div data-role="content">
     <ul id="nav" data-role="listview" data-inset="true">
         <li><a href="#">Cloud Web Security Gateway Product Resources</a></li>
