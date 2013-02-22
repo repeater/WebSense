@@ -7,15 +7,15 @@
 	<link type="text/css" rel="stylesheet" href="css/websense_mobile.css" />
 <!--	<link rel="stylesheet" type="text/css" href="http://code.jquery.com/mobile/1.0b3/jquery.mobile-1.0b3.min.css" />-->
 	
-	<link rel="stylesheet" type="text/css" href="http://jquerymobile.com/test/css/themes/default/jquery.mobile.css" />
+	<link rel="stylesheet" type="text/css" href="http://code.jquery.com/mobile/latest/jquery.mobile.min.css" />
 	<link rel="stylesheet" type="text/css" href="http://jquerymobile.com/test/docs/_assets/css/jqm-docs.css" />
 <!--	<script src="http://code.jquery.com/jquery-1.6.2.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.0b3/jquery.mobile-1.0b3.min.js"></script>-->
 	
 	
-	<script src="http://jquerymobile.com/test/js/jquery.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/jquery-ui.min.js"></script>
 	<script src="http://jquerymobile.com/test/docs/_assets/js/jqm-docs.js"></script>
-	<script src="http://jquerymobile.com/test/js/jquery.mobile.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<style>
 		.ui-btn-inner {
 		    font-size: 13px;
@@ -151,6 +151,50 @@
 		  <source src="movie.ogg" type="video/ogg">
 		  Your browser does not support the video tag.
 		</video>-->
+		<h2>Unified Data Loss Prevention for Gateways, Endpoints and Discovery</h2>
+		<p>From tarnished brand reputation to regulatory fines, the adverse impacts of data breaches are clear. Just a single incident of data loss can erode a business's competitive advantage, weaken consumer confidence, and result in fines or penalties from regulators. The problem is further exacerbated with rapid proliferation of mobile computing devices, widespread use of peripheral devices, and easy access to file-sharing software — all increasing the opportunity for data loss and theft.</p>
+		<h3>Why is Websense Data Security Suite the best choice?</h3>
+		<p>Websense Data Security Suite secures organizations against a wide range of data loss scenarios with a single policy framework for network and endpoint data loss prevention and confidential data discovery.</p>
+		<div data-role="collapsible-set" data-theme="b" data-content-theme="c">
+			<div data-role="collapsible">
+				<h2>Data Security Suite</h2>
+				<ul data-role="listview">
+					<li><p>Websense Data Security Suite comprises all three data security products for full data loss prevention (DLP).</p>
+						<p><a href="#"Learn more </a></p>
+					</li>
+				</ul>
+			</div>
+			<div data-role="collapsible">
+				<h2>Data Security Gateway</h2>
+				<ul data-role="listview">
+					<li><a href="index.html">
+						<p>Websense Data Security Suite comprises all three data security products for full data loss prevention (DLP).</p>
+						<p><a href="#"Learn more </a></p>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div data-role="collapsible">
+				<h2>Data Endpoint</h2>
+				<ul data-role="listview">
+					<li><a href="index.html">
+						<p>Websense Data Security Suite comprises all three data security products for full data loss prevention (DLP).</p>
+						<p><a href="#"Learn more </a></p>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div data-role="collapsible">
+				<h2>Data Discover</h2>
+				<ul data-role="listview">
+					<li><a href="index.html">
+						<p>Websense Data Security Suite comprises all three data security products for full data loss prevention (DLP).</p>
+						<p><a href="#"Learn more </a></p>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
 		<div data-role="collapsible" data-theme="b" data-content-theme="c">
 				<h2>Download White Paper</h2>
 				<iframe width="280" height="450" src="http://a1.websense.com/defending-against-todays-targeted-phishing-attacks.html?sfcmpid=70120000000aR15" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
