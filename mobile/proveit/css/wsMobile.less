@@ -1,4 +1,17 @@
 /**************************
+HEADER
+**************************/
+.mHeader, .mHeader a {
+	display:block;
+	width:98px;
+	height:17px;
+	background: url(../images/wsMobileLogo.png) no-repeat 0 0;
+}
+	.ui-header .ui-title {
+		margin:0.6em auto;
+	}
+
+/**************************
 FORM ELEMENTS
 **************************/
 .mButton {
@@ -18,26 +31,6 @@ FORM ELEMENTS
 	text-align:center;
 	display:block;
 }
-/**************************
-BODY
-**************************/
-.ui-body-a {background:	
-	url(../images/tritonBg.png) no-repeat right bottom;
-	min-height:510px !important;
-}
-
-/**************************
-HEADER
-**************************/
-.mHeader, .mHeader a {
-	display:block;
-	width:84px;
-	height:15px;
-	background: url(../images/wsMobileLogo.png) no-repeat 0 0;
-}
-	.ui-header .ui-title {
-		margin:0.6em auto;
-	}
 
 /**************************
 CONTENT
@@ -57,14 +50,22 @@ span.tLogo {
 	background: url(../images/tritonLogo.png) no-repeat center top;
 }
 
-/**************************
-IFRAME
-**************************/
+/* Smartphones (landscape) ----------- */
 @media only screen and (min-width:321px) {
-	iframe {height:65px;}
+	iframe {height:63px;}
+	
+	.ui-body-a {background:	
+		url(../images/tritonBg.png) no-repeat right bottom;
+		min-height:360px !important;
+	}
 }
 
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width:320px) {
-	iframe {height:11px;}
+	iframe {height:109px;}
+	
+	.ui-body-a {background:	
+		url(../images/tritonBg.png) no-repeat right bottom;
+		min-height:510px !important;
+	}
 }
