@@ -1,34 +1,3 @@
-@trueWhite:		#ffffff;
-@linkColor:		#3ea0cb;
-@mainFont:		'calibri', 'arial';
-@mainFontSize:	14px;
-@mainFontColor:	#878686;
-@blueBG:		#3ea0cb;
-@borderColor:	#C1C1C1;
-@gothamHeader: "Trebuchet MS";
-@siteWidth:		990px;
-
-/**************************
-THEMING
-**************************/
-@bannerHeader:		@trueWhite;
-@productHeader:		#181818;
-@leftNaviActive:	#e8e8e8;
-@rightRailTopCap:	@blueBG;	
-@standardBtnColor:	@blueBG;
-@topNaviColor:		@trueWhite;
-@mainNaviColor:		@trueWhite;
-
-@mainNaviActive:	#3fa0cb;
-@pageHeaderBG:		#000000;
-@pageHeaderFont:	@gothamHeader;
-@pageHeaderSubFont:	@mainFont;
-@breadcrumbActive:	#666666;
-
-@darkGrey:			#666666;
-@lightGrey:			#878686;
-@lightBg:			#eff0f1;
-
 /**************************
 FORM ELEMENTS
 **************************/
@@ -37,7 +6,7 @@ FORM ELEMENTS
 	border-radius: 3px !important;
 	-moz-border-radius: 3px !important;
 	-webkit-border-radius: 3px !important;
-	padding:0.4em !important;
+	padding:0.3em !important;
 	font-family: Helvetica,Arial,sans-serif !important;
 	font-weight:bold !important;
 	font-size:20px !important;
@@ -86,4 +55,16 @@ span.tLogo {
 	position:relative;
 	margin:25px auto 0;
 	background: url(../images/tritonLogo.png) no-repeat center top;
+}
+
+/**************************
+IFRAME
+**************************/
+@media only screen and (min-width:321px) {
+	iframe {height:65px;}
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width:320px) {
+	iframe {height:11px;}
 }
