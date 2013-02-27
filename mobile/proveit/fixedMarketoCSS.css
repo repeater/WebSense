@@ -1,0 +1,83 @@
+/************* begin craigs overrides *************/
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+	div#lpeCDiv_2109,
+	.buttonSubmit,
+	form.lpeRegForm ul,
+	.mktField {width:320px !important;padding:0 !important}
+	
+	.mktField label {
+		color:#fff !important;
+		font-family: Helvetica,Arial,sans-serif !important;
+		font-weight: normal !important;
+		text-shadow: 0 1px 1px #111111 !important;
+		font-size:16px !important;
+	}
+	form.lpeRegForm li.mktFormReq label {
+    	background: url("http://www.websense.com/assets/css/imgs/asterix.png") no-repeat scroll 105px 0 !important;
+    	padding-right: 20px;
+	}
+	.mktInput input[type="text"] {
+		background-image: none !important;
+		display: block !important;
+		font-size: 16px !important;
+		line-height: 1.4 !important;
+		outline: 0 none !important;
+		padding: 0.4em !important;
+		border-radius: 3px;
+		-moz-border-radius: 3px;
+	}
+	.mk-en input[type="submit"] {
+		-webkit-appearance: none;
+		border-radius: 3px !important;
+		-moz-border-radius: 3px !important;
+		-webkit-border-radius: 3px !important;
+		padding:0.3em !important;
+		font-family: Helvetica,Arial,sans-serif !important;
+		font-weight:bold !important;
+		font-size:20px !important;
+		background:#3EA0CB !important;
+		-webkit-box-shadow: 0px 0px 5px #000 !important;
+		text-shadow: 1px 1px 3px #000 !important;
+	}
+	form.lpeRegForm li {padding:0 !important;}
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width:321px) {
+	div#lpeCDiv_2109 {position:relative !important;width:480px !important;}
+	.mktInput input[type="text"] {
+		width:417px !important;
+		margin:0;
+	}
+	.mk-en #mktFrmSubmit {
+		width:100px !important;
+		margin:0 !important;
+		vertical-align:bottom !important;
+	}
+	ul.mktLblCenter li.mktFormReq,
+	ul.mktLblCenter li#mktFrmButtons {display:inline-block !important;}
+	
+		li.mktFormReq {width:130px !important;display:}
+		
+		li#mktFrmButtons {
+			width:100px !important;
+			position:relative !important;
+			top:24px !important;
+			left:307px;
+		}
+}
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width:320px) {
+	.mktInput input[type="text"] {
+		width:280px !important;
+		margin:0 !important;
+	}
+	.mk-en #mktFrmSubmit {
+		position:relative;
+		width:294px !important;
+		margin:0 !important;
+	}
+}
+/************* end of craigs overrides *************/
