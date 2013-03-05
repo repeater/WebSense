@@ -1,0 +1,105 @@
+<!DOCTYPE html> 
+<html> 
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<title>Multi-page template</title> 
+	<link rel="stylesheet" href="//code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.css" />
+	<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+	<script src="//code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js"></script>
+</head> 
+
+	
+<body> 
+
+<!-- Start of first page: #one -->
+<div data-role="page" id="one">
+
+	<div data-role="header">
+		<h1>Websense</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">
+		<h2>TRITON Security</h2>
+		<h3>Product Landing Page</h3>
+		
+		<p>Websense® TRITON™ Enterprise protects on-site and remote employees from the latest threats in a unified, hybrid solution. You can add Websense CyberSecurity Intelligence™ (CSI) services to get online malware sandboxing and direct access to Websense Security Labs™ threat researchers.</p>	
+		<h4>Web Security Gateway Anywhere</h4>
+		<p><ul>
+				<li>Websense TruHybrid deployment protects entire networks, including headquarters, branch offices and remote and mobile users. It enables provisioning through one unified interface.</li>
+				<li>Websense TruWeb DLP™ capability prevents data loss and enables compliance. It includes unique features such as geo-location destination awareness and detection of criminal encrypted uploads, password file data theft, and slow data leaks (“drip” DLP). Other highlights include natural language processing, advanced machine learning and more than 1,600 policies and templates.</li>
+				<li>Gateway threat analysis uses real-time, inline security analysis from Websense ACE (Advanced Classification Engine) and threat intelligence from the Websense ThreatSeeker™ Network to defend against advanced malware, blended threats and spam.</li>
+			</ul>
+		</p>
+		<p><b>Protecting content is more challenging than ever.</b> Today, the dynamic nature of the web, email, mobile devices and other technologies present security challenges that have rendered antivirus, URL filtering, and other single-solution approaches ineffective.</p>
+		<p><a href="#two" data-role="button"data-theme="b" data-transition="slide">Download the white paper</a></p>	
+<!--		<p><a href="#popup"data-role="button" data-rel="dialog" data-transition="pop">Show page "popup" (as a dialog)</a></p>-->
+	</div><!-- /content -->
+	
+	<div data-role="footer" data-theme="d">
+		<h4>Page Footer</h4>
+	</div><!-- /footer -->
+</div><!-- /page one -->
+
+
+<!-- Start of second page: #two -->
+<div data-role="page" id="two" data-theme="a">
+
+	<div data-role="header">
+		<h1>Websense</h1>
+	</div><!-- /header -->
+	<div data-role="content" data-theme="a">	
+		<h2 style="margin-bottom:0;">Whitepaper: The Need for Unified Content Security</h2>
+		<div data-role="fieldcontain" class="ui-hide-label">
+			<label for="username">Email Address:</label>
+			<input type="text" name="username" id="username" value="" placeholder="Email Address"  data-theme="c" />
+			<label for="username">First Name:</label>
+			<input type="text" name="username" id="username" value="" placeholder="First Name"  data-theme="c" />
+			<label for="username">Last Name:</label>
+			<input type="text" name="username" id="username" value="" placeholder="Last Name"  data-theme="c" />
+			<label for="username">Company Name:</label>
+			<input type="text" name="username" id="username" value="" placeholder="Company Name"  data-theme="c" />
+			<label for="username">Country:</label>
+			<select name="country" id="foo"  data-theme="c">
+				<option selected>Select country</option>
+				<option value="b" >United States</option>
+				<option value="c" >Your Country</option>
+				<option value="c" >Country Three</option>
+				<option value="c" >Country Four</option>
+				<option value="c" >Country Five</option>
+				<option value="c" >Country Six</option>
+				<option value="c" >Country Seven</option>
+			</select>
+		</div>
+		<p><a href="#popup" data-role="button" data-theme="b" data-transition="slide">Submit</a></p>	
+		<p><a href="#one" data-direction="reverse" data-role="button" data-theme="a" data-transition="slide">No thanks</a></p>
+		
+	</div><!-- /content -->
+	
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div><!-- /footer -->
+</div><!-- /page two -->
+
+
+<!-- Start of third page: #popup -->
+<div data-role="page" id="popup" data-theme="a">
+
+	<div data-role="header" data-theme="a">
+		<h1>Websense</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<h2>Thank you for requesting the whitepaper, “The Need for Unified Content Security”</h2>		
+		<p><a href="http://www.websense.com/assets/white-papers/whitepaper-the-need-for-unified-content-security-en.pdf" data-role="button" data-theme="b" target="_new">View PDF</a></p>
+		<p><a href="#one" data-direction="reverse" data-role="button" data-theme="a" data-transition="slide">Return to page</a></p>
+	</div><!-- /content -->
+	
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div><!-- /footer -->
+</div><!-- /page popup -->
+
+</body>
+</html>

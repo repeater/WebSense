@@ -1,22 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>websense mobile</title>
-	<link type="text/css" rel="stylesheet" href="css/websense_mobile.css" />
-<!--	<link rel="stylesheet" type="text/css" href="http://code.jquery.com/mobile/1.0b3/jquery.mobile-1.0b3.min.css" />-->
-	
-	<link rel="stylesheet" type="text/css" href="http://code.jquery.com/mobile/latest/jquery.mobile.min.css" />
-	<link rel="stylesheet" type="text/css" href="http://jquerymobile.com/test/docs/_assets/css/jqm-docs.css" />
-<!--	<script src="http://code.jquery.com/jquery-1.6.2.min.js"></script>
-	<script src="http://code.jquery.com/mobile/1.0b3/jquery.mobile-1.0b3.min.js"></script>-->
-	
-	
-	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/jquery-ui.min.js"></script>
-	<script src="http://jquerymobile.com/test/docs/_assets/js/jqm-docs.js"></script>
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	<style>
+	<link rel="stylesheet" type="text/css" href="http://jquerymobile.com/demos/1.3.0/css/themes/default/jquery.mobile-1.3.0.css" />
+	<link rel="stylesheet" type="text/css" href="http://jquerymobile.com/demos/1.3.0/docs/_assets/css/jqm-demos.css" />
+	<link rel="stylesheet" type="text/css" href="css/websense_mobile.css" />
+	<style rel="stylesheet" type="text/css">
 		.ui-btn-inner {
 		    font-size: 13px;
 		    white-space: nowrap;
@@ -25,10 +16,16 @@
 			margin:2px 0;
 		}
 	</style>
+	<script>
+		$(document).ready(function() {
+			$( "#navpanel" ).trigger( "updatelayout" );
+		});
+	</script>
 </head>
 <body>
-<div data-role="page" class="ui-responsive-panel">
+<div data-role="page">
 	<?php include 'header.php'; ?>
+	<?php include 'panel.php'; ?>
 	<div data-role="content">
 		<h2>Our most comprehensive information security solution.</h2>
         <p>Websense&reg; TRITON™ Enterprise protects on-site and remote employees from the latest threats in a unified, hybrid solution. You
@@ -205,21 +202,6 @@
 			<li><a href="index.html">Product Resources</a></li>
 			<li><a href="index.html">Related Products</a></li>
 		</ul>
-		<script type="text/javascript">
-	  s.events='event1'; 
-	  s.eVar1='whitepapers'; 
-	</script>
-        <div class="mboxDefault"></div>
-        <script language="JavaScript1.2" type="text/javascript">mboxCreate('leadForm_conversion');</script>
-<!--		<div data-role="collapsible" data-theme="b" data-content-theme="c">
-			<h2>Next Steps</h2>
-			<ul data-role="listview">
-				<li><a href="index.html">Download White Paper</a></li>
-				<li><a href="index.html">Related Products</a></li>
-			</ul>
-		</div>-->
-<!--		<a href="index.html" data-role="button" data-inline="false" data-theme="b">Contact Us</a>-->
-	</div>
 	<div data-role="footer">
 		
 		<div data-role="navbar">
@@ -229,28 +211,10 @@
 			</ul>
 		</div><!-- /navbar -->
 	</div>
-	 <?php include 'panel.php'; ?>
-	
+	 
 </div>
-<!--<div data-role="content">
-    <ul id="nav" data-role="listview" data-inset="true">
-        <li><a href="#">Cloud Web Security Gateway Product Resources</a></li>
-        <li><a href="#">Cloud Web Security Gateway Productbronnen</a></li>
-        <li><a href="#">Nube de Web Security Recursos de puerta de enlace de producto</a></li>
-        <li><a href="#">Nuvola Web Security Gateway Risorse del Prodotto</a></li>
-        <li><a href="#">Support</a></li>
-        <li><a href="#">Partners</a></li>
-        <li><a href="#">Company</a></li>
-    </ul>
-    
-    <div id="grid" class="ui-grid-b">
-        <div class="ui-block-a"><div class="ui-bar ui-bar-e">A</div></div>
-        <div class="ui-block-b"><div class="ui-bar ui-bar-e">B</div></div>
-        <div class="ui-block-c"><div class="ui-bar ui-bar-e">C</div></div>
-        <div class="ui-block-a"><div class="ui-bar ui-bar-e">A</div></div>
-        <div class="ui-block-b"><div class="ui-bar ui-bar-e">B</div></div>
-        <div class="ui-block-c"><div class="ui-bar ui-bar-e">C</div></div>
-    </div>
-</div>-->
+<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script src="http://jquerymobile.com/demos/1.3.0/docs/_assets/js/jquery.mobile.demos.js"></script>
+<script src="http://jquerymobile.com/demos/1.3.0/js/jquery.mobile-1.3.0.js"></script>
 </body>
 </html>
