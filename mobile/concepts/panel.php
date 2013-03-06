@@ -1,6 +1,6 @@
 <div data-role="panel" id="navpanel" data-position="left" data-display="push" data-dismissible="true" data-theme="a">
-	<ul data-role="listview" data-theme="a">
-			<li data-iconpos="left" data-icon="delete"><a href="#demo-links" data-rel="close">Close</a></li>
+	<ul data-role="listview">
+			<li data-iconpos="left" data-icon="delete" data-theme="a"><a href="#demo-links" data-rel="close">Close</a></li>
 		</ul>
 	<div data-role="collapsible-set" data-inset="false" data-theme="b" data-content-theme="d">
 		
