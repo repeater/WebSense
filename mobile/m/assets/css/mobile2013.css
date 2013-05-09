@@ -1,0 +1,10 @@
+@media only screen and (orientation: portrait) {
+  body {
+    background: red;
+  }
+}
+@media only screen and (orientation: landscape) {
+  body {
+    background: green;
+  }
+}
