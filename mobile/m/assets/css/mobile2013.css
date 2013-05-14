@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+  color: #00ccff;
+}
 .wsShadow {
   box-shadow: -1px -1px 8px #3c3c3c;
 }
@@ -48,53 +52,68 @@
   margin-top: -17px;
   height: 51px !important;
 }
+.wsFooter ui-navbar {
+  border-top: 1px solid #717171;
+}
+.wsFooter .ui-btn,
+.wsFooter .ui-btn-up-a,
+.wsFooter .ui-btn-active,
+.wsFooter .ui-btn-hover-a {
+  background: url(/assets/images/bgHeader.png) repeat 0 0 !important;
+}
 .wsHome {
   background: #000 !important;
+}
+.wsHome .ui-body-c {
+  background: none !important;
 }
 .wsHome .wsHomeOne {
   background: url(/assets/images/bgHomeOne.png) no-repeat center 0;
 }
-.wsHome .wsHomeOne .hpElement {
+.wsHome .wsHomeOne p {
+  padding-top: 50px;
+  color: #fff;
+  text-shadow: none !important;
+}
+.wsHome .wsCTA .hpElement {
   border: 1px solid #717171 !important;
   border-radius: 2px;
   margin-bottom: 8px;
   background: url(/assets/images/hpElementTrans.png) repeat 0 0;
   padding: 8px;
 }
-.wsHome .wsHomeOne .hpElement a {
-  text-decoration: none;
-  color: #00ccff;
+.wsHome .wsCTA .hpElement a {
   font-size: 14px;
-  text-shadow: none !important;
+  text-shadow: 0 1px 0 #000000;
   border: none !important;
   background: none;
+  padding: 0;
+  width: 100%;
 }
-.wsHome .wsHomeOne .hpElement a span {
+.wsHome .wsCTA .hpElement a span {
   color: #fff;
   font-size: 10px;
   text-shadow: none !important;
   border: none !important;
   background: none;
 }
-.wsHome .wsHomeOne p {
-  padding-top: 60px;
-  color: #fff;
-  text-shadow: none !important;
-}
 @media only screen and (orientation: portrait) {
   
 }
 @media only screen and (orientation: landscape) {
-  
-}
-.wsFooter ui-navbar {
-  border-top: 1px solid #717171;
-}
-.wsFooter .ui-btn,
-.wsFooter .ui-btn-up-a {
-  background: url(/assets/images/bgHeader.png) repeat 0 0 !important;
-}
-.wsFooter .ui-btn-active,
-.wsFooter .ui-btn-hover-a {
-  background: url(/assets/images/bgHeader.png) repeat 0 0 !important;
+  .wsHomeOne {
+    background: url(/assets/images/bgHomeOne.png) no-repeat 0 0 !important;
+    background-size: 50% auto;
+  }
+  .wsHomeOne p {
+    width: 50%;
+    position: relative;
+    display: inline-block;
+  }
+  .wsCTA {
+    width: 45%;
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+  }
 }
