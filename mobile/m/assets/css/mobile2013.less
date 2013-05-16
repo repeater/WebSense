@@ -1,40 +1,59 @@
 //// Themes
 @white:		#ffffff;
-@anchor:	#00ccff;
-@lGrey:		#717171;
-@greyMed:	#3c3c3c;
+@anchor:	#3EA0CB;
+@mGrey:		#7B7A7A;
+@mGrey:		#717171;
+@dGrey:		#3c3c3c;
 @black:		#000000;
 
-a {
+
+//// Backgrounds
+.ui-page,
+.ui-body-c,
+.ui-overlay-c {background:@white !important;}
+
+//.ui-overlay-c {background:@white !important;}
+.wsShadow {box-shadow: -1px -1px 8px @dGrey;}
+
+//// Buttons
+a.wsBButton {background:@anchor !important;
+	color:@white;
+	text-shadow:none !important;
+	border:none;
+}
+
+.ui-body-c .ui-link {
 	text-decoration:none;
 	color:@anchor;
 }
-.wsShadow {box-shadow: -1px -1px 8px @greyMed;}
+
+.ui-btn-corner-all,
+.ui-corner-all {border-radius:4px !important;}
 
 //// Header Bar
 #wsHeader {
 	background: url(/assets/images/bgHeader.png) repeat 0 0 !important;
-	border-bottom: 1px solid @lGrey;
+	border-bottom: 1px solid @mGrey;
 
 	.ui-bar-a .ui-shadow {box-shadow:0 !important;}
 	.ui-btn-up-a {border:none !important;}
-	.ui-btn-corner-all {border-radius:0 !important;}
+	.wsHeader .ui-btn-corner-all {border-radius:0 !important;}
 	.ui-btn-left {
 		top:-2px;
 		left:0;
-		border-right: 1px solid @lGrey;
+		border-right: 1px solid @mGrey;
 		background:none !important;
 	
 		.ui-btn-inner {
 			padding:13px 8px 13px 44px;
-			border-right: 1px solid @lGrey;
+			border-right: 1px solid @mGrey;
 			border-bottom:0 !important;
 		}	
 	}
 	.wsTitle {
 		background:#000 !important;
 		padding:2px 0;
-		border-top: 1px solid @lGrey;
+		border-top: 1px solid @mGrey;
 	
 		h2 {
 			text-transform: uppercase;
@@ -47,6 +66,17 @@ a {
 			}
 		}
 	}
+}
+//// Backgrounds
+.wsBG {
+	position:relative;
+	width:110%;
+	height:50px;
+	top:-15px;
+	left:-15px;
+
+	&.wsBGOne {background: url(/assets/images/wsBGOne.png) no-repeat right 0 !important;}
+	&.wsBGTwo {background: url(/assets/images/wsBGTwo.png) no-repeat right 0 !important;}
 }
 
 //// Sliding navigation Panel
@@ -63,7 +93,7 @@ a {
 
 //// Footer
 .wsFooter ui-navbar {
-	border-top: 1px solid @lGrey;
+	border-top: 1px solid @mGrey;
 }
 .wsFooter .ui-btn,
 .wsFooter .ui-btn-up-a,
@@ -72,20 +102,25 @@ a {
 	background: url(/assets/images/bgHeader.png) repeat 0 0 !important;
 }
 /// Home Page
-.wsHome {background: #000 !important;
-	.ui-body-c {background:none !important;}
-	.wsHomeOne {
-		background: url(/assets/images/bgHomeOne.png) no-repeat center 0;
-		
-		p {
-			padding-top:50px;
-			color:#fff;
-			text-shadow: none !important;
-		}
+.wsHome {
+	p {
+		text-shadow: 0 1px 0 @black;
+		color:@white;
 	}
+	.ui-body-c {background:none !important;}
+	.wsHomeOne,
+	.wsHomeTwo {background-size:95% auto;}
+		.wsHomeOne {
+			background: url(/assets/images/bgHomeOne.png) no-repeat center 0;
+				p {padding:44px 0 10px 0;}
+			}
+		.wsHomeTwo {
+			background: url(/assets/images/bgHomeTwo.png) no-repeat center 0;
+				p {padding:100px 0 5px 0;}
+		}
 	.wsCTA {
 		.hpElement {
-			border:1px solid @lGrey !important;
+			border:1px solid @mGrey !important;
 			border-radius:2px;
 			margin-bottom:8px;
 			background: url(/assets/images/hpElementTrans.png) repeat 0 0;
@@ -110,23 +145,40 @@ a {
 		}
 	}
 }
+//// Content Pages
+.ui-content {padding:none !important;}
 
-@media only screen and (orientation: portrait) {}
+
+
+//@media only screen and (orientation: portrait) {}
 
 @media only screen and (orientation: landscape) {
-	.wsHomeOne {
-		background: url(/assets/images/bgHomeOne.png) no-repeat 0 0 !important;
-		background-size:50% auto;
+	.wsHome {
+		.wsHomeOne,
+		.wsHomeTwo {
+			background-size:50% auto;
+				p {
+					width:50%;
+					position:relative;
+					display:inline-block;
+				}
 		}
-	.wsHomeOne p {
-		width:50%;
-		position:relative;
-		display:inline-block;
-	}
-	.wsCTA {
-		width:45%;
-		position:relative;
-		display:inline-block;
-		margin-left:20px;
+		.wsHomeOne {
+			background: url(/assets/images/bgHomeOne.png) no-repeat 0 0 !important;
+				p {padding:0 !important;}
+		}
+		.wsHomeTwo {
+			background: url(/assets/images/bgHomeTwo.png) no-repeat 0 0 !important;
+				p {
+					vertical-align:top;
+					padding-top:60px;
+				}
+		}
+			.wsCTA {
+				width:45%;
+				position:relative;
+				display:inline-block;
+				margin-left:20px;
+			}
 	}
 }

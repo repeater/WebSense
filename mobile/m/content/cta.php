@@ -1,6 +1,6 @@
 <div class="wsCTA">
 	<div class="hpElement">
-		<a href="/content/page.php" alt="TRITON Solution Suites: Complete Security" class="hpElement">Websense 2013 Threat Report<br />
+		<a href="/content/websense-2013-threat-report.php" alt="TRITON Solution Suites: Complete Security" class="hpElement">Websense 2013 Threat Report<br />
 			<span>Your trust in traditional security might be misplaced</span>
 		</a>
 	</div>

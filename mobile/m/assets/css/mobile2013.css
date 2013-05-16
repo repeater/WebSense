@@ -1,9 +1,24 @@
-a {
-  text-decoration: none;
-  color: #00ccff;
+.ui-page,
+.ui-body-c,
+.ui-overlay-c {
+  background: #ffffff !important;
 }
 .wsShadow {
   box-shadow: -1px -1px 8px #3c3c3c;
+}
+a.wsBButton {
+  background: #3ea0cb !important;
+  color: #ffffff;
+  text-shadow: none !important;
+  border: none;
+}
+.ui-body-c .ui-link {
+  text-decoration: none;
+  color: #3ea0cb;
+}
+.ui-btn-corner-all,
+.ui-corner-all {
+  border-radius: 4px !important;
 }
 #wsHeader {
   background: url(/assets/images/bgHeader.png) repeat 0 0 !important;
@@ -15,7 +30,7 @@ a {
 #wsHeader .ui-btn-up-a {
   border: none !important;
 }
-#wsHeader .ui-btn-corner-all {
+#wsHeader .wsHeader .ui-btn-corner-all {
   border-radius: 0 !important;
 }
 #wsHeader .ui-btn-left {
@@ -43,6 +58,19 @@ a {
   text-decoration: none;
   color: #fff;
 }
+.wsBG {
+  position: relative;
+  width: 110%;
+  height: 50px;
+  top: -15px;
+  left: -15px;
+}
+.wsBG.wsBGOne {
+  background: url(/assets/images/wsBGOne.png) no-repeat right 0 !important;
+}
+.wsBG.wsBGTwo {
+  background: url(/assets/images/wsBGTwo.png) no-repeat right 0 !important;
+}
 #navpanel {
   padding-top: 0;
   border-top: 0;
@@ -61,19 +89,28 @@ a {
 .wsFooter .ui-btn-hover-a {
   background: url(/assets/images/bgHeader.png) repeat 0 0 !important;
 }
-.wsHome {
-  background: #000 !important;
+.wsHome p {
+  text-shadow: 0 1px 0 #000000;
+  color: #ffffff;
 }
 .wsHome .ui-body-c {
   background: none !important;
+}
+.wsHome .wsHomeOne,
+.wsHome .wsHomeTwo {
+  background-size: 95% auto;
 }
 .wsHome .wsHomeOne {
   background: url(/assets/images/bgHomeOne.png) no-repeat center 0;
 }
 .wsHome .wsHomeOne p {
-  padding-top: 50px;
-  color: #fff;
-  text-shadow: none !important;
+  padding: 44px 0 10px 0;
+}
+.wsHome .wsHomeTwo {
+  background: url(/assets/images/bgHomeTwo.png) no-repeat center 0;
+}
+.wsHome .wsHomeTwo p {
+  padding: 100px 0 5px 0;
 }
 .wsHome .wsCTA .hpElement {
   border: 1px solid #717171 !important;
@@ -97,20 +134,34 @@ a {
   border: none !important;
   background: none;
 }
-@media only screen and (orientation: portrait) {
-  
+.ui-content {
+  padding: none !important;
 }
 @media only screen and (orientation: landscape) {
-  .wsHomeOne {
-    background: url(/assets/images/bgHomeOne.png) no-repeat 0 0 !important;
+  .wsHome .wsHomeOne,
+  .wsHome .wsHomeTwo {
     background-size: 50% auto;
   }
-  .wsHomeOne p {
+  .wsHome .wsHomeOne p,
+  .wsHome .wsHomeTwo p {
     width: 50%;
     position: relative;
     display: inline-block;
   }
-  .wsCTA {
+  .wsHome .wsHomeOne {
+    background: url(/assets/images/bgHomeOne.png) no-repeat 0 0 !important;
+  }
+  .wsHome .wsHomeOne p {
+    padding: 0 !important;
+  }
+  .wsHome .wsHomeTwo {
+    background: url(/assets/images/bgHomeTwo.png) no-repeat 0 0 !important;
+  }
+  .wsHome .wsHomeTwo p {
+    vertical-align: top;
+    padding-top: 60px;
+  }
+  .wsHome .wsCTA {
     width: 45%;
     position: relative;
     display: inline-block;

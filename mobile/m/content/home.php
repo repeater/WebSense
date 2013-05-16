@@ -15,6 +15,10 @@
 			<p>It’s been a banner year for hackers, who managed to breach many of the world’s most trusted websites and cyber defenses. Mobile, social,email – all under siege. Find out why your go-to sites, social networks and even security providers are experiencing a crisis of trust.</p>
 			<?php include 'cta.php'; ?>
 		</div>
+		<!--<div class="wsHomeTwo">
+			<p>Our information security products defend against threats and data theft using the  advanced analytics and real-time protection of the Websense TRITON architecture.</p>
+			<?php include 'cta.php'; ?>
+		</div>-->
 	</div>
 	<?php include 'footer.php'; ?>
 </div>
