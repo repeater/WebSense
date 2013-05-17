@@ -2,6 +2,17 @@
 .ui-body-c,
 .ui-overlay-c {
   background: #ffffff !important;
+  color: #717171 !important;
+}
+.ui-body-c .ui-link {
+  text-decoration: none;
+  color: #3ea0cb;
+}
+h2 {
+  color: #015786;
+}
+h3 {
+  color: #000000;
 }
 .wsShadow {
   box-shadow: -1px -1px 8px #3c3c3c;
@@ -10,15 +21,18 @@ a.wsBButton {
   background: #3ea0cb !important;
   color: #ffffff;
   text-shadow: none !important;
-  border: none;
+  border: none !important;
 }
-.ui-body-c .ui-link {
-  text-decoration: none;
-  color: #3ea0cb;
+.ui-btn,
+.ui-btn-up-c {
+  border: 1px solid #e4e2e2 !important;
 }
 .ui-btn-corner-all,
 .ui-corner-all {
   border-radius: 4px !important;
+}
+.ui-body-d {
+  border-color: #e4e2e2;
 }
 #wsHeader {
   background: url(/assets/images/bgHeader.png) repeat 0 0 !important;
@@ -30,7 +44,10 @@ a.wsBButton {
 #wsHeader .ui-btn-up-a {
   border: none !important;
 }
-#wsHeader .wsHeader .ui-btn-corner-all {
+#wsHeader .ui-btn-up-c {
+  border: 1px solid #e4e2e2 !important;
+}
+#wsHeader .ui-btn-corner-all {
   border-radius: 0 !important;
 }
 #wsHeader .ui-btn-left {
@@ -114,7 +131,7 @@ a.wsBButton {
 }
 .wsHome .wsCTA .hpElement {
   border: 1px solid #717171 !important;
-  border-radius: 2px;
+  border-radius: 4px;
   margin-bottom: 8px;
   background: url(/assets/images/hpElementTrans.png) repeat 0 0;
   padding: 8px;
@@ -134,8 +151,57 @@ a.wsBButton {
   border: none !important;
   background: none;
 }
-.ui-content {
-  padding: none !important;
+.wsVideo {
+  position: relative;
+  width: 100%;
+}
+.wsVideo .wsVWrapper {
+  position: relative;
+  margin: 0 auto;
+  width: 90%;
+  padding: 0 12px;
+  border: 1px solid #e4e2e2;
+  border-radius: 4px;
+}
+.wsVideo .wsVWrapper img {
+  width: 100%;
+  border: 1px solid #e4e2e2;
+}
+.wsVideo .wsVWrapper h4 {
+  margin: 8px 0;
+  padding: 0;
+}
+.wsVideo .wsVWrapper p {
+  font-style: italic;
+}
+ul.mktLblCenter {
+  width: 100%;
+}
+ul.mktLblCenter li.mktField {
+  margin-bottom: 0;
+}
+ul.mktLblCenter li.mktField label {
+  width: auto;
+  text-align: left !important;
+  color: #717171;
+}
+ul.mktLblCenter li.mktField span.mktInput {
+  display: block;
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+ul.mktLblCenter li#mktFrmButtons div.ui-btn {
+  width: 45%;
+}
+ul.mktLblCenter li#mktFrmButtons div.ui-btn.ui-submit {
+  background: #e4e2e2 !important;
+  color: #ffffff !important;
+  text-shadow: none !important;
+  border: none !important;
+  box-shadow: none;
+}
+ul.mktLblCenter li#mktFrmButtons.ui-submit:first-child {
+  background: #3ea0cb !important;
 }
 @media only screen and (orientation: landscape) {
   .wsHome .wsHomeOne,
@@ -166,5 +232,28 @@ a.wsBButton {
     position: relative;
     display: inline-block;
     margin-left: 20px;
+  }
+  .wsVideo {
+    position: relative;
+    width: 100%;
+  }
+  .wsVideo .wsVWrapper {
+    position: relative;
+    width: 75%;
+  }
+  .wsVideo .wsVWrapper div,
+  .wsVideo .wsVWrapper p {
+    position: relative;
+    display: inline-block;
+    width: 47%;
+    vertical-align: top;
+    padding-bottom: 12px;
+  }
+  .wsVideo .wsVWrapper div img,
+  .wsVideo .wsVWrapper p img {
+    width: 100%;
+  }
+  .wsVideo .wsVWrapper p {
+    margin: 32px 0 0 14px;
   }
 }
