@@ -10,10 +10,10 @@
 </style>
 </head>
 <body>
-<div data-role="page" class="wsPage wsShadow">
+<div data-role="page" class="wsShadow">
 	<?php include 'header.php'; ?>
 	<?php include 'panel.php'; ?>
-	<div data-role="content">
+	<div data-role="content" class="wsPage">
 	<a name="top"></a>
 		<div class="wsBG wsBGTwo"></div>
 		<h2>Leading integration and innovation of web, email and data security.</h2>
@@ -79,7 +79,6 @@
 		$( "#navpanel" ).trigger( "updatelayout" );
 	});
 </script>
-
 <script src="http://demos.flesler.com/jquery/scrollTo/js/jquery.scrollTo-min.js"></script>
 <script type="text/javascript">
 	$("div[data-role=collapsible] h3").on("click", function() { 
