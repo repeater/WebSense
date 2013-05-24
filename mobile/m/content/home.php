@@ -21,13 +21,3 @@
 		</div>
 	</div>
 	<?php include 'footer.php'; ?>
-</div>
-<script>
-	$(document).ready(function() {
-		$( "#navpanel" ).trigger( "updatelayout" );
-	});
-</script>
-<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-<script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
-</body>
-</html>

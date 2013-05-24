@@ -1,7 +1,7 @@
 .ui-page,
 .ui-body-c,
 .ui-overlay-c {
-  color: #717171 !important;
+  background: #ffffff !important;
 }
 .ui-body-c .ui-link {
   text-decoration: none;
@@ -25,11 +25,15 @@ h3 span.ui-btn-text {
 * {
   box-shadow: none !important;
 }
-.wsHome {
-  background: #000000 !important;
+* p {
+  color: #717171 !important;
+  text-shadow: none;
 }
 .wsPage {
   background: #ffffff !important;
+}
+.wsHome {
+  background: #000000 !important;
 }
 .wsShadow {
   box-shadow: -1px -1px 8px #3c3c3c;
@@ -39,9 +43,6 @@ a.wsBButton {
   color: #ffffff;
   text-shadow: none !important;
   border: none !important;
-}
-.wsFooter .ui-btn {
-  border-left: 1px solid #717171 !important;
 }
 .ui-btn-corner-all,
 .ui-corner-all {
@@ -67,15 +68,16 @@ a.wsBButton {
   border-radius: 0 !important;
 }
 #wsHeader .ui-btn-left {
-  top: -2px;
+  top: 0;
   left: 0;
   border-right: 1px solid #717171;
   background: none !important;
 }
 #wsHeader .ui-btn-left .ui-btn-inner {
-  padding: 13px 8px 13px 44px;
+  padding: 14px 8px 13px 44px;
   border-right: 1px solid #717171;
   border-bottom: 0 !important;
+  border-top: 0 !important;
 }
 #wsHeader .wsTitle {
   background: #000000 !important;
@@ -95,11 +97,18 @@ a.wsBButton {
   padding-top: 0;
   border-top: 0;
   border-right: none !important;
-  box-shadow: 1px 1px 4px #3c3c3c !important;
+}
+#navpanel span.ui-btn-inner {
+  border-color: #717171 !important;
 }
 #navpanel ul.navClose {
   margin-top: -17px;
   height: 50px !important;
+}
+#navpanel ul.navClose li {
+  background: url(/assets/images/bgHeader.png) repeat 0 -2px !important;
+  border-bottom: 1px solid #717171;
+  height: 42px;
 }
 #navpanel ul.navClose span.ui-icon {
   left: 10px;
@@ -107,14 +116,20 @@ a.wsBButton {
 #navpanel ul.navClose a {
   padding-left: 40px;
 }
-.wsFooter ui-navbar {
-  border-top: 1px solid #717171;
+.wsFooter {
+  border-top: 1px solid #717171 !important;
+}
+.wsFooter .ui-btn {
+  border-left: 1px solid #717171 !important;
+}
+.wsFooter ul {
+  margin-top: -1px;
 }
 .wsFooter .ui-btn,
 .wsFooter .ui-btn-up-a,
 .wsFooter .ui-btn-active,
 .wsFooter .ui-btn-hover-a {
-  background: url(/assets/images/bgHeader.png) repeat 0 0 !important;
+  background: url(/assets/images/bgHeader.png) repeat 1px 1px !important;
 }
 .wsBG {
   position: relative;
@@ -131,7 +146,7 @@ a.wsBButton {
 }
 .wsHome p {
   text-shadow: 0 1px 0 #000000;
-  color: #ffffff;
+  color: #ffffff !important;
 }
 .wsHome .wsHomeOne,
 .wsHome .wsHomeTwo {
@@ -184,6 +199,24 @@ ul.strongList li {
   background: transparent url('/assets/images/ws2013-list-square-img.png') no-repeat left 5px;
   padding: 0 0 0 16px;
   margin-top: 12px;
+}
+ul.standard.wsList,
+ul.green-arrow.wsList,
+ul.strongList.wsList {
+  margin-left: 2px !important;
+  padding: 0;
+}
+ul.standard.wsList span:nth-child(1),
+ul.green-arrow.wsList span:nth-child(1),
+ul.strongList.wsList span:nth-child(1) {
+  font-weight: bold;
+}
+ul.standard.wsList span,
+ul.green-arrow.wsList span,
+ul.strongList.wsList span {
+  display: block;
+  width: 100%;
+  margin-left: 1px;
 }
 .wsVideo {
   position: relative;
@@ -327,7 +360,7 @@ div#directions_map .wsMapSearch div.ui-input-text {
 div#directions_map .wsMapSearch #map_canvas_1 {
   border: 1px solid #e4e2e2;
   border-radius: 4px;
-  width: 100%;
+  width: 99%;
 }
 div#directions_map div.ui-input-text {
   margin: -2px 0;

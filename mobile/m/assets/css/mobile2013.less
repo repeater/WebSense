@@ -14,7 +14,8 @@
 .ui-page,
 .ui-body-c,
 .ui-overlay-c {
-	color:@mGrey !important;
+//	color:@mGrey !important;
+	background:@white !important;
 }
 .ui-body-c .ui-link {
 	text-decoration:none;
@@ -26,11 +27,14 @@ h3 {color:@black;}
 h3 span.ui-btn-text {color:@anchor !important;}
 #navpanel h3 span.ui-btn-text {color:@white !important;}
 * {box-shadow:none !important;}
+* p {
+	color:@mGrey !important;
+	text-shadow:none;
+}
 
 //// Background Colors
-
-.wsHome {background:@black !important;}
 .wsPage {background:@white !important;}
+.wsHome {background:@black !important;}
 
 //.ui-overlay-c {background:@white !important;}
 .wsShadow {box-shadow: -1px -1px 8px @dGrey;}
@@ -42,8 +46,6 @@ a.wsBButton {
 	text-shadow:none !important;
 	border:none !important;
 }
-.wsFooter .ui-btn {border-left:1px solid @mGrey !important;}
-
 .ui-btn-corner-all,
 .ui-corner-all {border-radius:@bRadius !important;}
 
@@ -60,15 +62,16 @@ a.wsBButton {
 	.ui-btn-up-c {border:1px solid @lGrey !important;}
 	.ui-btn-corner-all {border-radius:0 !important;}
 	.ui-btn-left {
-		top:-2px;
+		top:0;
 		left:0;
 		border-right: 1px solid @mGrey;
 		background:none !important;
 	
 		.ui-btn-inner {
-			padding:13px 8px 13px 44px;
+			padding:14px 8px 13px 44px;
 			border-right: 1px solid @mGrey;
 			border-bottom:0 !important;
+			border-top:0 !important;
 		}	
 	}
 	.wsTitle {
@@ -94,29 +97,35 @@ a.wsBButton {
 	padding-top:0;
 	border-top:0;
 	border-right:none !important;
-	box-shadow: 1px 1px 4px @dGrey !important;
-
+	
+	span.ui-btn-inner {border-color:@mGrey !important;}
 	ul.navClose {
 		margin-top:-17px;
 		height:50px !important;
-	}
-	
-	ul.navClose {
+		
+		li {
+			background: url(/assets/images/bgHeader.png) repeat 0 -2px !important;
+			border-bottom:1px solid @mGrey;
+			height:42px;
+		}
+		
 		span.ui-icon {left:10px;}
 		a {padding-left:40px;}
 	}
 }
 
 //// Footer
-.wsFooter ui-navbar {
-	border-top: 1px solid @mGrey;
+.wsFooter {
+	border-top: 1px solid @mGrey !important;
+	
+	.ui-btn {border-left:1px solid @mGrey !important;}
+	ul {margin-top:-1px;}
 }
 .wsFooter .ui-btn,
 .wsFooter .ui-btn-up-a,
 .wsFooter .ui-btn-active,
-.wsFooter .ui-btn-hover-a {
-	background: url(/assets/images/bgHeader.png) repeat 0 0 !important;
-}
+.wsFooter .ui-btn-hover-a {background: url(/assets/images/bgHeader.png) repeat 1px 1px !important;}
+
 /// Home Page
 .wsBG {
 	position:relative;
@@ -131,18 +140,20 @@ a.wsBButton {
 .wsHome {
 	p {
 		text-shadow: 0 1px 0 @black;
-		color:@white;
+		color:@white !important;
 	}
 	.wsHomeOne,
 	.wsHomeTwo {background-size:95% auto;}
-		.wsHomeOne {
-			background: url(/assets/images/bgHomeOne.png) no-repeat center 0;
-				p {padding:44px 0 10px 0;}
-			}
-		.wsHomeTwo {
-			background: url(/assets/images/bgHomeTwo.png) no-repeat center 0;
-				p {padding:100px 0 5px 0;}
-		}
+	.wsHomeOne {
+		background: url(/assets/images/bgHomeOne.png) no-repeat center 0;
+		
+		p {padding:44px 0 10px 0;}
+	}
+	.wsHomeTwo {
+		background: url(/assets/images/bgHomeTwo.png) no-repeat center 0;
+		
+		p {padding:100px 0 5px 0;}
+	}
 	.wsCTA {
 		.hpElement {
 			border:1px solid @mGrey !important;
@@ -158,7 +169,7 @@ a.wsBButton {
 				background:none;
 				padding:0;
 				width:100%;
-	
+
 				span {
 					color:#fff;
 					font-size:10px;
@@ -181,6 +192,17 @@ ul.standard, ul.green-arrow, ul.strongList {
 		padding: 0 0 0 16px;
 		margin-top: 12px;
 	}
+	&.wsList {
+		margin-left:2px !important;
+		padding:0;
+	
+		span:nth-child(1) {font-weight:bold;}
+		span {
+			display:block;
+			width:100%;
+			margin-left:1px;
+		}
+	}
 }
 //// Video Player
 .wsVideo {
@@ -194,7 +216,6 @@ ul.standard, ul.green-arrow, ul.strongList {
 		padding:0 12px;
 		border:1px solid @lGrey;
 		border-radius:@bRadius;
-		
 
 		img {
 			width:100%;
@@ -205,9 +226,7 @@ ul.standard, ul.green-arrow, ul.strongList {
 			padding:0;
 		}
 		p {font-style:italic;}
-		
 	}
-	
 }
 //// Marketo Forms
 ul.mktLblCenter {
@@ -249,7 +268,6 @@ ul.mktLblCenter {
 	input[type="text"] {
 		border-radius:@bRadius;
 		height:35px;
-		//font-size:14px !important;
 		background:none !important;
 	}
 }
@@ -258,13 +276,13 @@ div#lpeCDiv_2223 {
 	background:@white;
 }
 
-//// @media only screen and (orientation: portrait) {}
-
+// @media only screen and (orientation: portrait) {}
 @media only screen and (orientation: landscape) {
 .wsHome {
 	.wsHomeOne,
 	.wsHomeTwo {
 		background-size:50% auto;
+	
 		p {
 			width:50%;
 			position:relative;
@@ -291,6 +309,7 @@ div#lpeCDiv_2223 {
 		margin-left:20px;
 	}
 }
+
 //// Video Player
 	.wsVideo {
 		position:relative;
@@ -310,7 +329,6 @@ div#lpeCDiv_2223 {
 				img {width:100%;}
 			}
 			p {margin:32px 0 0 14px;}
-			h4 {}
 		}
 	}
 }
@@ -330,11 +348,10 @@ div#directions_map {
 		#map_canvas_1 {
 			border:1px solid @lGrey;
 			border-radius:@bRadius;
-			width:100%;
+			width:99%;
 		}
 	}
-	div.ui-input-text {margin:-2px 0;}
-	
+	div.ui-input-text {margin:-2px 0;}	
 	a {
 		background:@anchor;
 		border:none !important;;
@@ -344,14 +361,8 @@ div#directions_map {
 	}
 	#results {
 		.ui-bar-c {
-//			background: linear-gradient(#FFFFFF, #F1F1F1) repeat scroll 0 0 #EEEEEE;
-//	    	border-top-left-radius:1px;
-//	    	border-top-right-radius:1px;
-background:none !important;
-border:none !important;
-	    	//border-color:none;
-	    	
-	    	
+			background:none !important;
+			border:none !important;
     		color:@dBlue;
     		font-weight: bold;
     		font-size:125%;

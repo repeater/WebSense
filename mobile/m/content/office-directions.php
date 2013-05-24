@@ -14,6 +14,7 @@
 	<?php include 'header.php'; ?>
 	<?php include 'panel.php'; ?>
 	<div data-role="content" class="wsPage">
+		<div class="wsBG wsBGOne"></div>
 		<div id="directions_map">
 			<h2>Directions</h2>
 			<div data-role="content" style="padding:0 !important;">	
@@ -38,70 +39,49 @@
 		</div>
 	</div>
 	<?php include 'footer.php'; ?>
-</div>
-<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-<script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
-<script>
-	$(document).ready(function() {
-		$( "#navpanel" ).trigger( "updatelayout" );
-	});
-</script>
-<script src="http://demos.flesler.com/jquery/scrollTo/js/jquery.scrollTo-min.js"></script>
-<script type="text/javascript">
-	$("div[data-role=collapsible] h3").on("click", function() { 
-		_this = this;
-		setTimeout(function() {
-			$.scrollTo(_this);
-		},100);
-	});
-</script>
-<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&libraries=places&key=AIzaSyCKT5yElFRxC55rDoQf1EtgAXfJiWduq_s"></script> 
-	<script src="http://jquery-ui-map.googlecode.com/svn/trunk/ui/jquery.ui.map.js"></script>
-	<script src="http://jquery-ui-map.googlecode.com/svn/trunk/ui/jquery.ui.map.services.js"></script>
-	<script src="http://jquery-ui-map.googlecode.com/svn/trunk/ui/jquery.ui.map.extensions.js"></script>
-    <script type="text/javascript">
-				
-			var mobileDemo = { 'center': '32.890501, -117.210278', 'zoom': 14 };
+	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&libraries=places&key=AIzaSyAWiBTk-mEE636LdcJVpGo71mpjKkfsnzs"></script> 
+<script src="http://jquery-ui-map.googlecode.com/svn/trunk/ui/jquery.ui.map.js"></script>
+<script src="http://jquery-ui-map.googlecode.com/svn/trunk/ui/jquery.ui.map.services.js"></script>
+<script src="http://jquery-ui-map.googlecode.com/svn/trunk/ui/jquery.ui.map.extensions.js"></script>
+<script type="text/javascript">			
+	var mobileDemo = { 'center': '32.890501, -117.210278', 'zoom': 14 };
+	
+	////////////////////////////////////////////////////////////
+	
+	$(function() {
+		$('#map_canvas_1').gmap({'center': mobileDemo.center, 'zoom': mobileDemo.zoom, 'disableDefaultUI':true, 'callback': function() {
+			var self = this;
 			
-			////////////////////////////////////////////////////////////
-			
-			$(function() {
-				$('#map_canvas_1').gmap({'center': mobileDemo.center, 'zoom': mobileDemo.zoom, 'disableDefaultUI':true, 'callback': function() {
-					var self = this;
-					
-					// add marker
-					self.addMarker({'position': this.get('map').getCenter() }).click(function() {
-						self.openInfoWindow({ 'content': 'Your authority is not recognized in fort kickass.' }, this);
-					});
+			// add marker
+			self.addMarker({'position': this.get('map').getCenter() }).click(function() {
+				self.openInfoWindow({ 'content': 'Some Text' }, this);
+			});
 
-					// get current position
-					self.getCurrentPosition( function(position, status) {
+			// get current position
+			self.getCurrentPosition( function(position, status) {
+				if ( status === 'OK' ) {
+					var latlng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude)
+					//self.get('map').panTo(latlng);
+					self.search({ 'location': latlng }, function(results, status) {
 						if ( status === 'OK' ) {
-							var latlng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude)
-							//self.get('map').panTo(latlng);
-							self.search({ 'location': latlng }, function(results, status) {
-								if ( status === 'OK' ) {
-									$('#from').val(results[0].formatted_address);
-								}
-							});
-						} else {
-							alert('Unable to get current position');
+							$('#from').val(results[0].formatted_address);
 						}
 					});
-				
-					// submit
-					$('#submit').click(function() {
-						self.displayDirections({ 'origin': $('#from').val(), 'destination': $('#to').val(), 'travelMode': google.maps.DirectionsTravelMode.DRIVING }, { 'panel': document.getElementById('directions')}, function(response, status) {
-							if ( status !== 'OK' ) { 
-								$("#directions").html("We could not calculate directions between " + $("#from").val() + " and " + $("#from").val());
-							}
-							$('#results').show()
-						});
-						return false;
-					});
-				}});
+				} else {
+					alert('Unable to get current position');
+				}
 			});
-			
-        </script>
-</body>
-</html>
+		
+			// submit
+			$('#submit').click(function() {
+				self.displayDirections({ 'origin': $('#from').val(), 'destination': $('#to').val(), 'travelMode': google.maps.DirectionsTravelMode.DRIVING }, { 'panel': document.getElementById('directions')}, function(response, status) {
+					if ( status !== 'OK' ) { 
+						$("#directions").html("We could not calculate directions between " + $("#from").val() + " and " + $("#from").val());
+					}
+					$('#results').show()
+				});
+				return false;
+			});
+		}});
+	});
+</script>
