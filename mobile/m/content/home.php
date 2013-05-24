@@ -7,7 +7,7 @@
 <link rel="stylesheet" media="screen" type="text/css" href="/assets/css/mobile2013.css" />
 </head>
 <body class="wsHome">
-<div data-role="page" class="wsShadow">
+<div data-role="page">
 	<?php include 'header.php'; ?>
 	<?php include 'panel.php'; ?>
 	<div data-role="content" class="wsHome">

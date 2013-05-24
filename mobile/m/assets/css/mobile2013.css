@@ -7,6 +7,9 @@
   text-decoration: none;
   color: #3ea0cb;
 }
+.wsBold {
+  font-weight: bold;
+}
 h2 {
   color: #015786;
 }
@@ -45,7 +48,7 @@ a.wsBButton {
   border-radius: 4px !important;
 }
 .ui-body-d {
-  border-color: #e4e2e2;
+  border-color: #e4e2e2 !important;
 }
 #wsHeader {
   background: url(/assets/images/bgHeader.png) repeat 0 0 !important;
@@ -92,6 +95,7 @@ a.wsBButton {
   padding-top: 0;
   border-top: 0;
   border-right: none !important;
+  box-shadow: 1px 1px 4px #3c3c3c !important;
 }
 #navpanel ul.navClose {
   margin-top: -17px;
@@ -166,6 +170,20 @@ a.wsBButton {
   text-shadow: none !important;
   border: none !important;
   background: none;
+}
+ul.standard,
+ul.green-arrow,
+ul.strongList {
+  list-style-type: none;
+  padding: 0 20px;
+  margin: 12px;
+}
+ul.standard li,
+ul.green-arrow li,
+ul.strongList li {
+  background: transparent url('/assets/images/ws2013-list-square-img.png') no-repeat left 5px;
+  padding: 0 0 0 16px;
+  margin-top: 12px;
 }
 .wsVideo {
   position: relative;
@@ -291,4 +309,42 @@ div#lpeCDiv_2223 {
   .wsVideo .wsVWrapper p {
     margin: 32px 0 0 14px;
   }
+}
+div#directions_map h2 {
+  margin-bottom: 8px;
+}
+div#directions_map h3 {
+  margin: 0 0 0 -15px;
+}
+div#directions_map .wsMapSearch {
+  background: #ffffff !important;
+  border-radius: 4px;
+}
+div#directions_map .wsMapSearch div.ui-input-text {
+  border: 1px solid #e4e2e2;
+  border-radius: 4px;
+}
+div#directions_map .wsMapSearch #map_canvas_1 {
+  border: 1px solid #e4e2e2;
+  border-radius: 4px;
+  width: 100%;
+}
+div#directions_map div.ui-input-text {
+  margin: -2px 0;
+}
+div#directions_map a {
+  background: #3ea0cb;
+  border: none !important;
+  border-radius: 4px;
+  color: #ffffff;
+  text-shadow: none;
+}
+div#directions_map #results .ui-bar-c {
+  background: none !important;
+  border: none !important;
+  color: #015786;
+  font-weight: bold;
+  font-size: 125%;
+  text-shadow: 0 1px 0 #FFFFFF;
+  border-radius: 4px;
 }

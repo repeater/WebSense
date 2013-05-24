@@ -48,7 +48,7 @@
 		</div>
 		<div data-role="collapsible">
 			<h3>Solutions</h3>
-			<ul data-role="listview" data-filter-theme="d"data-theme="a" data-divider-theme="b">
+			<ul data-role="listview" data-filter-theme="d" data-theme="a" data-divider-theme="b">
 				<li><a href="/content/enterprise-solutions.php">Enterprise</a></li>
 				<li><a href="/content/smb-solutions.php">Small and Medium Business</a></li>
 				<li><a href="/content/federal-solutions.php">Federal</a></li>

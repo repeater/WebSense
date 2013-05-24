@@ -20,6 +20,7 @@
 	text-decoration:none;
 	color:@anchor;
 }
+.wsBold {font-weight:bold;}
 h2 {color:@dBlue;}
 h3 {color:@black;}
 h3 span.ui-btn-text {color:@anchor !important;}
@@ -47,7 +48,7 @@ a.wsBButton {
 .ui-corner-all {border-radius:@bRadius !important;}
 
 //// Accordions
-.ui-body-d {border-color:@lGrey;}
+.ui-body-d {border-color:@lGrey !important;}
 
 //// Header Bar
 #wsHeader {
@@ -93,6 +94,7 @@ a.wsBButton {
 	padding-top:0;
 	border-top:0;
 	border-right:none !important;
+	box-shadow: 1px 1px 4px @dGrey !important;
 
 	ul.navClose {
 		margin-top:-17px;
@@ -169,7 +171,17 @@ a.wsBButton {
 	}
 }
 //// Content Pages
-
+ul.standard, ul.green-arrow, ul.strongList {
+	list-style-type: none;
+	padding: 0 20px;
+	margin: 12px;
+	
+	li {
+		background: transparent url('/assets/images/ws2013-list-square-img.png') no-repeat left 5px;
+		padding: 0 0 0 16px;
+		margin-top: 12px;
+	}
+}
 //// Video Player
 .wsVideo {
 	position:relative;
@@ -300,5 +312,51 @@ div#lpeCDiv_2223 {
 			p {margin:32px 0 0 14px;}
 			h4 {}
 		}
+	}
+}
+
+//// Directions - Google Maps
+div#directions_map {
+	h2 {margin-bottom:8px;}
+	h3 {margin:0 0 0 -15px;}
+	.wsMapSearch {
+		background:@white !important;
+		border-radius:@bRadius;
+
+		div.ui-input-text {
+			border:1px solid @lGrey;
+			border-radius:@bRadius;
+		}
+		#map_canvas_1 {
+			border:1px solid @lGrey;
+			border-radius:@bRadius;
+			width:100%;
+		}
+	}
+	div.ui-input-text {margin:-2px 0;}
+	
+	a {
+		background:@anchor;
+		border:none !important;;
+		border-radius:@bRadius;
+		color:@white;
+		text-shadow:none;
+	}
+	#results {
+		.ui-bar-c {
+//			background: linear-gradient(#FFFFFF, #F1F1F1) repeat scroll 0 0 #EEEEEE;
+//	    	border-top-left-radius:1px;
+//	    	border-top-right-radius:1px;
+background:none !important;
+border:none !important;
+	    	//border-color:none;
+	    	
+	    	
+    		color:@dBlue;
+    		font-weight: bold;
+    		font-size:125%;
+    		text-shadow:0 1px 0 #FFFFFF;
+    		border-radius:@bRadius;
+	    }
 	}
 }

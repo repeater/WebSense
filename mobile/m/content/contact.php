@@ -12,15 +12,16 @@
 	<?php include 'panel.php'; ?>
 	<div data-role="content" class="wsPage">
 		<div class="wsBG wsBGOne"></div>
-		<h2>Download your copy of the "Websense® 2013 Threat Report" today.</h2>
-		<p>Conventional information security measures, including anti-virus and next-generation firewalls, aren't enough to protect your organization from today's deluge of sophisticated web threats.</p>
-		<p>That's just one of the key findings in the "Websense® 2013 Threat Report." Based on data collected by the Websense ThreatSeeker® Network, the world's largest and longest-standing security intelligence network, the Report details how advanced threats are specifically targeting mobile devices and social media, and rendering traditional security solutions ineffective.</p>
-		<!--<a href="#" data-role="button" data-shadow="false">Download The 2013 Threat Report</a>-->
+		<h2>Contact Websense&reg;</h2>
+		<h3>North America Corporate Office</h3>
+		<address>
+			<a href="directions.php" title="Mapping Directions to Websense">10240 Sorrento Valley Road</a><br />
+			San Diego, CA 92121
+		</address>
+		Tel: <a href="tel:1-800-723-1166" title="Websense Corporate Number">1-800-723-1166</a> or <br />
+		Tel: <a href="tel:1-858-320-8000" title="Websense Corporate Number">1-858-320-8000</a><br />
+		Fax: 1-858-458-2950
 		
-		<div data-role="collapsible" data-theme="c" data-content-theme="d" data-collapsed-icon="info" data-expanded-icon="info">
-            <h3>Download the 2013 Threat Report</h3>
-        	<iframe width="100%" scrolling="no" height="450" frameborder="0" allowtransparency="true" src="http://a1.websense.com/mobile-test.html"></iframe>
-        </div>
 	</div>
 	<?php include 'footer.php'; ?>
 </div>
