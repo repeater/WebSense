@@ -14,7 +14,7 @@
 .ui-page,
 .ui-body-c,
 .ui-overlay-c {
-//	color:@mGrey !important;
+	color:@mGrey !important;
 	background:@white !important;
 }
 .ui-body-c .ui-link {
@@ -68,17 +68,18 @@ a.wsBButton {
 		background:none !important;
 	
 		.ui-btn-inner {
-			padding:14px 8px 13px 44px;
+			padding:14px 8px 13px 32px;
 			border-right: 1px solid @mGrey;
 			border-bottom:0 !important;
 			border-top:0 !important;
 		}	
 	}
+	h1 a {color:@white;}
 	.wsTitle {
 		background:@black !important;
 		padding:2px 0;
 		border-top:1px solid @mGrey;
-	
+
 		h2 {
 			text-transform: uppercase;
 			text-align:center;
@@ -86,7 +87,7 @@ a.wsBButton {
 		
 			a {
 				text-decoration:none;
-				color:#fff;
+				color:@white;
 			}
 		}
 	}
@@ -104,15 +105,23 @@ a.wsBButton {
 		height:50px !important;
 		
 		li {
-			background: url(/assets/images/bgHeader.png) repeat 0 -2px !important;
+			background: url(/assets/images/bgHeader.png) repeat 0 -3px !important;
 			border-bottom:1px solid @mGrey;
 			height:42px;
 		}
 		
-		span.ui-icon {left:10px;}
-		a {padding-left:40px;}
+		span.ui-icon {
+			left:10px;
+			top:20px;
+		}
+		a {
+			padding:14px 0 0 40px;
+			font-size:12.5px !important;
+		}
 	}
+	.ui-btn-inner {font-size:12.5px !important;}
 }
+.ui-panel-animate.ui-panel-content-fixed-toolbar-position-left.ui-panel-content-fixed-toolbar-open {margin-left:0 !important;}
 
 //// Footer
 .wsFooter {
@@ -137,13 +146,16 @@ a.wsBButton {
 	&.wsBGOne {background: url(/assets/images/wsBGOne.png) no-repeat right 0 !important;}
 	&.wsBGTwo {background: url(/assets/images/wsBGTwo.png) no-repeat right 0 !important;}
 }
-.wsHome {
-	p {
-		text-shadow: 0 1px 0 @black;
-		color:@white !important;
-	}
+.wsHome {	
 	.wsHomeOne,
-	.wsHomeTwo {background-size:95% auto;}
+	.wsHomeTwo {
+		background-size:95% auto;
+	
+		p {
+			text-shadow: 0 1px 0 @black;
+			color:@white !important;
+		}
+	}
 	.wsHomeOne {
 		background: url(/assets/images/bgHomeOne.png) no-repeat center 0;
 		
@@ -171,7 +183,7 @@ a.wsBButton {
 				width:100%;
 
 				span {
-					color:#fff;
+					color:@white;
 					font-size:10px;
 					text-shadow:none !important;
 					border:none !important;
@@ -181,6 +193,9 @@ a.wsBButton {
 		}
 	}
 }
+//@media only screen and (orientation : portrait) and (max-device-width : 720px) {
+//		.wsHome {min-height:400px;}
+//	}
 //// Content Pages
 ul.standard, ul.green-arrow, ul.strongList {
 	list-style-type: none;
@@ -354,7 +369,7 @@ div#directions_map {
 	div.ui-input-text {margin:-2px 0;}	
 	a {
 		background:@anchor;
-		border:none !important;;
+		border:none !important;
 		border-radius:@bRadius;
 		color:@white;
 		text-shadow:none;
@@ -366,7 +381,7 @@ div#directions_map {
     		color:@dBlue;
     		font-weight: bold;
     		font-size:125%;
-    		text-shadow:0 1px 0 #FFFFFF;
+    		text-shadow:0 1px 0 @white;
     		border-radius:@bRadius;
 	    }
 	}

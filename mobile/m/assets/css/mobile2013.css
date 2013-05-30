@@ -1,6 +1,7 @@
 .ui-page,
 .ui-body-c,
 .ui-overlay-c {
+  color: #717171 !important;
   background: #ffffff !important;
 }
 .ui-body-c .ui-link {
@@ -74,10 +75,13 @@ a.wsBButton {
   background: none !important;
 }
 #wsHeader .ui-btn-left .ui-btn-inner {
-  padding: 14px 8px 13px 44px;
+  padding: 14px 8px 13px 32px;
   border-right: 1px solid #717171;
   border-bottom: 0 !important;
   border-top: 0 !important;
+}
+#wsHeader h1 a {
+  color: #ffffff;
 }
 #wsHeader .wsTitle {
   background: #000000 !important;
@@ -91,7 +95,7 @@ a.wsBButton {
 }
 #wsHeader .wsTitle h2 a {
   text-decoration: none;
-  color: #fff;
+  color: #ffffff;
 }
 #navpanel {
   padding-top: 0;
@@ -106,15 +110,23 @@ a.wsBButton {
   height: 50px !important;
 }
 #navpanel ul.navClose li {
-  background: url(/assets/images/bgHeader.png) repeat 0 -2px !important;
+  background: url(/assets/images/bgHeader.png) repeat 0 -3px !important;
   border-bottom: 1px solid #717171;
   height: 42px;
 }
 #navpanel ul.navClose span.ui-icon {
   left: 10px;
+  top: 20px;
 }
 #navpanel ul.navClose a {
-  padding-left: 40px;
+  padding: 14px 0 0 40px;
+  font-size: 12.5px !important;
+}
+#navpanel .ui-btn-inner {
+  font-size: 12.5px !important;
+}
+.ui-panel-animate.ui-panel-content-fixed-toolbar-position-left.ui-panel-content-fixed-toolbar-open {
+  margin-left: 0 !important;
 }
 .wsFooter {
   border-top: 1px solid #717171 !important;
@@ -144,13 +156,14 @@ a.wsBButton {
 .wsBG.wsBGTwo {
   background: url(/assets/images/wsBGTwo.png) no-repeat right 0 !important;
 }
-.wsHome p {
-  text-shadow: 0 1px 0 #000000;
-  color: #ffffff !important;
-}
 .wsHome .wsHomeOne,
 .wsHome .wsHomeTwo {
   background-size: 95% auto;
+}
+.wsHome .wsHomeOne p,
+.wsHome .wsHomeTwo p {
+  text-shadow: 0 1px 0 #000000;
+  color: #ffffff !important;
 }
 .wsHome .wsHomeOne {
   background: url(/assets/images/bgHomeOne.png) no-repeat center 0;
@@ -180,7 +193,7 @@ a.wsBButton {
   width: 100%;
 }
 .wsHome .wsCTA .hpElement a span {
-  color: #fff;
+  color: #ffffff;
   font-size: 10px;
   text-shadow: none !important;
   border: none !important;
@@ -378,6 +391,6 @@ div#directions_map #results .ui-bar-c {
   color: #015786;
   font-weight: bold;
   font-size: 125%;
-  text-shadow: 0 1px 0 #FFFFFF;
+  text-shadow: 0 1px 0 #ffffff;
   border-radius: 4px;
 }

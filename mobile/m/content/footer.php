@@ -1,4 +1,4 @@
-	<div data-role="footer" data-position="fixed" class="wsFooter">
+	<div data-role="footer" class="wsFooter">
 		<div data-role="navbar">
 			<ul>
 				<li><a href="contact.php" class="ui-btn-active ui-state-persist">Contact Us</a></li>
