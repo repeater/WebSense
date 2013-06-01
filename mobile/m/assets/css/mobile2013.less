@@ -61,20 +61,43 @@ a.wsBButton {
 	.ui-btn-up-a {border:none !important;}
 	.ui-btn-up-c {border:1px solid @lGrey !important;}
 	.ui-btn-corner-all {border-radius:0 !important;}
+	.ui-btn-left,
+	.ui-btn-right {
+		.ui-btn-inner {
+			border-bottom:0 !important;
+			border-top:0 !important;
+		}
+	}
 	.ui-btn-left {
 		top:0;
 		left:0;
-		border-right: 1px solid @mGrey;
 		background:none !important;
 	
 		.ui-btn-inner {
-			padding:14px 8px 13px 32px;
-			border-right: 1px solid @mGrey;
+			padding:14px 13px 13px 32px;
+			border-right: 1px solid @dGrey;
 			border-bottom:0 !important;
 			border-top:0 !important;
-		}	
+		}
 	}
-	h1 a {color:@white;}
+	.ui-btn-right {
+		top:0;
+		right:0;
+		background:none !important;
+		
+		.ui-btn-inner {
+			padding:14px 32px 13px 13px;
+			border-left: 1px solid @dGrey;
+			border-bottom:0 !important;
+			border-top:0 !important;
+		}
+	}
+	h1 {
+		font-size:22px;
+		margin:7px auto 8px auto;
+		
+		a {color:@white;}
+	}
 	.wsTitle {
 		background:@black !important;
 		padding:2px 0;
@@ -88,6 +111,8 @@ a.wsBButton {
 			a {
 				text-decoration:none;
 				color:@white;
+				background: url(/assets/images/hArrow.png) no-repeat right top;
+				padding:3px 19px 1px 0;
 			}
 		}
 	}
@@ -102,12 +127,12 @@ a.wsBButton {
 	span.ui-btn-inner {border-color:@mGrey !important;}
 	ul.navClose {
 		margin-top:-17px;
-		height:50px !important;
+		height:52px !important;
 		
 		li {
-			background: url(/assets/images/bgHeader.png) repeat 0 -3px !important;
+			background: url(/assets/images/bgHeader.png) repeat 0 0 !important;
 			border-bottom:1px solid @mGrey;
-			height:42px;
+			height:52px;
 		}
 		
 		span.ui-icon {
@@ -115,11 +140,12 @@ a.wsBButton {
 			top:20px;
 		}
 		a {
-			padding:14px 0 0 40px;
+			padding:9px 0 0 40px;
 			font-size:12.5px !important;
 		}
 	}
-	.ui-btn-inner {font-size:12.5px !important;}
+	.ui-btn-inner {font-size:12.5px !important;line-height:22px;}
+	li.catSub a {padding-left:26px !important;}
 }
 .ui-panel-animate.ui-panel-content-fixed-toolbar-position-left.ui-panel-content-fixed-toolbar-open {margin-left:0 !important;}
 
@@ -127,13 +153,13 @@ a.wsBButton {
 .wsFooter {
 	border-top: 1px solid @mGrey !important;
 	
-	.ui-btn {border-left:1px solid @mGrey !important;}
+	.ui-btn {border-left:1px solid @dGrey !important;}
 	ul {margin-top:-1px;}
 }
 .wsFooter .ui-btn,
 .wsFooter .ui-btn-up-a,
 .wsFooter .ui-btn-active,
-.wsFooter .ui-btn-hover-a {background: url(/assets/images/bgHeader.png) repeat 1px 1px !important;}
+.wsFooter .ui-btn-hover-a {background: url(/assets/images/bgHeader.png) repeat top left !important;}
 
 /// Home Page
 .wsBG {
@@ -232,13 +258,29 @@ ul.standard, ul.green-arrow, ul.strongList {
 		border:1px solid @lGrey;
 		border-radius:@bRadius;
 
-		img {
-			width:100%;
-			border:1px solid @lGrey;
-		}
 		h4 {
 			margin:8px 0;
 			padding:0;
+		}
+		a.video {
+			background: none repeat scroll 0 0 transparent;
+    		display: inline-block;
+    		position: relative;
+    		width:100%;
+		
+			span {
+				background: url(/assets/imgs/2013/ws2013-video-play-overlay.png) no-repeat scroll center center transparent;
+				display:block;
+				height:100%;
+				width:100%;
+				position:absolute;
+				z-index:2;
+			}
+			img {
+				width:100%;
+				height:auto;
+				border:1px solid @lGrey;
+			}
 		}
 		p {font-style:italic;}
 	}

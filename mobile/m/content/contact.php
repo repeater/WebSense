@@ -11,7 +11,7 @@
 	<?php include 'header.php'; ?>
 	<?php include 'panel.php'; ?>
 	<div data-role="content" class="wsPage">
-		<div class="wsBG wsBGOne"></div>
+		<!--<div class="wsBG wsBGOne"></div>-->
 		<h2>Contact Us</h2>
 		<ul class="strongList wsList">
 			<li><span><a href="office-directions.php" title="Websense Directions">North America Corporate Office</a></span>

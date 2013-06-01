@@ -11,7 +11,7 @@
 	<?php include 'header.php'; ?>
 	<?php include 'panel.php'; ?>
 	<div data-role="content" class="wsPage">
-		<div class="wsBG wsBGOne"></div>
+<!--		<div class="wsBG wsBGOne"></div>-->
 		<h2>Download your copy of the "Websense® 2013 Threat Report" today.</h2>
 		<p>Conventional information security measures, including anti-virus and next-generation firewalls, aren't enough to protect your organization from today's deluge of sophisticated web threats.</p>
 		<p>That's just one of the key findings in the "Websense® 2013 Threat Report." Based on data collected by the Websense ThreatSeeker® Network, the world's largest and longest-standing security intelligence network, the Report details how advanced threats are specifically targeting mobile devices and social media, and rendering traditional security solutions ineffective.</p>

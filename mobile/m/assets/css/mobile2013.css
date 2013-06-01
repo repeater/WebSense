@@ -68,17 +68,36 @@ a.wsBButton {
 #wsHeader .ui-btn-corner-all {
   border-radius: 0 !important;
 }
+#wsHeader .ui-btn-left .ui-btn-inner,
+#wsHeader .ui-btn-right .ui-btn-inner {
+  border-bottom: 0 !important;
+  border-top: 0 !important;
+}
 #wsHeader .ui-btn-left {
   top: 0;
   left: 0;
-  border-right: 1px solid #717171;
   background: none !important;
 }
 #wsHeader .ui-btn-left .ui-btn-inner {
-  padding: 14px 8px 13px 32px;
-  border-right: 1px solid #717171;
+  padding: 14px 13px 13px 32px;
+  border-right: 1px solid #3c3c3c;
   border-bottom: 0 !important;
   border-top: 0 !important;
+}
+#wsHeader .ui-btn-right {
+  top: 0;
+  right: 0;
+  background: none !important;
+}
+#wsHeader .ui-btn-right .ui-btn-inner {
+  padding: 14px 32px 13px 13px;
+  border-left: 1px solid #3c3c3c;
+  border-bottom: 0 !important;
+  border-top: 0 !important;
+}
+#wsHeader h1 {
+  font-size: 22px;
+  margin: 7px auto 8px auto;
 }
 #wsHeader h1 a {
   color: #ffffff;
@@ -96,6 +115,8 @@ a.wsBButton {
 #wsHeader .wsTitle h2 a {
   text-decoration: none;
   color: #ffffff;
+  background: url(/assets/images/hArrow.png) no-repeat right top;
+  padding: 3px 19px 1px 0;
 }
 #navpanel {
   padding-top: 0;
@@ -107,23 +128,27 @@ a.wsBButton {
 }
 #navpanel ul.navClose {
   margin-top: -17px;
-  height: 50px !important;
+  height: 52px !important;
 }
 #navpanel ul.navClose li {
-  background: url(/assets/images/bgHeader.png) repeat 0 -3px !important;
+  background: url(/assets/images/bgHeader.png) repeat 0 0 !important;
   border-bottom: 1px solid #717171;
-  height: 42px;
+  height: 52px;
 }
 #navpanel ul.navClose span.ui-icon {
   left: 10px;
   top: 20px;
 }
 #navpanel ul.navClose a {
-  padding: 14px 0 0 40px;
+  padding: 9px 0 0 40px;
   font-size: 12.5px !important;
 }
 #navpanel .ui-btn-inner {
   font-size: 12.5px !important;
+  line-height: 22px;
+}
+#navpanel li.catSub a {
+  padding-left: 26px !important;
 }
 .ui-panel-animate.ui-panel-content-fixed-toolbar-position-left.ui-panel-content-fixed-toolbar-open {
   margin-left: 0 !important;
@@ -132,7 +157,7 @@ a.wsBButton {
   border-top: 1px solid #717171 !important;
 }
 .wsFooter .ui-btn {
-  border-left: 1px solid #717171 !important;
+  border-left: 1px solid #3c3c3c !important;
 }
 .wsFooter ul {
   margin-top: -1px;
@@ -141,7 +166,7 @@ a.wsBButton {
 .wsFooter .ui-btn-up-a,
 .wsFooter .ui-btn-active,
 .wsFooter .ui-btn-hover-a {
-  background: url(/assets/images/bgHeader.png) repeat 1px 1px !important;
+  background: url(/assets/images/bgHeader.png) repeat top left !important;
 }
 .wsBG {
   position: relative;
@@ -243,13 +268,28 @@ ul.strongList.wsList span {
   border: 1px solid #e4e2e2;
   border-radius: 4px;
 }
-.wsVideo .wsVWrapper img {
-  width: 100%;
-  border: 1px solid #e4e2e2;
-}
 .wsVideo .wsVWrapper h4 {
   margin: 8px 0;
   padding: 0;
+}
+.wsVideo .wsVWrapper a.video {
+  background: none repeat scroll 0 0 transparent;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+.wsVideo .wsVWrapper a.video span {
+  background: url(/assets/imgs/2013/ws2013-video-play-overlay.png) no-repeat scroll center center transparent;
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+}
+.wsVideo .wsVWrapper a.video img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #e4e2e2;
 }
 .wsVideo .wsVWrapper p {
   font-style: italic;

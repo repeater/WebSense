@@ -14,8 +14,7 @@
 	<?php include 'header.php'; ?>
 	<?php include 'panel.php'; ?>
 	<div data-role="content" class="wsPage">
-	<a name="top"></a>
-		<div class="wsBG wsBGTwo"></div>
+<!--		<div class="wsBG wsBGTwo"></div>-->
 		<h2>Leading integration and innovation of web, email and data security.</h2>
 		<h3>Get dynamic threat defenses, advanced data protection and compliance in a unified solution.</h3>
 		<div data-role="collapsible-set" data-theme="c" data-content-theme="d" data-collapsed-icon="info" data-expanded-icon="info">
@@ -29,14 +28,14 @@
 			<div class="wsVWrapper">
 				<div>
 					<h4>In Their Words</h4>
-					<a href="http://www.websense.com/assets/videos/video-triton-customers.mp4" title="TRITON Customers EN video" class="trackable omni_VideoView video"><img alt="" class="thumbnail" src="http://www.websense.com/assets/imgs/2013/video-thumb-triton-customers.png" /></a>
+					<a href="http://www.websense.com/assets/videos/video-triton-customers.mp4" title="TRITON Customers EN video" class="trackable omni_VideoView video"><span></span><img alt="" class="thumbnail" src="http://www.websense.com/assets/imgs/2013/video-thumb-triton-customers.png" /></a>
 				</div>
 				<p>Our customers explain why they purchased Websense TRITON solutions. <a href="www.websense.com/assets/videos/video-triton-customers.mp4" title="TRITON Customers EN video" class="trackable omni_VideoView video">Watch the video</a></p>
 			</div>
         </div>
         <p><strong>Data theft and data loss prevention (DLP) built-in at the core. </strong>Unlike competitive offerings, TRITON solutions contain DLP in their DNA. The TRITON architecture uniquely leverages DLP as a defense and for compliance. Email gateways include DLP defenses at the core, and our most advanced web gateway provides full DLP policy controls and containment defenses. Forensic reporting provides incident details and data capture on security incidents and is easily accessible from an advanced threat dashboard. DLP endpoint protection functions off network and uses registered (fingerprinted) data for Windows and Mac OS systems. Portable decryption secures data from endpoints on USB devices and portable media. </p>
         <p><b>Platform of choice and performance.</b> Depending on the size of your organization, you can deploy software, an appliance or cloud services, or a hybrid solution with the ability to host web, email and data security on one platform. Hybrid design enables appliance and cloud security for a perfect mix to equally protect offices and remote users with ACE security defenses.</p>
-        <p><b>Future expansion as desired, or cost-saving suites today.</b> Investing in TRITON solutions comes with a future to expand security defenses over web, email, data and mobile security. Looking for a leading proxy web gateway, integrated DLP as a defense and for compliance, plus advanced malware defenses and malware sandboxing analysis tools?  You can get all three from Websense, rather than settling for three vendors that can't offer the integration, innovation and reduced costs provided by the TRTION architecture.</p>
+        <p><b>Future expansion as desired, or cost-saving suites today.</b> Investing in TRITON solutions comes with a future to expand security defenses over web, email, data and mobile security. Looking for a leading proxy web gateway, integrated DLP as a defense and for compliance, plus advanced malware defenses and malware sandboxing analysis tools?  You can get all three from Websense, rather than settling for three vendors that can't offer the integration, innovation and reduced costs provided by the TRITON architecture.</p>
         <p>Consider one of our TRITON solution suites below, or get started with one or more solutions for web, email, data and mobile security, secure in the knowledge that it all fits together down the road. </p>
         
         <div data-role="collapsible-set" data-theme="c" data-content-theme="d" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">

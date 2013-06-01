@@ -15,7 +15,7 @@
 	<?php include 'panel.php'; ?>
 	<div data-role="content" class="wsPage">
 	<a name="top"></a>
-		<div class="wsBG wsBGTwo"></div>
+<!--		<div class="wsBG wsBGTwo"></div>-->
 		<h2>Our most comprehensive information security solution.</h2>
         <p>Websense&reg; TRITON™ Enterprise protects on-site and remote employees from the latest threats in a unified, hybrid solution. You
         can add <a href="cybersecurity-intelligence-services-overview.aspx">Websense CyberSecurity Intelligence™ (CSI) services</a> to get online

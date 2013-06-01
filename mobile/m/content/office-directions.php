@@ -14,12 +14,17 @@
 	<?php include 'header.php'; ?>
 	<?php include 'panel.php'; ?>
 	<div data-role="content" class="wsPage">
-		<div class="wsBG wsBGOne"></div>
+		<!--<div class="wsBG wsBGOne"></div>-->
 		<div id="directions_map">
 			<h2>Directions</h2>
 			<div data-role="content" style="padding:0 !important;">	
 				<div class="ui-bar-c ui-corner-all ui-shadow wsMapSearch" style="border:none;">
 					<div id="map_canvas_1" style="height:300px;"></div>
+					<div id="results" class="ui-listview ui-listview-inset ui-corner-all ui-shadow" style="display:none;">
+						<div class="ui-li ui-li-divider ui-btn ui-bar-c ui-corner-top ui-btn-up-undefined"><h3>Results<h3></div>
+						<div id="directions"></div>
+						<div class="ui-li ui-li-divider ui-btn ui-bar-c ui-corner-bottom ui-btn-up-undefined"></div>
+					</div>
 					<p>
 						<label for="from" class="wsBold"><b>From</b></label>
 						<input id="from" class="ui-bar-c" type="text" placeholder="Your location" />
@@ -29,11 +34,6 @@
 						<input id="to" class="ui-bar-c wsBold" type="text" value="10240 Sorrento Valley Rd San Diego, California 92121" />
 					</p>
 					<a href="#" id="submit" data-role="button" data-icon="search">Get Directions</a>
-				</div>
-				<div id="results" class="ui-listview ui-listview-inset ui-corner-all ui-shadow" style="display:none;">
-					<div class="ui-li ui-li-divider ui-btn ui-bar-c ui-corner-top ui-btn-up-undefined"><h3>Results<h3></div>
-					<div id="directions"></div>
-					<div class="ui-li ui-li-divider ui-btn ui-bar-c ui-corner-bottom ui-btn-up-undefined"></div>
 				</div>
 			</div>
 		</div>
