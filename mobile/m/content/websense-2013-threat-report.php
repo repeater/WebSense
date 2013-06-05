@@ -11,15 +11,13 @@
 	<?php include 'header.php'; ?>
 	<?php include 'panel.php'; ?>
 	<div data-role="content" class="wsPage">
-<!--		<div class="wsBG wsBGOne"></div>-->
-		<h2>Download your copy of the "Websense® 2013 Threat Report" today.</h2>
+		<h1>2013 Threat Report</h1>
+		<h2>Download your copy today.</h2>
 		<p>Conventional information security measures, including anti-virus and next-generation firewalls, aren't enough to protect your organization from today's deluge of sophisticated web threats.</p>
-		<p>That's just one of the key findings in the "Websense® 2013 Threat Report." Based on data collected by the Websense ThreatSeeker® Network, the world's largest and longest-standing security intelligence network, the Report details how advanced threats are specifically targeting mobile devices and social media, and rendering traditional security solutions ineffective.</p>
-		<!--<a href="#" data-role="button" data-shadow="false">Download The 2013 Threat Report</a>-->
-		
 		<div data-role="collapsible" data-theme="c" data-content-theme="d" data-collapsed-icon="info" data-expanded-icon="info">
             <h3>Download the 2013 Threat Report</h3>
         	<iframe width="100%" scrolling="no" height="450" frameborder="0" allowtransparency="true" src="http://a1.websense.com/mobile-test.html"></iframe>
         </div>
+		<p>That's just one of the key findings in the "Websense® 2013 Threat Report." Based on data collected by the Websense ThreatSeeker® Network, the world's largest and longest-standing security intelligence network, the Report details how advanced threats are specifically targeting mobile devices and social media, and rendering traditional security solutions ineffective.</p>
 	</div>
 	<?php include 'footer.php'; ?>

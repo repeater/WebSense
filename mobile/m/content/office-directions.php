@@ -16,6 +16,7 @@
 	<div data-role="content" class="wsPage">
 		<!--<div class="wsBG wsBGOne"></div>-->
 		<div id="directions_map">
+		<h1>Corporate Office</h1>
 			<h2>Directions</h2>
 			<div data-role="content" style="padding:0 !important;">	
 				<div class="ui-bar-c ui-corner-all ui-shadow wsMapSearch" style="border:none;">
@@ -39,7 +40,7 @@
 		</div>
 	</div>
 	<?php include 'footer.php'; ?>
-	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&libraries=places&key=AIzaSyAWiBTk-mEE636LdcJVpGo71mpjKkfsnzs"></script> 
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&libraries=places&key=AIzaSyAWiBTk-mEE636LdcJVpGo71mpjKkfsnzs"></script> 
 <script src="http://jquery-ui-map.googlecode.com/svn/trunk/ui/jquery.ui.map.js"></script>
 <script src="http://jquery-ui-map.googlecode.com/svn/trunk/ui/jquery.ui.map.services.js"></script>
 <script src="http://jquery-ui-map.googlecode.com/svn/trunk/ui/jquery.ui.map.extensions.js"></script>

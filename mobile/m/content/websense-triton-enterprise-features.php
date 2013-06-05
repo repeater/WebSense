@@ -14,12 +14,17 @@
 	<?php include 'header.php'; ?>
 	<?php include 'panel.php'; ?>
 	<div data-role="content" class="wsPage">
-	<a name="top"></a>
-<!--		<div class="wsBG wsBGTwo"></div>-->
+		<h1>Triton&trade; Enterprise</h1>
 		<h2>Our most comprehensive information security solution.</h2>
         <p>Websense&reg; TRITON™ Enterprise protects on-site and remote employees from the latest threats in a unified, hybrid solution. You
         can add <a href="cybersecurity-intelligence-services-overview.aspx">Websense CyberSecurity Intelligence™ (CSI) services</a> to get online
         malware sandboxing and direct access to <a href="http://securitylabs.websense.com/">Websense Security Labs™</a> threat researchers.</p>
+        <div data-role="collapsible-set" data-theme="c" data-content-theme="d" data-collapsed-icon="info" data-expanded-icon="info">
+			<div data-role="collapsible" class="wsAccordion">
+				<h3>Download the White Paper</h3>
+				<iframe width="100%" scrolling="no" height="450" frameborder="0" allowtransparency="true" src="http://a1.websense.com/mobile-test.html"></iframe>
+			</div>
+		</div>
         <p>And as with all TRITON solutions, you get:</p>
         <ul class="standard">
             <li>Unified Architecture</li>
@@ -45,11 +50,5 @@
             <li><b>Over 1,600 pre-defined policies and over 1,100 pre-defined content classifiers</b> help identify and protect sensitive information. </li>
             <li><b>Optical character recognition (OCR)</b> identifies sensitive data embedded within images and prevents loss. </li>
         </ul>
-		<div data-role="collapsible-set" data-theme="c" data-content-theme="d" data-collapsed-icon="info" data-expanded-icon="info">
-			<div data-role="collapsible" class="wsAccordion">
-				<h3>Download the White Paper</h3>
-				<iframe width="100%" scrolling="no" height="450" frameborder="0" allowtransparency="true" src="http://a1.websense.com/mobile-test.html"></iframe>
-			</div>
-		</div>
 	</div>
 	<?php include 'footer.php'; ?>

@@ -11,8 +11,8 @@
 	<?php include 'header.php'; ?>
 	<?php include 'panel.php'; ?>
 	<div data-role="content" class="wsPage">
-		<!--<div class="wsBG wsBGOne"></div>-->
-		<h2>Contact Us</h2>
+		<h1>Contact Us</h1>
+		<p>Epulae meus pagus. Transverbero quidem ad at nostrud te inhibeo exerci in eu vicis. Saepius sino delenit letatio incassum sit consequat. Consequat quidem duis.</p>
 		<ul class="strongList wsList">
 			<li><span><a href="office-directions.php" title="Websense Directions">North America Corporate Office</a></span>
 			<span>10240 Sorrento Valley Road</span>

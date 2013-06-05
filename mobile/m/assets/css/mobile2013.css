@@ -4,14 +4,22 @@
   color: #717171 !important;
   background: #ffffff !important;
 }
-.ui-body-c .ui-link {
+.ui-body-c .ui-link,
+a {
   text-decoration: none;
   color: #3ea0cb;
+  font-weight: normal;
 }
 .wsBold {
   font-weight: bold;
 }
+h1 {
+  font-size: 24px;
+  margin-bottom: 0;
+  color: #3c3c3c;
+}
 h2 {
+  font-size: 22px;
   color: #015786;
 }
 h3 {
@@ -20,15 +28,16 @@ h3 {
 h3 span.ui-btn-text {
   color: #3ea0cb !important;
 }
-#navpanel h3 span.ui-btn-text {
-  color: #ffffff !important;
+h4,
+.no-margin {
+  margin-bottom: -13px !important;
 }
 * {
   box-shadow: none !important;
+  text-shadow: none;
 }
 * p {
   color: #717171 !important;
-  text-shadow: none;
 }
 .wsPage {
   background: #ffffff !important;
@@ -49,8 +58,11 @@ a.wsBButton {
 .ui-corner-all {
   border-radius: 4px !important;
 }
-.ui-body-d {
-  border-color: #e4e2e2 !important;
+.ui-collapsible-heading .ui-body-d {
+  border-color: #717171 !important;
+}
+.ui-collapsible-heading .ui-btn-up-c {
+  background: #e4e2e2 !important;
 }
 #wsHeader {
   background: url(/assets/images/bgHeader.png) repeat 0 0 !important;
@@ -97,7 +109,7 @@ a.wsBButton {
 }
 #wsHeader h1 {
   font-size: 22px;
-  margin: 7px auto 8px auto;
+  margin: 7px 0 8px 11px;
 }
 #wsHeader h1 a {
   color: #ffffff;
@@ -115,25 +127,28 @@ a.wsBButton {
 #wsHeader .wsTitle h2 a {
   text-decoration: none;
   color: #ffffff;
-  background: url(/assets/images/hArrow.png) no-repeat right top;
-  padding: 3px 19px 1px 0;
+  background: url(/assets/images/hArrow.png) no-repeat right 6px;
+  padding: 3px 9px 1px 0;
 }
 #navpanel {
   padding-top: 0;
   border-top: 0;
   border-right: none !important;
 }
+#navpanel h3 span.ui-btn-text {
+  color: #ffffff !important;
+}
 #navpanel span.ui-btn-inner {
   border-color: #717171 !important;
 }
 #navpanel ul.navClose {
-  margin-top: -17px;
-  height: 52px !important;
+  margin-top: -18px;
+  height: 53px !important;
 }
 #navpanel ul.navClose li {
   background: url(/assets/images/bgHeader.png) repeat 0 0 !important;
   border-bottom: 1px solid #717171;
-  height: 52px;
+  height: 53px;
 }
 #navpanel ul.navClose span.ui-icon {
   left: 10px;
@@ -143,24 +158,50 @@ a.wsBButton {
   padding: 9px 0 0 40px;
   font-size: 12.5px !important;
 }
+#navpanel .ui-listview,
 #navpanel .ui-btn-inner {
   font-size: 12.5px !important;
-  line-height: 22px;
+  line-height: 21px;
 }
-#navpanel li.catSub a {
-  padding-left: 26px !important;
+#navpanel .ui-listview li.navOne a {
+  text-transform: uppercase;
+}
+#navpanel .ui-listview li.navTwo {
+  background: #000000 !important;
+}
+#navpanel .ui-listview li.navTwo a {
+  text-transform: uppercase;
+  font-weight: normal !important;
+  line-height: 12px;
+}
+#navpanel .ui-listview li.navThree a {
+  background: url(/assets/images/blueDot.png) no-repeat 15px 12px;
+  font-weight: normal !important;
+  padding-left: 30px;
+  font-size: 11.5px !important;
+  line-height: 14px;
+}
+#navpanel .ui-body-d {
+  border-color: #717171 !important;
 }
 .ui-panel-animate.ui-panel-content-fixed-toolbar-position-left.ui-panel-content-fixed-toolbar-open {
   margin-left: 0 !important;
 }
 .wsFooter {
   border-top: 1px solid #717171 !important;
+  border-bottom: none;
 }
-.wsFooter .ui-btn {
+.wsFooter .ui-btn-inner {
+  border-top: none;
+}
+.wsFooter .ui-btn-inner .ui-btn-text {
+  text-shadow: none;
+}
+.wsFooter .ui-block-a .ui-btn {
+  border-left: none !important;
+}
+.wsFooter .ui-block-b .ui-btn {
   border-left: 1px solid #3c3c3c !important;
-}
-.wsFooter ul {
-  margin-top: -1px;
 }
 .wsFooter .ui-btn,
 .wsFooter .ui-btn-up-a,
@@ -234,7 +275,7 @@ ul.strongList {
 ul.standard li,
 ul.green-arrow li,
 ul.strongList li {
-  background: transparent url('/assets/images/ws2013-list-square-img.png') no-repeat left 5px;
+  background: transparent url(/assets/images/ws2013-list-square-img.png) no-repeat left 5px;
   padding: 0 0 0 16px;
   margin-top: 12px;
 }
@@ -357,7 +398,8 @@ div#lpeCDiv_2223 {
     background: url(/assets/images/bgHomeOne.png) no-repeat 0 0 !important;
   }
   .wsHome .wsHomeOne p {
-    padding: 0 !important;
+    vertical-align: top;
+    padding: 35px 0 !important;
   }
   .wsHome .wsHomeTwo {
     background: url(/assets/images/bgHomeTwo.png) no-repeat 0 0 !important;

@@ -14,7 +14,7 @@
 	<?php include 'header.php'; ?>
 	<?php include 'panel.php'; ?>
 	<div data-role="content" class="wsPage">
-<!--		<div class="wsBG wsBGTwo"></div>-->
+		<h1>Triton Security Products</h1>
 		<h2>Leading integration and innovation of web, email and data security.</h2>
 		<h3>Get dynamic threat defenses, advanced data protection and compliance in a unified solution.</h3>
 		<div data-role="collapsible-set" data-theme="c" data-content-theme="d" data-collapsed-icon="info" data-expanded-icon="info">

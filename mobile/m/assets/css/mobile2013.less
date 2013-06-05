@@ -17,20 +17,28 @@
 	color:@mGrey !important;
 	background:@white !important;
 }
-.ui-body-c .ui-link {
+.ui-body-c .ui-link, a {
 	text-decoration:none;
 	color:@anchor;
+	font-weight:normal;
 }
 .wsBold {font-weight:bold;}
-h2 {color:@dBlue;}
+h1 {
+	font-size:24px;
+	margin-bottom:0;
+	color:@dGrey;
+}
+h2 {
+	font-size:22px;
+	color:@dBlue;
+}
 h3 {color:@black;}
 h3 span.ui-btn-text {color:@anchor !important;}
-#navpanel h3 span.ui-btn-text {color:@white !important;}
-* {box-shadow:none !important;}
-* p {
-	color:@mGrey !important;
+h4, .no-margin {margin-bottom:-13px !important;}
+* {	box-shadow:none !important;
 	text-shadow:none;
 }
+* p {color:@mGrey !important;}
 
 //// Background Colors
 .wsPage {background:@white !important;}
@@ -50,8 +58,13 @@ a.wsBButton {
 .ui-corner-all {border-radius:@bRadius !important;}
 
 //// Accordions
-.ui-body-d {border-color:@lGrey !important;}
-
+.ui-collapsible-heading {
+	.ui-body-d {border-color:@mGrey !important;}
+	.ui-btn-up-c {
+		//background: linear-gradient(#FFFFFF, #F1F1F1) repeat scroll 0 0 #EEEEEE;
+		background:@lGrey !important;
+	}
+}
 //// Header Bar
 #wsHeader {
 	background: url(/assets/images/bgHeader.png) repeat 0 0 !important;
@@ -94,7 +107,7 @@ a.wsBButton {
 	}
 	h1 {
 		font-size:22px;
-		margin:7px auto 8px auto;
+		margin:7px 0 8px 11px;
 		
 		a {color:@white;}
 	}
@@ -111,8 +124,8 @@ a.wsBButton {
 			a {
 				text-decoration:none;
 				color:@white;
-				background: url(/assets/images/hArrow.png) no-repeat right top;
-				padding:3px 19px 1px 0;
+				background: url(/assets/images/hArrow.png) no-repeat right 6px;
+				padding:3px 9px 1px 0;
 			}
 		}
 	}
@@ -124,15 +137,16 @@ a.wsBButton {
 	border-top:0;
 	border-right:none !important;
 	
+	h3 span.ui-btn-text {color:@white !important;}
 	span.ui-btn-inner {border-color:@mGrey !important;}
 	ul.navClose {
-		margin-top:-17px;
-		height:52px !important;
+		margin-top:-18px;
+		height:53px !important;
 		
 		li {
 			background: url(/assets/images/bgHeader.png) repeat 0 0 !important;
 			border-bottom:1px solid @mGrey;
-			height:52px;
+			height:53px;
 		}
 		
 		span.ui-icon {
@@ -144,17 +158,57 @@ a.wsBButton {
 			font-size:12.5px !important;
 		}
 	}
-	.ui-btn-inner {font-size:12.5px !important;line-height:22px;}
-	li.catSub a {padding-left:26px !important;}
+		.ui-collapsible,
+		.ui-btn {
+			//background: url(/assets/images/bgHeader.png) repeat 0 0 !important;
+		}
+	.ui-listview,
+	.ui-btn-inner {
+		font-size:12.5px !important;
+		line-height:21px;
+		//border-top:1px solid @mGrey;
+	}
+		.ui-listview {
+			li.navOne {
+				a {text-transform:uppercase;}
+			}
+			li.navTwo {
+				background:@black !important;
+				a {
+					text-transform:uppercase;
+					font-weight:normal !important;
+					line-height:12px;
+				}
+			}
+			li.navThree {
+				a {
+					background: url(/assets/images/blueDot.png) no-repeat 15px 12px;
+					//padding-left:30px !important;
+					font-weight:normal !important;
+					padding-left:30px;
+					font-size:11.5px !important;
+					line-height:14px;
+				}
+			}
+		}
+	.ui-body-d {border-color:@mGrey !important;}
 }
 .ui-panel-animate.ui-panel-content-fixed-toolbar-position-left.ui-panel-content-fixed-toolbar-open {margin-left:0 !important;}
 
 //// Footer
 .wsFooter {
 	border-top: 1px solid @mGrey !important;
+	border-bottom:none;
 	
-	.ui-btn {border-left:1px solid @dGrey !important;}
-	ul {margin-top:-1px;}
+	.ui-btn-inner {
+		border-top:none;
+		
+		.ui-btn-text {text-shadow:none;}
+	}
+		.ui-block-a .ui-btn {border-left:none !important;}
+		.ui-block-b .ui-btn{border-left:1px solid @dGrey !important;}
+//	.ui-btn:nth-child(1) {border-left:1px solid red !important;}
+//	ul {margin-top:-1px;}
 }
 .wsFooter .ui-btn,
 .wsFooter .ui-btn-up-a,
@@ -229,7 +283,7 @@ ul.standard, ul.green-arrow, ul.strongList {
 	margin: 12px;
 	
 	li {
-		background: transparent url('/assets/images/ws2013-list-square-img.png') no-repeat left 5px;
+		background: transparent url(/assets/images/ws2013-list-square-img.png) no-repeat left 5px;
 		padding: 0 0 0 16px;
 		margin-top: 12px;
 	}
@@ -349,7 +403,10 @@ div#lpeCDiv_2223 {
 	.wsHomeOne {
 		background: url(/assets/images/bgHomeOne.png) no-repeat 0 0 !important;
 		
-		p {padding:0 !important;}
+		p {
+			vertical-align:top;
+			padding:35px 0 !important;
+		}
 	}
 	.wsHomeTwo {
 		background: url(/assets/images/bgHomeTwo.png) no-repeat 0 0 !important;
