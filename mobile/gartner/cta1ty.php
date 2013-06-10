@@ -12,6 +12,6 @@
 	<div data-role="content" class="wsPage">
 		<h1>Magic Quadrant for Secure Web Gateways</h1>
 		<p class="pSep">Thank you for registering.</p>
-		<a href="#" data-shadow="false" data-role="button" data-mini="true" class="wsBButton noDots">View the Magic Quadrant for Secure Gateways</a>
+		<a href="http://www.gartner.com/technology/reprints.do?id=1-1FSRRL7&ct=130529&st=sb" target="_new" data-shadow="false" data-role="button" data-mini="true" class="wsBButton noDots">View the Magic Quadrant for Secure Gateways</a>
     </div>
     <?php include 'footer.php'; ?>

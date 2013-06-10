@@ -28,8 +28,7 @@ h3 {
 h3 span.ui-btn-text {
   color: #3ea0cb !important;
 }
-h4,
-.no-margin {
+h4.no-margin {
   margin-bottom: -13px !important;
 }
 * {
@@ -39,10 +38,13 @@ h4,
 * p {
   color: #ffffff !important;
 }
+* p.finePrint {
+  font-size: 10px;
+}
 .wsPage {
   background: url(../images/bgInside.png) no-repeat right top #000000 !important;
   background-size: 95% auto !important;
-  min-height: 480px;
+  min-height: 680px;
 }
 .wsHome {
   background: #000000 !important;
@@ -223,9 +225,6 @@ a.wsBButton:visited span {
 .wsFooter .ui-btn-hover-a {
   background: url(../images/bgHeader.png) repeat top left !important;
 }
-.wsHome {
-  min-height: 1000px;
-}
 .wsHome h1,
 .wsHome h2 {
   color: #ffffff;
@@ -366,11 +365,16 @@ p.pSep {
 .wsVideo .wsVWrapper p {
   font-style: italic;
 }
-body {
-  background: #000000;
+#outerWrapDiv {
+  position: relative;
+  left: -10px;
+}
+#outerWrapDiv .lpeRegForm {
+  width: 100% !important;
+  background: #ffffff;
 }
 ul.mktLblCenter {
-  width: 100%;
+  width: 99%;
   background: none;
   font-size: 14px !important;
 }
@@ -412,10 +416,6 @@ ul.mktLblCenter input[type="text"] {
   border-radius: 4px;
   height: 35px;
   background: none !important;
-}
-div#lpeCDiv_2223 {
-  width: 100% !important;
-  background: #ffffff;
 }
 @media only screen and (orientation: landscape) {
   .wsHome .wsHomeOne,

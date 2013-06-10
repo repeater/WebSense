@@ -34,17 +34,21 @@ h2 {
 }
 h3 {color:@black;}
 h3 span.ui-btn-text {color:@anchor !important;}
-h4, .no-margin {margin-bottom:-13px !important;}
+h4.no-margin {margin-bottom:-13px !important;}
 * {	box-shadow:none !important;
 	text-shadow:none;
 }
-* p {color:@white !important;}
+* p {
+	color:@white !important;
+	
+	&.finePrint {font-size:10px;}
+}
 
 //// Background Colors
 .wsPage {
 	background: url(../images/bgInside.png) no-repeat right top @black !important;
 	background-size:95% auto !important;
-	min-height:480px;
+	min-height:680px;
 }
 .wsHome {background:@black !important;}
 
@@ -74,10 +78,7 @@ a.wsBButton:visited {
 //// Accordions
 .ui-collapsible-heading {
 	.ui-body-d {border-color:@mGrey !important;}
-	.ui-btn-up-c {
-		//background: linear-gradient(#FFFFFF, #F1F1F1) repeat scroll 0 0 #EEEEEE;
-		background:@lGrey !important;
-	}
+	.ui-btn-up-c {background:@lGrey !important;}
 }
 //// Header Bar
 #wsHeader {
@@ -162,7 +163,6 @@ a.wsBButton:visited {
 			border-bottom:1px solid @mGrey;
 			height:53px;
 		}
-		
 		span.ui-icon {
 			left:10px;
 			top:20px;
@@ -172,15 +172,10 @@ a.wsBButton:visited {
 			font-size:12.5px !important;
 		}
 	}
-		.ui-collapsible,
-		.ui-btn {
-			//background: url(../images/bgHeader.png) repeat 0 0 !important;
-		}
 	.ui-listview,
 	.ui-btn-inner {
 		font-size:12.5px !important;
 		line-height:21px;
-		//border-top:1px solid @mGrey;
 	}
 		.ui-listview {
 			li.navOne {
@@ -197,7 +192,6 @@ a.wsBButton:visited {
 			li.navThree {
 				a {
 					background: url(../images/blueDot.png) no-repeat 15px 12px;
-					//padding-left:30px !important;
 					font-weight:normal !important;
 					padding-left:30px;
 					font-size:11.5px !important;
@@ -221,8 +215,6 @@ a.wsBButton:visited {
 	}
 		.ui-block-a .ui-btn {border-left:none !important;}
 		.ui-block-b .ui-btn{border-left:1px solid @dGrey !important;}
-//	.ui-btn:nth-child(1) {border-left:1px solid red !important;}
-//	ul {margin-top:-1px;}
 }
 .wsFooter .ui-btn,
 .wsFooter .ui-btn-up-a,
@@ -231,7 +223,6 @@ a.wsBButton:visited {
 
 /// Home Page
 .wsHome {
-	min-height:1000px;
 	
 	h1,h2 {color:@white;}
 		h1 {margin-top:0;}
@@ -298,8 +289,6 @@ a.wsBButton:visited {
 		a:nth-child(2) {margin-bottom:7px;}
 	}
 }
-//@media only screen and (orientation : portrait) and (max-device-width : 720px) {
-//// Content Pages
 ul.standard, ul.green-arrow, ul.strongList {
 	list-style-type: none;
 	padding: 0 20px;
@@ -366,9 +355,17 @@ p {
 	}
 }
 //// Marketo Forms
-body {background:@black;}
+#outerWrapDiv {
+	position:relative;
+	left:-10px;
+	
+	.lpeRegForm {
+		width:100% !important;
+		background:@white;
+	}
+}
 ul.mktLblCenter {
-	width:100%;
+	width:99%;
 	background:none;
 	font-size:14px !important;
 	
@@ -409,11 +406,6 @@ ul.mktLblCenter {
 		background:none !important;
 	}
 }
-div#lpeCDiv_2223 {
-	width:100% !important;
-	background:@white;
-}
-
 // @media only screen and (orientation: portrait) {}
 @media only screen and (orientation: landscape) {
 .wsHome {

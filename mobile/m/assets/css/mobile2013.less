@@ -34,12 +34,12 @@ h2 {
 }
 h3 {color:@black;}
 h3 span.ui-btn-text {color:@anchor !important;}
-h4, .no-margin {margin-bottom:-13px !important;}
+h4.no-margin {margin-bottom:-13px !important;}
 * {	box-shadow:none !important;
 	text-shadow:none;
 }
 * p {color:@mGrey !important;}
-
+.divError {border:1px solid red !important;}
 //// Background Colors
 .wsPage {background:@white !important;}
 .wsHome {background:@black !important;}
@@ -340,6 +340,17 @@ ul.standard, ul.green-arrow, ul.strongList {
 	}
 }
 //// Marketo Forms
+#outerWrapDiv {
+	position:relative;
+	left:-3px;
+	width:100%;
+	
+	.lpeRegForm ,
+	.lpeCElement {
+		width:100% !important;
+		background:@white;
+	}
+}
 ul.mktLblCenter {
 	width:100%;
 	background:none;
@@ -381,10 +392,6 @@ ul.mktLblCenter {
 		height:35px;
 		background:none !important;
 	}
-}
-div#lpeCDiv_2223 {
-	width:100% !important;
-	background:@white;
 }
 
 // @media only screen and (orientation: portrait) {}

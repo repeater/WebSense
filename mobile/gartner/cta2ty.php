@@ -12,6 +12,6 @@
 	<div data-role="content" class="wsPage">
 		<h1>Magic Quadrant for Content-Aware Data Loss Prevention</h1>
 		<p class="pSep">Thank you for registering.</p>
-		<a href="#" data-shadow="false" data-role="button" data-mini="true" class="wsBButton noDots">View the Magic Quadrant for Data Loss Prevention</a>
+		<a href="http://www.gartner.com/technology/reprints.do?id=1-1DGZXGK&ct=130104&st=sb#" target="_new" data-shadow="false" data-role="button" data-mini="true" class="wsBButton noDots">View the Magic Quadrant for Data Loss Prevention</a>
     </div>
     <?php include 'footer.php'; ?>
