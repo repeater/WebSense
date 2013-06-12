@@ -32,7 +32,10 @@ h2 {
 	font-size:22px;
 	color:@dBlue;
 }
-h3 {color:@black;}
+h3 {
+	color:@mGrey;
+	font-size:16px;
+}
 h3 span.ui-btn-text {color:@anchor !important;}
 h4.no-margin {margin-bottom:-13px !important;}
 * {	box-shadow:none !important;
@@ -40,6 +43,13 @@ h4.no-margin {margin-bottom:-13px !important;}
 }
 * p {color:@mGrey !important;}
 .divError {border:1px solid red !important;}
+blockquote {
+    border-bottom: 4px double @lGrey !important;
+    border-top: 4px double @lGrey !important;
+    font-style: italic;
+    padding: 6px;
+}
+
 //// Background Colors
 .wsPage {background:@white !important;}
 .wsHome {background:@black !important;}
@@ -48,11 +58,20 @@ h4.no-margin {margin-bottom:-13px !important;}
 .wsShadow {box-shadow: -1px -1px 8px @dGrey;}
 
 //// Buttons
-a.wsBButton {
+a.wsBButton,
+a.wsBButton:hover,
+a.wsBButton:visited,
+a.wsBButton:active {
 	background:@anchor !important;
 	color:@white;
 	text-shadow:none !important;
 	border:none !important;
+	text-align:left !important;
+	
+	.ui-btn-text {
+		overflow:visible;
+		white-space:normal;
+	}
 }
 .ui-btn-corner-all,
 .ui-corner-all {border-radius:@bRadius !important;}
@@ -63,6 +82,10 @@ a.wsBButton {
 	.ui-btn-up-c {
 		//background: linear-gradient(#FFFFFF, #F1F1F1) repeat scroll 0 0 #EEEEEE;
 		background:@lGrey !important;
+	}
+	.ui-btn-text {
+		overflow:visible;
+		white-space:normal;
 	}
 }
 //// Header Bar
@@ -303,6 +326,7 @@ ul.standard, ul.green-arrow, ul.strongList {
 .wsVideo {
 	position:relative;
 	width:100%;
+	margin-bottom:13px;
 
 	.wsVWrapper {
 		position:relative;
@@ -336,7 +360,10 @@ ul.standard, ul.green-arrow, ul.strongList {
 				border:1px solid @lGrey;
 			}
 		}
-		p {font-style:italic;}
+		p {
+			font-style:italic;
+			font-size:13px;
+		}
 	}
 }
 //// Marketo Forms

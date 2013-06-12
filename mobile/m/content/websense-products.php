@@ -15,7 +15,7 @@
 		<h2>The best information security products at the lowest total cost of ownership.</h2>
 		<div data-role="collapsible-set" data-theme="c" data-content-theme="d" data-collapsed-icon="info" data-expanded-icon="info">
 			<div data-role="collapsible" class="wsAccordion">
-				<h3>Download the White Paper</h3>
+				<h3>Watch Demo</h3>
 				<iframe width="100%" scrolling="no" height="450" frameborder="0" allowtransparency="true" src="http://a1.websense.com/mobile-test.html"></iframe>
 			</div>
 		</div>

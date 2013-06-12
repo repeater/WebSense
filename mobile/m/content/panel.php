@@ -8,20 +8,20 @@
 			<h3>Products</h3>
 			<ul data-role="listview" data-filter-theme="d" data-theme="a">
 				<li class="navOne"><a href="/content/websense-products.php">Product Overview</a></li>
-				<li class="navTwo"><a href="/content/websense-triton-security-products.php">Triton Products</a></li>
-				<li class="navThree"><a href="/content/websense-triton-enterprise-features.php">Triton Enterprise</a></li>
-				<li class="navThree"><a href="/content/websense-triton-security-gateway-anywhere-features.php">Triton SGA</a></li>
-				<li class="navThree"><a href="/content/websense-triton-web-security-gateway-features.php">Triton SG</a></li>
+				<li class="navTwo"><a href="/content/websense-triton-security-products.php">TRITON Products</a></li>
+				<li class="navThree"><a href="/content/websense-triton-enterprise-features.php">TRITON Enterprise</a></li>
+				<li class="navThree"><a href="/content/websense-triton-security-gateway-anywhere-features.php">TRITON Secure Gateway Anywhere</a></li>
+				<li class="navThree"><a href="/content/websense-triton-web-security-gateway-features.php">TRITON Secure Gateway</a></li>
 				<li class="navTwo"><a href="/content/websense-web-security-products.php">Web Security Products</a></li>
-				<li class="navThree"><a href="/content/web-security-gateway-anywhere-features.php">WSGA</a></li>
-				<li class="navThree"><a href="/content/web-security-gateway-features.php">WSG</a></li>
+				<li class="navThree"><a href="/content/web-security-gateway-anywhere-features.php">Web Security Gateway Anywhere</a></li>
+				<li class="navThree"><a href="/content/web-security-gateway-features.php">Web Security Gateway</a></li>
 				<li class="navThree"><a href="/content/cloud-web-security-gateway-features.php">Cloud Web Security Gateway</a></li>
 				<li class="navThree"><a href="/content/ace-in-the-cloud-features.php">ACE In The Cloud</a></li>
 				<li class="navThree"><a href="/content/web-security-features.php">Web Security</a></li>
 				<li class="navThree"><a href="/content/cloud-web-security-features.php">Cloud Web Security</a></li>
 				<li class="navThree"><a href="/content/web-filter-features.php">Web Filter</a></li>
 				<li class="navTwo"><a href="/content/websense-email-security-products.php">Email Security Products</a></li>
-				<li class="navThree"><a href="/content/email-security-gateway-anywhere-features.php">Email SGA</a></li>
+				<li class="navThree"><a href="/content/email-security-gateway-anywhere-features.php">Email Secure Gateway Anywhere</a></li>
 				<li class="navThree"><a href="/content/cloud-email-security-and-content-control-features.php">Cloud Email Security</a></li>
 				<li class="navThree"><a href="/content/email-security-gateway-features.php">Email Security Gateway</a></li>
 				<li class="navTwo"><a href="/content/websense-data-security-products.php">Data Security Products</a></li>
@@ -33,8 +33,8 @@
 				<li class="navThree"><a href="/content/triton-mobile-security-features.php">TRITON Mobile Security</a></li>
 				<li class="navTwo"><a href="/content/websense-services.php">Services</a></li>
 				<li class="navThree"><a href="/content/cybersecurity-intelligence-services.php">Cybersecurity Intelligence (CSI)</a></li>
-				<li class="navThree"><a href="/content/certified-triton-integrator.php">Certified Triton Integrator</a></li>
-				<li class="navThree"><a href="/content/training-and-technical-certification-locations.php">Training and Technical Certification</a></li>
+				<li class="navThree"><a href="/content/certified-triton-integrator.php">Certified TRITON Integrator</a></li>
+				<li class="navThree"><a href="/content/training-and-technical-certification.php">Training and Technical Certification</a></li>
 				<li class="navTwo"><a href="/content/websense-technologies.php">Technologies</a></li>
 				<li class="navThree"><a href="/content/websense-advanced-classification-engine.php">ACE</a></li>
 				<li class="navThree"><a href="/content/websense-threatseeker-network.php">Threatseeker Network</a></li>
@@ -44,7 +44,8 @@
 				<li class="navThree"><a href="/content/cloud-platforms.php">Cloud</a></li>
 				<li class="navThree"><a href="/content/hybrid-platforms.php">Hybrid</a></li>
 				<li class="navThree"><a href="/content/software-platforms.php">Software</a></li>
-				<li class="navTwo"><a href="/content/product-comparison-chart.php">Product Comparison Chart</a></li>
+				<!--<li class="navTwo"><a href="/content/product-comparison-chart.php">Product Comparison Chart</a></li>-->
+				<li class="navThree"><a href="/assets/pdf/product-comparison-chart.pdf">Product Comparison Chart</a></li>
 			</ul>
 		</div>
 		<div data-role="collapsible">
@@ -64,10 +65,11 @@
 		</div>
 		<div data-role="collapsible">
 			<h3>Company</h3>
-			<ul data-role="listview" data-filter-theme="d"data-theme="a" data-divider-theme="b">
+			<ul data-role="listview" data-filter-theme="d" data-theme="a" data-divider-theme="b">
 				<li class="navOne"><a href="/content/company.php">Company Overview</a></li>
 				<li class="navThree"><a href="/content/contact.php">Contact</a></li>
 				<li class="navThree"><a href="/content/office-directions.php" target="_parent">Directions</a></li>
+				<li class="navThree"><a href="/content/websense-social-media.php">Social Media</a></li>
 			</ul>
 		</div>
 	</div>

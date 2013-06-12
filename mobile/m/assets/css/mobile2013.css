@@ -23,7 +23,8 @@ h2 {
   color: #015786;
 }
 h3 {
-  color: #000000;
+  color: #717171;
+  font-size: 16px;
 }
 h3 span.ui-btn-text {
   color: #3ea0cb !important;
@@ -41,6 +42,12 @@ h4.no-margin {
 .divError {
   border: 1px solid red !important;
 }
+blockquote {
+  border-bottom: 4px double #e4e2e2 !important;
+  border-top: 4px double #e4e2e2 !important;
+  font-style: italic;
+  padding: 6px;
+}
 .wsPage {
   background: #ffffff !important;
 }
@@ -50,11 +57,22 @@ h4.no-margin {
 .wsShadow {
   box-shadow: -1px -1px 8px #3c3c3c;
 }
-a.wsBButton {
+a.wsBButton,
+a.wsBButton:hover,
+a.wsBButton:visited,
+a.wsBButton:active {
   background: #3ea0cb !important;
   color: #ffffff;
   text-shadow: none !important;
   border: none !important;
+  text-align: left !important;
+}
+a.wsBButton .ui-btn-text,
+a.wsBButton:hover .ui-btn-text,
+a.wsBButton:visited .ui-btn-text,
+a.wsBButton:active .ui-btn-text {
+  overflow: visible;
+  white-space: normal;
 }
 .ui-btn-corner-all,
 .ui-corner-all {
@@ -65,6 +83,10 @@ a.wsBButton {
 }
 .ui-collapsible-heading .ui-btn-up-c {
   background: #e4e2e2 !important;
+}
+.ui-collapsible-heading .ui-btn-text {
+  overflow: visible;
+  white-space: normal;
 }
 #wsHeader {
   background: url(/assets/images/bgHeader.png) repeat 0 0 !important;
@@ -302,6 +324,7 @@ ul.strongList.wsList span {
 .wsVideo {
   position: relative;
   width: 100%;
+  margin-bottom: 13px;
 }
 .wsVideo .wsVWrapper {
   position: relative;
@@ -336,6 +359,7 @@ ul.strongList.wsList span {
 }
 .wsVideo .wsVWrapper p {
   font-style: italic;
+  font-size: 13px;
 }
 #outerWrapDiv {
   position: relative;
