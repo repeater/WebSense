@@ -16,15 +16,30 @@
 	<div data-role="content" class="wsPage">
 		<h1>ACE (Advanced Classification Engine)</h1>
         <h2>ACE is why no one stops more threats than Websense.</h2>
-        <p>Websense&reg; ACE delivers real-time security ratings to all products built on the Websense TRITON™ architecture. Its seven assessment
+        <div data-role="collapsible-set" data-theme="c" data-content-theme="d" data-collapsed-icon="info" data-expanded-icon="info">
+			<div data-role="collapsible" class="wsAccordion">
+				<h3>Download the white paper</h3>
+				<iframe width="100%" scrolling="no" height="450" frameborder="0" allowtransparency="true" src="http://a1.websense.com/mobile-test.html"></iframe>
+			</div>
+		</div>
+        <p>Websense&reg; ACE delivers real-time security ratings to all products built on the Websense TRITON&trade; architecture. Its seven assessment
         areas and a unique composite scoring process enable TRITON solutions to detect things other security solutions miss.</p>
+        <div class="wsVideo">
+			<div class="wsVWrapper">
+				<div>
+					<h4>Watch the ACE Demo</h4>
+					<a href="http://www.websense.com/assets/videos/video-ace-en.mov" title="TRITON Customers EN video" class="trackable omni_VideoView video"><span></span><img alt="" class="thumbnail" src="http://www.websense.com/assets/imgs/2013/ws2013-video-thumbnail-ace.png" /></a>
+				</div>
+				<p>Websense researchers explain the technology and capabilities behind ACE. <a href="http://www.websense.com/assets/videos/video-ace-en.mov" title="TRITON Customers EN video" class="trackable omni_VideoView video">Watch the video</a></p>
+			</div>
+        </div>
         <p>ACE intelligence helps our information security products provide: </p>
         <ul class="standard">
             <li>Protection against advanced threats, modern malware and data theft.</li>
             <li>Productivity controls that understand social media and other applications.</li>
             <li>Compliance through strong outbound content visibility and containment controls.</li>
         </ul>
-        <p><strong>ACE is maintained by <a href="http://securitylabs.websense.com">Websense Security Labs™</a> researchers.</strong> Its unique capabilities include:</p>
+        <p><strong>ACE is maintained by Websense Security Labs&trade; researchers.</strong> Its unique capabilities include:</p>
         <ul class="standard">
             <li>Predictive security engines that can “see” developing trends.</li>
             <li>Contextual assessments that help ensure accuracy.</li>

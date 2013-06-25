@@ -61,18 +61,36 @@ blockquote {
 a.wsBButton,
 a.wsBButton:hover,
 a.wsBButton:visited,
-a.wsBButton:active {
-	background:@anchor !important;
-	color:@white;
+a.wsBButton:active,
+a.wsGButton,
+a.wsGButton:hover,
+a.wsGButton:visited,
+a.wsGButton:active {
 	text-shadow:none !important;
 	border:none !important;
 	text-align:left !important;
+	line-height:25px;
 	
 	.ui-btn-text {
 		overflow:visible;
 		white-space:normal;
 	}
 }
+	a.wsBButton,
+	a.wsBButton:hover,
+	a.wsBButton:visited,
+	a.wsBButton:active {
+		background:@anchor !important;
+		color:@white;
+	}
+	a.wsGButton,
+	a.wsGButton:hover,
+	a.wsGButton:visited,
+	a.wsGButton:active {
+		background:@lGrey !important;
+		//border:none !important;
+		color:@dGrey;
+	}
 .ui-btn-corner-all,
 .ui-corner-all {border-radius:@bRadius !important;}
 
@@ -80,7 +98,6 @@ a.wsBButton:active {
 .ui-collapsible-heading {
 	.ui-body-d {border-color:@mGrey !important;}
 	.ui-btn-up-c {
-		//background: linear-gradient(#FFFFFF, #F1F1F1) repeat scroll 0 0 #EEEEEE;
 		background:@lGrey !important;
 	}
 	.ui-btn-text {
@@ -131,24 +148,36 @@ a.wsBButton:active {
 	h1 {
 		font-size:22px;
 		margin:7px 0 8px 11px;
-		
 		a {color:@white;}
 	}
 	.wsTitle {
 		background:@black !important;
-		padding:2px 0;
 		border-top:1px solid @mGrey;
+		height:35px;
 
 		h2 {
 			text-transform: uppercase;
 			text-align:center;
-			font-size:10px;
+			font-size:0px;
+			padding:0;
+			display:block;
+			height:35px;
 		
 			a {
 				text-decoration:none;
 				color:@white;
-				background: url(/assets/images/hArrow.png) no-repeat right 6px;
-				padding:3px 9px 1px 0;
+				font-size:10px;
+				display:block;
+				height:35px;
+				line-height:35px;
+				
+				span {
+					display:inline-block;
+					height:6px;
+					width:6px;
+					background: url(/assets/images/hArrow.png) no-repeat right 0px;
+					margin-left:4px;
+				}
 			}
 		}
 	}
@@ -200,17 +229,16 @@ a.wsBButton:active {
 				a {
 					text-transform:uppercase;
 					font-weight:normal !important;
-					line-height:12px;
+					line-height:25px;
 				}
 			}
 			li.navThree {
 				a {
-					background: url(/assets/images/blueDot.png) no-repeat 15px 12px;
-					//padding-left:30px !important;
+					background: url(/assets/images/blueDot.png) no-repeat 15px 18px;
 					font-weight:normal !important;
 					padding-left:30px;
 					font-size:11.5px !important;
-					line-height:14px;
+					line-height:25px;
 				}
 			}
 		}
@@ -241,13 +269,14 @@ a.wsBButton:active {
 /// Home Page
 .wsBG {
 	position:relative;
-	width:110%;
+	width:111%;
 	height:50px;
 	top:-15px;
 	left:-15px;
+	background:@black;
 
-	&.wsBGOne {background: url(/assets/images/wsBGOne.png) no-repeat right 0 !important;}
-	&.wsBGTwo {background: url(/assets/images/wsBGTwo.png) no-repeat right 0 !important;}
+	&.wsBGOne {background: url(/assets/images/wsBGOne.png) no-repeat right 0 @black !important;}
+	&.wsBGTwo {background: url(/assets/images/wsBGTwo.png) no-repeat right 0 @black !important;}
 }
 .wsHome {	
 	.wsHomeOne,
@@ -457,7 +486,14 @@ ul.mktLblCenter {
 		margin-left:20px;
 	}
 }
-
+.wsBG {
+	position:relative;
+	width:107%;
+	height:50px;
+	top:-15px;
+	left:-15px;
+	background:@black;
+}	
 //// Video Player
 	.wsVideo {
 		position:relative;
@@ -518,4 +554,12 @@ div#directions_map {
     		border-radius:@bRadius;
 	    }
 	}
+}
+
+/// Modal Dialog Box
+#popupDialog {
+	max-width:400px;
+	border:1px solid @lGrey;
+	
+	.modCenter {text-align:center;}
 }

@@ -22,10 +22,10 @@
 				<iframe width="100%" scrolling="no" height="450" frameborder="0" allowtransparency="true" src="http://a1.websense.com/mobile-test.html"></iframe>
 			</div>
 		</div>
-        <p>Websense&reg; Web Security blocks web threats to reduce malware infections, decrease help desk incidents and free up valuable IT resources. It has more than 100 <a href="websense-url-categories.aspx">security and filtering categories</a>, hundreds of web application and protocol controls, and 60-plus reports with customization and role-based access. You can easily upgrade to <a href="web-security-gateway-features.aspx">Web Security Gateway</a> when desired to get social media controls, SSL inspection, data loss prevention (DLP) and inline, real-time security from <a href="websense-advanced-classification-engine.aspx">Websense ACE (Advanced Classification Engine)</a>.</p>
+        <p>Websense&reg; Web Security blocks web threats to reduce malware infections, decrease help desk incidents and free up valuable IT resources. It has more than 100 <a href="websense-url-categories.php">security and filtering categories</a>, hundreds of web application and protocol controls, and 60-plus reports with customization and role-based access. You can easily upgrade to <a href="web-security-gateway-features.php">Web Security Gateway</a> when desired to get social media controls, SSL inspection, data loss prevention (DLP) and inline, real-time security from <a href="websense-advanced-classification-engine.php">Websense ACE (Advanced Classification Engine)</a>.</p>
         <h4>Top Features</h4>
         <ul class="standard">
-            <li><b>Real-time security updates</b> from the <a href="websense-threatseeker-network.aspx">Websense ThreatSeeker™ Network</a> help defend against advanced malware, blended threats and spam. </li>
+            <li><b>Real-time security updates</b> from the <a href="websense-threatseeker-network.php">Websense ThreatSeeker&trade; Network</a> help defend against advanced malware, blended threats and spam. </li>
             <li><b>Video controls</b> protect network resources, provide custom allow/deny filters, enable YouTube educational videos, and provide control over viral, entertainment and surveillance videos.</li>
             <li><b>Network port monitoring</b> with application and protocol controls provides control for hundreds applications and protocols.</li>
             <li><b>Robust reporting</b> includes more than 60 pre-defined reports that can be easily customized.</li>
@@ -34,7 +34,7 @@
         <div data-role="collapsible-set" data-theme="c" data-content-theme="d" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
 			<div data-role="collapsible">
 				<h3>Web Security and Filtering</h3>
-				<p>Over <a href="websense-url-categories.aspx">100 categories</a> including security, productivity and bandwidth with real-time security updates from the <a href="ThreatSeeker.aspx">Websense ThreatSeeker&reg; Network</a>.</p>
+				<p>Over <a href="websense-url-categories.php">100 categories</a> including security, productivity and bandwidth with real-time security updates from the <a href="ThreatSeeker.php">Websense ThreatSeeker&reg; Network</a>.</p>
 			</div>
 			<div data-role="collapsible" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
 				<h3>Remote User Protection</h3>

@@ -28,7 +28,7 @@
 			<li><b>Discovers and classifies confidential data</b> stored on networks, endpoints and elsewhere. </li>
 			<li><b>Automatically performs remediation actions</b> wherever sensitive data is found. </li>
 			<li><b>Operates efficiently</b> with minimal impact on server performance by scheduling scans during off-peak hours. </li>
-			<li><b>Identifies confidential data accurately</b> by using Websense PreciseID™ technology, natural language processing, digital fingerprints and optical character recognition (OCR).</li>
+			<li><b>Identifies confidential data accurately</b> by using Websense PreciseID&trade; technology, natural language processing, digital fingerprints and optical character recognition (OCR).</li>
 		</ul>
     </div>
 	<?php include 'footer.php'; ?>

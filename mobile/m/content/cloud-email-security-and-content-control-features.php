@@ -26,7 +26,7 @@
         <h4>Top Features</h4>
         <ul class="standard">
             <li><b>In-the-cloud deployment</b> is ISO 27001 certified and provides 99.999% service availability and 99% or higher spam detection.</li>
-            <li><b>Gateway threat analysis</b> uses security intelligence from the <a href="websense-threatseeker-network.aspx">Websense ThreatSeeker™ Network</a> and <a href="websense-advanced-classification-engine.aspx">Websense ACE (Advanced Classification Engine)</a> to defend against advanced malware, blended threats and spam. </li>
+            <li><b>Gateway threat analysis</b> uses security intelligence from the <a href="websense-threatseeker-network.php">Websense ThreatSeeker&trade; Network</a> and <a href="websense-advanced-classification-engine.php">Websense ACE (Advanced Classification Engine)</a> to defend against advanced malware, blended threats and spam. </li>
             <li><b>URL sandbox</b> provides point-of-click threat analysis by isolating suspicious links embedded in emails and analyzing their destination when users click on them.  </li>
             <li><b>Built-in data loss prevention (DLP)</b> makes it easy to prevent data loss, comply with  regulations and enforce email acceptable use policies. Pre-defined dictionaries  covering 20 topics in 12 languages, plus built-in PCI-DSS and data privacy  templates, help you quickly identify and stop email policy violations. </li>
         </ul>
@@ -42,7 +42,7 @@
 			</div>
 			<div data-role="collapsible">
 				<h3>Malware Protection</h3>
-				<p><a href="websense-advanced-classification-engine.aspx">Websense ACE (Advanced Classification Engine)</a> scans inbound and outbound email for malware, spyware and targeted and blended threats. Combining real-time composite risk scoring with security intelligence from the <a href="websense-threatseeker-network.aspx">Websense ThreatSeeker&reg; Network</a>, ACE protects against both known and unknown threats within email.</p>
+				<p><a href="websense-advanced-classification-engine.php">Websense ACE (Advanced Classification Engine)</a> scans inbound and outbound email for malware, spyware and targeted and blended threats. Combining real-time composite risk scoring with security intelligence from the <a href="websense-threatseeker-network.php">Websense ThreatSeeker&reg; Network</a>, ACE protects against both known and unknown threats within email.</p>
 			</div>
 			<div data-role="collapsible">
 				<h3>Data Loss Prevention</h3>

@@ -35,11 +35,11 @@
         <br />
         <h4>Supported Websense products:</h4>
         <ul class="standard">
-            <li><a href="web-security-gateway-features.aspx">Web Security Gateway</a></li>
-            <li><a href="data-security-suite-features.aspx">Data Security Suite</a></li>
-            <li><a href="web-security-features.aspx">Web Security</a></li>
-            <li><a href="web-filter-features.aspx">Web Filter</a></li>
-            <li><a href="SupportWebsenseEmailSecurity.aspx">Email Security</a></li>
+            <li><a href="web-security-gateway-features.php">Web Security Gateway</a></li>
+            <li><a href="data-security-suite-features.php">Data Security Suite</a></li>
+            <li><a href="web-security-features.php">Web Security</a></li>
+            <li><a href="web-filter-features.php">Web Filter</a></li>
+            <li><a href="SupportWebsenseEmailSecurity.php">Email Security</a></li>
         </ul>
 	</div>
 	<?php include 'footer.php'; ?>

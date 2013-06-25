@@ -26,7 +26,7 @@
         <h4>Top Features</h4>
         <ul class="standard">
             <li><b>Social media controls</b> manage use of Facebook, LinkedIn and other social media websites through highly granular rules. For example, you can allow Facebook access but prohibit posting content or playing games; or allow access to 	LinkedIn, but prevent job searches.</li>
-            <li><b>Gateway threat analysis</b> uses real-time, inline security analysis from <a href="websense-advanced-classification-engine.aspx">Websense ACE (Advanced Classification Engine)</a> and threat intelligence from the <a href="ThreatSeeker.aspx">Websense ThreatSeeker™ Network</a> to defend against advanced malware, blended threats and spam. </li>
+            <li><b>Gateway threat analysis</b> uses real-time, inline security analysis from <a href="websense-advanced-classification-engine.php">Websense ACE (Advanced Classification Engine)</a> and threat intelligence from the <a href="ThreatSeeker.php">Websense ThreatSeeker&trade; Network</a> to defend against advanced malware, blended threats and spam. </li>
             <li><b>Containment defenses</b> analyze all inbound and outbound communications to block malware, data theft and command and control botnet communications.</li>
             <li><b>Worldwide data centers</b> are ISO 27001 certified and provide high availability, easy provisioning and lower costs for users in any location.</li>
             <li><b>Connect all locations and users</b> with no hardware provisioning. </li>
@@ -40,7 +40,7 @@
 			</div>
 			<div data-role="collapsible" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
 				<h3>Web Security and Filtering</h3>
-				<p>Over <a href="websense-url-categories.aspx">100 categories</a> including security,  productivity and bandwidth with real-time security updates from the <a href="ThreatSeeker.aspx">Websense ThreatSeeker&reg; Network</a>.</p>
+				<p>Over <a href="websense-url-categories.php">100 categories</a> including security,  productivity and bandwidth with real-time security updates from the <a href="ThreatSeeker.php">Websense ThreatSeeker&reg; Network</a>.</p>
 			</div>
 			<div data-role="collapsible" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
 				<h3>Video Controls</h3>

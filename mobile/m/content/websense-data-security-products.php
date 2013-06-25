@@ -29,22 +29,22 @@
 			<div data-role="collapsible">
 				<h3>Data Security Suite</h3>
 				<p><p>Websense Data Security Suite comprises all three data security products for full data loss prevention (DLP). </p>
-				<a href="websense-triton-enterprise-features.aspx" data-shadow="false" data-role="button" data-mini="true" class="wsBButton">Learn More</a>
+				<a href="websense-triton-enterprise-features.php" data-shadow="false" data-role="button" data-mini="true" class="wsBButton">Learn More</a>
 			</div>
 			<div data-role="collapsible" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
 				<h3>Data Endpoint</h3>
 				<p><p>Websense Data Endpoint identifies and controls data in use on laptops, USB drives and other endpoint devices.</p>
-				<a href="websense-triton-enterprise-features.aspx" data-shadow="false" data-role="button" data-mini="true" class="wsBButton">Learn More</a>
+				<a href="websense-triton-enterprise-features.php" data-shadow="false" data-role="button" data-mini="true" class="wsBButton">Learn More</a>
 			</div>
 			<div data-role="collapsible">
 				<h3>Data Security Gateway</h3>
 				<p>Websense Data Security Gateway provides DLP capabilities across network, email and web channels.</p>
-				<a href="websense-triton-enterprise-features.aspx" data-shadow="false" data-role="button" data-mini="true" class="wsBButton">Learn More</a>
+				<a href="websense-triton-enterprise-features.php" data-shadow="false" data-role="button" data-mini="true" class="wsBButton">Learn More</a>
 			</div>
 			<div data-role="collapsible">
 				<h3>Data Discover</h3>
 				<p>Websense Data Discover locates, classifies and acts on data wherever it is stored.</p>
-				<a href="websense-triton-enterprise-features.aspx" data-shadow="false" data-role="button" data-mini="true" class="wsBButton">Learn More</a>
+				<a href="websense-triton-enterprise-features.php" data-shadow="false" data-role="button" data-mini="true" class="wsBButton">Learn More</a>
 			</div>
 		</div>
 		<p>* Optional add-on</p>

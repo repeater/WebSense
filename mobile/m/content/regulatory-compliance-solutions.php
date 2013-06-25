@@ -32,7 +32,7 @@
 		<p><b>Real-time compliance, all the time</b>. Automated, policy-based enforcement options help you manage compliance in real time with functions such as block, quarantine, encrypt, audit/log and send user notifications.</p>
 		<p><b>Compliance enforcement and DLP</b>. Data Security Suite monitors not only common network channels of communication such as web and email, but also FTP, IM and other communications for sensitive data and to enforce compliance. Our technology helps simplify compliance by blocking or logging an incident, or automatically running a remediation action such as payload encryption or script quarantine.</p>
 		<p><b>Data tracking to help keep sensitive information safe</b>. Before you can comply with regulations designed to protect your sensitive data, you have to know where it resides, how it's protected, who can access it and where it can be sent.</p>
-		<p><b>Fast, easy and complete management and reporting</b>. The Websense TRITON™ Console gives you a single intuitive, web-based interface for compliance management and reporting. This unified approach provides:</p>
+		<p><b>Fast, easy and complete management and reporting</b>. The Websense TRITON&trade; Console gives you a single intuitive, web-based interface for compliance management and reporting. This unified approach provides:</p>
 		<ul class="tight standard">
 			<li>Greater visibility and control.</li>
 			<li>Over 55 built-in reports. </li>
@@ -41,7 +41,7 @@
 		</ul>
 		<p><b>To learn more about Websense compliance solutions:</b></p>
 		<ul class="tight standard">
-			<li>Visit our <a href="data-security-suite-features.aspx">Websense Data Security Suite</a> web pages.</li>
+			<li>Visit our <a href="data-security-suite-features.php">Websense Data Security Suite</a> web pages.</li>
 		</ul>
     </div>
 	<?php include 'footer.php'; ?>

@@ -24,7 +24,7 @@
             <li><a href="product-comparison-chart.php#ds">Compare</a> our data security products. </li>
         </ul>
         <h4>Websense&reg; ACE (Advanced Classification Engine) is why no one stops more threats than Websense.</h4>
-        <p>ACE delivers real-time security ratings to all products built on the Websense TRITON™ architecture. Its seven assessment areas and a unique composite scoring process enable our products to detect things other security solutions miss while providing inline, real-time advanced threat protection. <strong></strong></p>
+        <p>ACE delivers real-time security ratings to all products built on the Websense TRITON&trade; architecture. Its seven assessment areas and a unique composite scoring process enable our products to detect things other security solutions miss while providing inline, real-time advanced threat protection. <strong></strong></p>
         <ul class="standard tight">
             <li><a href="security-overview-websense-ace.php">Read</a> the ACE white paper.</li>
             <li><a href="websense-advanced-classification-engine.php">Visit</a> the ACE web pages. </li>

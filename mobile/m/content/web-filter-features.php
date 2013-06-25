@@ -23,21 +23,21 @@
 			</div>
 		</div>
         <p>
-        Websense&reg; Web Filter effectively enforces acceptable use policy (AUP) to enable compliance with regulations such as the Children's Internet Protection Act (CIPA). It provides more than 100 web categories, YouTube for Schools video control, customizable allow/deny lists, time quotas and more. You can easily upgrade to <a href="product-comparison-chart.aspx#ws">Websense Web Security</a> when desired to help reduce your exposure to web threats and data theft.
+        Websense&reg; Web Filter effectively enforces acceptable use policy (AUP) to enable compliance with regulations such as the Children's Internet Protection Act (CIPA). It provides more than 100 web categories, YouTube for Schools video control, customizable allow/deny lists, time quotas and more. You can easily upgrade to <a href="product-comparison-chart.php#ws">Websense Web Security</a> when desired to help reduce your exposure to web threats and data theft.
         </p>
         <h4>Top Features</h4>
         <ul class="standard">
-            <li><b>Updates</b> from the <a href="websense-threatseeker-network.aspx">Websense ThreatSeeker™ Network</a>, the world’s largest threat intelligence network.  </li>
+            <li><b>Updates</b> from the <a href="websense-threatseeker-network.php">Websense ThreatSeeker&trade; Network</a>, the world’s largest threat intelligence network.  </li>
             <li><b>Video controls</b> protect network resources, provide custom allow/deny filters, enable YouTube educational videos, and provide control over viral, entertainment and surveillance videos.</li>
             <li><b>Websense Network Agent</b> can control more than 150 applications and protocols via transparent port monitoring.</li>
-            <li><b>The Websense TRITON™ Unified Security Center</b> simplifies provisioning and provides unified management.</li>
+            <li><b>The Websense TRITON&trade; Unified Security Center</b> simplifies provisioning and provides unified management.</li>
             <li><b>Robust reporting</b> includes more than 60 pre-defined reports that can be easily customized.</li>
         </ul>
         <h4>Additional Features</h4>
         <div data-role="collapsible-set" data-theme="c" data-content-theme="d" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
 			<div data-role="collapsible">
 				<h3>Web Security and Filtering</h3>
-				<p>Over <a href="websense-url-categories.aspx">100 categories</a> including security,  productivity and bandwidth with real-time security updates from the <a href="ThreatSeeker.aspx">Websense ThreatSeeker&reg; Network</a>.</p>
+				<p>Over <a href="websense-url-categories.php">100 categories</a> including security,  productivity and bandwidth with real-time security updates from the <a href="ThreatSeeker.php">Websense ThreatSeeker&reg; Network</a>.</p>
 			</div>
 			<div data-role="collapsible" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
 				<h3>Remote User Protection</h3>

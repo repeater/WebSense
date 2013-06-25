@@ -25,7 +25,7 @@
         <p>Websense Data Security Gateway helps prevent sensitive data from being inadvertently or deliberately transmitted outside the network. It monitors common network communication channels such as web and email, plus FTP, ActiveSync for mobile email and more.</p>
 		<h4>Top Features</h4>
 		<ul class="standard">
-			<li><b>Websense TRITON™ Unified Security Center</b> provides a single intuitive, web-based interface for management and reporting of Websense web, email and data security solutions. It includes more than 55 reports, policy wizards, configuration templates and more. </li>
+			<li><b>Websense TRITON&trade; Unified Security Center</b> provides a single intuitive, web-based interface for management and reporting of Websense web, email and data security solutions. It includes more than 55 reports, policy wizards, configuration templates and more. </li>
 			<li><b>Unrivaled visibility into social media applications</b>, including real-time destination awareness of what data is sent and where, and by whom. </li>
 			<li><b>Automated, policy-based enforcement options</b>, including block, quarantine, encrypt and real-time user notification. </li>
 			<li><b>Accurate identification of confidential data within image files</b> using OCR. </li>

@@ -16,19 +16,19 @@
 	<div data-role="content" class="wsPage">
 		<h1>Master Database</h1>
         <h2>The industry's most accurate master database.</h2>
-        <p>The Websense&reg; Master Database has the industry's most accurate classification of <a href="websense-url-categories.aspx">URLs</a>,
-        <a href="websense-protocol-categories.aspx">protocols</a> and <a href="websense-application-categories.aspx">applications</a>. It’s maintained by a variety
+        <p>The Websense&reg; Master Database has the industry's most accurate classification of <a href="websense-url-categories.php">URLs</a>,
+        <a href="websense-protocol-categories.php">protocols</a> and <a href="websense-application-categories.php">applications</a>. It’s maintained by a variety
         of proprietary classification software and human inspection techniques.</p>
         <p>Our Master Database contains:</p>
         <ul class="standard">
             <li><strong>More than 60 million websites in more than 95 categories.</strong> URL categories allow you to define a web acceptable use policy (AUP) to maintain
-            employee productivity, manage network bandwidth usage, decrease legal liability and prevent exposure to traditional and advanced threats. <a href="websense-url-categories.aspx">Learn more &gt;</a></li>
+            employee productivity, manage network bandwidth usage, decrease legal liability and prevent exposure to traditional and advanced threats. <a href="websense-url-categories.php">Learn more &gt;</a></li>
             <li><strong>More than 150 protocols in 15 categories.</strong> Protocol categories let you set policies for applications that communicate via network resources. Benefits
             include blocking spyware and keylogger back-channel communications; extending policy control and enforcement to the network; and managing email, file transfer and other
-            protocols. <a href="websense-protocol-categories.aspx">Learn more &gt;</a></li>
+            protocols. <a href="websense-protocol-categories.php">Learn more &gt;</a></li>
             <li><strong>More than 2.6 million applications and executables in more than 50 categories.</strong> Application categories allow you to define flexible, scalable policies
             for desktop application use. You can prohibit the installation or launch of unauthorized applications, minimize exposure to malicious applications, decrease application conflicts,
-            and free up IT resources for other purposes. <a href="websense-application-categories.aspx">Learn more &gt;</a></li>
+            and free up IT resources for other purposes. <a href="websense-application-categories.php">Learn more &gt;</a></li>
         </ul>
 	</div>
 	<?php include 'footer.php'; ?>

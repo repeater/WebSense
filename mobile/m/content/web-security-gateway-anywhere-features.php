@@ -22,12 +22,12 @@
 				<iframe width="100%" scrolling="no" height="450" frameborder="0" allowtransparency="true" src="http://a1.websense.com/mobile-test.html"></iframe>
 			</div>
 		</div>
-        <p>Websense&reg; Web Security Gateway Anywhere protects on-site and remote employees from the latest threats in a unified, hybrid solution. You can add <a href="cybersecurity-intelligence-services.aspx ">Websense CyberSecurity Intelligence™ (CSI)</a> services to get online malware sandboxing and direct access to <a href="http://securitylabs.websense.com/">Websense Security Labs™</a> threat researchers.</p>
+        <p>Websense&reg; Web Security Gateway Anywhere protects on-site and remote employees from the latest threats in a unified, hybrid solution. You can add <a href="cybersecurity-intelligence-services.php ">Websense CyberSecurity Intelligence&trade; (CSI)</a> services to get online malware sandboxing and direct access to <a href="http://securitylabs.websense.com/">Websense Security Labs&trade;</a> threat researchers.</p>
         <h4>Top Features</h4>
         <ul class="standard">
-            <li><b>Websense TruHybrid™ deployment</b> protects entire networks, including headquarters, branch offices and remote and mobile users. It enables provisioning through one unified interface.</li>
-            <li><b>Websense TruWeb DLP™ capability</b> prevents data loss and enables compliance. It includes unique features such as geo-location destination awareness and detection of criminal encrypted uploads, password file data theft, and slow data leaks ("drip" DLP). Other highlights include natural language processing, advanced machine learning and more than 1,600 policies and templates.</li>
-            <li><b>Gateway threat analysis</b> uses real-time, inline security  analysis from <a href="websense-advanced-classification-engine.aspx">Websense  ACE (Advanced Classification Engine)</a> and threat intelligence from the <a href="ThreatSeeker.aspx">Websense  ThreatSeeker™ Network</a> to defend against advanced malware, blended threats and  spam. </li>
+            <li><b>Websense TruHybrid&trade; deployment</b> protects entire networks, including headquarters, branch offices and remote and mobile users. It enables provisioning through one unified interface.</li>
+            <li><b>Websense TruWeb DLP&trade; capability</b> prevents data loss and enables compliance. It includes unique features such as geo-location destination awareness and detection of criminal encrypted uploads, password file data theft, and slow data leaks ("drip" DLP). Other highlights include natural language processing, advanced machine learning and more than 1,600 policies and templates.</li>
+            <li><b>Gateway threat analysis</b> uses real-time, inline security  analysis from <a href="websense-advanced-classification-engine.php">Websense  ACE (Advanced Classification Engine)</a> and threat intelligence from the <a href="ThreatSeeker.php">Websense  ThreatSeeker&trade; Network</a> to defend against advanced malware, blended threats and  spam. </li>
             <li><b>An advanced threat dashboard</b> provides actionable forensic detail on who was attacked, what data was attacked, where the data almost went, and how the attack was  executed. Data capture is provided when possible. </li>
             <li><b>Worldwide data centers</b> are ISO 27001 certified and provide high availability, easy provisioning and lower costs for users in any location.</li>
         </ul>
@@ -39,7 +39,7 @@
 			</div>
 			<div data-role="collapsible" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
 				<h3>Web Security and Filtering</h3>
-				<p>Over <a href="websense-url-categories.aspx">100 categories</a> including security,  productivity and bandwidth with real-time security updates from the <a href="ThreatSeeker.aspx">Websense ThreatSeeker&reg; Network</a>.</p>
+				<p>Over <a href="websense-url-categories.php">100 categories</a> including security,  productivity and bandwidth with real-time security updates from the <a href="ThreatSeeker.php">Websense ThreatSeeker&reg; Network</a>.</p>
 			</div>
 			<div data-role="collapsible" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
 				<h3>Video Controls</h3>
@@ -56,6 +56,14 @@
 			<div data-role="collapsible" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
 				<h3>Advanced Application Controls</h3>
 				<p>Network Agent provides port monitoring and control for hundreds of applications and protocols outside of proxy analysis.</p>
+			</div>
+		</div>
+		<a href="http://www.websense.com/assets/datasheets/datasheet-web-security-gateway-anywhere-en.pdf" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" target=_new">Download a datasheet</a>
+		<a href="../assets/pdf/product-comparison-chart.pdf" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" target=_new">Related Products</a>
+		<div data-role="collapsible-set" data-theme="c" data-content-theme="d" data-collapsed-icon="info" data-expanded-icon="info">
+			<div data-role="collapsible" class="wsAccordion">
+				<h3>Contact Us</h3>
+				<iframe width="100%" scrolling="no" height="450" frameborder="0" allowtransparency="true" src="http://a1.websense.com/mobile-test.html"></iframe>
 			</div>
 		</div>
     </div>

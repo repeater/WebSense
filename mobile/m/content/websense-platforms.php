@@ -29,7 +29,7 @@
 					<li>Automatic spooling of email </li>
 					<li>Global ISO-27001-certified data centers </li>
 				</ul>
-				<a href="cloud-platforms.aspx" data-shadow="false" data-role="button" data-mini="true" class="wsBButton">Learn More</a>
+				<a href="cloud-platforms.php" data-shadow="false" data-role="button" data-mini="true" class="wsBButton">Learn More</a>
 			</div>
 			<div data-role="collapsible" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
 				<h3>Software</h3>
@@ -38,7 +38,7 @@
 					<li>Easily adapts to your setup</li>
 					<li>Well suited to virtual environments </li>
 				</ul>
-				<a href="software-platforms.aspx" data-shadow="false" data-role="button" data-mini="true" class="wsBButton">Learn More</a>
+				<a href="software-platforms.php" data-shadow="false" data-role="button" data-mini="true" class="wsBButton">Learn More</a>
 			</div>
 			<div data-role="collapsible">
 				<h3>Appliance</h3>
@@ -51,7 +51,7 @@
 					<li>Economical compared to multiple-vendor setups </li>
 					<li>Graphical interface for hardware and system management </li>
 				</ul>
-				<a href="appliances-platforms.aspx" data-shadow="false" data-role="button" data-mini="true" class="wsBButton">Learn More</a>
+				<a href="appliances-platforms.php" data-shadow="false" data-role="button" data-mini="true" class="wsBButton">Learn More</a>
 			</div>
 			<div data-role="collapsible">
 				<h3>Hybrid</h3>
@@ -64,7 +64,7 @@
 					<li>Half the operating costs of similar hybrid systems </li>
 					<li>Back up web security with automatic failover to the cloud </li>
 				</ul>
-				<a href="hybrid-platforms.aspx" data-shadow="false" data-role="button" data-mini="true" class="wsBButton">Learn More</a>
+				<a href="hybrid-platforms.php" data-shadow="false" data-role="button" data-mini="true" class="wsBButton">Learn More</a>
 			</div>
 		</div>
 	</div>

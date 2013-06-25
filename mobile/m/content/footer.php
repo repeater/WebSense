@@ -7,14 +7,16 @@
 			</ul>
 		</div><!-- /navbar -->
 	</div>
-	<div data-role="popup" id="popupDialog" data-overlay-theme="a" data-theme="c" style="max-width:400px;" class="ui-corner-all">
-			<div data-role="content" data-theme="d" class="ui-corner-bottom ui-content">
-				<h3 class="ui-title">Leaving mobile site</h3>
-				<p>This link you will take you to a site that is not optimized for mobile devices. Do you wish to continue?</p>
-				<a href="#" data-role="button" data-inline="true" data-rel="back" data-theme="c">No</a> 
-				<a href="http://www.websense.com" data-role="button" data-inline="true" data-theme="b">Yes</a>
+	<div data-role="popup" id="popupDialog" data-overlay-theme="a" class="ui-corner-all">
+		<div data-role="content" class="ui-corner-bottom ui-content">
+			<h3 class="ui-title">Leaving the mobile site</h3>
+			<p>This link you will take you to our desktop site, not optimized for mobile devices. Do you wish to continue?</p>
+			<div class="modCenter">
+				<a href="#" data-role="button" data-inline="true" data-rel="back" class="wsGButton">Cancel</a> 
+				<a href="http://www.websense.com" data-role="button" data-inline="true" class="wsBButton">Continue</a>
 			</div>
 		</div>
+	</div>
 </div>
 <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 <script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
@@ -35,10 +37,19 @@
 	});
 </script>
 <script type="text/javascript">
-	$( "#myPopupDiv" ).popup( "open" );
-	$( "#myPopupDiv" ).popup( "close" )
+	function receiveMessage(event)
+		{
+		  //alert(event.origin);
+
+		  // Do we trust the sender of this message?  (might be
+		  // different from what we originally opened, for example).
+		  if (event.origin !== "http://stimulusdesign.com")
+			return;
+		//alert(event.data.height);
+		
+		  $("#frame-one").height(event.data.height);
+		}
+		window.addEventListener("message", receiveMessage, false);
 </script>
-<script type="text/javascript" src="../assets/js/cors.js"></script>
-<script type="text/javascript" src="../assets/js/FrameManager.js"></script>
 </body>
 </html>

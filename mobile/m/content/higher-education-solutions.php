@@ -27,8 +27,8 @@
             <li>Reduced cost with highly scalable appliances and a unified solution.</li>
         </ul>
         <h4>Protect networks and data against advanced threats.</h4>
-        <p>Students, faculty and staff expect unimpeded web access. But social media and other technologies expose your institution to advanced threats. Fortunately, the Websense TRITON™ architecture enables unparalleled protection against such dangers.</p>
-        <p>The TRITON™ architecture underlies all our information security products. It’s powered by <a href="websense-advanced-classification-engine.aspx">Websense ACE (Advanced Classification Engine)</a>, which uses a composite scoring model with seven defense assessment areas to provide real-time protection. ACE also offers predictive analysis informed by more than 10,000 analytics.</p>
+        <p>Students, faculty and staff expect unimpeded web access. But social media and other technologies expose your institution to advanced threats. Fortunately, the Websense TRITON&trade; architecture enables unparalleled protection against such dangers.</p>
+        <p>The TRITON&trade; architecture underlies all our information security products. It’s powered by <a href="websense-advanced-classification-engine.php">Websense ACE (Advanced Classification Engine)</a>, which uses a composite scoring model with seven defense assessment areas to provide real-time protection. ACE also offers predictive analysis informed by more than 10,000 analytics.</p>
         <h4>Protect data from unauthorized access and loss.</h4>
         <p>Websense DLP technologies help keep your confidential data confidential and ensure regulatory compliance. Our outbound data protection includes many industry firsts, such as:</p>
         <ul class="tight standard">
@@ -44,7 +44,7 @@
         <p>Websense helps you reduce your costs in two distinct ways:</p>
         <ul class="tight standard">
             <li>Our TRITON architecture simplifies product and vendor management by unifying web, email, data and mobile security solutions. </li>
-            <li>With Websense TruHybrid™ deployment, you can take advantage of the best features of software, appliance and cloud platforms to protect all your students, faculty and staff in all locations.</li>
+            <li>With Websense TruHybrid&trade; deployment, you can take advantage of the best features of software, appliance and cloud platforms to protect all your students, faculty and staff in all locations.</li>
         </ul>
         <p>*Performance may vary depending on network conditions.</p>
     

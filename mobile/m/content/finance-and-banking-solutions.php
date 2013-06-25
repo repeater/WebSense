@@ -34,7 +34,7 @@
 		<p>*Please consult your attorney regarding your specific needs.</p>
 		<p><b>To learn more about Websense finance and banking solutions:</b></p>
 		<ul class="standard tight">
-			<li>Visit our <a href="data-security-suite-features.aspx">Websense Data Security Suite</a> web pages.</li>
+			<li>Visit our <a href="data-security-suite-features.php">Websense Data Security Suite</a> web pages.</li>
 		</ul>
     </div>
 	<?php include 'footer.php'; ?>

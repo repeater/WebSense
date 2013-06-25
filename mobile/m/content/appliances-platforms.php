@@ -24,7 +24,7 @@
 			<li><b>Single point of contact for support.</b> Engage one point of contact for your hardware, software and operating system support needs. </li>
 			<li><b>Security hardened out of the box.</b> Appliances come preconfigured to eliminate vulnerabilities from unnecessary software, open ports, default logins and more, easing your deployment and enhancing your security. </li>
 		</ul>
-		<p><b>Websense&reg; V-Series™ appliances</b> are powerful and flexible yet simple to deploy. V-Series appliances support web security, email security and data security on a single appliance. <a href="v-series-appliances.aspx">Learn more &gt;</a></p>
-		<p><b>The Websense&reg; X-Series™ appliance</b> is the only secure web gateway with enough power for large enterprises to run the real-time contextual defenses needed for effective containment of advanced attacks and data theft. <a href="x10g-applances.aspx">Learn more &gt;</a></p>
+		<p><b>Websense&reg; V-Series&trade; appliances</b> are powerful and flexible yet simple to deploy. V-Series appliances support web security, email security and data security on a single appliance. <a href="v-series-appliances.php">Learn more &gt;</a></p>
+		<p><b>The Websense&reg; X-Series&trade; appliance</b> is the only secure web gateway with enough power for large enterprises to run the real-time contextual defenses needed for effective containment of advanced attacks and data theft. <a href="x10g-applances.php">Learn more &gt;</a></p>
 	</div>
 	<?php include 'footer.php'; ?>

@@ -22,7 +22,7 @@
 				<iframe width="100%" scrolling="no" height="450" frameborder="0" allowtransparency="true" src="http://a1.websense.com/mobile-test.html"></iframe>
 			</div>
 		</div>
-        <p>Websense&reg; ACE in the Cloud provides  a clean web pipe to update traditional network defenses. It integrates with your existing defenses  for added protection against advanced threats, spear-phishing and targeted  attacks. ACE in the Cloud is powered by <a href="websense-advanced-classification-engine.aspx">Websense ACE (Advanced Classification  Engine)</a>, which  combines seven security defense assessment areas to provide a predictive  composite scoring defense against advanced threats and targeted attacks.</p>
+        <p>Websense&reg; ACE in the Cloud provides  a clean web pipe to update traditional network defenses. It integrates with your existing defenses  for added protection against advanced threats, spear-phishing and targeted  attacks. ACE in the Cloud is powered by <a href="websense-advanced-classification-engine.php">Websense ACE (Advanced Classification  Engine)</a>, which  combines seven security defense assessment areas to provide a predictive  composite scoring defense against advanced threats and targeted attacks.</p>
         <h4>Top Features</h4>
         <ul class="standard">
             <li><b>Unique real-time defense assessments</b> for security, data and content  analysis of: web page content, active scripts, exploit code, obfuscated  commands, web redirects, malicious files, PDFs and executables. </li>
@@ -34,7 +34,7 @@
         <div data-role="collapsible-set" data-theme="c" data-content-theme="d" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
 			<div data-role="collapsible">
 				<h3>Threat Analysis Sandbox</h3>
-				<p>The Websense ThreatScope™ malware sandbox, a part of the optional Websense CSI: On-Demand service, provides complete ACE analysis of infection steps, system updates and call-home requests.</p>
+				<p>The Websense ThreatScope&trade; malware sandbox, a part of the optional Websense CSI: On-Demand service, provides complete ACE analysis of infection steps, system updates and call-home requests.</p>
 			</div>
 			<div data-role="collapsible" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
 				<h3>Cloud Connectivity</h3>

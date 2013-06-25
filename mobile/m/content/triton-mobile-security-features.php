@@ -22,7 +22,7 @@
 				<iframe width="100%" scrolling="no" height="450" frameborder="0" allowtransparency="true" src="http://a1.websense.com/mobile-test.html"></iframe>
 			</div>
 		</div>
-        <p>Websense&reg; TRITON™ Mobile Security provides effective web security, mobile malware protection, app controls and reporting for mobile devices. Safely enable mobile devices in your workplace while protecting them from mobile malware, web threats, phishing attacks, spoofing and more. </p>
+        <p>Websense&reg; TRITON&trade; Mobile Security provides effective web security, mobile malware protection, app controls and reporting for mobile devices. Safely enable mobile devices in your workplace while protecting them from mobile malware, web threats, phishing attacks, spoofing and more. </p>
         <h4>Top Features</h4>
         <ul class="standard">
             <li><b>Real-time security protection</b> from threats targeted at mobile devices.</li>

@@ -27,17 +27,17 @@
 			<div data-role="collapsible">
 				<h3>CyberSecurity Intelligence&trade; Services</h3>
 				<p>Websense&reg; CyberSecurity Intelligence services give access to continuing education, research and expert opinions. </p>
-				<a href="cybersecurity-intelligence-services.aspx" data-shadow="false" data-role="button" data-mini="true" class="wsBButton">Learn More</a>
+				<a href="cybersecurity-intelligence-services.php" data-shadow="false" data-role="button" data-mini="true" class="wsBButton">Learn More</a>
 			</div>
 			<div data-role="collapsible">
 				<h3>Training and Technical Certification</h3>
 				<p>Websense offers training and technical certification programs for both our customers and the partners who sell our products.</p>
-				<a href="training-and-technical-certification.aspx" data-shadow="false" data-role="button" data-mini="true" class="wsBButton">Learn More</a>
+				<a href="training-and-technical-certification.php" data-shadow="false" data-role="button" data-mini="true" class="wsBButton">Learn More</a>
 			</div>
 			<div data-role="collapsible">
 				<h3>Certified TRITON&trade; Integrator</h3>
 				<p>Websense&reg; CyberSecurity Intelligence services give access to continuing education, research and expert opinions. </p>
-				<a href="certified-triton-integrator.aspx" data-shadow="false" data-role="button" data-mini="true" class="wsBButton">Learn More</a>
+				<a href="certified-triton-integrator.php" data-shadow="false" data-role="button" data-mini="true" class="wsBButton">Learn More</a>
 			</div>
 		</div>
     </div>

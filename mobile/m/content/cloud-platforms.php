@@ -30,10 +30,10 @@
         <br />
         <h4>Supported Websense Products </h4>
         <ul class="standard">
-            <li><a href="cloud-web-security-gateway-features.aspx">Cloud Web Security Gateway</a></li>
-            <li><a href="cloud-web-security-features.aspx">Cloud Web Security</a></li>
-            <li><a href="cloud-email-security-and-content-control-features.aspx">Cloud Email Security</a></li>
-            <li><a href="websense-mobile-security-products.aspx">TRITON™ Mobile Security</a></li>
+            <li><a href="cloud-web-security-gateway-features.php">Cloud Web Security Gateway</a></li>
+            <li><a href="cloud-web-security-features.php">Cloud Web Security</a></li>
+            <li><a href="cloud-email-security-and-content-control-features.php">Cloud Email Security</a></li>
+            <li><a href="websense-mobile-security-products.php">TRITON&trade; Mobile Security</a></li>
         </ul>
 	</div>
 	<?php include 'footer.php'; ?>

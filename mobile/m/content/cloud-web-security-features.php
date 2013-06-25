@@ -26,16 +26,16 @@
         <h4>Top Features</h4>
         <ul class="standard">
             <li><b>Eliminate costs</b> of buying, deploying, upgrading and maintaining on-premises hardware or software with a cloud-based deployment that integrates easily with existing network infrastructure.</li>
-            <li><b>Real-time security updates from the <a href="websense-threatseeker-network.aspx">Websense ThreatSeeker&reg; Network</a></b> protect against advanced threats, malware, phishing and scams, including those originating in Facebook and other social media. It works in conjunction with Websense ACE (Advanced Classification Engine) security defenses.</li>
+            <li><b>Real-time security updates from the <a href="websense-threatseeker-network.php">Websense ThreatSeeker&reg; Network</a></b> protect against advanced threats, malware, phishing and scams, including those originating in Facebook and other social media. It works in conjunction with Websense ACE (Advanced Classification Engine) security defenses.</li>
             <li><b>In-the-cloud deployment</b> offers equal protection from web threats to office, remote and mobile users. Global data centers are ISO 27001 certified and provide 99.999% service availability.</li>
-            <li><b>The Websense TRITON™ Unified Security Center</b> simplifies provisioning and reporting. It includes 29 pre-defined and easily customizable reports, plus administrative alerts.</li>
+            <li><b>The Websense TRITON&trade; Unified Security Center</b> simplifies provisioning and reporting. It includes 29 pre-defined and easily customizable reports, plus administrative alerts.</li>
             <li><b>Unified TRITON architecture</b> enables easy upgrade from Cloud Web Security to Websense Cloud Web Security Gateway to get real-time inline threat protection.</li>
         </ul>
         <h4>Additional Features</h4>
         <div data-role="collapsible-set" data-theme="c" data-content-theme="d" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
 			<div data-role="collapsible">
 				<h3>Web Security and Filtering</h3>
-				<p>Over <a href="websense-url-categories.aspx">100 categories</a> including security,  productivity and bandwidth with real-time security updates from the <a href="ThreatSeeker.aspx">Websense ThreatSeeker&reg; Network</a>.</p>
+				<p>Over <a href="websense-url-categories.php">100 categories</a> including security,  productivity and bandwidth with real-time security updates from the <a href="ThreatSeeker.php">Websense ThreatSeeker&reg; Network</a>.</p>
 			</div>
 			<div data-role="collapsible" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
 				<h3>Websense Authentication Service</h3>

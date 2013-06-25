@@ -18,6 +18,6 @@
             <h3>Download the 2013 Threat Report</h3>
         	<iframe width="100%" scrolling="no" height="450" frameborder="0" allowtransparency="true" src="http://a1.websense.com/mobile-test.html"></iframe>
         </div>
-		<p>That's just one of the key findings in the "Websense® 2013 Threat Report." Based on data collected by the Websense ThreatSeeker® Network, the world's largest and longest-standing security intelligence network, the Report details how advanced threats are specifically targeting mobile devices and social media, and rendering traditional security solutions ineffective.</p>
+		<p>That's just one of the key findings in the "Websense&reg; 2013 Threat Report." Based on data collected by the Websense ThreatSeeker&reg; Network, the world's largest and longest-standing security intelligence network, the Report details how advanced threats are specifically targeting mobile devices and social media, and rendering traditional security solutions ineffective.</p>
 	</div>
 	<?php include 'footer.php'; ?>

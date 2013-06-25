@@ -14,21 +14,15 @@
 	<?php include 'header.php'; ?>
 	<?php include 'panel.php'; ?>
 	<div data-role="content" class="wsPage">
-		<h1>Triton Security Products</h1>
+		<h1>TRITON&trade; Security Solutions</h1>
 		<h2>Leading integration and innovation of web, email and data security.</h2>
 		<h3>Get dynamic threat defenses, advanced data protection and compliance in a unified solution.</h3>
-		<div data-role="collapsible-set" data-theme="c" data-content-theme="d" data-collapsed-icon="info" data-expanded-icon="info">
-			<div data-role="collapsible" class="wsAccordion">
-				<h3>Download the White Paper</h3>
-				<iframe width="100%" scrolling="no" height="450" frameborder="0" allowtransparency="true" src="http://a1.websense.com/mobile-test.html"></iframe>
-			</div>
-		</div>
-		<p><b>Best-in-class security with a unified architecture.</b> Websense&reg; TRITON™ security solutions offer point-of click protection with inline, real-time defenses from <a href="websense-advanced-classification-engine.aspx">Websense ACE (Advanced Classification Engine)</a>. ACE unites seven security defenses assessment areas into a composite scoring model using predictive analysis. These unmatched real-time defenses are backed by the <a href="websense-threatseeker-network.aspx">Websense ThreatSeeker&reg; Network</a> — the world's largest security intelligence network — and the expertise of Websense Security Labs™ researchers.</p>
+		<p><b>Best-in-class security with a unified architecture.</b> Websense&reg; TRITON&trade; security solutions offer point-of click protection with inline, real-time defenses from <a href="websense-advanced-classification-engine.php">Websense ACE (Advanced Classification Engine)</a>. ACE unites seven security defenses assessment areas into a composite scoring model using predictive analysis. These unmatched real-time defenses are backed by the <a href="websense-threatseeker-network.php">Websense ThreatSeeker&reg; Network</a> — the world's largest security intelligence network — and the expertise of Websense Security Labs&trade; researchers.</p>
 		<div class="wsVideo">
 			<div class="wsVWrapper">
 				<div>
 					<h4>In Their Words</h4>
-					<a href="http://www.websense.com/assets/videos/video-triton-customers.mp4" title="TRITON Customers EN video" class="trackable omni_VideoView video"><span></span><img alt="" class="thumbnail" src="http://www.websense.com/assets/imgs/2013/video-thumb-triton-customers.png" /></a>
+					<a href="../assets/videos/video-triton-customers.mp4" title="TRITON Customers EN video" class="trackable omni_VideoView video"><span></span><img alt="" class="thumbnail" src="http://websense.com/assets/imgs/2013/video-thumb-triton-customers.png" /></a>
 				</div>
 				<p>Our customers explain why they purchased Websense TRITON solutions. <a href="www.websense.com/assets/videos/video-triton-customers.mp4" title="TRITON Customers EN video" class="trackable omni_VideoView video">Watch the video</a></p>
 			</div>
@@ -42,17 +36,23 @@
 			<div data-role="collapsible">
 				<h3>TRITON Enterprise</h3>
 				<p>Our most comprehensive information security solution provides web security, email security, data security and DLP in a hybrid appliance and in-the-cloud deployment.</p>
-				<a href="websense-triton-enterprise-features.aspx" data-shadow="false" data-role="button" data-mini="true" class="wsBButton">Learn More</a>
+				<a href="websense-triton-enterprise-features.php" data-shadow="false" data-role="button" data-mini="true" class="wsBButton">Learn More</a>
 			</div>
 			<div data-role="collapsible" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
 				<h3>TRITON Security Gateway Anywhere</h3>
 				<p>Get web security and email security, both with built-in DLP capabilities, deployed in a hybrid of appliance and in-and-cloud environments.</p>
-				<a href="websense-triton-enterprise-features.aspx" data-shadow="false" data-role="button" data-mini="true" class="wsBButton">Learn More</a>
+				<a href="websense-triton-enterprise-features.php" data-shadow="false" data-role="button" data-mini="true" class="wsBButton">Learn More</a>
 			</div>
 			<div data-role="collapsible" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
 				<h3>TRITON Security Gateway</h3>
 				<p>An appliance-based deployment provides industry-leading web security with email security that has built-in DLP capabilities.</p>
-				<a href="websense-triton-enterprise-features.aspx" data-shadow="false" data-role="button" data-mini="true" class="wsBButton">Learn More</a>
+				<a href="websense-triton-enterprise-features.php" data-shadow="false" data-role="button" data-mini="true" class="wsBButton">Learn More</a>
+			</div>
+		</div>
+		<div data-role="collapsible-set" data-theme="c" data-content-theme="d" data-collapsed-icon="info" data-expanded-icon="info">
+			<div data-role="collapsible" class="wsAccordion">
+				<h3>Contact Us</h3>
+				<iframe width="100%" scrolling="no" height="450" frameborder="0" allowtransparency="true" src="http://a1.websense.com/mobile-test.html"></iframe>
 			</div>
 		</div>
 	</div>

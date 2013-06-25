@@ -44,9 +44,9 @@
 		<p>Social media traffic accounts for a large percentage of web traffic, and continues to grow. Most of this traffic uses secure sockets layer (SSL) to communicate. SSL traffic is also how many cybercriminals deliver their attacks. That’s because most traditional anti-virus products and firewalls — even next generation firewalls — are incapable of inspecting SSL traffic for potential threats. </p>
 		<p>Websense web security gateway solutions are more advanced. Deployed as proxies, they sit inline between your employees and any attack, inspecting and identifying threats as they pass through SSL traffic coming from social media sites.</p>
 		<p>Cybercriminals also take advantage of zero-day vulnerabilities to use the social web to deliver advanced threats such as dynamic exploit kits. Signature-based defenses are defenseless against these advanced threats, because no signatures exist for them. </p>
-		<p>Once again, Websense web security gateway solutions are more advanced. They use the real-time defenses of <a href="websense-advanced-classification-engine.aspx">Websense ACE (Advanced Classification Engine)</a>, which uses more than 10,000 analytics to analyze all traffic and deliver a composite risk score for each threat — even if it has no signature.</p>
+		<p>Once again, Websense web security gateway solutions are more advanced. They use the real-time defenses of <a href="websense-advanced-classification-engine.php">Websense ACE (Advanced Classification Engine)</a>, which uses more than 10,000 analytics to analyze all traffic and deliver a composite risk score for each threat — even if it has no signature.</p>
 		<h4>Prevent data loss through social media.</h4>
-		<p>Whether accidental or malicious, sharing of data is fast and effortless with social media. Employees can easily post or send documents or images that contain sensitive information. Websense TruWeb DLP™ (data loss prevention) technology is built into TRITON solutions to make sure your confidential data stays safe and secure. </p>
+		<p>Whether accidental or malicious, sharing of data is fast and effortless with social media. Employees can easily post or send documents or images that contain sensitive information. Websense TruWeb DLP&trade; (data loss prevention) technology is built into TRITON solutions to make sure your confidential data stays safe and secure. </p>
 		<p>TruWeb DLP technology gives you the most advanced DLP features available today, including: </p>
 		<ul class="standard tight">
 			<li>1,700 predefined data classifiers. </li>
@@ -58,9 +58,9 @@
 			<li>Data fingerprinting. </li>
 		</ul>
 		<h4>Protect your web reputation.</h4>
-		<p>Websense Defensio™ service secures you and your friends and followers against malware and other threats that target your company’s social media pages. Defensio also helps you manage and control objectionable content to protect your domains against blacklisting and reputation damage.</p>
+		<p>Websense Defensio&trade; service secures you and your friends and followers against malware and other threats that target your company’s social media pages. Defensio also helps you manage and control objectionable content to protect your domains against blacklisting and reputation damage.</p>
 		<h4>Defensio features include: </h4>
-		<p>Websense Defensio™ service secures you and your friends and followers against malware and other threats that target your company’s social media pages. Defensio also helps you manage and control objectionable content to protect your domains against blacklisting and reputation damage.</p>
+		<p>Websense Defensio&trade; service secures you and your friends and followers against malware and other threats that target your company’s social media pages. Defensio also helps you manage and control objectionable content to protect your domains against blacklisting and reputation damage.</p>
 		<ul class="standard tight">
 			<li><b>URL Category Blocking</b>. Manage comments with embedded web links that point to sites infected with security risks and control potentially questionable content. </li>
 			<li><b>Reputation Security Coverage</b>. Prevent comments from untrustworthy domains and sites. </li>
@@ -70,9 +70,9 @@
 		</ul>
 		<p><b>To learn more about Websense web security gateway solutions:</b></p>
 		<ul class="standard tight">
-			<li>Visit the Websense web security gateway solutions <a href="product-comparison-chart.aspx#wsg">web pages</a>.</li>
-			<li>View the Websense Web Security Gateway Anywhere product <a href="web-security-gateway-demo.aspx">demo</a>.</li>
-			<li>View the Websense Web Security Gateway product <a href="web-security-gateway-demo.aspx">demo</a>.</li>
+			<li>Visit the Websense web security gateway solutions <a href="product-comparison-chart.php#wsg">web pages</a>.</li>
+			<li>View the Websense Web Security Gateway Anywhere product <a href="web-security-gateway-demo.php">demo</a>.</li>
+			<li>View the Websense Web Security Gateway product <a href="web-security-gateway-demo.php">demo</a>.</li>
 		</ul>
     </div>
 	<?php include 'footer.php'; ?>

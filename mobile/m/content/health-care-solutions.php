@@ -20,7 +20,7 @@
 			</div>
 		</div>
 		<p>
-		You face enormous regulatory pressures to protect your facility's confidential information and scrutiny from all corners. <a href="websense-data-security-products.aspx">Websense&reg; Data Security Suite</a> helps you identify and secure sensitive data so it won't fall into the wrong hands, and generate reports to help manage your compliance.
+		You face enormous regulatory pressures to protect your facility's confidential information and scrutiny from all corners. <a href="websense-data-security-products.php">Websense&reg; Data Security Suite</a> helps you identify and secure sensitive data so it won't fall into the wrong hands, and generate reports to help manage your compliance.
 		</p>
 		<p>Data Security Suite enables you to:</p>
 		<ul class="standard tight">
@@ -30,7 +30,7 @@
 		</ul>
 		<h4>To learn more about Websense health care solutions:</h4>
 		<ul class="standard tight">
-			<li>Visit our <a href="websense-data-security-products.aspx">Websense Data Security Suite</a> web pages.</li>
+			<li>Visit our <a href="websense-data-security-products.php">Websense Data Security Suite</a> web pages.</li>
 		</ul>
     </div>
 	<?php include 'footer.php'; ?>

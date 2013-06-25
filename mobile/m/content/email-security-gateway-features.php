@@ -22,11 +22,11 @@
 				<iframe width="100%" scrolling="no" height="450" frameborder="0" allowtransparency="true" src="http://a1.websense.com/mobile-test.html"></iframe>
 			</div>
 		</div>
-        <p>Websense&reg; Email Security Gateway protects against traditional and modern threats, data theft and data loss for the email channel. It is deployed on a <a href="v-series-appliances.aspx">Websense V-Series™ appliance</a>.</p>
+        <p>Websense&reg; Email Security Gateway protects against traditional and modern threats, data theft and data loss for the email channel. It is deployed on a <a href="v-series-appliances.php">Websense V-Series&trade; appliance</a>.</p>
         <h4>Top Features</h4>
         <ul class="standard">
-            <li><b>Gateway threat analysis</b> uses security intelligence from the <a href="websense-threatseeker-network.aspx">Websense ThreatSeeker™ Network</a> and <a href="websense-advanced-classification-engine.aspx">Websense ACE (Advanced Classification Engine)</a> to defend against advanced malware, blended threats and spam. </li>
-            <li><b>Websense TruEmail DLP™ capability</b> offers enterprise-level protection against data theft and data loss for the SMTP channel. It includes natural language processing, data fingerprinting, mobile email DLP, incident forensics reporting and more than 1,600 built-in templates for compliance to prevent confidential data from leaving the corporate network via email. </li>
+            <li><b>Gateway threat analysis</b> uses security intelligence from the <a href="websense-threatseeker-network.php">Websense ThreatSeeker&trade; Network</a> and <a href="websense-advanced-classification-engine.php">Websense ACE (Advanced Classification Engine)</a> to defend against advanced malware, blended threats and spam. </li>
+            <li><b>Websense TruEmail DLP&trade; capability</b> offers enterprise-level protection against data theft and data loss for the SMTP channel. It includes natural language processing, data fingerprinting, mobile email DLP, incident forensics reporting and more than 1,600 built-in templates for compliance to prevent confidential data from leaving the corporate network via email. </li>
         </ul>
         <h4>Additional Features</h4>
         <div data-role="collapsible-set" data-theme="c" data-content-theme="d" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
@@ -36,7 +36,7 @@
 			</div>
 			<div data-role="collapsible" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
 				<h3>Malware Protection</h3>
-				<p><a href="websense-advanced-classification-engine.aspx">Websense ACE (Advanced Classification Engine)</a> scans inbound and outbound email for malware, spyware and targeted and blended threats. Combining real-time composite risk scoring with security intelligence from the <a href="websense-threatseeker-network.aspx">Websense ThreatSeeker&reg; Network</a>, ACE protects against both known and unknown threats within email.</p>
+				<p><a href="websense-advanced-classification-engine.php">Websense ACE (Advanced Classification Engine)</a> scans inbound and outbound email for malware, spyware and targeted and blended threats. Combining real-time composite risk scoring with security intelligence from the <a href="websense-threatseeker-network.php">Websense ThreatSeeker&reg; Network</a>, ACE protects against both known and unknown threats within email.</p>
 			</div>
 			<div data-role="collapsible" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
 				<h3>Spam Detection</h3>

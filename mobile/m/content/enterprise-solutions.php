@@ -27,7 +27,7 @@
             <li>Provide data loss prevention (DLP) with inbound and outbound protection. </li>
             <li>Get the most comprehensive security at the lowest overall cost. </li>
         </ul>
-        <p><b>Consolidate platforms to save time and cut costs</b>. Websense TRITON™ solutions give you web, email and data security in one product operated from one console. This increase in efficiency can cut your operating costs. And Websense TruHybrid™ deployment increases savings even more by: </p>
+        <p><b>Consolidate platforms to save time and cut costs</b>. Websense TRITON&trade; solutions give you web, email and data security in one product operated from one console. This increase in efficiency can cut your operating costs. And Websense TruHybrid&trade; deployment increases savings even more by: </p>
         <ul class="standard tight">
             <li>Extending security policies to branches and mobile workers. </li>
             <li>Filtering spam in the cloud to keep it off your servers to boost bandwidth and employee productivity. </li>

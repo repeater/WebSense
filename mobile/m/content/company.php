@@ -14,7 +14,7 @@
 		<h1>Company Overview</h1>
 		<h2>Providing the best security for modern threats at the lowest total cost of ownership.</h2>
         <p>
-        Websense, Inc. is a global leader in protecting organizations from the latest cyberattacks and data theft. Websense&reg; TRITON™ comprehensive security solutions unify web security, email security, mobile security and data loss prevention (DLP) at the lowest total cost of ownership. Tens of thousands of enterprises rely on Websense TRITON security intelligence to stop advanced persistent threats, targeted attacks and evolving malware. Websense prevents data breaches, intellectual property theft and enforces security compliance and best practices. A global network of channel partners distributes scalable, unified appliance- and cloud-based Websense TRITON solutions.</p>
+        Websense, Inc. is a global leader in protecting organizations from the latest cyberattacks and data theft. Websense&reg; TRITON&trade; comprehensive security solutions unify web security, email security, mobile security and data loss prevention (DLP) at the lowest total cost of ownership. Tens of thousands of enterprises rely on Websense TRITON security intelligence to stop advanced persistent threats, targeted attacks and evolving malware. Websense prevents data breaches, intellectual property theft and enforces security compliance and best practices. A global network of channel partners distributes scalable, unified appliance- and cloud-based Websense TRITON solutions.</p>
         <h4 class="no-margin">EXECUTIVE TEAM</h4>
         <p>
         <b>Chief Executive Officer</b>: John McCormack <br />
@@ -30,7 +30,7 @@
         </p>
         <ul class="standard">
             <li>
-            <b>The Websense TRITON™ architecture</b> supports web security, email security, mobile security and data loss prevention (DLP) products that can be purchased together or individually. All are managed by a unified console.
+            <b>The Websense TRITON&trade; architecture</b> supports web security, email security, mobile security and data loss prevention (DLP) products that can be purchased together or individually. All are managed by a unified console.
             <a href="websense-triton-security-products.php">Learn more &gt;</a>
             </li>
             <li>
@@ -43,7 +43,7 @@
             </li>
         </ul>
         <p>
-        <b>Websense Security Labs™</b> informs both our product development and the world at large. More than 100 researchers discover and investigate advanced threats and publish their findings on an award-winning blog and in an <a href="websense-2012-threat-report-download.php">annual threat report</a>. Located worldwide, they work around the clock to monitor web, email, instant messaging and other channels for the latest threats.
+        <b>Websense Security Labs&trade;</b> informs both our product development and the world at large. More than 100 researchers discover and investigate advanced threats and publish their findings on an award-winning blog and in an <a href="websense-2012-threat-report-download.php">annual threat report</a>. Located worldwide, they work around the clock to monitor web, email, instant messaging and other channels for the latest threats.
         </p>
         <h4 class="no-margin">FAST FACTS</h4>
         <p>

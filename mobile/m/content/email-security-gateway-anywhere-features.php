@@ -25,9 +25,9 @@
         <p>Websense&reg; Email Security Gateway Anywhere uses a hybrid appliance and in-the-cloud deployment model and includes the same technology as our leading, stand-alone enterprise-class data loss prevention (DLP) product for the email channel.</p>
         <h4>Top Features</h4>
         <ul class="standard">
-            <li><b>Websense TruHybrid&trade; deployment</b> conserves your network bandwidth by removing spam and threats from inbound email in the cloud. TruHybrid™ deployment is ISO 27001 certified and provides 99.999% service availability and 99% or higher spam detection.</li>
-            <li><b>Websense TruEmail DLP™ capability</b> offers enterprise-level protection against data theft and data loss for the SMTP channel. It includes natural language processing, data fingerprinting, mobile email DLP, incident forensics reporting, and more than 1,600 built-in templates for compliance to prevent confidential data from leaving the corporate network via email.</li>
-            <li><b>Gateway threat analysis</b> uses security intelligence from the <a href="websense-threatseeker-network.php">Websense ThreatSeeker™ Network</a> and <a href="websense-advanced-classification-engine.php">Websense ACE (Advanced Classification Engine)</a> to defend against advanced malware, blended threats and spam. </li>
+            <li><b>Websense TruHybrid&trade; deployment</b> conserves your network bandwidth by removing spam and threats from inbound email in the cloud. TruHybrid&trade; deployment is ISO 27001 certified and provides 99.999% service availability and 99% or higher spam detection.</li>
+            <li><b>Websense TruEmail DLP&trade; capability</b> offers enterprise-level protection against data theft and data loss for the SMTP channel. It includes natural language processing, data fingerprinting, mobile email DLP, incident forensics reporting, and more than 1,600 built-in templates for compliance to prevent confidential data from leaving the corporate network via email.</li>
+            <li><b>Gateway threat analysis</b> uses security intelligence from the <a href="websense-threatseeker-network.php">Websense ThreatSeeker&trade; Network</a> and <a href="websense-advanced-classification-engine.php">Websense ACE (Advanced Classification Engine)</a> to defend against advanced malware, blended threats and spam. </li>
             <li><b>URL sandboxing</b> provides point-of-click threat analysis by isolating suspicious links embedded in emails and analyzing their destination when users click on them. </li>
         </ul>
         <h4>Additional Features</h4>
@@ -38,7 +38,7 @@
 			</div>
 			<div data-role="collapsible" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
 				<h3>Malware Protection</h3>
-				<p><a href="websense-advanced-classification-engine.aspx">Websense ACE (Advanced Classification Engine)</a> scans inbound and outbound email for malware, spyware and targeted and blended threats. Combining real-time composite risk scoring with security intelligence from the <a href="websense-threatseeker-network.aspx">Websense ThreatSeeker&reg; Network</a>, ACE protects against both known and unknown threats within email.</p>
+				<p><a href="websense-advanced-classification-engine.php">Websense ACE (Advanced Classification Engine)</a> scans inbound and outbound email for malware, spyware and targeted and blended threats. Combining real-time composite risk scoring with security intelligence from the <a href="websense-threatseeker-network.php">Websense ThreatSeeker&reg; Network</a>, ACE protects against both known and unknown threats within email.</p>
 			</div>
 			<div data-role="collapsible" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
 				<h3>Spam Detection</h3>
