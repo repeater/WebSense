@@ -51,5 +51,6 @@
 		}
 		window.addEventListener("message", receiveMessage, false);
 </script>
+<script src="http://websense.com/assets/js/2013/cso.js" type="text/javascript"></script> 
 </body>
 </html>

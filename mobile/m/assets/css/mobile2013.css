@@ -280,35 +280,48 @@ a.wsGButton:active {
 .wsBG.wsBGTwo {
   background: url(/assets/images/wsBGTwo.png) no-repeat right 0 #000000 !important;
 }
-.wsHome .wsHomeOne,
-.wsHome .wsHomeTwo {
+.wsResp .wsRespOne,
+.wsResp .wsRespTwo {
   background-size: 95% auto;
 }
-.wsHome .wsHomeOne p,
-.wsHome .wsHomeTwo p {
+.wsResp .wsRespOne .bCopy,
+.wsResp .wsRespTwo .bCopy {
   text-shadow: 0 1px 0 #000000;
   color: #ffffff !important;
+  display: inline-block;
 }
-.wsHome .wsHomeOne {
+.wsResp .wsRespOne .bCopy p,
+.wsResp .wsRespTwo .bCopy p {
+  color: #ffffff !important;
+}
+.wsResp .wsRespZero p:nth-child(1) {
+  margin-top: 0;
+}
+.wsResp .wsRespZero p {
+  color: #000000;
+  display: inline-block;
+}
+.wsResp .wsRespOne {
   background: url(/assets/images/bgHomeOne.png) no-repeat center 0;
 }
-.wsHome .wsHomeOne p {
+.wsResp .wsRespOne p {
   padding: 44px 0 10px 0;
 }
-.wsHome .wsHomeTwo {
+.wsResp .wsRespTwo {
   background: url(/assets/images/bgHomeTwo.png) no-repeat center 0;
 }
-.wsHome .wsHomeTwo p {
+.wsResp .wsRespTwo p {
   padding: 100px 0 5px 0;
 }
-.wsHome .wsCTA .hpElement {
+.wsResp .wsCTA .hpElement {
   border: 1px solid #717171 !important;
   border-radius: 4px;
   margin-bottom: 8px;
   background: url(/assets/images/hpElementTrans.png) repeat 0 0;
   padding: 8px;
+  width: 94%;
 }
-.wsHome .wsCTA .hpElement a {
+.wsResp .wsCTA .hpElement a {
   font-size: 14px;
   text-shadow: 0 1px 0 #000000;
   border: none !important;
@@ -316,7 +329,7 @@ a.wsGButton:active {
   padding: 0;
   width: 100%;
 }
-.wsHome .wsCTA .hpElement a span {
+.wsResp .wsCTA .hpElement a span {
   color: #ffffff;
   font-size: 10px;
   text-shadow: none !important;
@@ -329,6 +342,7 @@ ul.strongList {
   list-style-type: none;
   padding: 0 20px;
   margin: 12px;
+  vertical-align: top;
 }
 ul.standard li,
 ul.green-arrow li,
@@ -354,6 +368,24 @@ ul.strongList.wsList span {
   display: block;
   width: 100%;
   margin-left: 1px;
+}
+ul#cso-experts {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+ul#cso-experts li {
+  display: inline-block;
+  width: 41%;
+  min-height: 80px;
+  margin: 10px;
+}
+ul#cso-experts li p {
+  width: 100%;
+  vertical-align: top;
+}
+ul#cso-experts li p span {
+  font-weight: bold;
 }
 .wsVideo {
   position: relative;
@@ -450,31 +482,49 @@ ul.mktLblCenter input[type="text"] {
   background: none !important;
 }
 @media only screen and (orientation: landscape) {
-  .wsHome .wsHomeOne,
-  .wsHome .wsHomeTwo {
+  .wsResp .wsRespZero,
+  .wsResp .wsRespOne,
+  .wsResp .wsRespTwo {
     background-size: 50% auto;
   }
-  .wsHome .wsHomeOne p,
-  .wsHome .wsHomeTwo p {
+  .wsResp .wsRespZero .bCopy,
+  .wsResp .wsRespOne .bCopy,
+  .wsResp .wsRespTwo .bCopy {
     width: 50%;
     position: relative;
     display: inline-block;
+    vertical-align: top;
   }
-  .wsHome .wsHomeOne {
-    background: url(/assets/images/bgHomeOne.png) no-repeat 0 0 !important;
+  .wsResp .wsRespZero .bCopy p,
+  .wsResp .wsRespOne .bCopy p,
+  .wsResp .wsRespTwo .bCopy p {
+    vertical-align: top;
+    margin-top: 15px;
   }
-  .wsHome .wsHomeOne p {
+  .wsResp .wsRespZero h4 {
+    margin-top: 0;
+  }
+  .wsResp .wsRespZero p:nth-child(1) {
+    margin-top: 0;
+  }
+  .wsResp .wsRespZero p {
+    vertical-align: top;
+  }
+  .wsResp .wsRespOne {
+    background: url(/assets/images/bgHomeOne.png) no-repeat left 0 !important;
+  }
+  .wsResp .wsRespOne p {
     vertical-align: top;
     padding: 35px 0 !important;
   }
-  .wsHome .wsHomeTwo {
-    background: url(/assets/images/bgHomeTwo.png) no-repeat 0 0 !important;
+  .wsResp .wsRespTwo {
+    background: url(/assets/images/bgHomeTwo.png) no-repeat left 0 !important;
   }
-  .wsHome .wsHomeTwo p {
+  .wsResp .wsRespTwo p {
     vertical-align: top;
     padding-top: 60px;
   }
-  .wsHome .wsCTA {
+  .wsResp .wsCTA {
     width: 45%;
     position: relative;
     display: inline-block;
@@ -487,6 +537,17 @@ ul.mktLblCenter input[type="text"] {
     top: -15px;
     left: -15px;
     background: #000000;
+  }
+  ul#cso-experts {
+    width: 100%;
+  }
+  ul#cso-experts li {
+    display: inline-block;
+    width: 39%;
+    margin: 10px;
+  }
+  ul#cso-experts li img {
+    width: 90%;
   }
   .wsVideo {
     position: relative;
