@@ -14,33 +14,39 @@ $(function() {
 });
 </script>
 </head>
-<body class="wsHome">
+<body class="wsPage">
 <div data-role="page">
 	<?php include 'header.php'; ?>
 	<?php include 'panel.php'; ?>
+	<div data-role="navbar" data-mini="true" style="width:100%;">
+			<ul>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Events</a></li>
+				<li><a href="#">Webcasts</a></li>
+			</ul>
+		</div>
 	<div data-role="content" class="wsPage">
 		<h1>Office of the CSO</h1>
 		<h2>Your Powerful Ally in the Fight Against Cybercrime</h2>
 		<p>Whether you are creating a new security strategy, assessing or improving your existing security program, or even under attack, the Websense&reg; Office of the CSO can help support you at every step.</p>
 		<p>Our team understands the challenges you face: combined, we have decades of security leadership experience at leading Global 1000 organizations, including: The New York Times, Zale Corporation, Deutsche Bank, EverBank, Emerson Electric, Anheuser-Busch, State Farm Insurance, Charter Communications, Camelot (UK National Lottery) and Brinker International.</p>
 		<p>We focus on collaborating with the security community. By revealing the secrets of the world’s most consistently secure organizations, and sharing the latest cybercriminal tactics, we can help your organization transform its security strategy.</p>
-	<!--</div>-->
 		<h4>Meet Our Experts</h4>
 		<ul id="cso-experts">
 			<li>
-				<a href="#jason-clark" class="show-modal-window" data-rel="popup" data-position-to="#position-header"  data-inline="true" data-transition="pop" class="show-modal-window"><img alt="" src="http://websense.com/assets/imgs/2013/ws2013-cso-jason-clark.png" /></a>
+				<a href="test-jason-clark.php" data-transition="slide"><img alt="" src="http://websense.com/assets/imgs/2013/ws2013-cso-jason-clark.png" /></a>
 				<p>
 				<span class="name">Jason Clark</span> <br />
 				Chief Security and Strategy Officer</p>
-				<a href="#jason-clark" class="show-modal-window" data-rel="popup" data-transition="pop" data-position-to="#position-header">View profile &gt;</a>
+				<a href="#jason-clark" class="show-modal-window" data-rel="popup" data-transition="pop" data-position-to="#cso-experts">View profile &gt;</a>
 			</li>
-			<div data-role="popup" id="jason-clark" data-overlay-theme="a" class="ui-corner-all">
+			<div data-role="popup" id="jason-clark" data-overlay-theme="a" class="ui-corner-all" data-dismissible="false" style="height:400px;">
 				<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right"></a>
-				<div data-role="content" class="ui-corner-bottom ui-content">
+				<div data-role="content" class="ui-corner-bottom ui-content" style="height:400px;overflow:auto;">
 					<h3 class="ui-title">Jason Clark</h3>
 					<h4>Chief Security and Strategy Officer</h4>
 					<p><a href="mailto:jclark@websense.com">jclark@websense.com</a></p>
-					<p><img alt="" src="http://websense.com/assets/imgs/2013/ws2013-cso-jason-clark.png" align="left" />
+					<p>
 					Jason Clark is chief security and strategy officer for Websense, Inc. In this role, Clark and his team are responsible for corporate strategy, information security, marquee account relationships, and providing strategic services to CIOs and CISOs worldwide.
 					</p>
 					<p>

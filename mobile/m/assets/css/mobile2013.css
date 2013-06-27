@@ -376,9 +376,10 @@ ul#cso-experts {
 }
 ul#cso-experts li {
   display: inline-block;
-  width: 41%;
-  min-height: 80px;
-  margin: 10px;
+  width: 45%;
+  height: 240px;
+  margin-left: 10px;
+  vertical-align: top;
 }
 ul#cso-experts li p {
   width: 100%;
@@ -543,11 +544,12 @@ ul.mktLblCenter input[type="text"] {
   }
   ul#cso-experts li {
     display: inline-block;
-    width: 39%;
-    margin: 10px;
+    width: 22%;
+    height: 240px;
+    vertical-align: top;
   }
   ul#cso-experts li img {
-    width: 90%;
+    width: 75%;
   }
   .wsVideo {
     position: relative;
@@ -617,4 +619,7 @@ div#directions_map #results .ui-bar-c {
 }
 #popupDialog .modCenter {
   text-align: center;
+}
+.ui-grid-b > *:nth-child(n) {
+  margin-right: 0px !important;
 }
