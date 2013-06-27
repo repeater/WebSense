@@ -8,8 +8,11 @@
 </head>
 <body class="wsPage">
 <div data-role="page">
+<div data-role="header" id="wsHeader" data-position="fixed">
+		<a href="#" data-role="button" data-inline="true" data-mini="true" data-icon="arrow-l" onclick="history.go(-1);">Back</a>
+		<h1><a href="home.php">websense</a></h1>
+	</div>
 	<div data-role="content" class="wsPage">
-		<a href="#" class="wsBButton" data-role="button" data-inline="true" data-icon="arrow-l" data-mini="true" onclick="history.go(-1);">Back</a>
 		<h1 class="ui-title">Jason Clark</h1>
 		<h2>Chief Security and Strategy Officer</h2>
 		<p><a href="mailto:jclark@websense.com">jclark@websense.com</a></p>
@@ -31,8 +34,8 @@
 		<p>
 		Clark received his bachelor’s degree in business management at University of Florida in Jacksonville, Fla.  and a MBA from Olin Business School at Washington University in St. Louis, Missouri.
 		</p>
-		<a href="#" data-role="button" data-inline="true" data-icon="arrow-l" data-mini="true" onclick="history.go(-1);" class="wsBButton">Back</a>
 	</div>
+	<?php include 'footer.php'; ?>
 </div>
 </body>
 </html>

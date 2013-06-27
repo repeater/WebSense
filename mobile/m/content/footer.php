@@ -2,12 +2,27 @@
 		<div data-role="navbar">
 			<ul>
 				<li><a href="/content/contact.php" class="ui-btn-active ui-state-persist">Contact Us</a></li>
-				<li><a href="#popupDialog" class="ui-btn-active ui-state-persist"
+				<li><a href="#social-share" class="ui-btn-active ui-state-persist"
+				data-rel="popup" data-position-to="window" data-role="button" data-inline="true" data-transition="pop">Follow Us</a></li>
+				<li><a href="#desktop-version" class="ui-btn-active ui-state-persist"
 				data-rel="popup" data-position-to="window" data-role="button" data-inline="true" data-transition="pop">Desktop</a></li>
 			</ul>
 		</div><!-- /navbar -->
 	</div>
-	<div data-role="popup" id="popupDialog" data-overlay-theme="a" class="ui-corner-all">
+	<div data-role="popup" id="social-share" data-overlay-theme="a" class="ui-corner-all">
+		<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right"></a>
+		<div data-role="content" class="ui-corner-bottom ui-content">
+			<h3 class="ui-title">Follow Websense</h3>
+			<p>Connect with us on our various social media sites to stay on top of the latest security news.</p>
+			<a href="https://community.websense.com/blogs/" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" target="_new">Blog</a>
+			<a href="http://www.linkedin.com/company/websense?trk=fc_badge" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" target="_new">LinkedIn</a>
+			<a href="https://twitter.com/websense" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" target="_new">Twitter</a>
+			<a href="https://www.facebook.com/websense" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" target="_new">Facebook</a>
+			<a href="https://plus.google.com/+websense/about" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" target="_new">Google+</a>
+			<a href="http://www.youtube.com/user/WBSNMKTG" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" target="_new">YouTube</a>
+		</div>
+	</div>    
+	<div data-role="popup" id="desktop-version" data-overlay-theme="a" class="ui-corner-all">
 		<div data-role="content" class="ui-corner-bottom ui-content">
 			<h3 class="ui-title">Leaving the mobile site</h3>
 			<p>This link you will take you to our desktop site, not optimized for mobile devices. Do you wish to continue?</p>

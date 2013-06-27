@@ -23,9 +23,15 @@ $(function() {
 			<p>It’s been a banner year for hackers, who managed to breach many of the world’s most trusted websites and cyber defenses. Mobile, social,email – all under siege. Find out why your go-to sites, social networks and even security providers are experiencing a crisis of trust.</p>
 			<?php include 'cta.php'; ?>
 		</div>-->
-		<div class="wsHomePage wsRespTwo">
+		<!--<div class="wsHomePage wsRespTwo">
 			<div class="bCopy">
 				<p>Our information security products defend against threats and data theft using the  advanced analytics and real-time protection of the Websense TRITON architecture.</p>
+			</div>
+			<?php include 'cta.php'; ?>
+		</div>-->
+		<div class="wsHomePage wsRespThree">
+			<div class="bCopy">
+				<p><a href="http://www.websense.com/assets/white-papers/whitepaper-websense-reality-check-report.pdf" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" data-inline="true" target=_new">Go</a>&nbsp;</p>
 			</div>
 			<?php include 'cta.php'; ?>
 		</div>
