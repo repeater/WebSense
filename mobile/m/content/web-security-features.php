@@ -13,6 +13,15 @@
 <div data-role="page" class="wsShadow">
 	<?php include 'header.php'; ?>
 	<?php include 'panel.php'; ?>
+	<div data-role="navbar" data-mini="true" style="width:100%;">
+		<ul>
+			<li><a href="websense-triton-security-products.php">TRITON</a></li>
+			<!--<li><a href="websense-web-security-products.php">Web</a></li>-->
+			<li><a href="websense-email-security-products.php">Email</a></li>
+			<li><a href="websense-data-security-products.php">Data</a></li>
+			<li><a href="websense-mobile-security-products.php">Mobile</a></li>
+		</ul>
+	</div>
 	<div data-role="content" class="wsPage">
 		<h1>Web Security</h1>
         <h2>Proxy-free threat protection from the world's largest threat detection network.</h2>

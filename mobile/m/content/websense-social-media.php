@@ -17,11 +17,19 @@
 		<h1>Social Media</h1>
         <h2>Stay connected</h2>
         <p>Websense regularly releases information about security threats and new product announcements.</p>
-        <a href="https://community.websense.com/blogs/" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" target="_new">Blog</a>
+        <!--<a href="https://community.websense.com/blogs/" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" target="_new">Blog</a>
 		<a href="http://www.linkedin.com/company/websense?trk=fc_badge" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" target="_new">LinkedIn</a>
 		<a href="https://twitter.com/websense" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" target="_new">Twitter</a>
 		<a href="https://www.facebook.com/websense" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" target="_new">Facebook</a>
 		<a href="https://plus.google.com/+websense/about" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" target="_new">Google+</a>
-		<a href="http://www.youtube.com/user/WBSNMKTG" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" target="_new">YouTube</a>
+		<a href="http://www.youtube.com/user/WBSNMKTG" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" target="_new">YouTube</a>-->
+		<div class="wsSocial" style="text-align:center;">
+			<a href="https://community.websense.com/blogs/" data-role="button" class="wsBlog" target="_new"></a>
+			<a href="http://www.linkedin.com/company/websense" data-role="button" class="wsLI" target="_new"></a>
+			<a href="https://twitter.com/websense" data-role="button" class="wsTwitter" target="_new"></a>
+			<a href="https://www.facebook.com/websense" data-role="button" class="wsFB" target="_new"></a>
+			<a href="https://plus.google.com/+websense/about" data-role="button" class="wsGoogle" target="_new"></a>
+			<a href="http://www.youtube.com/user/WBSNMKTG" data-role="button" class="wsYT" target="_new"></a>
+		</div>
 	</div>
 	<?php include 'footer.php'; ?>

@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Pathway+Gothic+One);
 .ui-page,
 .ui-body-c,
 .ui-overlay-c {
@@ -24,10 +25,19 @@ h2 {
 }
 h3 {
   color: #717171;
-  font-size: 16px;
+  font-size: 19px;
+}
+.wsModal h3 {
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 24px !important;
+  font-weight: bold !important;
+  color: #015786;
 }
 h3 span.ui-btn-text {
   color: #3ea0cb !important;
+}
+h4 {
+  font-size: 15px;
 }
 h4.no-margin {
   margin-bottom: -13px !important;
@@ -47,6 +57,9 @@ blockquote {
   border-top: 4px double #e4e2e2 !important;
   font-style: italic;
   padding: 6px;
+}
+.center {
+  text-align: center;
 }
 .wsPage {
   background: #ffffff !important;
@@ -98,6 +111,10 @@ a.wsGButton:active {
 .ui-btn-corner-all,
 .ui-corner-all {
   border-radius: 4px !important;
+}
+.homeButton .ui-btn-text {
+  font-size: 18px !important;
+  font-weight: bold !important;
 }
 .ui-collapsible-heading .ui-body-d {
   border-color: #717171 !important;
@@ -319,22 +336,18 @@ a.wsGButton:active {
   padding: 100px 0 5px 0;
 }
 .wsResp .wsRespThree {
-  background: url(/assets/images/proveitMobile.png) no-repeat center 0;
+  background: url(/assets/images/proveit-mobile7.png) no-repeat center 0;
 }
 .wsResp .wsRespThree .bCopy {
   text-align: right;
 }
 .wsResp .wsRespThree .bCopy p {
-  padding: 250px 0 5px 0;
+  padding: 215px 0 5px 0;
 }
 .wsResp .wsRespThree .bCopy p a {
   position: absolute;
-  top: 180px;
-  right: 20px;
-}
-.wsResp .wsRespThree .bCopy p a .ui-btn-text {
-  font-size: 18px !important;
-  font-weight: bold !important;
+  top: 235px;
+  right: 10px;
 }
 .wsResp .wsCTA .hpElement {
   border: 1px solid #717171 !important;
@@ -392,6 +405,62 @@ ul.strongList.wsList span {
   width: 100%;
   margin-left: 1px;
 }
+ul.bookList {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+  list-style-type: none;
+}
+ul.bookList img {
+  margin: 0 13px 13px 0;
+}
+ul.bookList li.divide {
+  border-bottom: 1px solid #e4e2e2;
+}
+table.lined {
+  border: 1px solid #717171;
+  margin-bottom: 12px;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+table.lined thead tr {
+  background-color: #e4e2e2;
+}
+table.lined thead th {
+  border-left: 1px solid #717171;
+  padding: 3px;
+}
+table.lined tr {
+  border-top: 1px solid #717171;
+}
+table.lined tr td {
+  border-left: 1px solid #717171;
+  padding: 6px;
+}
+.techSpecs {
+  padding-top: 6px;
+  margin-top: 23px;
+  border-top: 1px solid #e4e2e2;
+}
+.techSpecs h2 {
+  margin-bottom: 0;
+}
+.techSpecs h3 {
+  margin-bottom: 0;
+}
+.techSpecs h3.first {
+  margin-top: 0 !important;
+}
+.techSpecs p {
+  margin-top: 0 !important;
+}
+.techSpecs ul.no-margin {
+  margin: 0 0 0 13px;
+  padding: 0;
+}
+.techSpecs ul.no-margin li {
+  margin-top: 3px;
+}
 ul#cso-experts {
   width: 100%;
   margin: 0;
@@ -401,7 +470,7 @@ ul#cso-experts li {
   display: inline-block;
   width: 45%;
   height: 240px;
-  margin-left: 10px;
+  margin: 0 0 10px 10px;
   vertical-align: top;
 }
 ul#cso-experts li p {
@@ -505,7 +574,77 @@ ul.mktLblCenter input[type="text"] {
   height: 35px;
   background: none !important;
 }
+.wsModal {
+  max-width: 400px;
+  border: 1px solid #e4e2e2;
+}
+.wsModal .modCenter {
+  text-align: center;
+}
+.wsSocial a.ui-btn {
+  display: inline-block;
+  height: 64px;
+  width: 64px;
+  margin: 7px;
+  border: none !important;
+  border-radius: 0px !important;
+  background-image: 100%;
+}
+.wsSocial a.ui-btn .ui-btn-inner {
+  border-top: none !important;
+}
+.wsSocial .wsBlog {
+  background: url(../images/socialBlog.png) no-repeat 0 0;
+}
+.wsSocial .wsBlog.ui-btn-down-c {
+  background: url(../images/socialBlogActive.png) no-repeat 0 0;
+}
+.wsSocial .wsLI {
+  background: url(../images/socialLI.png) no-repeat 0 0;
+}
+.wsSocial .wsLI.ui-btn-down-c {
+  background: url(../images/socialLIActive.png) no-repeat 0 0;
+}
+.wsSocial .wsTwitter {
+  background: url(../images/socialTwitter.png) no-repeat 0 0;
+}
+.wsSocial .wsTwitter.ui-btn-down-c {
+  background: url(../images/socialTwitterActive.png) no-repeat 0 0;
+}
+.wsSocial .wsFB {
+  background: url(../images/socialFB.png) no-repeat 0 0;
+}
+.wsSocial .wsFB.ui-btn-down-c {
+  background: url(../images/socialFBActive.png) no-repeat 0 0;
+}
+.wsSocial .wsGoogle {
+  background: url(../images/socialGoogle.png) no-repeat 0 0;
+}
+.wsSocial .wsGoogle.ui-btn-down-c {
+  background: url(../images/socialGoogleActive.png) no-repeat 0 0;
+}
+.wsSocial .wsYT {
+  background: url(../images/socialYT.png) no-repeat 0 0;
+}
+.wsSocial .wsYT.ui-btn-down-c {
+  background: url(../images/socialYTActive.png) no-repeat 0 0;
+}
+.ui-grid-a > *:nth-child(n) .ui-grid-b > *:nth-child(n),
+.ui-grid-c > *:nth-child(n),
+.ui-grid-d > *:nth-child(n) {
+  margin-right: 0 !important;
+}
+.ui-grid-a > *:nth-child(n) .ui-grid-b > *:nth-child(n) .ui-btn-up-c,
+.ui-grid-c > *:nth-child(n) .ui-btn-up-c,
+.ui-grid-d > *:nth-child(n) .ui-btn-up-c {
+  background: #e4e2e2 !important;
+}
 @media only screen and (orientation: landscape) {
+  .wsModal .wsSocial a.ui-btn {
+    height: 42px;
+    width: 42px;
+    background-size: 100% !important;
+  }
   .wsResp .wsRespZero,
   .wsResp .wsRespOne,
   .wsResp .wsRespTwo,
@@ -552,14 +691,14 @@ ul.mktLblCenter input[type="text"] {
     padding-top: 60px;
   }
   .wsResp .wsRespThree {
-    background: url(/assets/images/proveitMobile.png) no-repeat left 0 !important;
+    background: url(/assets/images/proveit-mobile7.png) no-repeat 0 0 !important;
   }
   .wsResp .wsRespThree p {
     vertical-align: top;
     padding-top: 80px;
   }
   .wsResp .wsRespThree p a {
-    top: 155px !important;
+    top: 121px !important;
     right: -5px !important;
   }
   .wsResp .wsCTA {
@@ -649,14 +788,4 @@ div#directions_map #results .ui-bar-c {
   font-size: 125%;
   text-shadow: 0 1px 0 #ffffff;
   border-radius: 4px;
-}
-#popupDialog {
-  max-width: 400px;
-  border: 1px solid #e4e2e2;
-}
-#popupDialog .modCenter {
-  text-align: center;
-}
-.ui-grid-b > *:nth-child(n) {
-  margin-right: 0px !important;
 }

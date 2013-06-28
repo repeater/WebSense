@@ -18,8 +18,8 @@
 		<p>Watch the videos and read the report and white paper to see for yourself how TRITON stops more threats.</p>
 		<div class="wsVideo">
 			<div class="wsVWrapper">
+				<h4>The Need for a "Real-World" Threat Test</h4>
 				<div>
-					<h4>The Need for a "Real-World" Threat Test</h4>
 					<a href="https://s3-us-west-1.amazonaws.com/websensevideos/video-miercom-report.mp4" title="TRITON Customers EN video" class="trackable omni_VideoView video"><!--<span></span>--><img alt="" class="thumbnail" src="http://www.websense.com/assets/imgs/2013/ws2013-proveit-video-one.png" /></a>
 				</div>
 				<p>Websense Sr. Dir. of Product Marketing Tom Clare has been advising corporations on current threats for over 20 years. Find out why he insisted that Miercom conduct its bold test.<a href="https://s3-us-west-1.amazonaws.com/websensevideos/video-miercom-report.mp4" title="TRITON Customers EN video" class="trackable omni_VideoView video">Watch the video</a></p>
@@ -27,8 +27,8 @@
         </div>
         <div class="wsVideo">
 			<div class="wsVWrapper">
+				<h4>What "Prove It" Means to a CSO</h4>
 				<div>
-					<h4>What "Prove It" Means to a CSO</h4>
 					<a href="https://s3-us-west-1.amazonaws.com/websensevideos/video-lamont-proveit.mp4" title="TRITON Customers EN video" class="trackable omni_VideoView video"><!--<span></span>--><img alt="" class="thumbnail" src="http://www.websense.com/assets/imgs/2013/ws2013-proveit-video-two.png" /></a>
 				</div>
 				<p>As a Fortune 500 CISO, Lamont Orange asked hard questions of security vendors. Now Websense Sr. Dir. of Security, he says CSOs must demand proof that products can perform in real-world conditions.<a href="https://s3-us-west-1.amazonaws.com/websensevideos/video-lamont-proveit.mp4" title="TRITON Customers EN video" class="trackable omni_VideoView video">Watch the video</a></p>

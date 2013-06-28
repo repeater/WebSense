@@ -26,8 +26,8 @@
         areas and a unique composite scoring process enable TRITON solutions to detect things other security solutions miss.</p>
         <div class="wsVideo">
 			<div class="wsVWrapper">
+				<h4>Watch the ACE Demo</h4>
 				<div>
-					<h4>Watch the ACE Demo</h4>
 					<a href="http://www.websense.com/assets/videos/video-ace-en.mov" title="TRITON Customers EN video" class="trackable omni_VideoView video"><span></span><img alt="" class="thumbnail" src="http://www.websense.com/assets/imgs/2013/ws2013-video-thumbnail-ace.png" /></a>
 				</div>
 				<p>Websense researchers explain the technology and capabilities behind ACE. <a href="http://www.websense.com/assets/videos/video-ace-en.mov" title="TRITON Customers EN video" class="trackable omni_VideoView video">Watch the video</a></p>

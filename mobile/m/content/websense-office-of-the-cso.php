@@ -19,15 +19,17 @@ $(function() {
 	<?php include 'header.php'; ?>
 	<?php include 'panel.php'; ?>
 	<div data-role="navbar" data-mini="true" style="width:100%;">
-			<ul>
-				<li><a href="#">Services</a></li>
-				<li><a href="#">Events</a></li>
-				<li><a href="#">Webcasts</a></li>
-			</ul>
-		</div>
+		<ul>
+			<!--<li><a href="websense-office-of-the-cso.php">Home</a></li>-->
+			<li><a href="websense-office-of-the-cso-services.php">Services</a></li>
+			<li><a href="websense-office-of-the-cso-events.php">Events</a></li>
+			<li><a href="websense-office-of-the-cso-connect.php">Connect</a></li>
+		</ul>
+	</div>
 	<div data-role="content" class="wsPage">
 		<h1>Office of the CSO</h1>
 		<h2>Your Powerful Ally in the Fight Against Cybercrime</h2>
+		<a href="what-were-reading.php" data-shadow="false" data-role="button" data-mini="true" class="wsBButton">View Recommended Books</a>
 		<p>Whether you are creating a new security strategy, assessing or improving your existing security program, or even under attack, the Websense&reg; Office of the CSO can help support you at every step.</p>
 		<p>Our team understands the challenges you face: combined, we have decades of security leadership experience at leading Global 1000 organizations, including: The New York Times, Zale Corporation, Deutsche Bank, EverBank, Emerson Electric, Anheuser-Busch, State Farm Insurance, Charter Communications, Camelot (UK National Lottery) and Brinker International.</p>
 		<p>We focus on collaborating with the security community. By revealing the secrets of the world’s most consistently secure organizations, and sharing the latest cybercriminal tactics, we can help your organization transform its security strategy.</p>
@@ -37,50 +39,50 @@ $(function() {
 				<a href="jason-clark.php" data-transition="slide"><img alt="" src="http://websense.com/assets/imgs/2013/ws2013-cso-jason-clark.png" /></a>
 				<p>
 				<span class="name">Jason Clark</span> <br />
-				Chief Security and Strategy Officer</p>
-				<a href="jason-clark.php" data-transition="slide" data-direction="reverse">View profile &gt;</a>
+				Chief Security and Strategy Officer<br />
+				<a href="jason-clark.php" data-transition="slide">View profile &gt;</a></p>
 			</li>
 			<li>
 				<a href="brenda-santos.php" data-transition="slide"><img alt="" src="http://websense.com/assets/imgs/2013/ws2013-cso-brenda-santos.png" /></a>
 				<p>
 				<span class="name">Brenda Santos</span> <br />
-				Information Security &amp; Strategy Officer (US)</p>
-				<a href="brenda-santos.php" data-transition="slide">View profile &gt;</a>
+				Information Security &amp; Strategy Officer (US)<br />
+				<a href="brenda-santos.php" data-transition="slide">View profile &gt;</a></p>
 			</li>
 			<li>
 				<a href="neil-thacker.php" data-transition="slide"><img alt="" src="http://websense.com/assets/imgs/2013/ws2013-cso-neil-thacker.png" /></a>
 				<p>
 				<span class="name">Neil Thacker</span> <br />
-				Information Security &amp; Strategy Officer (EMEA) </p>
-				<a href="neil-thacker.php" data-transition="slide">View profile &gt;</a>
+				Information Security &amp; Strategy Officer (EMEA) <br />
+				<a href="neil-thacker.php" data-transition="slide">View profile &gt;</a></p>
 			</li>
 			<li>
 				<a href="james-robinson.php" data-transition="slide"><img alt="" src="http://websense.com/assets/imgs/2013/ws2013-cso-james-robinson.png" /></a>
 				<p>
 				<span class="name">James Robinson</span> <br />
-				Security Architect</p>
-				<a href="james-robinson.php" data-transition="slide">View profile &gt;</a>
+				Security Architect<br />
+				<a href="james-robinson.php" data-transition="slide">View profile &gt;</a></p>
 			</li>
 			<li>
 				<a href="max-grossling.php" data-transition="slide"><img alt="" src="http://websense.com/assets/imgs/2013/ws2013-cso-max-grossling.png" /></a>
 				<p>
 				<span class="name">Max Grossling</span> <br />
-				Sr. Technical Program Manager</p>
-				<a href="max-grossling.php" data-transition="slide">View profile &gt;</a>
+				Sr. Technical Program Manager<br />
+				<a href="max-grossling.php" data-transition="slide">View profile &gt;</a></p>
 			</li>
 			<li>
 				<a href="lamont-orange.php" data-transition="slide"><img alt="" src="http://websense.com/assets/imgs/2013/ws2013-cso-lamont-orange.png" /></a>
 				<p>
 				<span class="name">Lamont Orange</span> <br />
-				Sr. Director, Information Security</p>
-				<a href="lamont-orange.php" data-transition="slide">View profile &gt;</a>
+				Sr. Director, Information Security<br />
+				<a href="lamont-orange.php" data-transition="slide">View profile &gt;</a></p>
 			</li>
 			<li>
 				<a href="dave-baker.php" data-transition="slide"><img alt="" src="http://websense.com/assets/imgs/2013/ws2013-cso-dave-baker.png" /></a>
 				<p>
 				<span class="name">Dave Baker</span> <br />
-				Vice President of Information Technology </p>
-				<a href="dave-baker.php" data-transition="slide">View profile &gt;</a>
+				Vice President of Information Technology <br />
+				<a href="dave-baker.php" data-transition="slide">View profile &gt;</a></p>
 			</li>
 		</ul>
 		<div data-role="collapsible-set" data-theme="c" data-content-theme="d" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">

@@ -10,9 +10,18 @@
 <div data-role="page">
 	<?php include 'header.php'; ?>
 	<?php include 'panel.php'; ?>
+	<div data-role="navbar" data-mini="true" style="width:100%;">
+		<ul>
+			<li><a href="websense-triton-security-products.php">TRITON</a></li>
+			<li><a href="websense-web-security-products.php">Web</a></li>
+			<li><a href="websense-email-security-products.php">Email</a></li>
+			<li><a href="websense-data-security-products.php">Data</a></li>
+			<li><a href="websense-mobile-security-products.php">Mobile</a></li>
+		</ul>
+	</div>
 	<div data-role="content" class="wsPage">
 		<h1>Websense Products</h1>
-		<h2>The best information security products at the lowest total cost of ownership.</h2>
+		<h2><img src="../assets/images/tritonBox.png" alt="Triton Software Cox image" align="left" style="margin:0 13px 13px 0" />The best information security products at the lowest total cost of ownership.</h2><br />
 		<div data-role="collapsible-set" data-theme="c" data-content-theme="d" data-collapsed-icon="info" data-expanded-icon="info">
 			<div data-role="collapsible" class="wsAccordion">
 				<h3>Watch the demo</h3>

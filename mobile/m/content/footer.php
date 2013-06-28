@@ -9,26 +9,48 @@
 			</ul>
 		</div><!-- /navbar -->
 	</div>
-	<div data-role="popup" id="social-share" data-overlay-theme="a" class="ui-corner-all">
+	<div data-role="popup" id="social-share" data-overlay-theme="a" class="ui-corner-all wsModal">
 		<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right"></a>
-		<div data-role="content" class="ui-corner-bottom ui-content">
+		<div data-role="content" class="ui-corner-bottom ui-content wsSocial">
 			<h3 class="ui-title">Follow Websense</h3>
 			<p>Connect with us on our various social media sites to stay on top of the latest security news.</p>
-			<a href="https://community.websense.com/blogs/" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" target="_new">Blog</a>
-			<a href="http://www.linkedin.com/company/websense?trk=fc_badge" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" target="_new">LinkedIn</a>
-			<a href="https://twitter.com/websense" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" target="_new">Twitter</a>
-			<a href="https://www.facebook.com/websense" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" target="_new">Facebook</a>
-			<a href="https://plus.google.com/+websense/about" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" target="_new">Google+</a>
-			<a href="http://www.youtube.com/user/WBSNMKTG" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" target="_new">YouTube</a>
+			<div class="modCenter">
+				<a href="https://community.websense.com/blogs/" data-role="button" class="wsBlog" target="_new"></a>
+				<a href="http://www.linkedin.com/company/websense" data-role="button" class="wsLI" target="_new"></a>
+				<a href="https://twitter.com/websense" data-role="button" class="wsTwitter" target="_new"></a>
+				<a href="https://www.facebook.com/websense" data-role="button" class="wsFB" target="_new"></a>
+				<a href="https://plus.google.com/+websense/about" data-role="button" class="wsGoogle" target="_new"></a>
+				<a href="http://www.youtube.com/user/WBSNMKTG" data-role="button" class="wsYT" target="_new"></a>
+			</div>
 		</div>
 	</div>    
-	<div data-role="popup" id="desktop-version" data-overlay-theme="a" class="ui-corner-all">
+	<div data-role="popup" id="desktop-version" data-overlay-theme="a" class="ui-corner-all wsModal">
 		<div data-role="content" class="ui-corner-bottom ui-content">
 			<h3 class="ui-title">Leaving the mobile site</h3>
 			<p>This link you will take you to our desktop site, not optimized for mobile devices. Do you wish to continue?</p>
 			<div class="modCenter">
 				<a href="#" data-role="button" data-inline="true" data-rel="back" class="wsGButton">Cancel</a> 
 				<a href="http://www.websense.com" data-role="button" data-inline="true" class="wsBButton">Continue</a>
+			</div>
+		</div>
+	</div>
+	<div data-role="popup" id="cso-dlp1-reg" data-overlay-theme="a" class="ui-corner-all wsModal">
+		<div data-role="content" class="ui-corner-bottom ui-content">
+			<h3 class="ui-title">Leaving the mobile site</h3>
+			<p>This link you will take you to our desktop site, not optimized for mobile devices. Do you wish to continue?</p>
+			<div class="modCenter">
+				<a href="#" data-role="button" data-inline="true" data-rel="back" class="wsGButton">Cancel</a> 
+				<a href="https://www1.gotomeeting.com/register/393753352" data-role="button" data-inline="true" class="wsBButton">Continue</a>
+			</div>
+		</div>
+	</div>
+	<div data-role="popup" id="cso-dlp2-reg" data-overlay-theme="a" class="ui-corner-all wsModal">
+		<div data-role="content" class="ui-corner-bottom ui-content">
+			<h3 class="ui-title">Leaving the mobile site</h3>
+			<p>This link you will take you to our desktop site, not optimized for mobile devices. Do you wish to continue?</p>
+			<div class="modCenter">
+				<a href="#" data-role="button" data-inline="true" data-rel="back" class="wsGButton">Cancel</a> 
+				<a href="https://www1.gotomeeting.com/register/625259073" data-role="button" data-inline="true" class="wsBButton">Continue</a>
 			</div>
 		</div>
 	</div>

@@ -18,13 +18,14 @@
 		<h2>Our most comprehensive information security solution.</h2>
 		<div data-role="collapsible-set" data-theme="c" data-content-theme="d" data-collapsed-icon="info" data-expanded-icon="info">
 			<div data-role="collapsible" class="wsAccordion">
-				<h3>Download the White Paper</h3>
+				<h3>Watch the Demo</h3>
 				<iframe width="100%" scrolling="no" height="450" frameborder="0" allowtransparency="true" src="http://a1.websense.com/mobile-test.html"></iframe>
 			</div>
 		</div>
         <p>Websense&reg; TRITON&trade; Enterprise protects on-site and remote employees from the latest threats in a unified, hybrid solution. You
         can add <a href="cybersecurity-intelligence-services-overview.php">Websense CyberSecurity Intelligence&trade; (CSI) services</a> to get online
         malware sandboxing and direct access to <a href="http://securitylabs.websense.com/">Websense Security Labs&trade;</a> threat researchers.</p>
+        <a href="websense-triton-enterprise-tech-specs.php" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" data-transition="slide">Tech Specs</a>
         <p>And as with all TRITON solutions, you get:</p>
         <ul class="standard">
             <li>Unified Architecture</li>
@@ -51,6 +52,12 @@
             <li><b>Optical character recognition (OCR)</b> identifies sensitive data embedded within images and prevents loss. </li>
         </ul>
         <a href="../assets/pdf/product-comparison-chart.pdf" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" target=_new">Related Products</a>
+        <div data-role="collapsible-set" data-theme="c" data-content-theme="d" data-collapsed-icon="info" data-expanded-icon="info">
+			<div data-role="collapsible" class="wsAccordion">
+				<h3>Download the white paper</h3>
+				<iframe width="100%" scrolling="no" height="450" frameborder="0" allowtransparency="true" src="http://a1.websense.com/mobile-test.html"></iframe>
+			</div>
+		</div>
         <div data-role="collapsible-set" data-theme="c" data-content-theme="d" data-collapsed-icon="info" data-expanded-icon="info">
 			<div data-role="collapsible" class="wsAccordion">
 				<h3>Contact Us</h3>

@@ -31,7 +31,7 @@ $(function() {
 		</div>-->
 		<div class="wsHomePage wsRespThree">
 			<div class="bCopy">
-				<p><a href="http://www.websense.com/assets/white-papers/whitepaper-websense-reality-check-report.pdf" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" data-inline="true" target=_new">Go</a>&nbsp;</p>
+				<p><a href="http://www.websense.com/assets/white-papers/whitepaper-websense-reality-check-report.pdf" data-shadow="false" data-role="button" data-mini="true" class="wsBButton homeButton" data-inline="true" target=_new">Go</a>&nbsp;</p>
 			</div>
 			<?php include 'cta.php'; ?>
 		</div>

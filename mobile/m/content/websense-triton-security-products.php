@@ -13,18 +13,33 @@
 <div data-role="page" class="wsShadow">
 	<?php include 'header.php'; ?>
 	<?php include 'panel.php'; ?>
+	<div data-role="navbar" data-mini="true" style="width:100%;">
+		<ul>
+			<!--<li><a href="websense-triton-security-products.php">TRITON</a></li>-->
+			<li><a href="websense-web-security-products.php">Web</a></li>
+			<li><a href="websense-email-security-products.php">Email</a></li>
+			<li><a href="websense-data-security-products.php">Data</a></li>
+			<li><a href="websense-mobile-security-products.php">Mobile</a></li>
+		</ul>
+	</div>
 	<div data-role="content" class="wsPage">
 		<h1>TRITON&trade; Security Solutions</h1>
-		<h2>Leading integration and innovation of web, email and data security.</h2>
+		<h2><img src="../assets/images/tritonBox.png" alt="Triton Software Cox image" align="left" style="margin:0 13px 13px 0" />Leading integration and innovation of web, email and data security.</h2>
 		<h3>Get dynamic threat defenses, advanced data protection and compliance in a unified solution.</h3>
+		<div data-role="collapsible-set" data-theme="c" data-content-theme="d" data-collapsed-icon="info" data-expanded-icon="info">
+			<div data-role="collapsible" class="wsAccordion">
+				<h3>Watch the Demo</h3>
+				<iframe width="100%" scrolling="no" height="450" frameborder="0" allowtransparency="true" src="http://a1.websense.com/mobile-test.html"></iframe>
+			</div>
+		</div>
 		<p><b>Best-in-class security with a unified architecture.</b> Websense&reg; TRITON&trade; security solutions offer point-of click protection with inline, real-time defenses from <a href="websense-advanced-classification-engine.php">Websense ACE (Advanced Classification Engine)</a>. ACE unites seven security defenses assessment areas into a composite scoring model using predictive analysis. These unmatched real-time defenses are backed by the <a href="websense-threatseeker-network.php">Websense ThreatSeeker&reg; Network</a> — the world's largest security intelligence network — and the expertise of Websense Security Labs&trade; researchers.</p>
 		<div class="wsVideo">
 			<div class="wsVWrapper">
+				<h4>In Their Words</h4>
 				<div>
-					<h4>In Their Words</h4>
-					<a href="../assets/videos/video-triton-customers.mp4" title="TRITON Customers EN video" class="trackable omni_VideoView video"><span></span><img alt="" class="thumbnail" src="http://websense.com/assets/imgs/2013/video-thumb-triton-customers.png" /></a>
+					<a href="http://websense.com/assets/videos/video-triton-customers.mp4" title="TRITON Customers EN video" class="trackable omni_VideoView video"><span></span><img alt="" class="thumbnail" src="http://websense.com/assets/imgs/2013/video-thumb-triton-customers.png" /></a>
 				</div>
-				<p>Our customers explain why they purchased Websense TRITON solutions. <a href="www.websense.com/assets/videos/video-triton-customers.mp4" title="TRITON Customers EN video" class="trackable omni_VideoView video">Watch the video</a></p>
+				<p>Our customers explain why they purchased Websense TRITON solutions. <a href="http://websense.com/assets/videos/video-triton-customers.mp4" title="TRITON Customers EN video" class="trackable omni_VideoView video">Watch the video</a></p>
 			</div>
         </div>
         <p><strong>Data theft and data loss prevention (DLP) built-in at the core. </strong>Unlike competitive offerings, TRITON solutions contain DLP in their DNA. The TRITON architecture uniquely leverages DLP as a defense and for compliance. Email gateways include DLP defenses at the core, and our most advanced web gateway provides full DLP policy controls and containment defenses. Forensic reporting provides incident details and data capture on security incidents and is easily accessible from an advanced threat dashboard. DLP endpoint protection functions off network and uses registered (fingerprinted) data for Windows and Mac OS systems. Portable decryption secures data from endpoints on USB devices and portable media. </p>

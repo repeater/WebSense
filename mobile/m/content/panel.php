@@ -72,5 +72,14 @@
 				<li class="navThree"><a href="/content/websense-social-media.php">Social Media</a></li>
 			</ul>
 		</div>
+		<div data-role="collapsible">
+			<h3>Office of the CSO</h3>
+			<ul data-role="listview" data-filter-theme="d" data-theme="a" data-divider-theme="b">
+				<li class="navOne"><a href="/content/websense-office-of-the-cso.php">CSO Overview</a></li>
+				<li class="navThree"><a href="/content/websense-office-of-the-cso-services.php">Services</a></li>
+				<li class="navThree"><a href="/content/websense-office-of-the-cso-events.php" target="_parent">Events</a></li>
+				<li class="navThree"><a href="/content/websense-office-of-the-cso-connect.php">Connect</a></li>
+			</ul>
+		</div>
 	</div>
 </div>

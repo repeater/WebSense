@@ -23,6 +23,7 @@
 			</div>
 		</div>
         <p>Websense&reg; Web Security Gateway Anywhere protects on-site and remote employees from the latest threats in a unified, hybrid solution. You can add <a href="cybersecurity-intelligence-services.php ">Websense CyberSecurity Intelligence&trade; (CSI)</a> services to get online malware sandboxing and direct access to Websense Security Labs&trade; threat researchers.</p>
+        <a href="websense-triton-security-gateway-anywhere-tech-specs.php" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" data-transition="slide">Tech Specs</a>
         <h4>Top Features</h4>
         <ul class="standard">
             <li><b>Websense TruHybrid&trade; deployment</b> protects entire networks, including headquarters, branch offices and remote and mobile users. It enables provisioning through one unified interface.</li>
