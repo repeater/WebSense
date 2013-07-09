@@ -115,12 +115,9 @@
 				<li>Restricted access lists </li>
 				<li>Photo and biometric verification</li>
 			</ul>
-            <h3>Service Level Agreements</h3>
+            <h3>Service Level Agreements (SLAs)</h3>
 			<ul class="standard no-margin tight no-padding">
 				<li>Availability: 99.999% </li>
-			</ul>
-			<h3>(SLAs)</h3>
-			<ul class="standard no-margin tight no-padding">
 				<li>Spam detection: 99% or higher </li>
 				<li>Processing latency: 60 seconds or less for
 				non-spam email less than 2 MB in size </li>

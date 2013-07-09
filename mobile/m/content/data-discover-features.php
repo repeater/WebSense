@@ -32,6 +32,7 @@
 			</div>
 		</div>
         <p>Websense&reg; Data Discover performs agent and agent-less discovery scans on networks, email servers, desktops, laptops and more. It can take remediation actions including encrypt, remove file, replace file, audit and log.</p>
+        <a href="data-discover-tech-specs.php" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" target="_new">Tech specs</a>
 		<h4>Top Features</h4>
 		<ul class="standard">
 			<li><b>Discovers and classifies confidential data</b> stored on networks, endpoints and elsewhere. </li>

@@ -32,6 +32,7 @@
 			</div>
 		</div>
         <p>Websense&reg; Cloud Web Security provides threat protection, simplified management and reporting, web controls and more — all in a deployment requiring no hardware or software to buy and install, and no maintenance to perform.</p>
+        <a href="cloud-web-security-tech-specs.php" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" data-transition="slide">Tech Specs</a>
         <h4>Top Features</h4>
         <ul class="standard">
             <li><b>Eliminate costs</b> of buying, deploying, upgrading and maintaining on-premises hardware or software with a cloud-based deployment that integrates easily with existing network infrastructure.</li>

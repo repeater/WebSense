@@ -32,6 +32,7 @@
 			</div>
 		</div>
         <p>Websense&reg; Cloud Email Security and Content Control integrates best-in-class web and data security technology with email security to achieve unparalleled visibility and protection against today's targeted and blended threats — all without the complexities of managing hardware or software.</p>
+        <a href="cloud-email-security-and-content-control-tech-specs.php" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" data-transition="slide">Tech Specs</a>
         <h4>Top Features</h4>
         <ul class="standard">
             <li><b>In-the-cloud deployment</b> is ISO 27001 certified and provides 99.999% service availability and 99% or higher spam detection.</li>

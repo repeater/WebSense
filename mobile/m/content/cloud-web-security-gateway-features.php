@@ -32,6 +32,7 @@
 			</div>
 		</div>
         <p>Websense&reg; Cloud Web Security Gateway analyzes web content and detects threats with inline, real-time composite defenses. Global data centers are ISO 27001 certified and provide high availability, easy provisioning and lower costs for users in any location.</p>
+        <a href="cloud-web-security-gateway-tech-specs.php" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" data-transition="slide">Tech Specs</a>
         <h4>Top Features</h4>
         <ul class="standard">
             <li><b>Social media controls</b> manage use of Facebook, LinkedIn and other social media websites through highly granular rules. For example, you can allow Facebook access but prohibit posting content or playing games; or allow access to 	LinkedIn, but prevent job searches.</li>

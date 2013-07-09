@@ -13,7 +13,7 @@
 	<div data-role="content" class="wsPage">
 		<h1>K12 Solutions</h1>
 		<h2>Cost-effective, comprehensive compliance for schools.</h2>
-        <p>The web is a valuable resource, and you need to enable students, faculty and staff to use it. But the web can be a dangerous place, too. Hence the <a href="http://www.fcc.gov/guides/childrens-internet-protection-act">Children’s Internet Protection Act (CIPA)</a>, which requires you to protect students from online threats, block their access to inappropriate content and manage their Internet use on school networks.</p>
+        <p>The web is a valuable resource, and you need to enable students, faculty and staff to use it. But the web can be a dangerous place, too. Hence the <a href="http://www.fcc.gov/guides/childrens-internet-protection-act" trget=_new">Children’s Internet Protection Act (CIPA)</a>, which requires you to protect students from online threats, block their access to inappropriate content and manage their Internet use on school networks.</p>
         <p>Websense&reg; web security products can help make the web a safer place for your students. They can:</p>
         <ul class="standard tight">
             <li>Filter inappropriate content, malicious code and other threats. </li>

@@ -25,6 +25,7 @@
         <p>Websense&reg; TRITON&trade; Security Gateway provides industry-leading web security with email security that has built-in DLP capabilities. You can
         add <a href="cybersecurity-intelligence-services.php">Websense CyberSecurity Intelligence&trade; (CSI) services</a> to get online
         malware sandboxing and direct access to Websense Security Labs&trade; threat researchers.</p>
+        <a href="websense-triton-web-security-gateway-tech-specs.php" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" data-transition="slide">Tech Specs</a>
         <p>And as with all TRITON solutions, you get:</p>
         <ul class="standard">
             <li>Unified Architecture</li>

@@ -32,6 +32,7 @@
 			</div>
 		</div>
         <p>Websense&reg; Email Security Gateway Anywhere uses a hybrid appliance and in-the-cloud deployment model and includes the same technology as our leading, stand-alone enterprise-class data loss prevention (DLP) product for the email channel.</p>
+        <a href="email-security-gateway-anywhere-tech-specs.php" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" data-transition="slide">Tech Specs</a>
         <h4>Top Features</h4>
         <ul class="standard">
             <li><b>Websense TruHybrid&trade; deployment</b> conserves your network bandwidth by removing spam and threats from inbound email in the cloud. TruHybrid&trade; deployment is ISO 27001 certified and provides 99.999% service availability and 99% or higher spam detection.</li>

@@ -32,6 +32,7 @@
 			</div>
 		</div>
         <p>Websense&reg; Data Security Suite contains three modules — <a href="data-security-gateway-features.php">Data Security Gateway</a>, <a href="data-discover-features.php">Data Discover</a>, and <a href="data-endpoint-features.php">Data Endpoint</a> — that can help manage the risk of losing your data to malicious users or accidental misuse. Each module can be licensed separately if you plan to start with one capability and later expand to others.</p>
+        <a href="data-security-suite-tech-specs.php" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" data-transition="slide">Tech Specs</a>
         <h4>Top Features</h4>
         <ul class="standard">
             <li><b>Websense TRITON&trade; Unified Security Center</b> provides a single intuitive, web-based interface for management and reporting of Websense web, email and data security solutions. It includes more than 55 built-in reports, policy wizards, configuration templates and more. </li>

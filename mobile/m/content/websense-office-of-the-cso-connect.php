@@ -13,6 +13,14 @@
 <div data-role="page" class="wsShadow">
 	<?php include 'header.php'; ?>
 	<?php include 'panel.php'; ?>
+	<div data-role="navbar" data-mini="true" style="width:100%;">
+		<ul>
+			<li><a href="websense-office-of-the-cso.php">Home</a></li>
+			<li><a href="websense-office-of-the-cso-services.php">Services</a></li>
+			<li><a href="websense-office-of-the-cso-events.php">Events</a></li>
+			<!--<li><a href="websense-office-of-the-cso-connect.php">Connect</a></li>-->
+		</ul>
+	</div>
 	<div data-role="content" class="wsPage">
 		<h1>Office of the CSO</h1>
         <h2>Connect With Us on LinkedIn</h2>

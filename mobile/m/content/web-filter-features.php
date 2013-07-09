@@ -34,6 +34,7 @@
         <p>
         Websense&reg; Web Filter effectively enforces acceptable use policy (AUP) to enable compliance with regulations such as the Children's Internet Protection Act (CIPA). It provides more than 100 web categories, YouTube for Schools video control, customizable allow/deny lists, time quotas and more. You can easily upgrade to <a href="product-comparison-chart.php#ws">Websense Web Security</a> when desired to help reduce your exposure to web threats and data theft.
         </p>
+        <a href="web-filter-tech-specs.php" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" data-transition="slide">Tech Specs</a>
         <h4>Top Features</h4>
         <ul class="standard">
             <li><b>Updates</b> from the <a href="websense-threatseeker-network.php">Websense ThreatSeeker&trade; Network</a>, the world’s largest threat intelligence network.  </li>

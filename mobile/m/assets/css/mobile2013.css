@@ -15,17 +15,19 @@ a {
   font-weight: bold;
 }
 h1 {
-  font-size: 24px;
+  font-size: 28px;
   margin-bottom: 0;
   color: #3c3c3c;
+  line-height: 30px;
 }
 h2 {
   font-size: 22px;
   color: #015786;
+  margin: 2px 0 8px 0 !important;
 }
 h3 {
   color: #717171;
-  font-size: 19px;
+  font-size: 18px;
 }
 .wsModal h3 {
   font-family: 'Pathway Gothic One', sans-serif;
@@ -347,7 +349,7 @@ a.wsGButton:active {
 .wsResp .wsRespThree .bCopy p a {
   position: absolute;
   top: 235px;
-  right: 10px;
+  right: 12px;
 }
 .wsResp .wsCTA .hpElement {
   border: 1px solid #717171 !important;
@@ -379,6 +381,11 @@ ul.strongList {
   padding: 0 20px;
   margin: 12px;
   vertical-align: top;
+}
+ul.standard.tight,
+ul.green-arrow.tight,
+ul.strongList.tight {
+  padding: 0;
 }
 ul.standard li,
 ul.green-arrow li,
@@ -447,9 +454,6 @@ table.lined tr td {
 }
 .techSpecs h3 {
   margin-bottom: 0;
-}
-.techSpecs h3.first {
-  margin-top: 0 !important;
 }
 .techSpecs p {
   margin-top: 0 !important;
@@ -718,13 +722,14 @@ ul.mktLblCenter input[type="text"] {
   ul#cso-experts {
     width: 100%;
   }
-  ul#cso-experts li {
-    display: inline-block;
-    width: 22%;
+  ul#cso-experts li,
+  ul#cso-experts a {
+    width: 22% !important;
     height: 240px;
     vertical-align: top;
   }
-  ul#cso-experts li img {
+  ul#cso-experts li img,
+  ul#cso-experts a img {
     width: 75%;
   }
   .wsVideo {

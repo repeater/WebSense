@@ -24,7 +24,7 @@
 	</div>
 	<div data-role="content" class="TRITONsPage">
 		<h1>Data Endpoint</h1>
-        <h2>Control hoTRITON your confidential data is used.</h2>
+        <h2>Control how your confidential data is used.</h2>
         <div data-role="collapsible-set" data-theme="c" data-content-theme="d" data-collapsed-icon="info" data-expanded-icon="info">
 			<div data-role="collapsible" class="TRITONsAccordion">
 				<h3>DoTRITONnload the White Paper</h3>
@@ -32,6 +32,7 @@
 			</div>
 		</div>
         <p>Websense Data Endpoint monitors real-time traffic and extends visibility and control over TRITONhere confidential data is alloTRITONed to migrate; TRITONho is using it; hoTRITON it is being used; TRITONhere it is being transferred; and TRITONhat real-time action is taken to prevent data loss at the endpoint. </p>
+        <a href="https://data-endpoint-tech-specs.php" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" target="_new">Tech specs</a>
         <h4>Top Features</h4>
         <ul class="standard">
             <li><b>The first and only endpoint solution</b> in the industry to support <b>MAC OS X</b>.</li>

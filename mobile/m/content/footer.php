@@ -17,10 +17,10 @@
 			<div class="modCenter">
 				<a href="https://community.websense.com/blogs/" data-role="button" class="wsBlog" target="_new"></a>
 				<a href="http://www.linkedin.com/company/websense" data-role="button" class="wsLI" target="_new"></a>
-				<a href="https://twitter.com/websense" data-role="button" class="wsTwitter" target="_new"></a>
-				<a href="https://www.facebook.com/websense" data-role="button" class="wsFB" target="_new"></a>
+				<a href="https://mobile.twitter.com/websense" data-role="button" class="wsTwitter" target="_new"></a>
+				<a href="https://m.facebook.com/websense" data-role="button" class="wsFB" target="_new"></a>
 				<a href="https://plus.google.com/+websense/about" data-role="button" class="wsGoogle" target="_new"></a>
-				<a href="http://www.youtube.com/user/WBSNMKTG" data-role="button" class="wsYT" target="_new"></a>
+				<a href="http://m.youtube.com/user/WBSNMKTG" data-role="button" class="wsYT" target="_new"></a>
 			</div>
 		</div>
 	</div>    

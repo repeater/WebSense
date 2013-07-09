@@ -32,6 +32,7 @@
 			</div>
 		</div>
         <p>Websense&reg; Web Security blocks web threats to reduce malware infections, decrease help desk incidents and free up valuable IT resources. It has more than 100 <a href="websense-url-categories.php">security and filtering categories</a>, hundreds of web application and protocol controls, and 60-plus reports with customization and role-based access. You can easily upgrade to <a href="web-security-gateway-features.php">Web Security Gateway</a> when desired to get social media controls, SSL inspection, data loss prevention (DLP) and inline, real-time security from <a href="websense-advanced-classification-engine.php">Websense ACE (Advanced Classification Engine)</a>.</p>
+        <a href="ace-in-the-cloud-tech-specs.php" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" data-transition="slide">Tech Specs</a>
         <h4>Top Features</h4>
         <ul class="standard">
             <li><b>Real-time security updates</b> from the <a href="websense-threatseeker-network.php">Websense ThreatSeeker&trade; Network</a> help defend against advanced malware, blended threats and spam. </li>

@@ -32,6 +32,7 @@
 			</div>
 		</div>
         <p>Websense&reg; TRITON&trade; Mobile Security provides effective web security, mobile malware protection, app controls and reporting for mobile devices. Safely enable mobile devices in your workplace while protecting them from mobile malware, web threats, phishing attacks, spoofing and more. </p>
+        <a href="triton-mobile-security-tech-specs.php" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" data-transition="slide">Tech Specs</a>
         <h4>Top Features</h4>
         <ul class="standard">
             <li><b>Real-time security protection</b> from threats targeted at mobile devices.</li>

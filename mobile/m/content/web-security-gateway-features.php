@@ -32,6 +32,7 @@
 			</div>
 		</div>
         <p>Websense&reg; Web Security Gateway provides the defenses you need to defend against advanced attacks:  real-time threat analysis at web gateways, plus forensic reporting. You  can easily upgrade to <a href="web-security-gateways-overview.php">Web  Security Gateway Anywhere</a> when desired to get Websense TruWeb DLP&trade; capability and other advanced  features.</p>
+        <a href="web-security-gateway-tech-specs.php" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" data-transition="slide">View profile &gt;</a>
         <h4>Top Features</h4>
         <ul class="standard">
             <li><b>Gateway threat analysis</b> uses real-time, inline security  analysis from <a href="websense-advanced-classification-engine.php">Websense ACE (Advanced Classification Engine)</a> and threat intelligence from the <a href="ThreatSeeker.php">Websense ThreatSeeker&trade; Network</a> to defend against advanced malware, blended threats and  spam. </li>

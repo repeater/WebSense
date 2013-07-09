@@ -5,10 +5,13 @@
 <link rel="stylesheet" type="text/css" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
 <link rel="stylesheet" type="text/css" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile.structure-1.3.0.min.css" />
 <link rel="stylesheet" media="screen" type="text/css" href="/assets/css/mobile2013.css" />
+<style>
+	.wsAccordion.active {color:#f00;}
+</style>
 </head>
-<body class="wsPage">
-<div data-role="page">
-<div data-role="header" id="wsHeader" data-position="fixed">
+<body>
+<div data-role="page" class="wsShadow">
+	<div data-role="header" id="wsHeader" data-position="fixed">
 		<a href="#" data-role="button" data-inline="true" data-mini="true" data-icon="arrow-l" onclick="history.go(-1);">Back</a>
 		<h1><a href="home.php">websense</a></h1>
 	</div>
@@ -22,7 +25,7 @@
 				<li>Enterprise </li>
 			</ul>
 			<h3>Maximum Users</h3>
-			<p>5,000</p>
+			<p>10,000</p>
 			<h3>Maximum Users in Dual Mode</h3>
 			<p><i>(Email Security Gateway Anywhere deployed with a Websense Web Security Gateway Solution)</i></p>
 			<p>NA</p>
@@ -66,17 +69,17 @@
 				<li>Large offices</li>
 			</ul>
 			<h3>Maximum Users</h3>
-			<p>10,000</p>
+			<p>20,000</p>
 			<h3>Maximum Users in Dual Mode</h3>
 			<p><i>(Email Security Gateway Anywhere deployed with a Websense Web Security Gateway Solution)</i></p>
 			<p>2,000</p>
 			<h3>System Resources</h3>
 			<ul class="standard no-margin no-padding tight">
-				<li>Quad-core HT Xeon processor</li>
-				<li>8 GB RAM</li>
-				<li>2x SATA drives (500 GB total)</li>
-				<li>250W power supply</li>
-				<li>4x 10/100/1000 BaseT interfaces</li>
+				<li>2 x Intel Xeon E5-2420 CPU (Sandy Bridge)</li>
+				<li>24 GB RAM</li>
+				<li>4 x 300GB SAS 10K RPM Hot Swappable HDD</li>
+				<li>6 x 1Gb Base-T NIC</li>
+				<li>2 x 550 W Hot Swappable Power Supply</li>
 			</ul>
 			<h3>Dimensions</h3>
 			<ul class="standard no-margin no-padding tight">
@@ -104,31 +107,28 @@
 		<div class="techSpecs">
 			<h2>Websense Cloud Platform</h2>
 			<h3 class="first">Data Center Infrastructure</h3>
-			<p>15 worldwide data centers with fully redundant power, cooling and Internet  connectivity.</p>
+			<p>15 worldwide data centers with fully redundant power, cooling and Internet connectivity.</p>
             <h3>Security Certifications</h3>
             <p>Independently audited and ISO 27001 certified.</p>
             <h3>Data Center Security</h3>
 			<ul class="standard no-margin tight no-padding">
-				<li>24/7 staffing </li>
-				<li>Physical intrusion  detection systems </li>
-				<li>Video surveillance </li>
-				<li>Restricted access  lists </li>
-				<li>Photo and biometric  verification</li>
+				<li>24/7 staffing</li>
+				<li>Physical intrusion detection systems</li>
+				<li>Video surveillance</li>
+				<li>Restricted access lists </li>
+				<li>Photo and biometric verification</li>
 			</ul>
             <h3>Service Level Agreements (SLAs)</h3>
 			<ul class="standard no-margin tight no-padding">
 				<li>Availability: 99.999% </li>
-				<li>Spam detection: 99% or  higher </li>
-				<li>Processing latency: 60  seconds or less for
+				<li>Spam detection: 99% or higher </li>
+				<li>Processing latency: 60 seconds or less for
 				non-spam email less than 2 MB in size </li>
-				<li>Email logs and quarantine:  Available five minutes or
+				<li>Email logs and quarantine: Available five minutes or
 				less after email receipt</li>
 			</ul>
 			<h3>Email Spooling</h3>
             <p>Built-in redundancy and email spooling ensures that email is never lost  when a customer experiences a network or mail server outage.</p>
 		</div>
-	</div>
+    </div>
 	<?php include 'footer.php'; ?>
-</div>
-</body>
-</html>

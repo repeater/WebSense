@@ -13,7 +13,7 @@
 		<h1><a href="home.php">websense</a></h1>
 	</div>
 	<div data-role="content" class="wsPage">
-		<h1 class="ui-title">Websense&reg; V-Series™ Appliance Platforms</h1>
+		<h1 class="ui-title">Websense&reg; V-Series&trade; Appliance Platforms</h1>
 		<div class="techSpecs">
 			<h2>Websense V5000&trade; G2</h2>
 			<h3 class="first">Designed for</h3>
@@ -72,11 +72,11 @@
 			<p>2,000</p>
 			<h3>System Resources</h3>
 			<ul class="standard no-margin no-padding tight">
-				<li>Quad-core HT Xeon processor</li>
-				<li>8 GB RAM</li>
-				<li>2x SATA drives (500 GB total)</li>
-				<li>250W power supply</li>
-				<li>4x 10/100/1000 BaseT interfaces</li>
+				<li>2 x Intel Xeon E5-2420 CPU (Sandy Bridge)</li>
+				<li>24 GB RAM</li>
+				<li>4 x 300GB SAS 10K RPM Hot Swappable HDD</li>
+				<li>6 x 1Gb Base-T NIC</li>
+				<li>2 x 550 W Hot Swappable Power Supply</li>
 			</ul>
 			<h3>Dimensions</h3>
 			<ul class="standard no-margin no-padding tight">
@@ -109,19 +109,19 @@
             <p>Independently audited and ISO 27001 certified.</p>
             <h3>Data Center Security</h3>
 			<ul class="standard no-margin tight no-padding">
-				<li>24/7 staffing </li>
-				<li>Physical intrusion  detection systems </li>
-				<li>Video surveillance </li>
-				<li>Restricted access  lists </li>
-				<li>Photo and biometric  verification</li>
+				<li>24/7 staffing</li>
+				<li>Physical intrusion detection systems</li>
+				<li>Video surveillance</li>
+				<li>Restricted access lists </li>
+				<li>Photo and biometric verification</li>
 			</ul>
             <h3>Service Level Agreements (SLAs)</h3>
 			<ul class="standard no-margin tight no-padding">
 				<li>Availability: 99.999% </li>
-				<li>Spam detection: 99% or  higher </li>
-				<li>Processing latency: 60  seconds or less for
+				<li>Spam detection: 99% or higher </li>
+				<li>Processing latency: 60 seconds or less for
 				non-spam email less than 2 MB in size </li>
-				<li>Email logs and quarantine:  Available five minutes or
+				<li>Email logs and quarantine: Available five minutes or
 				less after email receipt</li>
 			</ul>
 			<h3>Email Spooling</h3>
