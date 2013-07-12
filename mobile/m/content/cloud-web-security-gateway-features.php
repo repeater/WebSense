@@ -31,7 +31,7 @@
 				<iframe width="100%" scrolling="no" height="450" frameborder="0" allowtransparency="true" src="http://a1.websense.com/mobile-test.html"></iframe>
 			</div>
 		</div>
-        <p>Websense&reg; Cloud Web Security Gateway analyzes web content and detects threats with inline, real-time composite defenses. Global data centers are ISO 27001 certified and provide high availability, easy provisioning and lower costs for users in any location.</p>
+        <p>Websense<sup>&reg;</sup> Cloud Web Security Gateway analyzes web content and detects threats with inline, real-time composite defenses. Global data centers are ISO 27001 certified and provide high availability, easy provisioning and lower costs for users in any location.</p>
         <a href="cloud-web-security-gateway-tech-specs.php" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" data-transition="slide">Tech Specs</a>
         <h4>Top Features</h4>
         <ul class="standard">
@@ -50,7 +50,7 @@
 			</div>
 			<div data-role="collapsible" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
 				<h3>Web Security and Filtering</h3>
-				<p>Over <a href="websense-url-categories.php">100 categories</a> including security,  productivity and bandwidth with real-time security updates from the <a href="ThreatSeeker.php">Websense ThreatSeeker&reg; Network</a>.</p>
+				<p>Over <a href="websense-url-categories.php">100 categories</a> including security,  productivity and bandwidth with real-time security updates from the <a href="ThreatSeeker.php">Websense ThreatSeeker<sup>&reg;</sup> Network</a>.</p>
 			</div>
 			<div data-role="collapsible" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
 				<h3>Video Controls</h3>

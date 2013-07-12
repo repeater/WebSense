@@ -28,7 +28,7 @@
 				<iframe width="100%" scrolling="no" height="450" frameborder="0" allowtransparency="true" src="http://a1.websense.com/mobile-test.html"></iframe>
 			</div>
 		</div>
-        <p>Websense&reg;  information security products reflect a design philosophy of integration that  simplifies product management and product upgrades and lowers TCO.  All  our products are built on the unified  <a href="websense-triton-security-products.php">Websense TRITON&trade; architecture</a>, and use key Websense technologies including <a href="websense-advanced-classification-engine.php">Websense ACE (Advanced Classification Engine)</a> and the <a href="websense-threatseeker-network.php">Websense ThreatSeeker&reg; Network</a>.</p>
+        <p>Websense<sup>&reg;</sup>  information security products reflect a design philosophy of integration that  simplifies product management and product upgrades and lowers TCO.  All  our products are built on the unified  <a href="websense-triton-security-products.php">Websense TRITON&trade; architecture</a>, and use key Websense technologies including <a href="websense-advanced-classification-engine.php">Websense ACE (Advanced Classification Engine)</a> and the <a href="websense-threatseeker-network.php">Websense ThreatSeeker<sup>&reg;</sup> Network</a>.</p>
         <div class="clearfix">
 	        <p class="boxshot-info"><a href="websense-triton-security-products.php">Websense TRITON solution suites</a> offer unified web security, email security and data security in a choice of  three deployments:  enterprise-grade  appliances, cloud-based services and a powerful and efficient hybrid of on-site  and cloud elements working together.</p>
         </div>

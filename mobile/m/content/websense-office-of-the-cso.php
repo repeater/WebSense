@@ -30,7 +30,7 @@ $(function() {
 		<h1>Office of the CSO</h1>
 		<h2>Your Powerful Ally in the Fight Against Cybercrime</h2>
 		<a href="what-were-reading.php" data-shadow="false" data-role="button" data-mini="true" class="wsBButton">View Recommended Books</a>
-		<p>Whether you are creating a new security strategy, assessing or improving your existing security program, or even under attack, the Websense&reg; Office of the CSO can help support you at every step.</p>
+		<p>Whether you are creating a new security strategy, assessing or improving your existing security program, or even under attack, the Websense<sup>&reg;</sup> Office of the CSO can help support you at every step.</p>
 		<p>Our team understands the challenges you face: combined, we have decades of security leadership experience at leading Global 1000 organizations, including: The New York Times, Zale Corporation, Deutsche Bank, EverBank, Emerson Electric, Anheuser-Busch, State Farm Insurance, Charter Communications, Camelot (UK National Lottery) and Brinker International.</p>
 		<p>We focus on collaborating with the security community. By revealing the secrets of the world’s most consistently secure organizations, and sharing the latest cybercriminal tactics, we can help your organization transform its security strategy.</p>
 		<h4>Meet Our Experts</h4>

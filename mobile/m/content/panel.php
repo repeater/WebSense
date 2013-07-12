@@ -44,8 +44,8 @@
 				<li class="navThree"><a href="/content/cloud-platforms.php">Cloud</a></li>
 				<li class="navThree"><a href="/content/hybrid-platforms.php">Hybrid</a></li>
 				<li class="navThree"><a href="/content/software-platforms.php">Software</a></li>
-				<!--<li class="navTwo"><a href="/content/product-comparison-chart.php">Product Comparison Chart</a></li>-->
-				<li class="navThree"><a href="/assets/pdf/product-comparison-chart.pdf">Product Comparison Chart</a></li>
+				<!--<li class="navTwo"><a href="../assets/images/product-comparison-chart.gif">Product Comparison Chart</a></li>-->
+				<li class="navThree"><a href="/assets/pdf/product-comparison-chart.pdf" target=_blank">Product Comparison Chart</a></li>
 			</ul>
 		</div>
 		<div data-role="collapsible">

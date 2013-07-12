@@ -20,7 +20,7 @@
 			</div>
 		</div>
 		<p>
-		Your institution faces data security regulations and scrutiny from all corners. Every day its reputation — and yours — is on the line. All it takes is one disclosure or media report of data loss or theft to cause irreparable harm. Websense&reg; Data Security Suite simplifies your compliance efforts and helps protect your customers' sensitive data.
+		Your institution faces data security regulations and scrutiny from all corners. Every day its reputation — and yours — is on the line. All it takes is one disclosure or media report of data loss or theft to cause irreparable harm. Websense<sup>&reg;</sup> Data Security Suite simplifies your compliance efforts and helps protect your customers' sensitive data.
 		</p>
 		<p>
 		<b>Identify, locate, and protect confidential data.</b> Data Security Suite starts by identifying your sensitive data by using content classifiers, scanning deep into your networks to find and help protect confidential data.

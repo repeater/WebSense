@@ -88,6 +88,25 @@
 		}
 		window.addEventListener("message", receiveMessage, false);
 </script>
-<script src="http://websense.com/assets/js/2013/cso.js" type="text/javascript"></script> 
+<script type="text/javascript">
+var slider =
+  Swipe(document.getElementById('slider'), {
+    auto: 3000,
+    continuous: true,
+    callback: function(pos) {
+
+      var i = bullets.length;
+      while (i--) {
+        bullets[i].className = ' ';
+      }
+      bullets[pos].className = 'on';
+
+    }
+  });
+
+var bullets = document.getElementById('position').getElementsByTagName('li');
+</script>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script src="../assets/js/cso.js" type="text/javascript"></script>
 </body>
 </html>

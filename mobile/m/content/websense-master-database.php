@@ -16,10 +16,10 @@
 	<div data-role="content" class="wsPage">
 		<h1>Master Database</h1>
         <h2>The industry's most accurate master database.</h2>
-        <p>The Websense&reg; Master Database has the industry's most accurate classification of <a href="websense-url-categories.php">URLs</a>,
+        <p>The Websense<sup>&reg;</sup> Master Database has the industry's most accurate classification of <a href="websense-url-categories.php">URLs</a>,
         <a href="websense-protocol-categories.php">protocols</a> and <a href="websense-application-categories.php">applications</a>. It’s maintained by a variety
         of proprietary classification software and human inspection techniques.</p>
-        <p>Our Master Database contains:</p>
+        <h3>Our Master Database contains:</h3>
         <ul class="standard">
             <li><strong>More than 60 million websites in more than 95 categories.</strong> URL categories allow you to define a web acceptable use policy (AUP) to maintain
             employee productivity, manage network bandwidth usage, decrease legal liability and prevent exposure to traditional and advanced threats. <a href="websense-url-categories.php">Learn more &gt;</a></li>

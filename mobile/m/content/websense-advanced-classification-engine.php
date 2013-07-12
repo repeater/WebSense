@@ -22,7 +22,7 @@
 				<iframe width="100%" scrolling="no" height="450" frameborder="0" allowtransparency="true" src="http://a1.websense.com/mobile-test.html"></iframe>
 			</div>
 		</div>
-        <p>Websense&reg; ACE delivers real-time security ratings to all products built on the Websense TRITON&trade; architecture. Its seven assessment
+        <p>Websense<sup>&reg;</sup> ACE delivers real-time security ratings to all products built on the Websense TRITON&trade; architecture. Its seven assessment
         areas and a unique composite scoring process enable TRITON solutions to detect things other security solutions miss.</p>
         <div class="wsVideo">
 			<div class="wsVWrapper">

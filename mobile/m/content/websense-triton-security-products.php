@@ -32,7 +32,7 @@
 				<iframe width="100%" scrolling="no" height="450" frameborder="0" allowtransparency="true" src="http://a1.websense.com/mobile-test.html"></iframe>
 			</div>
 		</div>
-		<p><b>Best-in-class security with a unified architecture.</b> Websense&reg; TRITON&trade; security solutions offer point-of click protection with inline, real-time defenses from <a href="websense-advanced-classification-engine.php">Websense ACE (Advanced Classification Engine)</a>. ACE unites seven security defenses assessment areas into a composite scoring model using predictive analysis. These unmatched real-time defenses are backed by the <a href="websense-threatseeker-network.php">Websense ThreatSeeker&reg; Network</a> — the world's largest security intelligence network — and the expertise of Websense Security Labs&trade; researchers.</p>
+		<p><b>Best-in-class security with a unified architecture.</b> Websense<sup>&reg;</sup> TRITON&trade; security solutions offer point-of click protection with inline, real-time defenses from <a href="websense-advanced-classification-engine.php">Websense ACE (Advanced Classification Engine)</a>. ACE unites seven security defenses assessment areas into a composite scoring model using predictive analysis. These unmatched real-time defenses are backed by the <a href="websense-threatseeker-network.php">Websense ThreatSeeker<sup>&reg;</sup> Network</a> — the world's largest security intelligence network — and the expertise of Websense Security Labs&trade; researchers.</p>
 		<div class="wsVideo">
 			<div class="wsVWrapper">
 				<h4>In Their Words</h4>

@@ -16,7 +16,7 @@
 		<h1><a href="home.php">websense</a></h1>
 	</div>
 	<div data-role="content" class="wsPage">
-		<h1 class="ui-title">Websense&reg; Software Platform</h1>
+		<h1 class="ui-title">Websense<sup>&reg;</sup> Software Platform</h1>
 		<div class="techSpecs">
 			<h2>DSS Protector (Monitoring Component)</h2>
 			<h3 class="first">Minimum server requirements</h3>
@@ -34,7 +34,7 @@
 				<li>Two 72 GB hard drives </li>
 				<li>One network interface card</li>
 			</ul>
-			<h2>Websense&reg; V-Series™ Appliance Platform</h2>
+			<h2>Websense<sup>&reg;</sup> V-Series™ Appliance Platform</h2>
 			
 			
 			

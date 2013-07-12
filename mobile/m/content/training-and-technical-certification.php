@@ -16,7 +16,7 @@
 	<div data-role="content" class="wsPage">
 		<h1>Training and Technical Certification</h1>
         <h2>Boost your business and your career.</h2>
-        <p>Websense has two comprehensive training programs: <a href="training-and-technical-certification-customers.php">one for clients who use our products</a>, and another for our <a href="training-and-technical-certification-partners.php">global partners who resell Websense products</a>. Our programs help maximize your investment or expertise in Websense&reg; TRITON&trade; solutions so you can:</p>
+        <p>Websense has two comprehensive training programs: <a href="training-and-technical-certification-customers.php">one for clients who use our products</a>, and another for our <a href="training-and-technical-certification-partners.php">global partners who resell Websense products</a>. Our programs help maximize your investment or expertise in Websense<sup>&reg;</sup> TRITON&trade; solutions so you can:</p>
 		<ul class="standard">
 			<li>Deliver Websense services most efficiently. </li>
 			<li>Validate your mastery and proficiency in Websense technologies. </li>

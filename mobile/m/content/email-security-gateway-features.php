@@ -31,7 +31,7 @@
 				<iframe width="100%" scrolling="no" height="450" frameborder="0" allowtransparency="true" src="http://a1.websense.com/mobile-test.html"></iframe>
 			</div>
 		</div>
-        <p>Websense&reg; Email Security Gateway protects against traditional and modern threats, data theft and data loss for the email channel. It is deployed on a <a href="v-series-appliances.php">Websense V-Series&trade; appliance</a>.</p>
+        <p>Websense<sup>&reg;</sup> Email Security Gateway protects against traditional and modern threats, data theft and data loss for the email channel. It is deployed on a <a href="v-series-appliances.php">Websense V-Series&trade; appliance</a>.</p>
         <h4>Top Features</h4>
         <ul class="standard">
             <li><b>Gateway threat analysis</b> uses security intelligence from the <a href="websense-threatseeker-network.php">Websense ThreatSeeker&trade; Network</a> and <a href="websense-advanced-classification-engine.php">Websense ACE (Advanced Classification Engine)</a> to defend against advanced malware, blended threats and spam. </li>
@@ -45,7 +45,7 @@
 			</div>
 			<div data-role="collapsible" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
 				<h3>Malware Protection</h3>
-				<p><a href="websense-advanced-classification-engine.php">Websense ACE (Advanced Classification Engine)</a> scans inbound and outbound email for malware, spyware and targeted and blended threats. Combining real-time composite risk scoring with security intelligence from the <a href="websense-threatseeker-network.php">Websense ThreatSeeker&reg; Network</a>, ACE protects against both known and unknown threats within email.</p>
+				<p><a href="websense-advanced-classification-engine.php">Websense ACE (Advanced Classification Engine)</a> scans inbound and outbound email for malware, spyware and targeted and blended threats. Combining real-time composite risk scoring with security intelligence from the <a href="websense-threatseeker-network.php">Websense ThreatSeeker<sup>&reg;</sup> Network</a>, ACE protects against both known and unknown threats within email.</p>
 			</div>
 			<div data-role="collapsible" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
 				<h3>Spam Detection</h3>

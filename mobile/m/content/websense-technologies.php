@@ -19,8 +19,8 @@
         <p>Websense information security products work well together by design.  Our web security, email security, data security and mobile security products are built upon a common architecture that simplifies management and shares intelligence among components. Read on to learn more about the technologies behind this unified approach to information security. </p>
         <h3>Websense ACE (Advanced Classification Engine)</h3>
         <p><a href="websense-advanced-classification-engine.php">Websense ACE (Advanced Classification Engine)</a> provides the power for Websense information security solutions. Fueled in part by the ThreatSeeker Intelligence Cloud, ACE is more accurate and provides more coverage than legacy, point-based security technologies.</p>
-        <h3>Websense ThreatSeeker&reg; Intelligence Cloud</h3>
-        <p>The <a href="websense-threatseeker-network.php">Websense ThreatSeeker&reg; Intelligence Cloud</a> is at the core of every one of our information security solutions. It uses real-time reputation analysis and expanded behavioral analysis to provide the most up-to-date protection possible from unwanted content and malicious threats.</p>
+        <h3>Websense ThreatSeeker<sup>&reg;</sup> Intelligence Cloud</h3>
+        <p>The <a href="websense-threatseeker-network.php">Websense ThreatSeeker<sup>&reg;</sup> Intelligence Cloud</a> is at the core of every one of our information security solutions. It uses real-time reputation analysis and expanded behavioral analysis to provide the most up-to-date protection possible from unwanted content and malicious threats.</p>
         <h3>Websense Master Database</h3>
         <p>The <a href="websense-master-database.php">Websense Master Database</a> is maintained using proprietary software and human expertise. In conjunction with our technologies, it enables you to fulfill security requirements, regulations and more. </p>
 	</div>

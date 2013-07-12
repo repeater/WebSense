@@ -28,6 +28,7 @@ h2 {
 h3 {
   color: #717171;
   font-size: 18px;
+  margin-bottom: 4px;
 }
 .wsModal h3 {
   font-family: 'Pathway Gothic One', sans-serif;
@@ -39,7 +40,7 @@ h3 span.ui-btn-text {
   color: #3ea0cb !important;
 }
 h4 {
-  font-size: 15px;
+  font-size: 16px;
 }
 h4.no-margin {
   margin-bottom: -13px !important;
@@ -50,6 +51,20 @@ h4.no-margin {
 }
 * p {
   color: #717171 !important;
+}
+h1 + p,
+h2 + p,
+h3 + p,
+h4 + p {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+sup {
+  font-size: 8px;
+  line-height: 0;
+  position: relative;
+  left: 1px;
+  margin-right: 1px;
 }
 .divError {
   border: 1px solid red !important;
@@ -300,58 +315,58 @@ a.wsGButton:active {
 .wsBG.wsBGTwo {
   background: url(/assets/images/wsBGTwo.png) no-repeat right 0 #000000 !important;
 }
-.wsResp .wsRespOne,
-.wsResp .wsRespTwo,
-.wsResp .wsRespThree {
+.wsResp .swipe-wrap .wsRespOne,
+.wsResp .swipe-wrap .wsRespTwo,
+.wsResp .swipe-wrap .wsRespThree {
   background-size: 95% auto;
 }
-.wsResp .wsRespOne .bCopy,
-.wsResp .wsRespTwo .bCopy,
-.wsResp .wsRespThree .bCopy {
+.wsResp .swipe-wrap .wsRespOne .bCopy,
+.wsResp .swipe-wrap .wsRespTwo .bCopy,
+.wsResp .swipe-wrap .wsRespThree .bCopy {
   text-shadow: 0 1px 0 #000000;
   color: #ffffff !important;
   display: inline-block;
   width: 100%;
 }
-.wsResp .wsRespOne .bCopy p,
-.wsResp .wsRespTwo .bCopy p,
-.wsResp .wsRespThree .bCopy p {
+.wsResp .swipe-wrap .wsRespOne .bCopy p,
+.wsResp .swipe-wrap .wsRespTwo .bCopy p,
+.wsResp .swipe-wrap .wsRespThree .bCopy p {
   color: #ffffff !important;
 }
-.wsResp .wsRespZero p:nth-child(1) {
+.wsResp .swipe-wrap .wsRespZero p:nth-child(1) {
   margin-top: 0;
 }
-.wsResp .wsRespZero p {
+.wsResp .swipe-wrap .wsRespZero p {
   color: #000000;
   display: inline-block;
 }
-.wsResp .wsRespOne {
+.wsResp .swipe-wrap .wsRespOne {
   background: url(/assets/images/bgHomeOne.png) no-repeat center 0;
 }
-.wsResp .wsRespOne p {
+.wsResp .swipe-wrap .wsRespOne p {
   padding: 44px 0 10px 0;
 }
-.wsResp .wsRespTwo {
+.wsResp .swipe-wrap .wsRespTwo {
   background: url(/assets/images/bgHomeTwo.png) no-repeat center 0;
 }
-.wsResp .wsRespTwo p {
+.wsResp .swipe-wrap .wsRespTwo p {
   padding: 100px 0 5px 0;
 }
-.wsResp .wsRespThree {
+.wsResp .swipe-wrap .wsRespThree {
   background: url(/assets/images/proveit-mobile7.png) no-repeat center 0;
 }
-.wsResp .wsRespThree .bCopy {
+.wsResp .swipe-wrap .wsRespThree .bCopy {
   text-align: right;
 }
-.wsResp .wsRespThree .bCopy p {
+.wsResp .swipe-wrap .wsRespThree .bCopy p {
   padding: 215px 0 5px 0;
 }
-.wsResp .wsRespThree .bCopy p a {
+.wsResp .swipe-wrap .wsRespThree .bCopy p a {
   position: absolute;
   top: 235px;
   right: 12px;
 }
-.wsResp .wsCTA .hpElement {
+.wsResp .swipe-wrap .wsCTA .hpElement {
   border: 1px solid #717171 !important;
   border-radius: 4px;
   margin-bottom: 8px;
@@ -359,7 +374,7 @@ a.wsGButton:active {
   padding: 8px;
   width: 94%;
 }
-.wsResp .wsCTA .hpElement a {
+.wsResp .swipe-wrap .wsCTA .hpElement a {
   font-size: 14px;
   text-shadow: 0 1px 0 #000000;
   border: none !important;
@@ -367,7 +382,7 @@ a.wsGButton:active {
   padding: 0;
   width: 100%;
 }
-.wsResp .wsCTA .hpElement a span {
+.wsResp .swipe-wrap .wsCTA .hpElement a span {
   color: #ffffff;
   font-size: 10px;
   text-shadow: none !important;
@@ -649,63 +664,63 @@ ul.mktLblCenter input[type="text"] {
     width: 42px;
     background-size: 100% !important;
   }
-  .wsResp .wsRespZero,
-  .wsResp .wsRespOne,
-  .wsResp .wsRespTwo,
-  .wsResp .wsRespThree {
+  .wsResp .swipe-wrap .wsRespZero,
+  .wsResp .swipe-wrap .wsRespOne,
+  .wsResp .swipe-wrap .wsRespTwo,
+  .wsResp .swipe-wrap .wsRespThree {
     background-size: 50% auto;
   }
-  .wsResp .wsRespZero .bCopy,
-  .wsResp .wsRespOne .bCopy,
-  .wsResp .wsRespTwo .bCopy,
-  .wsResp .wsRespThree .bCopy {
+  .wsResp .swipe-wrap .wsRespZero .bCopy,
+  .wsResp .swipe-wrap .wsRespOne .bCopy,
+  .wsResp .swipe-wrap .wsRespTwo .bCopy,
+  .wsResp .swipe-wrap .wsRespThree .bCopy {
     width: 50%;
     position: relative;
     display: inline-block;
     vertical-align: top;
   }
-  .wsResp .wsRespZero .bCopy p,
-  .wsResp .wsRespOne .bCopy p,
-  .wsResp .wsRespTwo .bCopy p,
-  .wsResp .wsRespThree .bCopy p {
+  .wsResp .swipe-wrap .wsRespZero .bCopy p,
+  .wsResp .swipe-wrap .wsRespOne .bCopy p,
+  .wsResp .swipe-wrap .wsRespTwo .bCopy p,
+  .wsResp .swipe-wrap .wsRespThree .bCopy p {
     vertical-align: top;
     margin-top: 15px;
   }
-  .wsResp .wsRespZero h4 {
+  .wsResp .swipe-wrap .wsRespZero h4 {
     margin-top: 0;
   }
-  .wsResp .wsRespZero p:nth-child(1) {
+  .wsResp .swipe-wrap .wsRespZero p:nth-child(1) {
     margin-top: 0;
   }
-  .wsResp .wsRespZero p {
+  .wsResp .swipe-wrap .wsRespZero p {
     vertical-align: top;
   }
-  .wsResp .wsRespOne {
+  .wsResp .swipe-wrap .wsRespOne {
     background: url(/assets/images/bgHomeOne.png) no-repeat left 0 !important;
   }
-  .wsResp .wsRespOne p {
+  .wsResp .swipe-wrap .wsRespOne p {
     vertical-align: top;
     padding: 35px 0 !important;
   }
-  .wsResp .wsRespTwo {
+  .wsResp .swipe-wrap .wsRespTwo {
     background: url(/assets/images/bgHomeTwo.png) no-repeat left 0 !important;
   }
-  .wsResp .wsRespTwo p {
+  .wsResp .swipe-wrap .wsRespTwo p {
     vertical-align: top;
     padding-top: 60px;
   }
-  .wsResp .wsRespThree {
+  .wsResp .swipe-wrap .wsRespThree {
     background: url(/assets/images/proveit-mobile7.png) no-repeat 0 0 !important;
   }
-  .wsResp .wsRespThree p {
+  .wsResp .swipe-wrap .wsRespThree p {
     vertical-align: top;
     padding-top: 80px;
   }
-  .wsResp .wsRespThree p a {
+  .wsResp .swipe-wrap .wsRespThree p a {
     top: 121px !important;
     right: -5px !important;
   }
-  .wsResp .wsCTA {
+  .wsResp .swipe-wrap .wsCTA {
     width: 45%;
     position: relative;
     display: inline-block;
@@ -793,4 +808,21 @@ div#directions_map #results .ui-bar-c {
   font-size: 125%;
   text-shadow: 0 1px 0 #ffffff;
   border-radius: 4px;
+}
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+  border: 1px solid red !important;
+}
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+  border: 1px solid green !important;
+  width: 100% !important;
+}
+.swipe-wrap > figure {
+  float: left !important;
+  width: 100% !important;
+  position: relative !important;
 }

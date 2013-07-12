@@ -14,7 +14,7 @@
 		<h1>K12 Solutions</h1>
 		<h2>Cost-effective, comprehensive compliance for schools.</h2>
         <p>The web is a valuable resource, and you need to enable students, faculty and staff to use it. But the web can be a dangerous place, too. Hence the <a href="http://www.fcc.gov/guides/childrens-internet-protection-act" trget=_new">Children’s Internet Protection Act (CIPA)</a>, which requires you to protect students from online threats, block their access to inappropriate content and manage their Internet use on school networks.</p>
-        <p>Websense&reg; web security products can help make the web a safer place for your students. They can:</p>
+        <p>Websense<sup>&reg;</sup> web security products can help make the web a safer place for your students. They can:</p>
         <ul class="standard tight">
             <li>Filter inappropriate content, malicious code and other threats. </li>
             <li>Control access to protocols such as IM, P2P and streaming media. </li>
@@ -22,7 +22,7 @@
             <li>Prioritize network access according to users, time of day and other parameters. </li>
         </ul>
         <h4>Enable safe and proper web access.</h4>
-        <p>Websense lets your students enjoy the best of the web, while helping you comply with CIPA. Our web security products provide the best web access control possible, with over 120 web categories and a database fed by the <a href="websense-threatseeker-network.php">Websense ThreatSeeker&reg; Network</a>, the world’s largest web threat detection network.</p>
+        <p>Websense lets your students enjoy the best of the web, while helping you comply with CIPA. Our web security products provide the best web access control possible, with over 120 web categories and a database fed by the <a href="websense-threatseeker-network.php">Websense ThreatSeeker<sup>&reg;,/sup> Network</a>, the world’s largest web threat detection network.</p>
         <h4>Provide controlled access to social media.</h4>
         <p>In 2012, CIPA was amended. Schools must now implement and enforce social media acceptable use policies, and teach students how to safely use social media. Our web security gateway products can help. They offer granular social media controls with over 30 categories (11 for Facebook alone).</p>
         <h4>Allow YouTube Education access and block inappropriate videos.</h4>

@@ -21,7 +21,7 @@
 		</div>
 		<p>Facebook, LinkedIn, Twitter and other social media have become essential business tools. You probably don’t want to completely block employees from accessing the social web, because it can be good for business.</p>
 		<p>But use of social media can be bad for business, too. It can expose your organization and its employees to inappropriate content, malware infections and data loss. It can decrease productivity, and damage even the most solid reputation. </p>
-		<p>Websense&reg; web security gateway solutions offer unparalleled control and security for safe and productive access to social media. They enable you to:</p>
+		<p>Websense<sup>&reg;</sup> web security gateway solutions offer unparalleled control and security for safe and productive access to social media. They enable you to:</p>
 		<ul class="standard tight">
 			<li>Increase productivity. </li>
 			<li>Decrease legal liability.</li>

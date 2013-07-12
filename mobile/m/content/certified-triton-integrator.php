@@ -15,8 +15,8 @@
 	<?php include 'panel.php'; ?>
 	<div data-role="content" class="wsPage">
 		<h1>Certified TRITON&trade; Integrator</h1>
-        <h2>Maximize your Websense&reg; TRITON&trade; solution deployment.</h2>
-        <p>Websense&reg; TRITON&trade; solutions combine unique features for unparalleled security, simplicity, and economy. Engage a Certified TRITON Integrator (CTI) to maximize your ROI and take full advantage of what TRITON has to offer.</p>
+        <h2>Maximize your Websense<sup>&reg;</sup> TRITON&trade; solution deployment.</h2>
+        <p>Websense<sup>&reg;</sup> TRITON&trade; solutions combine unique features for unparalleled security, simplicity, and economy. Engage a Certified TRITON Integrator (CTI) to maximize your ROI and take full advantage of what TRITON has to offer.</p>
 		<p>A CTI can help ensure that:</p>
 		<ul class="standard">
 			<li>Your solution is deployed efficiently and effectively. </li>

@@ -35,7 +35,7 @@
         <ul class="standard">
             <li><b>Web security that's high-performance yet simple and flexible</b>. V-Series appliances protect large offices, while cloud-based security is easily extended to remote offices and mobile users. Manage both platforms from a single console using one policy and reporting system. </li>
             <li><b>Maximized bandwidth and reliability</b>. Spam filtering happens in the cloud, so you can free up local server bandwidth and reduce the risk of your servers going down during spikes in email traffic.</li>
-            <li><b>Unified management and reporting</b>. The Websense&reg; TRITON&trade; Unified Security Center consolidates management of cloud-based and on-premises security, cutting the costs associated with other hybrid deployments that have separate management systems. </li>
+            <li><b>Unified management and reporting</b>. The Websense<sup>&reg;</sup> TRITON&trade; Unified Security Center consolidates management of cloud-based and on-premises security, cutting the costs associated with other hybrid deployments that have separate management systems. </li>
             <li><b>Websense Hybrid High Availability for web</b>. In the event a web security appliance goes offline, Hybrid High Availability automatically reroutes your web traffic to the nearest Websense data center – with no interruption in web security. </li>
         </ul>
         <br />

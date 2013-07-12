@@ -22,7 +22,7 @@
 				<iframe width="100%" scrolling="no" height="450" frameborder="0" allowtransparency="true" src="http://a1.websense.com/mobile-test.html"></iframe>
 			</div>
 		</div>
-        <p>Websense&reg; TRITON&trade; Enterprise protects on-site and remote employees from the latest threats in a unified, hybrid solution. You
+        <p>Websense<sup>&reg;</sup> TRITON&trade; Enterprise protects on-site and remote employees from the latest threats in a unified, hybrid solution. You
         can add <a href="cybersecurity-intelligence-services-overview.php">Websense CyberSecurity Intelligence&trade; (CSI) services</a> to get online
         malware sandboxing and direct access to <a href="http://securitylabs.websense.com/">Websense Security Labs&trade;</a> threat researchers.</p>
         <a href="websense-triton-enterprise-tech-specs.php" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" data-transition="slide">Tech Specs</a>

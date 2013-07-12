@@ -16,14 +16,13 @@
 	<div data-role="content" class="wsPage">
 		<h1>CyberSecurity Intelligence&trade; (CSI) Services</h1>
         <h2>Stay ahead of advanced threats with smarter security.</h2>
-        <a href="certified-triton-integrator.php" data-shadow="false" data-role="button" data-mini="true" class="wsBButton">Download A Datasheet</a>
         <p>Many of today’s attacks are targeted, last only a few hours (or even minutes), and use ever-changing malware. Signature-based and other reactive security products often can’t keep up. </p>
-        <p>Websense&reg; CyberSecurity Intelligence&trade; (CSI) services — CSI On-Demand and CSI Live — provide access to the continuing education, current research and expert opinions your IT security pros need to protect your organization.</p>
+        <p>Websense<sup>&reg;</sup> CyberSecurity Intelligence&trade; (CSI) services — CSI On-Demand and CSI Live — provide access to the continuing education, current research and expert opinions your IT security pros need to protect your organization.</p>
         <h4>CSI On-Demand </h4>
         <p>Websense CSI On-Demand provides on-demand access to a wide variety of resources for IT to maintain in-house security expertise, plus access to advanced tools and education to assist in proactive or forensic investigations.</p>
         <p>CSI On-Demand includes:</p>
         <ul class="standard">
-            <li>Access to Websense ThreatScope&trade;, an online malware sandbox run by Websense Security Labs&trade; and powered by Websense ACE (Advanced Classification Engine). After you upload a suspicious file, ThreatScope activates the file within a sandbox and compiles an extensive report of observed behavior. </li>
+            <li>Access to Websense ThreatScope&trade;, an online malware sandbox run by Websense Security Labs<sup>&trade</sup>; and powered by Websense ACE (Advanced Classification Engine). After you upload a suspicious file, ThreatScope activates the file within a sandbox and compiles an extensive report of observed behavior. </li>
             <li>Documents and online training that cover investigation techniques, safe malware inspection processes, mobile device investigation and more. </li>
             <li>Online resources such as recordings of our Security Labs Technical Advisory Board (TAB) meetings. </li>
         </ul>
@@ -37,5 +36,6 @@
         </ul>
         <p>*Limit: 4 incidents per year, with options for purchasing additional incidents. Engagement is completely confidential.</p>
         <p>CSI customers must first log in to access exclusive content — including ThreatScope, online training resources and more.</p>
+        <a href="certified-triton-integrator.php" data-shadow="false" data-role="button" data-mini="true" class="wsBButton">Download A Datasheet</a>
     </div>
 	<?php include 'footer.php'; ?>

@@ -30,11 +30,9 @@ $(function() {
 		<h1>Office of the CSO</h1>
 		<h2>Pro-Bono Help for Every Stage of Your Security Strategy</h2>
         <p>
-        The Websense&reg; Office of the CSO has created several innovative resources and tools to help you attain a highly efficient, highly effective security program.
+        The Websense<sup>&reg;</sup> Office of the CSO has created several innovative resources and tools to help you attain a highly efficient, highly effective security program.
         </p>
-        <p>
-        Our pro-bono services include:
-        </p>
+        <h3>Our pro-bono services include:</h3>
         <ul class="standard">
             <li><b>Threat Strategy Assessment</b>. We can help you understand the threats your organization faces, and how it is positioned to defend against these threats. It’s an on-site, tabletop exercise that can be completed within two hours, and requires no preparation. Our team of senior security leaders analyzes your advanced attack security against a seven-stage advanced threat kill chain model.</li>
             <li><b>Security Framework Review</b>. To help ensure that your organization is protecting itself against advanced threats, we perform a threat simulation penetration test in a safe sandbox environment. You’ll find out how many of the latest malware and call-home communications your security defenses are stopping. You’ll also learn how to use threat modeling and “attack trees” to understand your risk and blind spots. In addition, our security executives will share the latest security intelligence and cutting-edge tools from Websense Security Labs™, and demonstrate key technologies to defend your intellectual property (IP).</li>

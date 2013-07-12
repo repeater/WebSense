@@ -31,7 +31,7 @@
 				<iframe width="100%" scrolling="no" height="450" frameborder="0" allowtransparency="true" src="http://a1.websense.com/mobile-test.html"></iframe>
 			</div>
 		</div>
-        <p>Websense&reg; Data Security Suite contains three modules — <a href="data-security-gateway-features.php">Data Security Gateway</a>, <a href="data-discover-features.php">Data Discover</a>, and <a href="data-endpoint-features.php">Data Endpoint</a> — that can help manage the risk of losing your data to malicious users or accidental misuse. Each module can be licensed separately if you plan to start with one capability and later expand to others.</p>
+        <p>Websense<sup>&reg;</sup> Data Security Suite contains three modules — <a href="data-security-gateway-features.php">Data Security Gateway</a>, <a href="data-discover-features.php">Data Discover</a>, and <a href="data-endpoint-features.php">Data Endpoint</a> — that can help manage the risk of losing your data to malicious users or accidental misuse. Each module can be licensed separately if you plan to start with one capability and later expand to others.</p>
         <a href="data-security-suite-tech-specs.php" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" data-transition="slide">Tech Specs</a>
         <h4>Top Features</h4>
         <ul class="standard">

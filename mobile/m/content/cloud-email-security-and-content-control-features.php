@@ -31,7 +31,7 @@
 				<iframe width="100%" scrolling="no" height="450" frameborder="0" allowtransparency="true" src="http://a1.websense.com/mobile-test.html"></iframe>
 			</div>
 		</div>
-        <p>Websense&reg; Cloud Email Security and Content Control integrates best-in-class web and data security technology with email security to achieve unparalleled visibility and protection against today's targeted and blended threats — all without the complexities of managing hardware or software.</p>
+        <p>Websense<sup>&reg;</sup> Cloud Email Security and Content Control integrates best-in-class web and data security technology with email security to achieve unparalleled visibility and protection against today's targeted and blended threats — all without the complexities of managing hardware or software.</p>
         <a href="cloud-email-security-and-content-control-tech-specs.php" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" data-transition="slide">Tech Specs</a>
         <h4>Top Features</h4>
         <ul class="standard">
@@ -52,7 +52,7 @@
 			</div>
 			<div data-role="collapsible">
 				<h3>Malware Protection</h3>
-				<p><a href="websense-advanced-classification-engine.php">Websense ACE (Advanced Classification Engine)</a> scans inbound and outbound email for malware, spyware and targeted and blended threats. Combining real-time composite risk scoring with security intelligence from the <a href="websense-threatseeker-network.php">Websense ThreatSeeker&reg; Network</a>, ACE protects against both known and unknown threats within email.</p>
+				<p><a href="websense-advanced-classification-engine.php">Websense ACE (Advanced Classification Engine)</a> scans inbound and outbound email for malware, spyware and targeted and blended threats. Combining real-time composite risk scoring with security intelligence from the <a href="websense-threatseeker-network.php">Websense ThreatSeeker<sup>&reg;</sup> Network</a>, ACE protects against both known and unknown threats within email.</p>
 			</div>
 			<div data-role="collapsible">
 				<h3>Data Loss Prevention</h3>

@@ -22,7 +22,7 @@
 		<p>
 		Today, even smaller companies fall victim to the toughest web, email and data security threats. That's why you need top-notch security that's also affordable, nimble enough to match your changing needs, and easy for your IT staff to manage.
 		</p>
-		<p>Websense&reg; information security products can boost your bottom line and increase productivity by providing:</p>
+		<p>Websense<sup>&reg;</sup> information security products can boost your bottom line and increase productivity by providing:</p>
 		<ul class="standard tight">
 			<li>One vendor for web, email and data security to lower your TCO. </li>
 			<li>Single-console management and reporting to free up staff for other critical tasks. </li>

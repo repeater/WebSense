@@ -22,7 +22,7 @@
 				<iframe width="100%" scrolling="no" height="450" frameborder="0" allowtransparency="true" src="http://a1.websense.com/mobile-test.html"></iframe>
 			</div>
 		</div>
-        <p>Websense&reg; Web Security Gateway Anywhere protects on-site and remote employees from the latest threats in a unified, hybrid solution. You can add <a href="cybersecurity-intelligence-services.php ">Websense CyberSecurity Intelligence&trade; (CSI)</a> services to get online malware sandboxing and direct access to Websense Security Labs&trade; threat researchers.</p>
+        <p>Websense<sup>&reg;</sup> Web Security Gateway Anywhere protects on-site and remote employees from the latest threats in a unified, hybrid solution. You can add <a href="cybersecurity-intelligence-services.php ">Websense CyberSecurity Intelligence&trade; (CSI)</a> services to get online malware sandboxing and direct access to Websense Security Labs&trade; threat researchers.</p>
         <a href="websense-triton-security-gateway-anywhere-tech-specs.php" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" data-transition="slide">Tech Specs</a>
         <h4>Top Features</h4>
         <ul class="standard">
@@ -40,7 +40,7 @@
 			</div>
 			<div data-role="collapsible" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
 				<h3>Web Security and Filtering</h3>
-				<p>Over 100 categories including security,  productivity and bandwidth with real-time security updates from the Websense ThreatSeeker&reg; Network.</p>
+				<p>Over 100 categories including security,  productivity and bandwidth with real-time security updates from the Websense ThreatSeeker<sup>&reg;</sup> Network.</p>
 			</div>
 			<div data-role="collapsible" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
 				<h3>Video Controls</h3>

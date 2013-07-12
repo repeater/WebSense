@@ -19,7 +19,7 @@
 				<iframe width="100%" scrolling="no" height="450" frameborder="0" allowtransparency="true" src="http://a1.websense.com/mobile-test.html"></iframe>
 			</div>
 		</div>
-        <p>Higher education networks face high web and email traffic, exposing them to malware threats and data loss. Websense&reg; information security products provide protection without decreasing performance. They offer:</p>
+        <p>Higher education networks face high web and email traffic, exposing them to malware threats and data loss. Websense<sup>&reg;</sup> information security products provide protection without decreasing performance. They offer:</p>
         <ul class="standard tight">
             <li>Real-time, inline defense against advanced threats.</li>
             <li>State-of-the-art data loss prevention (DLP).</li>

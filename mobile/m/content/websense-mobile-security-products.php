@@ -32,7 +32,7 @@
 			</div>
 		</div>
         <p><b>When your data goes mobile your security risks go up</b>. The surge of mobile devices in the workplace, with their easy access to cloud-based apps and social media sites, increases the risk of data loss or data theft. Mobile device management (MDM) alone can’t protect against these threats. Your mobile security solution must also provide data loss prevention (DLP) and protection against phishing, malware and malicious apps.</p>
-        <p><b>Websense protects your mobile data, devices and workforce</b>. Our mobile security product is supported by the <a href="websense-threatseeker-network.php">Websense&reg; ThreatSeeker&trade; Network</a> and <a href="websense-advanced-classification-engine.php">Websense ACE (Advanced Classification Engine)</a>. And it’s easily managed through the Websense TRITON&trade; Unified Security Center.</p>
+        <p><b>Websense protects your mobile data, devices and workforce</b>. Our mobile security product is supported by the <a href="websense-threatseeker-network.php">Websense<sup>&reg;</sup> ThreatSeeker&trade; Network</a> and <a href="websense-advanced-classification-engine.php">Websense ACE (Advanced Classification Engine)</a>. And it’s easily managed through the Websense TRITON&trade; Unified Security Center.</p>
         <div data-role="collapsible-set" data-theme="c" data-content-theme="d" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
 			<div data-role="collapsible">
 				<h3>TRITON Mobile Security</h3>

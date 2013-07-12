@@ -31,7 +31,7 @@
 				<iframe width="100%" scrolling="no" height="450" frameborder="0" allowtransparency="true" src="http://a1.websense.com/mobile-test.html"></iframe>
 			</div>
 		</div>
-        <p>Websense&reg; Web Security blocks web threats to reduce malware infections, decrease help desk incidents and free up valuable IT resources. It has more than 100 <a href="websense-url-categories.php">security and filtering categories</a>, hundreds of web application and protocol controls, and 60-plus reports with customization and role-based access. You can easily upgrade to <a href="web-security-gateway-features.php">Web Security Gateway</a> when desired to get social media controls, SSL inspection, data loss prevention (DLP) and inline, real-time security from <a href="websense-advanced-classification-engine.php">Websense ACE (Advanced Classification Engine)</a>.</p>
+        <p>Websense<sup>&reg;</sup> Web Security blocks web threats to reduce malware infections, decrease help desk incidents and free up valuable IT resources. It has more than 100 <a href="websense-url-categories.php">security and filtering categories</a>, hundreds of web application and protocol controls, and 60-plus reports with customization and role-based access. You can easily upgrade to <a href="web-security-gateway-features.php">Web Security Gateway</a> when desired to get social media controls, SSL inspection, data loss prevention (DLP) and inline, real-time security from <a href="websense-advanced-classification-engine.php">Websense ACE (Advanced Classification Engine)</a>.</p>
         <a href="ace-in-the-cloud-tech-specs.php" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" data-transition="slide">Tech Specs</a>
         <h4>Top Features</h4>
         <ul class="standard">
@@ -44,7 +44,7 @@
         <div data-role="collapsible-set" data-theme="c" data-content-theme="d" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
 			<div data-role="collapsible">
 				<h3>Web Security and Filtering</h3>
-				<p>Over <a href="websense-url-categories.php">100 categories</a> including security, productivity and bandwidth with real-time security updates from the <a href="ThreatSeeker.php">Websense ThreatSeeker&reg; Network</a>.</p>
+				<p>Over <a href="websense-url-categories.php">100 categories</a> including security, productivity and bandwidth with real-time security updates from the <a href="ThreatSeeker.php">Websense ThreatSeeker<sup>&reg;</sup> Network</a>.</p>
 			</div>
 			<div data-role="collapsible" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
 				<h3>Remote User Protection</h3>

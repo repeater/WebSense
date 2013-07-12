@@ -12,7 +12,7 @@
 	<?php include 'panel.php'; ?>
 	<div data-role="content" class="wsPage">
 		<h1>Solutions Overview</h1>
-		<h2>Websense&reg; products solve a number of information security problems. </h2>
+		<h2>Websense<sup>&reg;</sup> products solve a number of information security problems. </h2>
         <p>
         Thousands of organizations worldwide use Websense web, email, data and mobile security products to solve any number of information security problems. Our products can help any organization:
         </p>

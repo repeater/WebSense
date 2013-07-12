@@ -32,7 +32,7 @@
 			</div>
 		</div>
         <p>
-        Websense&reg; Web Filter effectively enforces acceptable use policy (AUP) to enable compliance with regulations such as the Children's Internet Protection Act (CIPA). It provides more than 100 web categories, YouTube for Schools video control, customizable allow/deny lists, time quotas and more. You can easily upgrade to <a href="product-comparison-chart.php#ws">Websense Web Security</a> when desired to help reduce your exposure to web threats and data theft.
+        Websense<sup>&reg;</sup> Web Filter effectively enforces acceptable use policy (AUP) to enable compliance with regulations such as the Children's Internet Protection Act (CIPA). It provides more than 100 web categories, YouTube for Schools video control, customizable allow/deny lists, time quotas and more. You can easily upgrade to <a href="product-comparison-chart.php#ws">Websense Web Security</a> when desired to help reduce your exposure to web threats and data theft.
         </p>
         <a href="web-filter-tech-specs.php" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" data-transition="slide">Tech Specs</a>
         <h4>Top Features</h4>
@@ -47,7 +47,7 @@
         <div data-role="collapsible-set" data-theme="c" data-content-theme="d" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
 			<div data-role="collapsible">
 				<h3>Web Security and Filtering</h3>
-				<p>Over <a href="websense-url-categories.php">100 categories</a> including security,  productivity and bandwidth with real-time security updates from the <a href="ThreatSeeker.php">Websense ThreatSeeker&reg; Network</a>.</p>
+				<p>Over <a href="websense-url-categories.php">100 categories</a> including security,  productivity and bandwidth with real-time security updates from the <a href="ThreatSeeker.php">Websense ThreatSeeker<sup>&reg;</sup> Network</a>.</p>
 			</div>
 			<div data-role="collapsible" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
 				<h3>Remote User Protection</h3>

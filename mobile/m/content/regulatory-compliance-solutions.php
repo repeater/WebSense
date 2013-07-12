@@ -20,7 +20,7 @@
 			</div>
 		</div>
 		<p>You have dozens of entities handing down hundreds of regulations that constantly change. And your compliance policies have to go beyond your network to secure mobile users, peripheral devices, and file-sharing software. Just one incident and you can face fines, lose customers and even end up in court.</p>
-		<p>Websense&reg; Data Security Suite lets you quickly establish controls with:</p>
+		<p>Websense<sup>&reg;</sup> Data Security Suite lets you quickly establish controls with:</p>
 		<ul class="standard tight">
 			<li>Built-in policies on a single framework. </li>
 			<li>Network and endpoint data loss prevention (DLP). </li>

@@ -26,7 +26,7 @@
         <h2>Connect With Us on LinkedIn</h2>
         <a href="what-were-reading.php" data-shadow="false" data-role="button" data-mini="true" class="wsBButton">View Recommended Books</a>
         <p>
-        The best way to connect with us is by participating in the <a href="http://www.linkedin.com/groups/Websense-Office-CSO-3388452/about?trk=anet_ug_grppro">Websense&reg; Office of the CSO LinkedIn Group</a>, an open forum for fostering thought leadership in the information security community. It’s the place where you can express opinions, share information, debate and establish new best practices for cybersecurity in the enterprise.
+        The best way to connect with us is by participating in the <a href="http://www.linkedin.com/groups/Websense-Office-CSO-3388452/about?trk=anet_ug_grppro">Websense<sup>&reg;</sup> Office of the CSO LinkedIn Group</a>, an open forum for fostering thought leadership in the information security community. It’s the place where you can express opinions, share information, debate and establish new best practices for cybersecurity in the enterprise.
         </p>
         <p class="center">
         <a href="http://www.linkedin.com/groups/Websense-Office-CSO-3388452/about?trk=anet_ug_grppro"><img alt="" src="http://websense.com/assets/imgs/2013/linkedinlogo.png" /></a>

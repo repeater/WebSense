@@ -27,18 +27,18 @@
         <h2>Control how your confidential data is used.</h2>
         <div data-role="collapsible-set" data-theme="c" data-content-theme="d" data-collapsed-icon="info" data-expanded-icon="info">
 			<div data-role="collapsible" class="TRITONsAccordion">
-				<h3>DoTRITONnload the White Paper</h3>
+				<h3>Download the White Paper</h3>
 				<iframe width="100%" scrolling="no" height="450" frameborder="0" alloTRITONtransparency="true" src="http://a1.TRITONebsense.com/mobile-test.html"></iframe>
 			</div>
 		</div>
-        <p>Websense Data Endpoint monitors real-time traffic and extends visibility and control over TRITONhere confidential data is alloTRITONed to migrate; TRITONho is using it; hoTRITON it is being used; TRITONhere it is being transferred; and TRITONhat real-time action is taken to prevent data loss at the endpoint. </p>
+        <p>Websense Data Endpoint monitors real-time traffic and extends visibility and control over where confidential data is allowed to migrate; who is using it; how it is being used; where it is being transferred; and what real-time action is taken to prevent data loss at the endpoint. </p>
         <a href="https://data-endpoint-tech-specs.php" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" target="_new">Tech specs</a>
         <h4>Top Features</h4>
         <ul class="standard">
             <li><b>The first and only endpoint solution</b> in the industry to support <b>MAC OS X</b>.</li>
-            <li><b>Fingerprints are compressed</b> onto the endpoint to enable <b>true off netTRITONork endpoint protection</b></li>
+            <li><b>Fingerprints are compressed</b> onto the endpoint to enable <b>true off network endpoint protection</b></li>
             <li><b>Automatically enforces policies</b>, including block, application control/removal, audit/log, confirm, encrypt to USB and notify user. </li>
-            <li><b>Operates efficiently</b> TRITONith minimal impact on endpoint, including the option to disable discovery TRITONhen the endpoint is running on battery. </li>
+            <li><b>Operates efficiently</b> with minimal impact on endpoint, including the option to disable discovery when the endpoint is running on battery. </li>
             <li><b>Discovers, classifies and automates remediation actions</b> for sensitive data located on endpoints. </li>
         </ul>
     </div>

@@ -14,19 +14,20 @@
 		<h1>Company Overview</h1>
 		<h2>Providing the best security for modern threats at the lowest total cost of ownership.</h2>
         <p>
-        Websense, Inc. is a global leader in protecting organizations from the latest cyberattacks and data theft. Websense&reg; TRITON&trade; comprehensive security solutions unify web security, email security, mobile security and data loss prevention (DLP) at the lowest total cost of ownership. Tens of thousands of enterprises rely on Websense TRITON security intelligence to stop advanced persistent threats, targeted attacks and evolving malware. Websense prevents data breaches, intellectual property theft and enforces security compliance and best practices. A global network of channel partners distributes scalable, unified appliance- and cloud-based Websense TRITON solutions.</p>
-        <h4 class="no-margin">EXECUTIVE TEAM</h4>
+        Websense, Inc. is a global leader in protecting organizations from the latest cyberattacks and data theft. Websense<sup>&reg;</sup> TRITON&trade; comprehensive security solutions unify web security, email security, mobile security and data loss prevention (DLP) at the lowest total cost of ownership. Tens of thousands of enterprises rely on Websense TRITON security intelligence to stop advanced persistent threats, targeted attacks and evolving malware. Websense prevents data breaches, intellectual property theft and enforces security compliance and best practices. A global network of channel partners distributes scalable, unified appliance- and cloud-based Websense TRITON solutions.</p>
+        <h3 class="no-margin">EXECUTIVE TEAM</h3>
+        <ul class="standard">
+        	<li><b>Chief Executive Officer</b>: John McCormack</li>
+        	<li><b>Executive Vice President, Chief Financial Officer</b>: Michael Newman</li>
+        	<li><b>Executive Vice President, Worldwide Sales</b>: Didier Guibal</li>
+        	<li><b>Chief Technology Officer</b>: Russ Dietz</li>
+        	<li><b>Chief Marketing Officer</b>: Johanna Flower</li>
+        	<li><b>Vice President, General Counsel</b>: Christian Waage</li>
+        	<li><b>Vice President, Human Resources</b>: Susan Brown</li>
+        </ul>
+        <h3 class="no-margin">CORE TECHNOLOGIES</h3>
         <p>
-        <b>Chief Executive Officer</b>: John McCormack <br />
-        <b>Executive Vice President, Chief Financial Officer</b>: Michael Newman <br />
-        <b>Executive Vice President, Worldwide Sales</b>: Didier Guibal<br />
-        <b>Chief Technology Officer</b>: Russ Dietz<br />
-        <b>Chief Marketing Officer</b>: Johanna Flower<br />
-        <b>Vice President, General Counsel</b>: Christian Waage<br />
-        <b>Vice President, Human Resources</b>: Susan Brown</p>
-        <h4 class="no-margin">CORE TECHNOLOGIES</h4>
-        <p>
-        Websense&reg; information security products are integrated to simplify product management and product upgrades. They are built on three Websense foundation technologies:
+        Websense<sup>&reg;</sup> information security products are integrated to simplify product management and product upgrades. They are built on three Websense foundation technologies:
         </p>
         <ul class="standard">
             <li>
@@ -38,20 +39,20 @@
             <a href="websense-advanced-classification-engine.php">Learn more &gt;</a>
             </li>
             <li>
-            <b>The Websense ThreatSeeker&reg; Network</b> unites more than 900 million endpoints, including inputs from social media, and, in conjunction with ACE security defenses, analyzes 3–5 billion requests per day.
+            <b>The Websense ThreatSeeker<sup>&reg;</sup> Network</b> unites more than 900 million endpoints, including inputs from social media, and, in conjunction with ACE security defenses, analyzes 3–5 billion requests per day.
             <a href="websense-threatseeker-network.php">Learn more &gt;</a>
             </li>
         </ul>
         <p>
         <b>Websense Security Labs&trade;</b> informs both our product development and the world at large. More than 100 researchers discover and investigate advanced threats and publish their findings on an award-winning blog and in an <a href="websense-2012-threat-report-download.php">annual threat report</a>. Located worldwide, they work around the clock to monitor web, email, instant messaging and other channels for the latest threats.
         </p>
-        <h4 class="no-margin">FAST FACTS</h4>
-        <p>
-        <b>Founded</b>: 1994 <br />
-        <b>Headquarters</b>: San Diego, California <br />
-        <b>Employees</b>: More than 1,500 worldwide <br />
-        <b>Product Distribution</b>: More than 3,900 global channel partners <br />
-        <b>Research and Development</b>: 500 people employed across 5 countries
-        </p>
+        <h3 class="no-margin">FAST FACTS</h3>
+        <ul class="standard">
+        	<li><b>Founded</b>: 1994</li>
+        	<li><b>Headquarters</b>: San Diego, California</li>
+        	<li><b>Employees</b>: More than 1,500 worldwide</li>
+        	<li><b>Product Distribution</b>: More than 3,900 global channel partners</li>
+        	<li><b>Research and Development</b>: 500 people employed across 5 countries</li>
+        </ul>
 	</div>
 	<?php include 'footer.php'; ?>

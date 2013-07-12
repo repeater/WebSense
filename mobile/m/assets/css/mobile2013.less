@@ -40,6 +40,7 @@ h2 {
 h3 {
 	color:@mGrey;
 	font-size:18px;
+	margin-bottom:4px;
 }
 	.wsModal h3 {
 		font-family: 'Pathway Gothic One', sans-serif;
@@ -48,14 +49,26 @@ h3 {
 		color:@dBlue;
 	}
 h3 span.ui-btn-text {color:@anchor !important;}
-h4 {font-size:15px}
+h4 {font-size:16px}
 h4.no-margin {margin-bottom:-13px !important;}
 * {	box-shadow:none !important;
 	text-shadow:none;
 }
-* p {
-	color:@mGrey !important;
-//	margin-top:0;
+* p {color:@mGrey !important;}
+h1 + p,
+h2 + p,
+h3 + p,
+h4 + p {
+	margin-top:0 !important;
+	padding-top:0 !important;
+}
+sup {
+	font-size:8px;
+	line-height:0;
+	position:relative;
+//	top:2px;
+	left:1px;
+	margin-right:1px;
 }
 //.first {margin-top:0 !important;}
 .divError {border:1px solid red !important;}
@@ -303,7 +316,9 @@ a.wsGButton:active {
 	&.wsBGOne {background: url(/assets/images/wsBGOne.png) no-repeat right 0 @black !important;}
 	&.wsBGTwo {background: url(/assets/images/wsBGTwo.png) no-repeat right 0 @black !important;}
 }
-.wsResp {	
+.wsResp .swipe-wrap {
+//	width:400px !important;
+
 	.wsRespOne,
 	.wsRespTwo,
 	.wsRespThree {
@@ -327,23 +342,28 @@ a.wsGButton:active {
 	}
 	.wsRespOne {
 		background: url(/assets/images/bgHomeOne.png) no-repeat center 0;
-			p {padding:44px 0 10px 0;}
+		
+		p {padding:44px 0 10px 0;}
 	}
 	.wsRespTwo {
 		background: url(/assets/images/bgHomeTwo.png) no-repeat center 0;
-			p {padding:100px 0 5px 0;}
+		
+		p {padding:100px 0 5px 0;}
 	}
 	.wsRespThree {
 		background: url(/assets/images/proveit-mobile7.png) no-repeat center 0;
 			.bCopy {text-align:right;
-				p {padding:215px 0 5px 0;
-					a {
-						position:absolute;
-						top:235px;
-						right:12px;
-					}
+			
+			p {
+				padding:215px 0 5px 0;
+				
+				a {
+					position:absolute;
+					top:235px;
+					right:12px;
 				}
 			}
+		}
 	}
 	.wsCTA {
 		.hpElement {
@@ -635,7 +655,7 @@ ul.mktLblCenter {
 		}
 	}
 }	
-.wsResp {
+.wsResp .swipe-wrap {
 	.wsRespZero,
 	.wsRespOne,
 	.wsRespTwo,
@@ -778,3 +798,38 @@ div#directions_map {
 	    }
 	}
 }
+
+//// Swipe JS elements
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+    border:1px solid red !important;
+}
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+      border:1px solid green !important;
+      width:100% !important;
+}
+.swipe-wrap > figure {
+  float:left !important;
+  width:100% !important;
+  position: relative !important;
+}
+
+
+//#mySwipe .swipe-wrap {
+  //display:block;
+  //font-weight:bold;
+  //color:#14ADE5;
+  //font-size:20px;
+  //text-align:center;
+  //margin:10px;
+  //padding:100px 10px;
+  //box-shadow: 0 1px #EBEBEB;
+  //background: #fff;
+  //border-radius: 3px;
+  //border: 1px solid;
+  //border-color: #E5E5E5 #D3D3D3 #B9C1C6;
+//}

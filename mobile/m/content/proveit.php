@@ -14,7 +14,7 @@
 		<div class="wsBG wsBGTwo"></div>
 		<h1>TRITON Stops More Threats. We can prove it.</h1>
 		<h2>Positive Proof: Websense TRITON&trade; Stops More Threats</h2>
-		<p>How do we know Websense&reg; TRITON&trade; stops more threats than the other leading “next generation” security solutions? We put many of them to the test. Using more than 2 million live web samples of an unknown nature, respected independent test laboratory Miercom proved that the inline, real-time defenses of Websense ACE (Advanced Classification Engine) provided the best point-of-click defense, well beyond the capabilities of so-called “next generation” security solutions.</p>
+		<p>How do we know Websense<sup>&reg;</sup> TRITON&trade; stops more threats than the other leading “next generation” security solutions? We put many of them to the test. Using more than 2 million live web samples of an unknown nature, respected independent test laboratory Miercom proved that the inline, real-time defenses of Websense ACE (Advanced Classification Engine) provided the best point-of-click defense, well beyond the capabilities of so-called “next generation” security solutions.</p>
 		<p>Watch the videos and read the report and white paper to see for yourself how TRITON stops more threats.</p>
 		<div class="wsVideo">
 			<div class="wsVWrapper">

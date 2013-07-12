@@ -31,8 +31,8 @@
 				<iframe width="100%" scrolling="no" height="450" frameborder="0" allowtransparency="true" src="http://a1.websense.com/mobile-test.html"></iframe>
 			</div>
 		</div>
-        <p>Websense&reg; Web Security Gateway provides the defenses you need to defend against advanced attacks:  real-time threat analysis at web gateways, plus forensic reporting. You  can easily upgrade to <a href="web-security-gateways-overview.php">Web  Security Gateway Anywhere</a> when desired to get Websense TruWeb DLP&trade; capability and other advanced  features.</p>
-        <a href="web-security-gateway-tech-specs.php" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" data-transition="slide">View profile &gt;</a>
+        <p>Websense<sup>&reg;</sup> Web Security Gateway provides the defenses you need to defend against advanced attacks:  real-time threat analysis at web gateways, plus forensic reporting. You  can easily upgrade to <a href="web-security-gateways-overview.php">Web  Security Gateway Anywhere</a> when desired to get Websense TruWeb DLP&trade; capability and other advanced  features.</p>
+        <a href="web-security-gateway-tech-specs.php" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" data-transition="slide">Tech Specs</a>
         <h4>Top Features</h4>
         <ul class="standard">
             <li><b>Gateway threat analysis</b> uses real-time, inline security  analysis from <a href="websense-advanced-classification-engine.php">Websense ACE (Advanced Classification Engine)</a> and threat intelligence from the <a href="ThreatSeeker.php">Websense ThreatSeeker&trade; Network</a> to defend against advanced malware, blended threats and  spam. </li>
@@ -49,7 +49,7 @@
 			</div>
 			<div data-role="collapsible" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
 				<h3>Web Security and Filtering</h3>
-				<p>Over <a href="websense-url-categories.php">100 categories</a> including security,  productivity and bandwidth with real-time security updates from the <a href="ThreatSeeker.php">Websense ThreatSeeker&reg; Network</a>.</p>
+				<p>Over <a href="websense-url-categories.php">100 categories</a> including security,  productivity and bandwidth with real-time security updates from the <a href="ThreatSeeker.php">Websense ThreatSeeker<sup>&reg;</sup> Network</a>.</p>
 			</div>
 			<div data-role="collapsible" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
 				<h3>Video Controls</h3>

@@ -32,7 +32,7 @@
 			</div>
 		</div>
         <p><b>Email threats evolved. Typical email security products didn't.</b> Phishing emails that link to infected websites cause many of today's information security breaches. Yet typical email security products use outdated methods from phishing's early days, when hackers attached viruses to emails. They can't catch blended email/web threats that can lead to malware infection. And they can't detect employee activities that can lead to data loss.</p>
-        <p><b>Websense&reg; email security products provide modern defenses</b>. Our next-generation email security products embed our advanced web and data security technologies and are easily managed through the Websense TRITON&trade; Unified Security Center — whether deployed in the cloud, on an appliance or using a hybrid of both.</p>
+        <p><b>Websense<sup>&reg;</sup> email security products provide modern defenses</b>. Our next-generation email security products embed our advanced web and data security technologies and are easily managed through the Websense TRITON&trade; Unified Security Center — whether deployed in the cloud, on an appliance or using a hybrid of both.</p>
         <ul class="standard">
             <li><b>Updates</b> from the <a href="websense-threatseeker-network.php">Websense ThreatSeeker&trade; Network</a>, the world’s largest threat intelligence network.  </li>
             <li><b>Video controls</b> protect network resources, provide custom allow/deny filters, enable YouTube educational videos, and provide control over viral, entertainment and surveillance videos.</li>

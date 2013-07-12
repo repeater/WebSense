@@ -20,9 +20,9 @@
 			</div>
 		</div>
 		<p>
-		You face enormous regulatory pressures to protect your facility's confidential information and scrutiny from all corners. <a href="websense-data-security-products.php">Websense&reg; Data Security Suite</a> helps you identify and secure sensitive data so it won't fall into the wrong hands, and generate reports to help manage your compliance.
+		You face enormous regulatory pressures to protect your facility's confidential information and scrutiny from all corners. <a href="websense-data-security-products.php">Websense<sup>&reg;</sup> Data Security Suite</a> helps you identify and secure sensitive data so it won't fall into the wrong hands, and generate reports to help manage your compliance.
 		</p>
-		<p>Data Security Suite enables you to:</p>
+		<h3>Data Security Suite enables you to:</h3>
 		<ul class="standard tight">
 			<li><b>Identify, locate, and protect sensitive information</b>. A security solution must accurately identify your sensitive data before it can protect it. Medical terms, patient identification numbers and other health care data can overwhelm a lesser solution. Data Security Suite uses content classifiers to find and help protect confidential data on your network.</li>
 			<li><b>Create policies with easy-to-use templates</b>. Data Security Suite helps you simplify your compliance with regulations such as the Health Insurance Portability and Accountability Act (HIPAA), the Health Information Technology for Economic and Clinical Health (HITECH) Act. Built-in templates remove the guesswork from policy creation and let you readily customize policies to fit your institution. </li>

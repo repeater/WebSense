@@ -26,7 +26,7 @@
         <div data-role="collapsible-set" data-theme="c" data-content-theme="d" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
 			<div data-role="collapsible">
 				<h3>CyberSecurity Intelligence&trade; Services</h3>
-				<p>Websense&reg; CyberSecurity Intelligence services give access to continuing education, research and expert opinions. </p>
+				<p>Websense<sup>&reg;</sup> CyberSecurity Intelligence services give access to continuing education, research and expert opinions. </p>
 				<a href="cybersecurity-intelligence-services.php" data-shadow="false" data-role="button" data-mini="true" class="wsBButton">Learn More</a>
 			</div>
 			<div data-role="collapsible">
@@ -36,7 +36,7 @@
 			</div>
 			<div data-role="collapsible">
 				<h3>Certified TRITON&trade; Integrator</h3>
-				<p>Websense&reg; CyberSecurity Intelligence services give access to continuing education, research and expert opinions. </p>
+				<p>Websense<sup>&reg;<M/sup> CyberSecurity Intelligence services give access to continuing education, research and expert opinions. </p>
 				<a href="certified-triton-integrator.php" data-shadow="false" data-role="button" data-mini="true" class="wsBButton">Learn More</a>
 			</div>
 		</div>
