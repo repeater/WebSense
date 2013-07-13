@@ -66,6 +66,9 @@ sup {
   left: 1px;
   margin-right: 1px;
 }
+#wsHeader sup {
+  color: #ffffff;
+}
 .divError {
   border: 1px solid red !important;
 }

@@ -10,7 +10,7 @@
 <div data-role="page">
 <div data-role="header" id="wsHeader" data-position="fixed">
 		<a href="#" data-role="button" data-inline="true" data-mini="true" data-icon="arrow-l" onclick="history.go(-1);">Back</a>
-		<h1><a href="home.php">websense</a></h1>
+		<h1><a href="home.php">websense<sup>&reg;</sup></a></h1>
 	</div>
 	<div data-role="content" class="wsPage">
 		<h1 class="ui-title">James Robinson</h1>

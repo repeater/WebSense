@@ -30,7 +30,7 @@ $(function() {
 		<h1>Office of the CSO</h1>
 		<h2>Events</h2>
         <p>
-        Members of the Websense,sup>&reg;</sup> Office of the CSO are regularly invited to speak at information security events worldwide. If you’d like any of our senior security leaders to present at your own event, <a href="websense-office-of-the-cso-connect.aspx">please contact us</a>.
+        Members of the Websense,sup>&reg;</sup> Office of the CSO are regularly invited to speak at information security events worldwide. If you’d like any of our senior security leaders to present at your own event, <a href="websense-office-of-the-cso-connect.php">please contact us</a>.
         </p>
         <div>
         	<h4>Evanta, CISO Summit Series</h4>
@@ -258,4 +258,4 @@ $(function() {
 			</div>
 		</div>
 	</div>
-	<?php include 'footer.php'; ?>
+	<?php include 'footer.php'; ?>                                                                                                                                                                                                                                                                    
