@@ -1,4 +1,11 @@
-@import url(http://fonts.googleapis.com/css?family=Pathway+Gothic+One);
+@import url(fonts.googleapis.com/css?family=Pathway+Gothic+One);
+.cf:after {
+  content: " ";
+  display: table;
+}
+.cf:after {
+  clear: both;
+}
 .ui-page,
 .ui-body-c,
 .ui-overlay-c {
@@ -816,16 +823,20 @@ div#directions_map #results .ui-bar-c {
   overflow: hidden;
   visibility: hidden;
   position: relative;
-  border: 1px solid red !important;
+  padding: 0;
+  background: red;
 }
 .swipe-wrap {
   overflow: hidden;
   position: relative;
-  border: 1px solid green !important;
-  width: 100% !important;
+  width: 100%;
+  background: yellow;
 }
 .swipe-wrap > figure {
-  float: left !important;
-  width: 100% !important;
-  position: relative !important;
+  float: left;
+  position: relative;
+  background: blue;
+}
+#mySwipe .swipe-wrap {
+  display: block;
 }

@@ -1,6 +1,12 @@
 //// Custom Elements
-@import url(http://fonts.googleapis.com/css?family=Pathway+Gothic+One);
+@import url(fonts.googleapis.com/css?family=Pathway+Gothic+One);
 
+//// Clearfix.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+.cf:after {clear: both;}
 //// Themes
 @white:		#ffffff;
 @lGrey:		#E4E2E2;
@@ -802,26 +808,26 @@ div#directions_map {
 
 //// Swipe JS elements
 .swipe {
-  overflow: hidden;
-  visibility: hidden;
-  position: relative;
-    border:1px solid red !important;
+	overflow:hidden;
+	visibility:hidden;
+	position:relative;
+	padding:0;
+	background:red;
 }
 .swipe-wrap {
-  overflow: hidden;
-  position: relative;
-      border:1px solid green !important;
-      width:100% !important;
+	overflow:hidden;
+	position:relative;
+	width:100%;
+	background:yellow;
 }
 .swipe-wrap > figure {
-  float:left !important;
-  width:100% !important;
-  position: relative !important;
+	float:left;
+	//width:100%;
+	position: relative;
+	background:blue;
 }
-
-
-//#mySwipe .swipe-wrap {
-  //display:block;
+#mySwipe .swipe-wrap {
+  display:block;
   //font-weight:bold;
   //color:#14ADE5;
   //font-size:20px;
@@ -833,4 +839,4 @@ div#directions_map {
   //border-radius: 3px;
   //border: 1px solid;
   //border-color: #E5E5E5 #D3D3D3 #B9C1C6;
-//}
+}
