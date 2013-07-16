@@ -1,0 +1,24 @@
+#marquee-banners ul li div.spot{
+	background: transparent url(http://websense.com/assets/imgs/2013/ws2013-marquee-sprite.jpg?t=1) no-repeat;
+	background-position: center top;
+}
+
+#marquee-banners ul li div.spot1{
+	background-position: center 0;
+}
+
+#marquee-banners ul li div.spot2{
+	background-position: center -352px;
+}
+
+#marquee-banners ul li div.spot3{
+	background-position: center -704px;
+}
+
+#marquee-banners ul li div.spot4{
+	background-position: center -1056px;
+}
+
+#marquee-banners ul li div.spot5{
+	background-position: center -1408px;
+}

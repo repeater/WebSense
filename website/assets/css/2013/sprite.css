@@ -1,0 +1,74 @@
+.sprite{
+	background: transparent url(http://websense.com/assets/imgs/2013/ws2013-global-sprite.png) no-repeat top left;
+}
+
+.sprite.inline{
+	float: left;
+	margin-right: 12px;
+}
+
+.sprite.logo{
+	
+}
+
+.sprite.logo.full{
+	width: 298px;
+	height: 107px;
+}
+
+.sprite.logo.full.white{
+	background-position: 0 -80px;
+}
+
+.sprite.product{
+	width: 375px;
+	height: 82px;
+}
+
+.sprite.product.small{
+	width: 211px;
+	height: 70px;
+}
+
+.sprite.product.email{
+	background-position: 0px 0px;
+}
+
+.sprite.product.triton{
+	background-position: -387px 0px;
+}
+
+.sprite.product.triton.small{
+	background-position: -387px 0px;
+}
+
+.sprite.icon{
+	width: 61px;
+	height: 64px;
+}
+
+.sprite.icon.triton{
+	background-position: 0 -191px;
+}
+
+.sprite.boxshot{
+	width: 128px;
+	height: 178px;
+}
+
+.sprite.boxshot.small{
+	width: 95px;
+	height: 131px;
+}
+
+.sprite.boxshot.inline{
+	margin-right: 25px;
+}
+
+.sprite.boxshot.triton{
+	background-position: 0 -263px;
+}
+
+.sprite.boxshot.triton.small{
+	background-position: -142px -263px;
+}

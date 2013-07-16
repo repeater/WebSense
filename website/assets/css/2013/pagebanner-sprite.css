@@ -1,0 +1,131 @@
+#main-banner .banner{
+	background: transparent url(http://websense.com/assets/imgs/2013/ws2013-page-banners-sprite.jpg) no-repeat top left;
+}
+
+@media all and (max-width: 1366px) {
+	#main-banner .banner{
+		background: transparent url(http://websense.com/assets/imgs/2013/ws2013-page-banners-sprite-990.jpg) no-repeat top left;
+	}
+}
+
+#main-banner.aboutus{
+	background: transparent url(http://websense.com/assets/imgs/2013/ws2013-banners-aboutus-background-gradient.jpg) repeat-x top left;
+}		
+		
+#main-banner.aboutus .banner{
+	background-position: 0px 0px;
+}
+
+#main-banner.company {
+	background: transparent url(http://websense.com/assets/imgs/2013/ws2013-banners-products-background-gradient.jpg) repeat-x top left;
+}
+
+#main-banner.company .banner{
+	background-position: 0px -141px;
+}
+
+#main-banner.contact{
+	background-color: #000000;
+}
+
+#main-banner.contact .banner{
+	background-position: 0px -282px;
+}
+
+#main-banner.downloads{
+	background-color: #000000;
+}
+
+#main-banner.downloads .banner{
+	background-position: 0px -423px;
+}
+
+#main-banner.mobile {
+	background-color: #000000;
+}
+
+#main-banner.mobile .banner{
+	background-position: 0px -564px;
+}
+
+#main-banner.partners{
+	background-color: #000000;
+}
+
+#main-banner.partners .banner{
+	background-position: 0px -705px;
+}
+
+#main-banner.platforms{
+	background-color: #000000;
+}
+
+#main-banner.platforms .banner{
+	background-position: 0px -846px;
+}
+
+#main-banner.products{
+	background: transparent url(http://websense.com/assets/imgs/2013/ws2013-banners-products-background-gradient.jpg) repeat-x top left;
+}
+
+#main-banner.products .banner{
+	background-position: 0px -987px;
+}
+
+#main-banner.data{
+	background-color: #000000;
+}
+
+#main-banner.data .banner{
+	background-position: 0px -1128px;
+}
+
+#main-banner.email{
+	background-color: #000000;
+}
+
+#main-banner.email .banner{
+	background-position: 0px -1269px;
+}
+
+#main-banner.triton{
+	background-color: #000000;
+}
+
+#main-banner.triton .banner{
+	background-position: 0px -1410px;
+}
+
+#main-banner.web {
+	background-color: #000000;
+}
+
+#main-banner.web .banner{
+	background-position: 0px -1551px;
+}
+
+#main-banner.solutions{
+	background: transparent url(http://websense.com/assets/imgs/2013/ws2013-banners-products-background-gradient.jpg) repeat-x top left;
+}
+
+#main-banner.solutions .banner{
+	background-position: 0px -1692px;
+}
+
+#main-banner.support{
+	background: transparent url(http://websense.com/assets/imgs/2013/ws2013-banners-products-background-gradient.jpg) repeat-x top left;
+}
+
+#main-banner.support .banner{
+	background-position: 0px -1833px;
+}
+
+#main-banner.bluesky{
+	background: transparent url(http://websense.com/assets/imgs/2013/ws2013-banner-bluesky-bg.png) repeat-x top left;
+}
+
+#main-banner.bluesky .banner{
+	background-position: center -1974px;
+}
+
+
