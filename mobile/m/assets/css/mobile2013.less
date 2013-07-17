@@ -324,18 +324,20 @@ a.wsGButton:active {
 	&.wsBGTwo {background: url(/assets/images/wsBGTwo.png) no-repeat right 0 @black !important;}
 }
 .wsResp .swipe-wrap {
-//	width:400px !important;
-
+	//border:1px solid red;
+	
 	.wsRespOne,
 	.wsRespTwo,
 	.wsRespThree {
 		background-size:95% auto;
+		height:345px;
 	
 		.bCopy {
 			text-shadow: 0 1px 0 @black;
 			color:@white !important;
 			display:inline-block;
-			width:100%;
+			width:99%;
+			margin:auto;
 			
 			p {color:@white !important;}
 		}
@@ -350,12 +352,12 @@ a.wsGButton:active {
 	.wsRespOne {
 		background: url(/assets/images/bgHomeOne.png) no-repeat center 0;
 		
-		p {padding:44px 0 10px 0;}
+		p {padding:54px 10px 10px 10px;}
 	}
 	.wsRespTwo {
 		background: url(/assets/images/bgHomeTwo.png) no-repeat center 0;
 		
-		p {padding:100px 0 5px 0;}
+		p {padding:100px 10px 5px 10px;}
 	}
 	.wsRespThree {
 		background: url(/assets/images/proveit-mobile7.png) no-repeat center 0;
@@ -366,36 +368,45 @@ a.wsGButton:active {
 				
 				a {
 					position:absolute;
-					top:235px;
-					right:12px;
+					top:180px;
+					right:10px;
 				}
 			}
 		}
 	}
-	.wsCTA {
-		.hpElement {
-			border:1px solid @mGrey !important;
-			border-radius:@bRadius;
-			margin-bottom:8px;
-			background: url(/assets/images/hpElementTrans.png) repeat 0 0;
-			padding:8px;
-			width:94%;
+}
 
-			a {
-				font-size:14px;
-				text-shadow: 0 1px 0 @black;
+.wsCTA {
+	position:relative;
+	width:100%;
+	margin-top:-100px;
+	z-index:1500;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+	transform: translate3d(0px, 0px, 0px);
+	
+	.hpElement {
+		position:relative;
+		border:1px solid @mGrey !important;
+		border-radius:@bRadius;
+		margin:0 auto 8px auto;
+		background: url(/assets/images/hpElementTrans.png) repeat 0 0;
+		padding:8px;
+		width:95%;
+
+		a {
+			font-size:14px;
+			text-shadow: 0 1px 0 @black;
+			border:none !important;
+			background:none;
+			padding:0;
+			width:100%;
+
+			span {
+				color:@white;
+				font-size:10px;
+				text-shadow:none !important;
 				border:none !important;
 				background:none;
-				padding:0;
-				width:100%;
-
-				span {
-					color:@white;
-					font-size:10px;
-					text-shadow:none !important;
-					border:none !important;
-					background:none;
-				}
 			}
 		}
 	}
@@ -650,8 +661,36 @@ ul.mktLblCenter {
 }
 //.ui-grid-c {background-color:red;}
 // @media only screen and (orientation: portrait) {}
-@media only screen and (orientation: landscape) {
 
+//// Swipe JS elements
+.ui-panel-content-wrap {
+	z-index:0;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+	transform: translate3d(0px, 0px, 0px);
+}
+.swipe {
+	overflow:hidden;
+	visibility:hidden;
+	position:relative;
+	z-index:50;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+	transform: translate3d(0px, 0px, 0px);
+}
+.swipe-wrap {
+	overflow:hidden;
+	position:relative;
+	width:100%;
+	//background:yellow;
+}
+.swipe-wrap > figure {
+	display:block;
+	float:left;
+	width:99%;
+	position: relative;
+	margin:0;
+}
+@media only screen and (orientation: landscape) {
+div.wsHome {background:@black !important;}
 //// Modal Dialogue Box
 .wsModal {
 	.wsSocial {
@@ -667,10 +706,10 @@ ul.mktLblCenter {
 	.wsRespOne,
 	.wsRespTwo,
 	.wsRespThree {
-		background-size:50% auto;
+		background-size:100% auto;
 	
 		.bCopy {
-			width:50%;
+			width:95%;
 			position:relative;
 			display:inline-block;
 			vertical-align:top;
@@ -717,12 +756,18 @@ ul.mktLblCenter {
 				}
 		}
 	}
-	.wsCTA {
-		width:45%;
-		position:relative;
-		display:inline-block;
-		margin-left:20px;
-	}
+	
+}
+.swipe {
+	float:left;
+	width:50%;
+}
+.wsCTA {
+	width:45%;
+	position:relative;
+	//display:inline-block;
+	float:left;
+	margin-left:20px;
 }
 .wsBG {
 	position:relative;
@@ -804,39 +849,4 @@ div#directions_map {
     		border-radius:@bRadius;
 	    }
 	}
-}
-
-//// Swipe JS elements
-.swipe {
-	overflow:hidden;
-	visibility:hidden;
-	position:relative;
-	padding:0;
-	background:red;
-}
-.swipe-wrap {
-	overflow:hidden;
-	position:relative;
-	width:100%;
-	background:yellow;
-}
-.swipe-wrap > figure {
-	float:left;
-	//width:100%;
-	position: relative;
-	background:blue;
-}
-#mySwipe .swipe-wrap {
-  display:block;
-  //font-weight:bold;
-  //color:#14ADE5;
-  //font-size:20px;
-  //text-align:center;
-  //margin:10px;
-  //padding:100px 10px;
-  //box-shadow: 0 1px #EBEBEB;
-  //background: #fff;
-  //border-radius: 3px;
-  //border: 1px solid;
-  //border-color: #E5E5E5 #D3D3D3 #B9C1C6;
 }
