@@ -48,6 +48,7 @@ h3 span.ui-btn-text {
 }
 h4 {
   font-size: 16px;
+  margin-bottom: 4px;
 }
 h4.no-margin {
   margin-bottom: -13px !important;
@@ -344,6 +345,7 @@ a.wsGButton:active {
 .wsResp .swipe-wrap .wsRespTwo .bCopy p,
 .wsResp .swipe-wrap .wsRespThree .bCopy p {
   color: #ffffff !important;
+  text-shadow: 0 1px 0 #000000;
 }
 .wsResp .swipe-wrap .wsRespZero p:nth-child(1) {
   margin-top: 0;
@@ -703,6 +705,33 @@ ul.mktLblCenter input[type="text"] {
   width: 99%;
   position: relative;
   margin: 0;
+}
+.swipe nav {
+  position: relative;
+  bottom: 113px;
+}
+nav ul#position {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+nav ul#position li {
+  background: none repeat scroll 0 0 #141414;
+  border-radius: 10px 10px 10px 10px;
+  border: 1px solid #ffffff;
+  box-shadow: 0 1px 3px black inset, 0 0 1px 1px #202020;
+  cursor: pointer;
+  display: inline-block;
+  height: 10px;
+  margin: 0 2px;
+  width: 10px;
+}
+nav ul#position li.on,
+nav ul#position li:first-child.active {
+  background: #3ea0cb;
+  border: 1px solid #ffffff;
+  box-shadow: 0 1px 3px -1px #28b4ea inset, 0 1px 2px rgba(0, 0, 0, 0.5);
 }
 @media only screen and (orientation: landscape) {
   div.wsHome {

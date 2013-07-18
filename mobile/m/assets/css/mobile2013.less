@@ -55,7 +55,10 @@ h3 {
 		color:@dBlue;
 	}
 h3 span.ui-btn-text {color:@anchor !important;}
-h4 {font-size:16px}
+h4 {
+	font-size:16px;
+	margin-bottom:4px;
+}
 h4.no-margin {margin-bottom:-13px !important;}
 * {	box-shadow:none !important;
 	text-shadow:none;
@@ -339,7 +342,10 @@ a.wsGButton:active {
 			width:99%;
 			margin:auto;
 			
-			p {color:@white !important;}
+			p {
+				color:@white !important;
+				text-shadow: 0 1px 0 @black;
+			}
 		}
 	}
 	.wsRespZero {
@@ -375,7 +381,6 @@ a.wsGButton:active {
 		}
 	}
 }
-
 .wsCTA {
 	position:relative;
 	width:100%;
@@ -688,6 +693,35 @@ ul.mktLblCenter {
 	width:99%;
 	position: relative;
 	margin:0;
+}
+//// Swipe Buttons
+.swipe nav {
+	position:relative;
+	bottom:113px;
+}
+nav ul#position {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav ul#position li {
+    background: none repeat scroll 0 0 #141414;
+    border-radius: 10px 10px 10px 10px;
+    border:1px solid @white;
+    box-shadow: 0 1px 3px black inset, 0 0 1px 1px #202020;
+    cursor: pointer;
+    display: inline-block;
+    height: 10px;
+    margin: 0 2px;
+    width: 10px;
+}
+nav ul#position li.on,
+nav ul#position li:first-child.active {
+    background: @anchor;
+    border:1px solid @white;
+    //background-image: -moz-linear-gradient(center top , #1293DC, #0F6297);
+    box-shadow: 0 1px 3px -1px #28B4EA inset, 0 1px 2px rgba(0, 0, 0, 0.5);
 }
 @media only screen and (orientation: landscape) {
 div.wsHome {background:@black !important;}
