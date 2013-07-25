@@ -2,12 +2,11 @@
 <head>
 <title>Web Security, Email Security, Data Security, Mobile Security- Websense.com</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
 <link rel="stylesheet" type="text/css" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
 <link rel="stylesheet" type="text/css" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile.structure-1.3.0.min.css" />
 <link rel="stylesheet" media="screen" type="text/css" href="/assets/css/mobile2013.css" />
-<style>
-	.wsAccordion.active {color:#f00;}
-</style>
 </head>
 <body>
 <div data-role="page" class="wsShadow">
@@ -123,7 +122,7 @@
 				<p>More than 70 countries</p>
 			</div>
 			<a href="https://www.websense.com/assets/datasheets/datasheet-data-security-suite-en.pdf" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" target="_new">View datasheet</a>
-			<a href="/assets/pdf/product-comparison-chart.pdf" data-shadow="false" data-role="button" data-mini="true" class="wsBButton">Related products</a>
+			<a href="/assets/pdf/product-comparison-chart.pdf" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" target="_parent">Related products</a>
     	</div>
     </div>
 	<?php include 'footer.php'; ?>

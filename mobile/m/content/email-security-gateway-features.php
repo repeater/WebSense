@@ -2,12 +2,11 @@
 <head>
 <title>Web Security, Email Security, Data Security, Mobile Security- Websense.com</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
 <link rel="stylesheet" type="text/css" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
 <link rel="stylesheet" type="text/css" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile.structure-1.3.0.min.css" />
 <link rel="stylesheet" media="screen" type="text/css" href="/assets/css/mobile2013.css" />
-<style>
-	.wsAccordion.active {color:#f00;}
-</style>
 </head>
 <body>
 <div data-role="page" class="wsShadow">
@@ -32,6 +31,7 @@
 			</div>
 		</div>
         <p>Websense<sup>&reg;</sup> Email Security Gateway protects against traditional and modern threats, data theft and data loss for the email channel. It is deployed on a Websense V-Series&trade; appliance.</p>
+        <a href="web-security-gateway-tech-specs.php" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" data-transition="slide">Tech Specs</a>
         <h4>Top Features</h4>
         <ul class="standard">
             <li><b>Gateway threat analysis</b> uses security intelligence from the <a href="websense-threatseeker-network.php">Websense ThreatSeeker&trade; Network</a> and <a href="websense-advanced-classification-engine.php">Websense ACE (Advanced Classification Engine)</a> to defend against advanced malware, blended threats and spam. </li>

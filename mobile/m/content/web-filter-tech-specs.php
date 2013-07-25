@@ -2,6 +2,8 @@
 <head>
 <title>Web Security, Email Security, Data Security, Mobile Security- Websense.com</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
 <link rel="stylesheet" type="text/css" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
 <link rel="stylesheet" type="text/css" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile.structure-1.3.0.min.css" />
 <link rel="stylesheet" media="screen" type="text/css" href="/assets/css/mobile2013.css" />
@@ -13,9 +15,9 @@
 		<h1><a href="home.php">websense<sup>&reg;</sup></a></h1>
 	</div>
 	<div data-role="content" class="wsPage">
-		<h1 class="ui-title">Websense<sup>&reg;</sup> V-Series&trade; Appliance Platforms</h1>
+		<h1 class="ui-title">Web Filter Tech Specs</h1>
 		<div class="techSpecs">
-			<h2>TRION Management</h2>
+			<h2>TRITON Management</h2>
 			<h3 class="first">Supported Operating Systems</h3>
 			<ul class="standard tight no-indent">
                 <li>Windows Server 2003 R2 32-bit </li>

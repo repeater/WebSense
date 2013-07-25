@@ -2,6 +2,8 @@
 <head>
 <title>Web Security, Email Security, Data Security, Mobile Security- Websense.com</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
 <link rel="stylesheet" type="text/css" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
 <link rel="stylesheet" type="text/css" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile.structure-1.3.0.min.css" />
 <link rel="stylesheet" media="screen" type="text/css" href="/assets/css/mobile2013.css" />
@@ -64,10 +66,10 @@
 		</ul>
 		<p><b>To learn more about Websense web security gateway solutions:</b></p>
 		<ul class="standard tight">
-			<li>Visit the Websense web security gateway solutions <a href="/assets/pdf/product-comparison-chart.pdf">web pages</a>.</li>
-			<li>View the Websense Web Security Gateway Anywhere product <a href="/assets/pdf/product-comparison-chart.pdf">demo</a>.</li>
-			<li>View the Websense Web Security Gateway product <a href="/assets/pdf/product-comparison-chart.pdf">demo</a>.</li>
+			<li>Visit the Websense web security gateway solutions <a href="../assets/pdf/product-comparison-chart.pdf" target="_parent">web pages</a>.</li>
+			<li>View the Websense Web Security Gateway Anywhere product <a href="../assets/pdf/product-comparison-chart.pdf" target="_parent">demo</a>.</li>
+			<li>View the Websense Web Security Gateway product <a href="../assets/pdf/product-comparison-chart.pdf" target="_parent">demo</a>.</li>
 		</ul>
-		<a href="../assets/pdf/product-comparison-chart.pdf" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" target=_new">Related Products</a>
+		<a href="../assets/pdf/product-comparison-chart.pdf" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" target="_parent">Related Products</a>
     </div>
 	<?php include 'footer.php'; ?>

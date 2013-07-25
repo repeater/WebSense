@@ -2,12 +2,11 @@
 <head>
 <title>Web Security, Email Security, Data Security, Mobile Security- Websense.com</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
 <link rel="stylesheet" type="text/css" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
 <link rel="stylesheet" type="text/css" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile.structure-1.3.0.min.css" />
 <link rel="stylesheet" media="screen" type="text/css" href="/assets/css/mobile2013.css" />
-<style>
-	.wsAccordion.active {color:#f00;}
-</style>
 </head>
 <body>
 <div data-role="page" class="wsShadow">
@@ -31,7 +30,7 @@
 				<iframe width="100%" scrolling="no" height="450" frameborder="0" allowtransparency="true" src="http://a1.websense.com/mobile-test.html"></iframe>
 			</div>
 		</div>
-        <p>Websense<sup>&reg;</sup> Web Security Gateway provides the defenses you need to defend against advanced attacks:  real-time threat analysis at web gateways, plus forensic reporting. You  can easily upgrade to <a href="web-security-gateways-overview.php">Web  Security Gateway Anywhere</a> when desired to get Websense TruWeb DLP&trade; capability and other advanced  features.</p>
+        <p>Websense<sup>&reg;</sup> Web Security Gateway provides the defenses you need to defend against advanced attacks:  real-time threat analysis at web gateways, plus forensic reporting. You  can easily upgrade to Web  Security Gateway Anywhere when desired to get Websense TruWeb DLP&trade; capability and other advanced  features.</p>
         <a href="web-security-gateway-tech-specs.php" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" data-transition="slide">Tech Specs</a>
         <h4>Top Features</h4>
         <ul class="standard">
@@ -49,7 +48,7 @@
 			</div>
 			<div data-role="collapsible" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
 				<h3>Web Security and Filtering</h3>
-				<p>Over <a href="websense-url-categories.php">100 categories</a> including security,  productivity and bandwidth with real-time security updates from the <a href="ThreatSeeker.php">Websense ThreatSeeker<sup>&reg;</sup> Network</a>.</p>
+				<p>Over 100 categories including security,  productivity and bandwidth with real-time security updates from the Websense ThreatSeeker<sup>&reg;</sup> Network.</p>
 			</div>
 			<div data-role="collapsible" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
 				<h3>Video Controls</h3>
@@ -64,6 +63,7 @@
 				<p>Network Agent provides port monitoring and control for hundreds of applications and protocols outside of proxy analysis.</p>
 			</div>
 		</div>
-		<a href="../assets/pdf/product-comparison-chart.pdf" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" target=_new">Related Products</a>
+		<a href="http://www.websense.com/assets/datasheets/datasheet-web-security-gateway-en.pdf" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" target=_parent">Download a datasheet</a>
+		<a href="../assets/pdf/product-comparison-chart.pdf" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" target="_parent">Related Products</a>
     </div>
 	<?php include 'footer.php'; ?>
