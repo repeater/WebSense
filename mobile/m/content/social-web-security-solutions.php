@@ -67,8 +67,6 @@
 		<p><b>To learn more about Websense web security gateway solutions:</b></p>
 		<ul class="standard tight">
 			<li>Visit the Websense web security gateway solutions <a href="../assets/pdf/product-comparison-chart.pdf" target="_parent">web pages</a>.</li>
-			<li>View the Websense Web Security Gateway Anywhere product <a href="../assets/pdf/product-comparison-chart.pdf" target="_parent">demo</a>.</li>
-			<li>View the Websense Web Security Gateway product <a href="../assets/pdf/product-comparison-chart.pdf" target="_parent">demo</a>.</li>
 		</ul>
 		<a href="../assets/pdf/product-comparison-chart.pdf" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" target="_parent">Related Products</a>
     </div>

@@ -15,7 +15,8 @@
 		<h1><a href="home.php">websense<sup>&reg;</sup></a></h1>
 	</div>
 	<div data-role="content" class="wsPage">
-		<h1 class="ui-title">Websense<sup>&reg;</sup> Software Platform</h1>
+		<h1 class="ui-title">Data Security Gateway Tech Specs</h1>
+		<h2>Websense<sup>&reg;</sup> Software Platform</h2>
 		<div class="techSpecs">
 			<h2>DSS Protector (Monitoring Component)</h2>
 			<h3 class="first">Minimum server requirements</h3>

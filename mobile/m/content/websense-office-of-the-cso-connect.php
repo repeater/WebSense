@@ -17,7 +17,7 @@
 			<li><a href="websense-office-of-the-cso.php">Home</a></li>
 			<li><a href="websense-office-of-the-cso-services.php">Services</a></li>
 			<li><a href="websense-office-of-the-cso-events.php">Events</a></li>
-			<!--<li><a href="websense-office-of-the-cso-connect.php">Connect</a></li>-->
+			<li><a href="websense-office-of-the-cso-webcasts.php">Resources</a></li>
 		</ul>
 	</div>
 	<div data-role="content" class="wsPage">
@@ -25,10 +25,10 @@
         <h2>Connect With Us on LinkedIn</h2>
         <a href="what-were-reading.php"data-shadow="false" data-role="button" data-mini="true" class="wsBButton" data-transition="slide">View Recommended Books</a>
         <p>
-        The best way to connect with us is by participating in the <a href="http://www.linkedin.com/groups/Websense-Office-CSO-3388452/about?trk=anet_ug_grppro">Websense<sup>&reg;</sup> Office of the CSO LinkedIn Group</a>, an open forum for fostering thought leadership in the information security community. It’s the place where you can express opinions, share information, debate and establish new best practices for cybersecurity in the enterprise.
+        The best way to connect with us is by participating in the <a href="#linkedin-connect"  data-rel="popup" data-position-to="window" data-inline="true" data-transition="pop">Websense<sup>&reg;</sup> Office of the CSO LinkedIn Group</a>, an open forum for fostering thought leadership in the information security community. It’s the place where you can express opinions, share information, debate and establish new best practices for cybersecurity in the enterprise.
         </p>
         <p class="center">
-        <a href="http://www.linkedin.com/groups/Websense-Office-CSO-3388452/about?trk=anet_ug_grppro"><img alt="" src="http://websense.com/assets/imgs/2013/linkedinlogo.png" /></a>
+        <a href="#linkedin-connect" data-rel="popup" data-position-to="window" data-inline="true" data-transition="pop"><img alt="" src="http://www.websense.com/assets/imgs/2013/linkedinlogo.png" /></a>
         </p>
         <div data-role="collapsible-set" data-theme="c" data-content-theme="d" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
 			<div data-role="collapsible" class="wsAccordion">
@@ -134,5 +134,15 @@
 			</div>
 		</div>
 	</div>
+		<div data-role="popup" id="linkedin-connect" data-overlay-theme="a" class="ui-corner-all wsModal">
+			<div data-role="content" class="ui-corner-bottom ui-content">
+				<h3 class="ui-title">Leaving the mobile site</h3>
+				<p>This link you will take you to our desktop site, not optimized for mobile devices. Do you wish to continue?</p>
+				<div class="modCenter">
+					<a href="#" data-role="button" data-inline="true" data-rel="back" class="wsGButton">Cancel</a> 
+					<a href="http://www.linkedin.com/groups/Websense-Office-CSO-3388452/about?trk=anet_ug_grppro" data-role="button" data-inline="true" class="wsBButton" target="_blank">Continue</a>
+				</div>
+			</div>
+		</div>
 	</div>
 	<?php include 'footer.php'; ?>                                                          

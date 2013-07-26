@@ -25,29 +25,38 @@ $(function() {
 			<li><a href="websense-office-of-the-cso.php">Home</a></li>
 			<li><a href="websense-office-of-the-cso-services.php">Services</a></li>
 			<li><a href="websense-office-of-the-cso-events.php">Events</a></li>
-			<!--<li><a href="websense-office-of-the-cso-webcasts.php">Webcasts</a></li>-->
 			<li><a href="websense-office-of-the-cso-connect.php">Connect</a></li>
 		</ul>
 	</div>
 	<div data-role="content" class="wsPage">
 		<h1>Office of the CSO</h1>
-		<h2>Webcasts</h2>
-        <h3>Data Loss Prevention (DLP) Cut Down to Size</h3>
-        <p>If you want to understand how DLP can be your last line of defense against a determined hacker or insider threat, then you must attend this webcast.</p>
-        <ul class="standard tight">
+		<h2>Podcasts</h2>
+        <h3>7 Stages of Advanced Threats</h3>
+        <p>Jason Clark and James Robinson of the Office of the CSO explain the differences between advanced threats and traditional threats, and how the former follow a 7-stage model. Registration also enables you to view and download the podcast transcript.</p>
+        <!--<ul class="standard tight">
         	<li>Tuesday, July 9, 2013</li>
 			<li>10 a.m. BST | 11 a.m. CEST</li>
 			<li>12 p.m. AST | 2:30 p.m. IST</li>
-		</ul>
-		<a href="#cso-dlp1-reg" data-shadow="false" data-rel="popup" data-role="button" data-mini="true" class="wsBButton" >Register</a>
-		<h3>Data Loss Prevention (DLP) Quick Wins and Top Tips for Success</h3>
-		<p>Our expert panel offers an insider's perspective on how to approach data loss prevention (DLP) projects while avoiding the traditional pitfalls of implementation.</p>
-		<ul class="standard tight">
+		</ul>-->
+		<div data-role="collapsible-set" data-theme="c" data-content-theme="d" data-collapsed-icon="info" data-expanded-icon="info">
+			<div data-role="collapsible" class="wsAccordion">
+				<h3>Register and Listen</h3>
+				<iframe width="100%" scrolling="no" height="450" frameborder="0" allowtransparency="true" src="http://a1.websense.com/mobile-test.html"></iframe>
+			</div>
+		</div>
+		<h3>Next Generation Threats: The Best Defense </h3>
+		<p>Jason Clark and Neil Thacker of the Office of the CSO debate whether cybercriminals' desire to steal critical data is greater than the ability of organizations to protect it. Registration also enables you to view and download the podcast transcript.</p>
+		<!--<ul class="standard tight">
         	<li>Tuesday, July 23, 2013</li>
 			<li>10 a.m. PDT | 12 p.m. Mexico</li>
 			<li>1 p.m. EDT | 2 p.m. Brazil</li>
-		</ul>
-		<a href="#cso-dlp2-reg" data-shadow="false" data-rel="popup" data-role="button" data-mini="true" class="wsBButton" >Register</a>
+		</ul>-->
+		<div data-role="collapsible-set" data-theme="c" data-content-theme="d" data-collapsed-icon="info" data-expanded-icon="info">
+			<div data-role="collapsible" class="wsAccordion">
+				<h3>Register and Listen</h3>
+				<iframe width="100%" scrolling="no" height="450" frameborder="0" allowtransparency="true" src="http://a1.websense.com/mobile-test.html"></iframe>
+			</div>
+		</div>
 		<div data-role="collapsible-set" data-theme="c" data-content-theme="d" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
 			<div data-role="collapsible" class="wsAccordion">
 				<h3>Latest CSO Blog Posts</h3>

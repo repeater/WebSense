@@ -4,9 +4,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
-<link rel="stylesheet" type="text/css" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
-<link rel="stylesheet" type="text/css" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile.structure-1.3.0.min.css" />
-<link rel="stylesheet" media="screen" type="text/css" href="/assets/css/mobile2013.css" />
+<link rel="stylesheet" type="text/css" href="http://code.jquery.com/2013/1.3.0/jquery.mobile-1.3.0.min.css" />
+<link rel="stylesheet" type="text/css" href="http://code.jquery.com/2013/1.3.0/jquery.mobile.structure-1.3.0.min.css" />
+<link rel="stylesheet" media="screen" type="text/css" href="/assets/css/20132013.css" />
 <script type="text/javascript">
 $(function() {
     var divs = $("div.wsHomePage").get().sort(function(){ 
@@ -22,9 +22,9 @@ $(function() {
 	<?php include 'panel.php'; ?>
 	<div data-role="navbar" data-mini="true" style="width:100%;">
 		<ul>
-			<!--<li><a href="websense-office-of-the-cso.php">Home</a></li>-->
 			<li><a href="websense-office-of-the-cso-services.php">Services</a></li>
 			<li><a href="websense-office-of-the-cso-events.php">Events</a></li>
+			<li><a href="websense-office-of-the-cso-webcasts.php">Resources</a></li>
 			<li><a href="websense-office-of-the-cso-connect.php">Connect</a></li>
 		</ul>
 	</div>

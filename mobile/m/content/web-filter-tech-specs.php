@@ -19,20 +19,20 @@
 		<div class="techSpecs">
 			<h2>TRITON Management</h2>
 			<h3 class="first">Supported Operating Systems</h3>
-			<ul class="standard tight no-indent">
+			<ul class="standard no-margin no-padding tight">
                 <li>Windows Server 2003 R2 32-bit </li>
                 <li>Windows Server 2008 32-bit </li>
                 <li>Windows Server 2008 R2 64-bit </li>
             </ul>
 			<h3 class="first">Minimum Hardware Requirements</h3>
-			<ul class="standard tight no-indent">
+			<ul class="standard no-margin no-padding tight">
                 <li>4 CPU cores (2.5 GHz)</li>
                 <li>4 GB RAM</li>
                 <li>7 GB disk space </li>
             </ul>
 			<h2>Filtering Components</h2>
 			<h3 class="first">Supported Operating Systems</h3>
-			<ul class="standard tight no-indent">
+			<ul class="standard no-margin no-padding tight">
                 <li>Windows Server 2003 32-bit </li>
                 <li>Windows Server 2003 R2 32-bit </li>
                 <li>Windows Server 2008 32-bit </li>

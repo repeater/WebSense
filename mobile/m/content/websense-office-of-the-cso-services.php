@@ -23,8 +23,8 @@ $(function() {
 	<div data-role="navbar" data-mini="true" style="width:100%;">
 			<ul>
 				<li><a href="websense-office-of-the-cso.php">Home</a></li>
-				<!--<li><a href="websense-office-of-the-cso-services.php">Services</a></li>-->
 				<li><a href="websense-office-of-the-cso-events.php">Events</a></li>
+				<li><a href="websense-office-of-the-cso-webcasts.php">Resources</a></li>
 				<li><a href="websense-office-of-the-cso-connect.php">Connect</a></li>
 			</ul>
 		</div>
@@ -40,7 +40,7 @@ $(function() {
             <li><b>Security Framework Review</b>. To help ensure that your organization is protecting itself against advanced threats, we perform a threat simulation penetration test in a safe sandbox environment. You’ll find out how many of the latest malware and call-home communications your security defenses are stopping. You’ll also learn how to use threat modeling and “attack trees” to understand your risk and blind spots. In addition, our security executives will share the latest security intelligence and cutting-edge tools from Websense Security Labs™, and demonstrate key technologies to defend your intellectual property (IP).</li>
             <li><b>Setup for CSO Success</b>. We provide a “tool kit” to support those new to the CSO or CISO role. Find out how to get quick wins, increase your visibility, deliver a strategy for security success and turn your organization’s biggest vulnerability — its employees — into your biggest security asset.</li>
             <li><b>Prepping for Boardroom</b>. We can help you formulate more effective boardroom communication strategies by identifying your organization’s weaknesses and aligning your security initiatives with corporate IT and business plans.</li>
-            <li><b>Custom Consultations</b>. If your organization could use assistance in any area of enterprise security not mentioned above, <a href="websense-office-of-the-cso-connect.aspx">please let us know</a>. The Office of the CSO will attempt to respond to your request within three business days.</li>
+            <li><b>Custom Consultations</b>. If your organization could use assistance in any area of enterprise security not mentioned above, <a href="websense-office-of-the-cso-connect.php">please let us know</a>. The Office of the CSO will attempt to respond to your request within three business days.</li>
         </ul>
 		<div data-role="collapsible-set" data-theme="c" data-content-theme="d" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
 			<div data-role="collapsible" class="wsAccordion">

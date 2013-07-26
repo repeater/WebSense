@@ -81,13 +81,16 @@ sup {
   border: 1px solid red !important;
 }
 blockquote {
-  border-bottom: 4px double #e4e2e2 !important;
-  border-top: 4px double #e4e2e2 !important;
+  border-bottom: 4px double #e7e7e7 !important;
+  border-top: 4px double #e7e7e7 !important;
   font-style: italic;
   padding: 6px;
 }
 .center {
   text-align: center;
+}
+.ui-navbar.ui-mini .ui-btn-text {
+  font-size: 10px;
 }
 .wsPage {
   background: #ffffff !important;
@@ -137,7 +140,7 @@ a.wsBButton:visited.ui-btn-down-c {
 a.wsGButton,
 a.wsGButton:hover,
 a.wsGButton:visited {
-  background: #e4e2e2 !important;
+  background: #e7e7e7 !important;
   color: #3c3c3c;
 }
 a.wsGButton.ui-btn-down-c,
@@ -158,14 +161,14 @@ a.wsGButton:visited.ui-btn-down-c {
   border-color: #717171 !important;
 }
 .ui-collapsible-heading .ui-btn-up-c {
-  background: #e4e2e2 !important;
+  background: #e7e7e7 !important;
 }
 .ui-collapsible-heading .ui-btn-text {
   overflow: visible;
   white-space: normal;
 }
 #wsHeader {
-  background: url(/assets/images/bgHeader.png) repeat 0 0 !important;
+  background: url("/assets/imgs/mobile/bgHeader.png") repeat 0 0 !important;
   border-bottom: 1px solid #717171;
 }
 #wsHeader .ui-bar-a .ui-shadow {
@@ -175,7 +178,7 @@ a.wsGButton:visited.ui-btn-down-c {
   border: none !important;
 }
 #wsHeader .ui-btn-up-c {
-  border: 1px solid #e4e2e2 !important;
+  border: 1px solid #e7e7e7 !important;
 }
 #wsHeader .ui-btn-corner-all {
   border-radius: 0 !important;
@@ -239,13 +242,16 @@ a.wsGButton:visited.ui-btn-down-c {
   display: inline-block;
   height: 8px;
   width: 6px;
-  background: url(/assets/images/hArrow.png) no-repeat right 1px;
+  background: url("/assets/imgs/mobile/hArrow.png") no-repeat right 1px;
   margin-left: 4px;
 }
 #navpanel {
   padding-top: 0;
-  border-top: 0;
+  border-top: none;
   border-right: none !important;
+}
+#navpanel .ui-panel-content-fixed-toolbar-open {
+  top: -10px !important;
 }
 #navpanel h3 span.ui-btn-text {
   color: #ffffff !important;
@@ -253,15 +259,18 @@ a.wsGButton:visited.ui-btn-down-c {
 #navpanel span.ui-btn-inner {
   border-color: #717171 !important;
 }
-#navpanel .ui-panel-inner {
-  margin-top: -1px;
+#navpanel .ui-panel-inner .ui-collapsible-set {
+  position: relative;
 }
 #navpanel ul.navClose {
-  height: 51px !important;
+  height: 50px !important;
+}
+#navpanel ul.navClose .ui-li,
+#navpanel ul.navClose .ui-li.ui-field-contain {
+  border: 0;
 }
 #navpanel ul.navClose li {
-  background: url(/assets/images/bgHeader.png) repeat 0 0 !important;
-  border-bottom: 1px solid #717171;
+  background: url("/assets/imgs/mobile/bgHeader.png") repeat 0 0 !important;
   height: 53px;
 }
 #navpanel ul.navClose span.ui-icon {
@@ -289,7 +298,7 @@ a.wsGButton:visited.ui-btn-down-c {
   line-height: 25px;
 }
 #navpanel .ui-listview li.navThree a {
-  background: url(/assets/images/blueDot.png) no-repeat 15px 18px;
+  background: url("/assets/imgs/mobile/blueDot.png") no-repeat 15px 18px;
   font-weight: normal !important;
   padding-left: 30px;
   font-size: 11.5px !important;
@@ -322,7 +331,7 @@ a.wsGButton:visited.ui-btn-down-c {
 .wsFooter .ui-btn-up-a,
 .wsFooter .ui-btn-active,
 .wsFooter .ui-btn-hover-a {
-  background: url(/assets/images/bgHeader.png) repeat top left !important;
+  background: url("/assets/imgs/mobile/bgHeader.png") repeat top left !important;
 }
 .wsResp .swipe {
   width: 100%;
@@ -339,7 +348,7 @@ a.wsGButton:visited.ui-btn-down-c {
   text-shadow: 0 1px 0 #000000;
   color: #ffffff !important;
   display: inline-block;
-  width: 100%;
+  width: 99%;
   margin: auto;
 }
 .wsResp .swipe .swipe-wrap .wsRespOne .bCopy p,
@@ -363,19 +372,19 @@ a.wsGButton:visited.ui-btn-down-c {
   display: inline-block;
 }
 .wsResp .swipe .swipe-wrap .wsRespOne {
-  background: url(/assets/images/bgHomeOne.png) no-repeat center 0;
+  background: url("/assets/imgs/mobile/bgHomeOne.png") no-repeat center 0;
 }
 .wsResp .swipe .swipe-wrap .wsRespOne p {
   padding: 54px 10px 10px 10px;
 }
 .wsResp .swipe .swipe-wrap .wsRespTwo {
-  background: url(/assets/images/bgHomeTwo.png) no-repeat center 0;
+  background: url("/assets/imgs/mobile/bgHomeTwo.png") no-repeat center 0;
 }
 .wsResp .swipe .swipe-wrap .wsRespTwo p {
   padding: 100px 10px 5px 10px;
 }
 .wsResp .swipe .swipe-wrap .wsRespThree {
-  background: url(/assets/images/proveit-mobile7.png) no-repeat center 0;
+  background: url("/assets/imgs/mobile/proveit-mobile7.png") no-repeat center 0;
 }
 .wsResp .swipe .swipe-wrap .wsRespThree .bCopy {
   text-align: right;
@@ -393,7 +402,7 @@ a.wsGButton:visited.ui-btn-down-c {
   border: 1px solid #717171 !important;
   border-radius: 4px;
   margin: 0 auto 8px auto;
-  background: url(/assets/images/hpElementTrans.png) repeat 0 0;
+  background: url("/assets/imgs/mobile/hpElementTrans.png") repeat 0 0;
   padding: 8px;
   width: 95%;
 }
@@ -428,7 +437,7 @@ ul.strongList.tight {
 ul.standard li,
 ul.green-arrow li,
 ul.strongList li {
-  background: transparent url(/assets/images/ws2013-list-square-img.png) no-repeat left 5px;
+  background: transparent url("/assets/imgs/mobile/ws2013-list-square-img.png") no-repeat left 5px;
   padding: 0 0 0 16px;
   margin-top: 12px;
 }
@@ -456,10 +465,12 @@ ul.bookList {
   list-style-type: none;
 }
 ul.bookList img {
-  margin: 0 13px 13px 0;
+  margin: 13px 13px 13px 0;
 }
 ul.bookList li.divide {
-  border-bottom: 1px solid #e4e2e2;
+  display: block;
+  float: left;
+  border-bottom: 1px solid #e7e7e7;
 }
 table.lined {
   border: 1px solid #717171;
@@ -469,7 +480,7 @@ table.lined {
   border-spacing: 0;
 }
 table.lined thead tr {
-  background-color: #e4e2e2;
+  background-color: #e7e7e7;
 }
 table.lined thead th {
   border-left: 1px solid #717171;
@@ -485,7 +496,7 @@ table.lined tr td {
 .techSpecs {
   padding-top: 13px;
   margin-top: 23px;
-  border-top: 1px solid #e4e2e2;
+  border-top: 1px solid #e7e7e7;
 }
 .techSpecs h2 {
   margin: 11px 0 0 !important;
@@ -497,7 +508,7 @@ table.lined tr td {
   margin-top: 0 !important;
 }
 .techSpecs ul.no-margin {
-  margin: 0 0 0 13px;
+  margin: 0 0 11px 13px;
   padding: 0;
 }
 .techSpecs ul.no-margin li {
@@ -532,7 +543,7 @@ ul#cso-experts li p span {
   margin: 0 auto;
   width: 90%;
   padding: 0 12px;
-  border: 1px solid #e4e2e2;
+  border: 1px solid #e7e7e7;
   border-radius: 4px;
 }
 .wsVideo .wsVWrapper h4 {
@@ -546,7 +557,7 @@ ul#cso-experts li p span {
   width: 100%;
 }
 .wsVideo .wsVWrapper a.video span {
-  background: url(/assets/imgs/2013/ws2013-video-play-overlay.png) no-repeat scroll center center transparent;
+  background: url("/assets/imgs/mobile/ws2013-video-play-overlay.png") no-repeat scroll center center transparent;
   display: block;
   height: 100%;
   width: 100%;
@@ -556,7 +567,7 @@ ul#cso-experts li p span {
 .wsVideo .wsVWrapper a.video img {
   width: 100%;
   height: auto;
-  border: 1px solid #e4e2e2;
+  border: 1px solid #e7e7e7;
 }
 .wsVideo .wsVWrapper p {
   font-style: italic;
@@ -589,7 +600,7 @@ ul.mktLblCenter li.mktField span.mktInput div {
   margin-top: 19px;
 }
 ul.mktLblCenter li.mktField span.mktInput div.ui-input-text {
-  border: 1px solid #e4e2e2;
+  border: 1px solid #e7e7e7;
 }
 ul.mktLblCenter li#mktFrmButtons {
   text-align: center;
@@ -618,10 +629,13 @@ ul.mktLblCenter input[type="text"] {
 }
 .wsModal {
   max-width: 400px;
-  border: 1px solid #e4e2e2;
+  border: 1px solid #e7e7e7;
 }
 .wsModal .modCenter {
   text-align: center;
+}
+#social-share-popup .ui-body-c {
+  background: #e7e7e7 !important;
 }
 .wsSocial a.ui-btn {
   display: inline-block;
@@ -636,40 +650,40 @@ ul.mktLblCenter input[type="text"] {
   border-top: none !important;
 }
 .wsSocial .wsBlog {
-  background: url(../images/socialBlog.png) no-repeat 0 0;
+  background: url("/assets/imgs/mobile/socialBlog.png") no-repeat 0 0;
 }
 .wsSocial .wsBlog.ui-btn-down-c {
-  background: url(../images/socialBlogActive.png) no-repeat 0 0;
+  background: url("/assets/imgs/mobile/socialBlogActive.png") no-repeat 0 0;
 }
 .wsSocial .wsLI {
-  background: url(../images/socialLI.png) no-repeat 0 0;
+  background: url("/assets/imgs/mobile/socialLI.png") no-repeat 0 0;
 }
 .wsSocial .wsLI.ui-btn-down-c {
-  background: url(../images/socialLIActive.png) no-repeat 0 0;
+  background: url("/assets/imgs/mobile/socialLIActive.png") no-repeat 0 0;
 }
 .wsSocial .wsTwitter {
-  background: url(../images/socialTwitter.png) no-repeat 0 0;
+  background: url("/assets/imgs/mobile/socialTwitter.png") no-repeat 0 0;
 }
 .wsSocial .wsTwitter.ui-btn-down-c {
-  background: url(../images/socialTwitterActive.png) no-repeat 0 0;
+  background: url("/assets/imgs/mobile/socialTwitterActive.png") no-repeat 0 0;
 }
 .wsSocial .wsFB {
-  background: url(../images/socialFB.png) no-repeat 0 0;
+  background: url("/assets/imgs/mobile/socialFB.png") no-repeat 0 0;
 }
 .wsSocial .wsFB.ui-btn-down-c {
-  background: url(../images/socialFBActive.png) no-repeat 0 0;
+  background: url("/assets/imgs/mobile/socialFBActive.png") no-repeat 0 0;
 }
 .wsSocial .wsGoogle {
-  background: url(../images/socialGoogle.png) no-repeat 0 0;
+  background: url("/assets/imgs/mobile/socialGoogle.png") no-repeat 0 0;
 }
 .wsSocial .wsGoogle.ui-btn-down-c {
   background: url(../images/socialGoogleActive.png) no-repeat 0 0;
 }
 .wsSocial .wsYT {
-  background: url(../images/socialYT.png) no-repeat 0 0;
+  background: url("/assets/imgs/mobile/socialYT.png") no-repeat 0 0;
 }
 .wsSocial .wsYT.ui-btn-down-c {
-  background: url(../images/socialYTActive.png) no-repeat 0 0;
+  background: url("/assets/imgs/mobile/socialYTActive.png") no-repeat 0 0;
 }
 .ui-grid-a > *:nth-child(n) .ui-grid-b > *:nth-child(n),
 .ui-grid-c > *:nth-child(n),
@@ -679,7 +693,7 @@ ul.mktLblCenter input[type="text"] {
 .ui-grid-a > *:nth-child(n) .ui-grid-b > *:nth-child(n) .ui-btn-up-c,
 .ui-grid-c > *:nth-child(n) .ui-btn-up-c,
 .ui-grid-d > *:nth-child(n) .ui-btn-up-c {
-  background: #e4e2e2 !important;
+  background: #e7e7e7 !important;
 }
 .ui-panel-content-wrap {
   z-index: 0;
@@ -736,6 +750,9 @@ nav ul#position li:first-child.on {
   border: 1px solid #ffffff;
   box-shadow: 0 1px 3px -1px #28b4ea inset, 0 1px 2px rgba(0, 0, 0, 0.5);
 }
+div#directions_map .ui-content .ui-bar-c {
+  background: #ffffff !important;
+}
 @media only screen and (orientation: landscape) {
   .wsResp .swipe {
     float: left;
@@ -768,25 +785,25 @@ nav ul#position li:first-child.on {
   .wsResp .swipe .swipe-wrap .wsRespTwo a.heroCTA,
   .wsResp .swipe .swipe-wrap .wsRespThree a.heroCTA {
     position: absolute;
-    top: 110px;
-    right: 9px;
+    top: 159px;
+    right: 0;
   }
   .wsResp .swipe .swipe-wrap .wsRespOne {
-    background: url(/assets/images/bgHomeOne.png) no-repeat left 0 !important;
+    background: url("/assets/imgs/mobile/bgHomeOne.png") no-repeat left 0 !important;
   }
   .wsResp .swipe .swipe-wrap .wsRespOne p {
     vertical-align: top;
     padding: 35px 0 !important;
   }
   .wsResp .swipe .swipe-wrap .wsRespTwo {
-    background: url(/assets/images/bgHomeTwo.png) no-repeat left 0 !important;
+    background: url("/assets/imgs/mobile/bgHomeTwo.png") no-repeat left 0 !important;
   }
   .wsResp .swipe .swipe-wrap .wsRespTwo p {
     vertical-align: top;
     padding-top: 60px;
   }
   .wsResp .swipe .swipe-wrap .wsRespThree {
-    background: url(/assets/images/proveit-mobile7.png) no-repeat 0 0 !important;
+    background: url("/assets/imgs/mobile/proveit-mobile7.png") no-repeat 0 0 !important;
   }
   .wsResp .swipe .swipe-wrap .wsRespThree p {
     vertical-align: top;
@@ -845,7 +862,7 @@ nav ul#position li:first-child.on {
     width: 100%;
   }
   .wsVideo .wsVWrapper p {
-    margin: 32px 0 0 14px;
+    margin: 0 0 0 14px;
   }
   div#directions_map h2 {
     margin-bottom: 8px;
@@ -858,11 +875,11 @@ nav ul#position li:first-child.on {
     border-radius: 4px;
   }
   div#directions_map .wsMapSearch div.ui-input-text {
-    border: 1px solid #e4e2e2;
+    border: 1px solid #e7e7e7;
     border-radius: 4px;
   }
   div#directions_map .wsMapSearch #map_canvas_1 {
-    border: 1px solid #e4e2e2;
+    border: 1px solid #e7e7e7;
     border-radius: 4px;
     width: 99%;
   }

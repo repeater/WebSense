@@ -15,7 +15,8 @@
 		<h1><a href="home.php">websense<sup>&reg;</sup></a></h1>
 	</div>
 	<div data-role="content" class="wsPage">
-		<h1 class="ui-title">Websense Cloud Platform</h1>
+		<h1 class="ui-title">Cloud Web Security Tech Specs</h1>
+		<h2>Websense<sup>&reg;</sup> Cloud Platform</h2>
 		<div class="techSpecs">
 			<h3 class="first">Data Center Infrastructure</h3>
 			<p>15 worldwide data centers with fully redundant power, cooling and Internet  connectivity.</p>

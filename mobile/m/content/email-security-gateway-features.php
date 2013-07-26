@@ -31,7 +31,7 @@
 			</div>
 		</div>
         <p>Websense<sup>&reg;</sup> Email Security Gateway protects against traditional and modern threats, data theft and data loss for the email channel. It is deployed on a Websense V-Series&trade; appliance.</p>
-        <a href="web-security-gateway-tech-specs.php" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" data-transition="slide">Tech Specs</a>
+        <a href="email-security-gateway-tech-specs.php" data-shadow="false" data-role="button" data-mini="true" class="wsBButton" data-transition="slide">Tech Specs</a>
         <h4>Top Features</h4>
         <ul class="standard">
             <li><b>Gateway threat analysis</b> uses security intelligence from the <a href="websense-threatseeker-network.php">Websense ThreatSeeker&trade; Network</a> and <a href="websense-advanced-classification-engine.php">Websense ACE (Advanced Classification Engine)</a> to defend against advanced malware, blended threats and spam. </li>

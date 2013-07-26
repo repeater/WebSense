@@ -23,7 +23,7 @@
 	</div>
 	<div data-role="content" class="wsPage">
 		<h1>TRITON<sup>&reg;</sup> Security Solutions</h1>
-		<h2><img src="../assets/images/tritonBox.png" alt="Triton Software Cox image" align="left" style="margin:0 13px 13px 0" />Leading integration and innovation of web, email and data security.</h2>
+		<h2><img src="/assets/imgs/mobile/tritonBox.png" alt="Triton Software Cox image" align="left" style="margin:0 13px 13px 0" />Leading integration and innovation of web, email and data security.</h2>
 		<h3>Get dynamic threat defenses, advanced data protection and compliance in a unified solution.</h3>
 		<p><b>Best-in-class security with a unified architecture.</b> Websense<sup>&reg;</sup> TRITON<sup>&reg;</sup> security solutions offer point-of click protection with inline, real-time defenses from <a href="websense-advanced-classification-engine.php">Websense ACE (Advanced Classification Engine)</a>. ACE unites seven security defenses assessment areas into a composite scoring model using predictive analysis. These unmatched real-time defenses are backed by the <a href="websense-threatseeker-network.php">Websense ThreatSeeker<sup>&reg;</sup> Network</a> — the world's largest security intelligence network — and the expertise of Websense Security Labs&trade; researchers.</p>
 		<div class="wsVideo">

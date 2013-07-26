@@ -24,7 +24,7 @@ $(function() {
 		<ul>
 			<li><a href="websense-office-of-the-cso.php">Home</a></li>
 			<li><a href="websense-office-of-the-cso-services.php">Services</a></li>
-			<!--<li><a href="websense-office-of-the-cso-events.php">Events</a></li>-->
+			<li><a href="websense-office-of-the-cso-webcasts.php">Resources</a></li>
 			<li><a href="websense-office-of-the-cso-connect.php">Connect</a></li>
 		</ul>
 	</div>
@@ -37,204 +37,61 @@ $(function() {
         <div>
         	<h4>Evanta, CISO Summit Series</h4>
         	<table class="lined">
-            <thead>
-                <tr>
-                    <th style="width: 200px;">Date</th>
-                    <th style="width: 200px;">Location</th>
-                    <th style="width: 200px;">Speaker(s)</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>
-                    Wednesday, March 20, 2013
-                    </td>
-                    <td>
-                    Miami
-                    </td>
-                    <td>
-                    James Robinson / Brenda Santos
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                    Wednesday, April 17, 2013
-                    </td>
-                    <td>
-                    Atlanta
-                    </td>
-                    <td>
-                    James Robinson / Brenda Santos
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                    Wednesday, May 01, 2013
-                    </td>
-                    <td>
-                    Houston
-                    </td>
-                    <td>
-                    Brenda Santos / Lamont Orange
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                    Wednesday, May 22, 2013
-                    </td>
-                    <td>
-                    Seattle
-                    </td>
-                    <td>
-                    Charles Renert / Brenda Santos
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                    Wednesday, May 29, 2013
-                    </td>
-                    <td>
-                    New York
-                    </td>
-                    <td>
-                    Jason Clark / James Robinson
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                    Wednesday, June 05, 2013
-                    </td>
-                    <td>
-                    Cincinnati
-                    </td>
-                    <td>
-                    Jason Clark / James Robinson
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                    Tuesday, June 11, 2013
-                    </td>
-                    <td>
-                    Minneapolis
-                    </td>
-                    <td>
-                    Jason Clark / James Robinson
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                    Thursday, June 13, 2013
-                    </td>
-                    <td>
-                    Los Angeles
-                    </td>
-                    <td>
-                    Lamont Orange / James Robinson
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                    Thursday, August 15, 2013
-                    </td>
-                    <td>
-                    Charlotte
-                    </td>
-                    <td>
-                    Brenda Santos
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                    November TBD
-                    </td>
-                    <td>
-                    DC
-                    </td>
-                    <td>
-                    Lamont Orange / Brenda Santos
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                    November TBD
-                    </td>
-                    <td>
-                    Dallas
-                    </td>
-                    <td>
-                    Jason Clark / Brenda Santos
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                    November TBD
-                    </td>
-                    <td>
-                    Phoenix
-                    </td>
-                    <td>
-                    Brenda Santos
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-	        <h4>CSO Media Series</h4>
-    	    <table class="lined">
-            <thead>
-                <tr>
-                    <th style="width: 200px;">Date</th>
-                    <th style="width: 200px;">Location</th>
-                    <th style="width: 200px;">Speaker(s)</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>
-                    March 21st
-                    </td>
-                    <td>
-                    CSO Perspectives on Cyber Security – Washington DC
-                    </td>
-                    <td>
-                    Lamont Orange
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                    April 1 – 3
-                    </td>
-                    <td>
-                    CSO40 Security and Awards - Atlanta, GA
-                    </td>
-                    <td>
-                    Jason Clark / James Robinson
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                    April 28 – May 1
-                    </td>
-                    <td>
-                    - 2013 FS-ISAC &amp; BITS Annual Summit – Sawgrass FL
-                    </td>
-                    <td>
-                    Jason Clark / James Robinson
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                    June 11 – 14
-                    </td>
-                    <td>
-                    Gartner Security Symposium – National Harbor, DC
-                    </td>
-                    <td>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        </div>
+				<thead>
+					<tr>
+						<th style="width: 200px;">Date</th>
+						<th style="width: 200px;">Location</th>
+						<th style="width: 200px;">Speaker(s)</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+						Thursday, August 15, 2013
+						</td>
+						<td>
+						Charlotte
+						</td>
+						<td>
+						Brenda Santos
+						</td>
+					</tr>
+					<tr>
+						<td>
+						November TBD
+						</td>
+						<td>
+						DC
+						</td>
+						<td>
+						Lamont Orange / Brenda Santos
+						</td>
+					</tr>
+					<tr>
+						<td>
+						November TBD
+						</td>
+						<td>
+						Dallas
+						</td>
+						<td>
+						Jason Clark / Brenda Santos
+						</td>
+					</tr>
+					<tr>
+						<td>
+						November TBD
+						</td>
+						<td>
+						Phoenix
+						</td>
+						<td>
+						Brenda Santos
+						</td>
+					</tr>
+				</tbody>
+        	</table>
+    	</div>
 		<div data-role="collapsible-set" data-theme="c" data-content-theme="d" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
 			<div data-role="collapsible" class="wsAccordion">
 				<h3>Latest CSO Blog Posts</h3>

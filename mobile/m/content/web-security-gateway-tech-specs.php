@@ -15,7 +15,8 @@
 		<h1><a href="home.php">websense<sup>&reg;</sup></a></h1>
 	</div>
 	<div data-role="content" class="wsPage">
-		<h1 class="ui-title">Websense<sup>&reg;</sup> V-Series&trade; Appliance Platforms</h1>
+		<h1 class="ui-title">Web Security Gateway Tech Specs</h1>
+		<h2>Websense<sup>&reg;</sup> V-Series&trade; Appliance Platforms</h2>
 		<div class="techSpecs">
 			<h2>Websense V5000&trade; G2</h2>
 			<h3 class="first">Designed for</h3>

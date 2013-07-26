@@ -8,8 +8,10 @@
 }
 .cf:after {clear: both;}
 //// Themes
+@baseUrl: "/assets/imgs/mobile/";
+
 @white:		#ffffff;
-@lGrey:		#E4E2E2;
+@lGrey:		#e7e7e7;
 @mGrey:		#717171;
 @dGrey:		#3c3c3c;
 @black:		#000000;
@@ -89,7 +91,9 @@ blockquote {
     padding: 6px;
 }
 .center {text-align:center;}
-
+.ui-navbar {
+	&.ui-mini .ui-btn-text {font-size:10px;}
+}
 //// Background Colors
 .wsPage {background:@white !important;}
 .wsHome {background:@black !important;}
@@ -161,7 +165,7 @@ a.wsGButton:active {
 }
 //// Header Bar
 #wsHeader {
-	background: url(/assets/images/bgHeader.png) repeat 0 0 !important;
+	background: url("@{baseUrl}bgHeader.png") repeat 0 0 !important;
 	border-bottom: 1px solid @mGrey;
 
 	.ui-bar-a .ui-shadow {box-shadow:0 !important;}
@@ -229,7 +233,7 @@ a.wsGButton:active {
 					display:inline-block;
 					height:8px;
 					width:6px;
-					background: url(/assets/images/hArrow.png) no-repeat right 1px;
+					background: url("@{baseUrl}hArrow.png") no-repeat right 1px;
 					margin-left:4px;
 				}
 			}
@@ -240,21 +244,24 @@ a.wsGButton:active {
 //// Sliding navigation Panel
 #navpanel {
 	padding-top:0;
-	border-top:0;
+	border-top:none;
 	border-right:none !important;
-	
+	//top:-1px;
+	.ui-panel-content-fixed-toolbar-open {top:-10px !important;}
 	h3 span.ui-btn-text {color:@white !important;}
 	span.ui-btn-inner {border-color:@mGrey !important;}
-	.ui-panel-inner {margin-top:-1px;}
+	.ui-panel-inner .ui-collapsible-set {
+		position:relative;
+		//top:-1px;
+	}
 	ul.navClose {
-		height:51px !important;
+		height:50px !important;
 		
+		.ui-li, .ui-li.ui-field-contain {border:0;}
 		li {
-			background: url(/assets/images/bgHeader.png) repeat 0 0 !important;
-			border-bottom:1px solid @mGrey;
+			background: url("@{baseUrl}bgHeader.png") repeat 0 0 !important;
 			height:53px;
 		}
-		
 		span.ui-icon {
 			left:10px;
 			top:20px;
@@ -264,10 +271,6 @@ a.wsGButton:active {
 			font-size:12.5px !important;
 		}
 	}
-		.ui-collapsible,
-		.ui-btn {
-			//background: url(/assets/images/bgHeader.png) repeat 0 0 !important;
-		}
 	.ui-listview,
 	.ui-btn-inner {
 		font-size:12.5px !important;
@@ -288,7 +291,7 @@ a.wsGButton:active {
 			}
 			li.navThree {
 				a {
-					background: url(/assets/images/blueDot.png) no-repeat 15px 18px;
+					background: url("@{baseUrl}blueDot.png") no-repeat 15px 18px;
 					font-weight:normal !important;
 					padding-left:30px;
 					font-size:11.5px !important;
@@ -317,7 +320,7 @@ a.wsGButton:active {
 .wsFooter .ui-btn,
 .wsFooter .ui-btn-up-a,
 .wsFooter .ui-btn-active,
-.wsFooter .ui-btn-hover-a {background: url(/assets/images/bgHeader.png) repeat top left !important;}
+.wsFooter .ui-btn-hover-a {background: url("@{baseUrl}bgHeader.png") repeat top left !important;}
 
 
 //// Responsive Page Content
@@ -348,7 +351,7 @@ a.wsGButton:active {
 					text-shadow: 0 1px 0 @black;
 					color:@white !important;
 					display:inline-block;
-					width:100%;
+					width:99%;
 					margin:auto;
 			
 					p {
@@ -370,17 +373,17 @@ a.wsGButton:active {
 				}
 			}
 			.wsRespOne {
-				background: url(/assets/images/bgHomeOne.png) no-repeat center 0;
+				background: url("@{baseUrl}bgHomeOne.png") no-repeat center 0;
 		
 				p {padding:54px 10px 10px 10px;}
 			}
 			.wsRespTwo {
-				background: url(/assets/images/bgHomeTwo.png) no-repeat center 0;
+				background: url("@{baseUrl}bgHomeTwo.png") no-repeat center 0;
 		
 				p {padding:100px 10px 5px 10px;}
 			}
 			.wsRespThree {
-				background: url(/assets/images/proveit-mobile7.png) no-repeat center 0;
+				background: url("@{baseUrl}proveit-mobile7.png") no-repeat center 0;
 
 				.bCopy {text-align:right;}
 			}
@@ -400,7 +403,7 @@ a.wsGButton:active {
 		border:1px solid @mGrey !important;
 		border-radius:@bRadius;
 		margin:0 auto 8px auto;
-		background: url(/assets/images/hpElementTrans.png) repeat 0 0;
+		background: url("@{baseUrl}hpElementTrans.png") repeat 0 0;
 		padding:8px;
 		width:95%;
 
@@ -433,7 +436,7 @@ ul.standard, ul.green-arrow, ul.strongList {
 	&.tight {padding:0;}
 	
 	li {
-		background: transparent url(/assets/images/ws2013-list-square-img.png) no-repeat left 5px;
+		background: transparent url("@{baseUrl}ws2013-list-square-img.png") no-repeat left 5px;
 		padding: 0 0 0 16px;
 		margin-top: 12px;
 	}
@@ -454,9 +457,13 @@ ul.bookList {
 	padding-left:0 !important;
 	list-style-type:none;
 	
-	img {margin:0 13px 13px 0;}
+	img {margin:13px 13px 13px 0;}
 	
-	li.divide {border-bottom:1px solid @lGrey;}
+	li.divide {
+		display:block;
+		float:left;
+		border-bottom:1px solid @lGrey;
+	}
 }
 table.lined {
     border: 1px solid @mGrey;
@@ -490,7 +497,7 @@ table.lined {
 		//h3.first {margin-top:0 !important;}
 	p {margin-top:0 !important;}
 	ul.no-margin {
-		margin:0 0 0 13px;
+		margin:0 0 11px 13px;
 		padding:0;
 		
 		li {margin-top:3px;}
@@ -543,7 +550,7 @@ ul#cso-experts {
     		width:100%;
 		
 			span {
-				background: url(/assets/imgs/2013/ws2013-video-play-overlay.png) no-repeat scroll center center transparent;
+				background: url("@{baseUrl}ws2013-video-play-overlay.png") no-repeat scroll center center transparent;
 				display:block;
 				height:100%;
 				width:100%;
@@ -626,6 +633,7 @@ ul.mktLblCenter {
 }
 
 //// Social Buttons
+#social-share-popup .ui-body-c {background:@lGrey !important;}
 .wsSocial {
 	a.ui-btn {
 		display:inline-block;
@@ -639,23 +647,23 @@ ul.mktLblCenter {
 		.ui-btn-inner {border-top:none !important;}
 	}
 	.wsBlog {
-		background: url(../images/socialBlog.png) no-repeat 0 0;
-		&.ui-btn-down-c {background: url(../images/socialBlogActive.png) no-repeat 0 0;}
+		background: url("@{baseUrl}socialBlog.png") no-repeat 0 0;
+		&.ui-btn-down-c {background: url("@{baseUrl}socialBlogActive.png") no-repeat 0 0;}
 	}
-	.wsLI {background: url(../images/socialLI.png) no-repeat 0 0;
-		&.ui-btn-down-c {background: url(../images/socialLIActive.png) no-repeat 0 0;}
+	.wsLI {background: url("@{baseUrl}socialLI.png") no-repeat 0 0;
+		&.ui-btn-down-c {background: url("@{baseUrl}socialLIActive.png") no-repeat 0 0;}
 	}
-	.wsTwitter {background: url(../images/socialTwitter.png) no-repeat 0 0;
-		&.ui-btn-down-c {background: url(../images/socialTwitterActive.png) no-repeat 0 0;}
+	.wsTwitter {background: url("@{baseUrl}socialTwitter.png") no-repeat 0 0;
+		&.ui-btn-down-c {background: url("@{baseUrl}socialTwitterActive.png") no-repeat 0 0;}
 	}
-	.wsFB {background: url(../images/socialFB.png) no-repeat 0 0;
-		&.ui-btn-down-c {background: url(../images/socialFBActive.png) no-repeat 0 0;}
+	.wsFB {background: url("@{baseUrl}socialFB.png") no-repeat 0 0;
+		&.ui-btn-down-c {background: url("@{baseUrl}socialFBActive.png") no-repeat 0 0;}
 	}
-	.wsGoogle {background: url(../images/socialGoogle.png) no-repeat 0 0;
+	.wsGoogle {background: url("@{baseUrl}socialGoogle.png") no-repeat 0 0;
 		&.ui-btn-down-c {background: url(../images/socialGoogleActive.png) no-repeat 0 0;}
 	}
-	.wsYT {background: url(../images/socialYT.png) no-repeat 0 0;
-		&.ui-btn-down-c {background: url(../images/socialYTActive.png) no-repeat 0 0;}
+	.wsYT {background: url("@{baseUrl}socialYT.png") no-repeat 0 0;
+		&.ui-btn-down-c {background: url("@{baseUrl}socialYTActive.png") no-repeat 0 0;}
 	}
 }
 
@@ -730,7 +738,9 @@ nav ul#position li:first-child.on {
     //background-image: -moz-linear-gradient(center top , #1293DC, #0F6297);
     box-shadow: 0 1px 3px -1px #28B4EA inset, 0 1px 2px rgba(0, 0, 0, 0.5);
 }
-
+div#directions_map {
+		.ui-content .ui-bar-c {background:@white !important;}
+}
 @media only screen and (orientation: landscape) {
 	.wsResp {
 		.swipe {
@@ -759,26 +769,26 @@ nav ul#position li:first-child.on {
 					}
 					a.heroCTA {
 						position:absolute;
-						top:110px;
-						right:9px;
+						top:159px;
+						right:0;
 					}
 				}
 				.wsRespOne {
-					background: url(/assets/images/bgHomeOne.png) no-repeat left 0 !important;
+					background: url("@{baseUrl}bgHomeOne.png") no-repeat left 0 !important;
 					p {
 						vertical-align:top;
 						padding:35px 0 !important;
 					}
 				}
 				.wsRespTwo {
-					background: url(/assets/images/bgHomeTwo.png) no-repeat left 0 !important;
+					background: url("@{baseUrl}bgHomeTwo.png") no-repeat left 0 !important;
 					p {
 						vertical-align:top;
 						padding-top:60px;
 					}
 				}
 				.wsRespThree {
-					background: url(/assets/images/proveit-mobile7.png) no-repeat 0 0 !important;
+					background: url("@{baseUrl}proveit-mobile7.png") no-repeat 0 0 !important;
 					p {
 						vertical-align:top;
 						padding-top:80px;
@@ -840,7 +850,7 @@ nav ul#position li:first-child.on {
 			
 				img {width:100%;}
 			}
-			p {margin:32px 0 0 14px;}
+			p {margin:0 0 0 14px;}
 		}
 	}
 //// Directions - Google Maps
