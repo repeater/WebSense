@@ -1,0 +1,10 @@
+# Use PHP5 Single php.ini as default
+# AddHandler application/x-httpd-php5s .php
+
+DirectoryIndex /content/home.php
+
+#RewriteEngine On
+# Check for mime types commonly accepted by mobile devices
+#RewriteCond %{HTTP_ACCEPT} "text\/vnd\.wap\.wml|application\/vnd\.wap\.xhtml\+xml" [NC]
+#RewriteCond %{REQUEST_URI} ^/$
+#RewriteRule ^ http://m.domain.com%{REQUEST_URI} [R,L]
