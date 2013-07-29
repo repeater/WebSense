@@ -1,4 +1,4 @@
-//// Custom Elements
+//// Fonts
 @import url(fonts.googleapis.com/css?family=Pathway+Gothic+One);
 
 //// Clearfix.cf:before,
@@ -7,6 +7,7 @@
     display: table;
 }
 .cf:after {clear: both;}
+
 //// Themes
 @baseUrl: "/assets/imgs/mobile/";
 
@@ -15,7 +16,6 @@
 @mGrey:		#717171;
 @dGrey:		#3c3c3c;
 @black:		#000000;
-
 @anchor:	#3EA0CB;
 @dBlue:		#015786;
 
@@ -77,12 +77,11 @@ sup {
 	font-size:8px;
 	line-height:0;
 	position:relative;
-//	top:2px;
 	left:1px;
 	margin-right:1px;
 }
 #wsHeader sup {color:@white;}
-//.first {margin-top:0 !important;}
+
 .divError {border:1px solid red !important;}
 blockquote {
     border-bottom: 4px double @lGrey !important;
@@ -94,11 +93,11 @@ blockquote {
 .ui-navbar {
 	&.ui-mini .ui-btn-text {font-size:10px;}
 }
+
 //// Background Colors
 .wsPage {background:@white !important;}
 .wsHome {background:@black !important;}
 
-//.ui-overlay-c {background:@white !important;}
 .wsShadow {box-shadow: -1px -1px 8px @dGrey;}
 
 //// Buttons
@@ -135,7 +134,6 @@ a.wsGButton:active {
 	a.wsGButton:hover,
 	a.wsGButton:visited {
 		background:@lGrey !important;
-		//border:none !important;
 		color:@dGrey;
 		
 		&.ui-btn-down-c {
@@ -163,6 +161,7 @@ a.wsGButton:active {
 		white-space:normal;
 	}
 }
+
 //// Header Bar
 #wsHeader {
 	background: url("@{baseUrl}bgHeader.png") repeat 0 0 !important;
@@ -246,13 +245,12 @@ a.wsGButton:active {
 	padding-top:0;
 	border-top:none;
 	border-right:none !important;
-	//top:-1px;
+	
 	.ui-panel-content-fixed-toolbar-open {top:-10px !important;}
 	h3 span.ui-btn-text {color:@white !important;}
 	span.ui-btn-inner {border-color:@mGrey !important;}
 	.ui-panel-inner .ui-collapsible-set {
 		position:relative;
-		//top:-1px;
 	}
 	ul.navClose {
 		height:49px !important;
@@ -277,7 +275,6 @@ a.wsGButton:active {
 	.ui-btn-inner {
 		font-size:12.5px !important;
 		line-height:21px;
-		//border-top:1px solid @mGrey;
 	}
 		.ui-listview {
 			li.navOne {
@@ -323,21 +320,6 @@ a.wsGButton:active {
 .wsFooter .ui-btn-up-a,
 .wsFooter .ui-btn-active,
 .wsFooter .ui-btn-hover-a {background: url("@{baseUrl}bgHeader.png") repeat top left !important;}
-
-
-//// Responsive Page Content
-//.wsBG {
-//	position:relative;
-//	width:111%;
-//	height:50px;
-//	top:-15px;
-//	left:-15px;
-//	background:@black;
-//
-//	&.wsBGOne {background: url(/assets/images/wsBGOne.png) no-repeat right 0 @black important;}
-//	&.wsBGTwo {background: url(/assets/images/wsBGTwo.png) no-repeat right 0 @black //!important;}
-//}
-
 .wsResp {
 	.swipe {width:100%;
 	
@@ -347,7 +329,6 @@ a.wsGButton:active {
 			.wsRespThree {
 				background-size:95% auto;
 				height:345px;
-				//width:100%;
 	
 				.bCopy {
 					text-shadow: 0 1px 0 @black;
@@ -496,7 +477,6 @@ table.lined {
 	
 	h2 {margin:11px 0 0 !important;}
 	h3 {margin:0;}
-		//h3.first {margin-top:0 !important;}
 	p {margin-top:0 !important;}
 	ul.no-margin {
 		margin:0 0 11px 13px;
@@ -505,6 +485,7 @@ table.lined {
 		li {margin-top:3px;}
 	}
 }
+
 //// Office of the CSO Elements
 ul#cso-experts {
 	width:100%;
@@ -571,6 +552,7 @@ ul#cso-experts {
 		}
 	}
 }
+
 //// Marketo Forms
 #outerWrapDiv {
 	position:relative;
@@ -678,8 +660,6 @@ ul.mktLblCenter {
 	
 	.ui-btn-up-c {background:@lGrey !important;}
 }
-//.ui-grid-c {background-color:red;}
-// @media only screen and (orientation: portrait) {}
 
 //// Swipe JS elements
 .ui-panel-content-wrap {
@@ -737,7 +717,6 @@ nav ul#position li.on,
 nav ul#position li:first-child.on {
     background: @anchor;
     border:1px solid @white;
-    //background-image: -moz-linear-gradient(center top , #1293DC, #0F6297);
     box-shadow: 0 1px 3px -1px #28B4EA inset, 0 1px 2px rgba(0, 0, 0, 0.5);
 }
 div#directions_map {
@@ -813,6 +792,7 @@ div#directions_map {
 			margin:10px 0 0 20px;
 		}
 	}
+	
 //// Modal Dialogue Box
 	.wsModal {
 		.wsSocial {
@@ -834,6 +814,7 @@ div#directions_map {
 			img {width:75%;}
 		}
 	}
+	
 //// Video Player
 	.wsVideo {
 		position:relative;
@@ -855,6 +836,7 @@ div#directions_map {
 			p {margin:0 0 0 14px;}
 		}
 	}
+	
 //// Directions - Google Maps
 	div#directions_map {
 		h2 {margin-bottom:8px;}
